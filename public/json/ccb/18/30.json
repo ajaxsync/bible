@@ -1,0 +1,796 @@
+{
+  "book": 18,
+  "chapter": 30,
+  "sections": [
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“但如今，比我年少的人竟嘲笑我， 他们的父亲曾被我鄙视， 连我的牧羊犬都不如。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "“但如今，比我年少的人竟嘲笑我， 他们的父亲曾被我鄙视， 连我的牧羊犬都不如。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "“但如今，比我年少的人竟嘲笑我， 他们的父亲曾被我鄙视， 连我的牧羊犬都不如。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他们精力衰竭， 对我有何益处？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "他们精力衰竭， 对我有何益处？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他们贫穷饥饿，瘦弱不堪， 夜间在干旱荒凉之地啃食。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "他们贫穷饥饿，瘦弱不堪， 夜间在干旱荒凉之地啃食。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他们在草丛中拔咸草充饥， 以罗腾树根为食。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他们在草丛中拔咸草充饥， 以罗腾树根为食。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "他们被赶离人群， 像贼一样被喝斥。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "他们被赶离人群， 像贼一样被喝斥。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他们只好住在荒谷， 在地洞和岩穴栖身； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "他们只好住在荒谷， 在地洞和岩穴栖身；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "在杂草间嚎叫如兽， 在树丛中蜷缩一团。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "在杂草间嚎叫如兽， 在树丛中蜷缩一团。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "他们是愚昧无名之辈， 被人用鞭子赶出境外。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "他们是愚昧无名之辈， 被人用鞭子赶出境外。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“如今，他们竟唱歌讽刺我， 我成了他们的笑柄。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "“如今，他们竟唱歌讽刺我， 我成了他们的笑柄。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "他们厌恶我，不愿靠近我， 任意朝我脸上吐唾沫。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "他们厌恶我，不愿靠近我， 任意朝我脸上吐唾沫。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "因为上帝苦待我，使我毫无力量， 他们才在我面前肆无忌惮。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "因为上帝苦待我，使我毫无力量， 他们才在我面前肆无忌惮。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "这些无赖从右边攻击我， 迫使我逃亡， 他们展开攻势要毁灭我。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "这些无赖从右边攻击我， 迫使我逃亡， 他们展开攻势要毁灭我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他们截断我的路， 想方设法害我，无人相助。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "他们截断我的路， 想方设法害我，无人相助。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他们冲破防线， 从废墟中向我袭来。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "他们冲破防线， 从废墟中向我袭来。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "恐惧笼罩着我， 我的尊荣随风而去， 我的荣华如云消散。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "恐惧笼罩着我， 我的尊荣随风而去， 我的荣华如云消散。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "恐惧笼罩着我， 我的尊荣随风而去， 我的荣华如云消散。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“如今我的生命将尽， 痛苦的日子抓住我。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "“如今我的生命将尽， 痛苦的日子抓住我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "夜间我的骨头刺痛， 如被啃噬，无休无止。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "夜间我的骨头刺痛， 如被啃噬，无休无止。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "上帝猛力抓住我的衣服， 紧紧地揪住我的衣领。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "上帝猛力抓住我的衣服， 紧紧地揪住我的衣领。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "祂把我扔进淤泥， 使我如尘埃灰烬。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "祂把我扔进淤泥， 使我如尘埃灰烬。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“上帝啊！我向你呼求，你不回应； 我站起来，你也不理睬。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "“上帝啊！我向你呼求，你不回应； 我站起来，你也不理睬。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "你变得对我残酷无情， 用你大能的手迫害我， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "你变得对我残酷无情， 用你大能的手迫害我，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "把我提到风中，让我被风吹走， 被暴风抛来抛去。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": "把我提到风中，让我被风吹走， 被暴风抛来抛去。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "我知道你要带我去死亡之地， 那是你为众生所定的归宿。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "我知道你要带我去死亡之地， 那是你为众生所定的归宿。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“诚然，不幸的人在困境中呼救， 无人会伸手加害他。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": "“诚然，不幸的人在困境中呼救， 无人会伸手加害他。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "难道我不曾为受苦的人哭泣， 我的心不曾为穷困者悲伤吗？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "难道我不曾为受苦的人哭泣， 我的心不曾为穷困者悲伤吗？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "我盼望幸福，来的却是灾祸； 我期待光明，来的却是黑暗。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "我盼望幸福，来的却是灾祸； 我期待光明，来的却是黑暗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "我心里一直烦乱不安， 苦难的日子迎面袭来。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "我心里一直烦乱不安， 苦难的日子迎面袭来。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "我皮肤发黑，不是因为日晒， 我在会众中站起来呼救。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": "我皮肤发黑，不是因为日晒， 我在会众中站起来呼救。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "我成了豺狼的兄弟， 驼鸟的伙伴。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": "我成了豺狼的兄弟， 驼鸟的伙伴。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "我的皮肤发黑、脱落， 我的骨头如被烤焦。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "我的皮肤发黑、脱落， 我的骨头如被烤焦。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "我的琴唱出哀乐， 我的箫奏出悲鸣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": "我的琴唱出哀乐， 我的箫奏出悲鸣。"
+        }
+      ]
+    }
+  ]
+}

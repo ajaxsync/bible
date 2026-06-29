@@ -1,0 +1,209 @@
+{
+  "book": 21,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "智慧人的作為"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Cast your bread on the surface of the waters, for you will find it after many days. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Cast your bread on the surface of the waters, for you will find it after many days."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Divide your portion to seven, or even to eight, for you do not know what misfortune may occur on the earth. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Divide your portion to seven, or even to eight, for you do not know what misfortune may occur on the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "If the clouds are full, they pour out rain upon the earth; and whether a tree falls toward the south or toward the north, wherever the tree falls, there it lies. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "If the clouds are full, they pour out rain upon the earth; and whether a tree falls toward the south or toward the north, wherever the tree falls, there it lies."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "If the clouds are full, they pour out rain upon the earth; and whether a tree falls toward the south or toward the north, wherever the tree falls, there it lies."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "He who watches the wind will not sow and he who looks at the clouds will not reap. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "He who watches the wind will not sow and he who looks at the clouds will not reap."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Just as you do not know the path of the wind and how bones are formed in the womb of the pregnant woman, so you do not know the activity of God who makes all things. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Sow your seed in the morning and do not be idle in the evening, for you do not know whether morning or evening sowing will succeed, or whether both of them alike will be good. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The light is pleasant, and it is good for the eyes to see the sun. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Indeed, if a man should live many years, let him rejoice in them all, and let him remember the days of darkness, for they will be many. Everything that is to come will be futility. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "對年輕人的忠告"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Rejoice, young man, during your childhood, and let your heart be pleasant during the days of young manhood. And follow the impulses of your heart and the desires of your eyes. Yet know that God will bring you to judgment for all these things. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "So, remove grief and anger from your heart and put away pain from your body, because childhood and the prime of life are fleeting. "
+        }
+      ]
+    }
+  ]
+}

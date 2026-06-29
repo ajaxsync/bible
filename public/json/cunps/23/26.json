@@ -1,0 +1,774 @@
+{
+  "book": 23,
+  "chapter": 26,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "神使他的百姓得胜"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "当那日，在犹大地人必唱这歌说："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "我们有坚固的城。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "耶和华要将救恩定为城墙，为外郭。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "敞开城门，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "使守信的义民得以进入。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "坚心倚赖你的，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "你必保守他十分平安，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "因为他倚靠你。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "你们当倚靠耶和华直到永远，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "因为耶和华是永久的磐石。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "他使住高处的与高城一并败落，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "将城拆毁，拆平，直到尘埃，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "要被脚践踏，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "就是被困苦人的脚和穷乏人的脚践踏。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "义人的道是正直的；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "你为正直的主，必修平义人的路。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，我们在你行审判的路上等候你；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "我们心里所羡慕的是你的名，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "就是你那可记念的名。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "夜间，我心中羡慕你；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "我里面的灵切切寻求你。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "因为你在世上行审判的时候，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "地上的居民就学习公义。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "以恩惠待恶人，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "他仍不学习公义；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "在正直的地上，他必行事不义，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "也不注意耶和华的威严。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，你的手高举，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "他们仍然不看；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "却要看你为百姓发的热心，因而抱愧，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "并且有火烧灭你的敌人。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，你必派定我们得平安，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "因为我们所做的事都是你给我们成就的。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "耶和华－我们的神啊，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "在你以外曾有别的主管辖我们，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "但我们专要倚靠你，提你的名。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他们死了，必不能再活；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "他们去世，必不能再起；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "因为你刑罚他们，毁灭他们，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "他们的名号就全然消灭。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，你增添国民，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "你增添国民；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "你得了荣耀，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "又扩张地的四境。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，他们在急难中寻求你；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "你的惩罚临到他们身上，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "他们就倾心吐胆祷告你。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "妇人怀孕，临产疼痛，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "在痛苦之中喊叫；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "耶和华啊，我们在你面前也是如此。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "我们也曾怀孕疼痛，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "所产的竟像风一样。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "我们在地上未曾行甚么拯救的事；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "世上的居民也未曾败落。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "死人要复活，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "尸首要兴起。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "睡在尘埃的啊，要醒起歌唱！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "因你的甘露好像菜蔬上的甘露，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "地也要交出死人来。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "审判和复兴"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "我的百姓啊，你们要来进入内室，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "关上门，隐藏片时，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "等到忿怒过去。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "因为耶和华从他的居所出来，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "要刑罚地上居民的罪孽。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "地也必露出其中的血，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "不再掩盖被杀的人。"
+        }
+      ]
+    }
+  ]
+}

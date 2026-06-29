@@ -1,0 +1,691 @@
+{
+  "book": 20,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "喜爱管教的，就是喜爱知识；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "恨恶责备的，却是畜类。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "善人必蒙耶和华的恩惠；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "设诡计的人，耶和华必定他的罪。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "人靠恶行不能坚立；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "义人的根必不动摇。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "才德的妇人是丈夫的冠冕；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "贻羞的妇人如同朽烂在她丈夫的骨中。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "义人的思念是公平；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "恶人的计谋是诡诈。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "恶人的言论是埋伏流人的血；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "正直人的口必拯救人。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "恶人倾覆，归于无有；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "义人的家必站得住。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "人必按自己的智慧被称赞；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "心中乖谬的，必被藐视。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "被人轻贱，却有仆人，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "强如自尊，缺少食物。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "义人顾惜他牲畜的命；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "恶人的怜悯也是残忍。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "耕种自己田地的，必得饱食；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "追随虚浮的，却是无知。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "恶人想得坏人的网罗；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "义人的根得以结实。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "恶人嘴中的过错是自己的网罗；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "但义人必脱离患难。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "人因口所结的果子，必饱得美福；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "人手所做的，必为自己的报应。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "愚妄人所行的，在自己眼中看为正直；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "惟智慧人肯听人的劝教。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "愚妄人的恼怒立时显露；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "通达人能忍辱藏羞。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "说出真话的，显明公义；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "作假见证的，显出诡诈。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "说话浮躁的，如刀刺人；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "智慧人的舌头却为医人的良药。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "口吐真言，永远坚立；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "舌说谎话，只存片时。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "图谋恶事的，心存诡诈；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "劝人和睦的，便得喜乐。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "义人不遭灾害；恶人满受祸患。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "说谎言的嘴为耶和华所憎恶；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": "行事诚实的，为他所喜悦。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "通达人隐藏知识；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "愚昧人的心彰显愚昧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "殷勤人的手必掌权；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": "懒惰的人必服苦。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "人心忧虑，屈而不伸；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "一句良言，使心欢乐。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "义人引导他的邻舍；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "恶人的道叫人失迷。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "懒惰的人不烤打猎所得的；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "殷勤的人却得宝贵的财物。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "在公义的道上有生命；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": "其路之中并无死亡。"
+        }
+      ]
+    }
+  ]
+}

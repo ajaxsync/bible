@@ -1,0 +1,299 @@
+{
+  "book": 19,
+  "chapter": 24,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "偉大的君王"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "大地和其中所充满的， 世界和住在其中的，都属于耶和华， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "大地和其中所充满的， 世界和住在其中的，都属于耶和华，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "因为他把大地奠定在海洋上， 确立在河流之上。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "因为他把大地奠定在海洋上， 确立在河流之上。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "谁能登上耶和华的山呢？ 谁能站在他的圣所中呢？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "谁能登上耶和华的山呢？ 谁能站在他的圣所中呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "就是双手清白、心里纯洁的人， 他的心不倾向虚妄， 他也不起假誓。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "就是双手清白、心里纯洁的人， 他的心不倾向虚妄， 他也不起假誓。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "他必领受来自耶和华的祝福， 领受来自拯救他的神的公义。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "他必领受来自耶和华的祝福， 领受来自拯救他的神的公义。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "这就是求问耶和华的那些人， 是寻求你容面的雅各。细拉 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "这就是求问耶和华的那些人， 是寻求你容面的雅各。细拉"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，你们要被抬起， 好让荣耀的王进来！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，你们要被抬起， 好让荣耀的王进来！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，你们要被抬起， 好让荣耀的王进来！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "这荣耀的王是谁呢？ 就是强大而全能的耶和华， 是战争中全能的耶和华。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "这荣耀的王是谁呢？ 就是强大而全能的耶和华， 是战争中全能的耶和华。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "这荣耀的王是谁呢？ 就是强大而全能的耶和华， 是战争中全能的耶和华。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，当抬起头， 好让荣耀的王进来！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，当抬起头， 好让荣耀的王进来！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "众城门哪，当抬起你们的头！ 永久的门哪，当抬起头， 好让荣耀的王进来！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "这荣耀的王，他是谁呢？ 就是万军之耶和华， 他是荣耀的王！细拉 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "这荣耀的王，他是谁呢？ 就是万军之耶和华， 他是荣耀的王！细拉"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "这荣耀的王，他是谁呢？ 就是万军之耶和华， 他是荣耀的王！细拉"
+        }
+      ]
+    }
+  ]
+}

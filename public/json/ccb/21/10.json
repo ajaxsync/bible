@@ -1,0 +1,591 @@
+{
+  "book": 21,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "死苍蝇会使芬芳的膏油发臭， 同样，一点点愚昧足以毁掉智慧和尊荣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "死苍蝇会使芬芳的膏油发臭， 同样，一点点愚昧足以毁掉智慧和尊荣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "智者的心引导他走正路， 愚人的心带领他入歧途。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "智者的心引导他走正路， 愚人的心带领他入歧途。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "愚人走路时也无知， 并向众人显出他的愚昧。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "愚人走路时也无知， 并向众人显出他的愚昧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "如果当权的人向你大发雷霆， 不要因此就离开岗位， 因为平心静气能避免大错。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "如果当权的人向你大发雷霆， 不要因此就离开岗位， 因为平心静气能避免大错。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "如果当权的人向你大发雷霆， 不要因此就离开岗位， 因为平心静气能避免大错。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我发现日光之下有一件可悲的事， 似乎是掌权者所犯的错误： "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我发现日光之下有一件可悲的事， 似乎是掌权者所犯的错误："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "愚人身居许多高位， 富人却屈居在下。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "愚人身居许多高位， 富人却屈居在下。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我曾看见奴仆骑在马上， 王子却像奴仆一样步行。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "我曾看见奴仆骑在马上， 王子却像奴仆一样步行。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "挖掘陷阱的，自己必掉在其中； 拆围墙的，必被蛇咬； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "挖掘陷阱的，自己必掉在其中； 拆围墙的，必被蛇咬；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "开凿石头的，必被砸伤； 劈木头的，必有危险。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "开凿石头的，必被砸伤； 劈木头的，必有危险。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "斧头钝了若不磨利， 用起来必多费力气， 但智慧能助人成功。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "斧头钝了若不磨利， 用起来必多费力气， 但智慧能助人成功。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "弄蛇人行法术之前， 若先被蛇咬， 行法术还有什么用呢？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "弄蛇人行法术之前， 若先被蛇咬， 行法术还有什么用呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "智者口出恩言， 愚人的话毁灭自己。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "智者口出恩言， 愚人的话毁灭自己。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "愚人开口是愚昧， 闭口是邪恶狂妄。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "愚人开口是愚昧， 闭口是邪恶狂妄。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "愚人高谈阔论， 其实无人知道将来的事， 人死后，谁能告诉他世间的事呢？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "愚人高谈阔论， 其实无人知道将来的事， 人死后，谁能告诉他世间的事呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "愚人高谈阔论， 其实无人知道将来的事， 人死后，谁能告诉他世间的事呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "愚人因劳碌而筋疲力尽， 连进城的路也认不出来。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "愚人因劳碌而筋疲力尽， 连进城的路也认不出来。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "一国之君若年幼无知， 他的臣宰从早到晚只顾宴乐， 那国就有祸了！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "一国之君若年幼无知， 他的臣宰从早到晚只顾宴乐， 那国就有祸了！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "一国之君若年幼无知， 他的臣宰从早到晚只顾宴乐， 那国就有祸了！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "一国之君若英明尊贵， 他的臣宰为了强身健体而节制饮食， 不酗酒宴乐，那国就有福了！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "一国之君若英明尊贵， 他的臣宰为了强身健体而节制饮食， 不酗酒宴乐，那国就有福了！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "一国之君若英明尊贵， 他的臣宰为了强身健体而节制饮食， 不酗酒宴乐，那国就有福了！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "一国之君若英明尊贵， 他的臣宰为了强身健体而节制饮食， 不酗酒宴乐，那国就有福了！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "屋顶因人懒惰而坍塌， 房间因人游手好闲而漏雨。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "屋顶因人懒惰而坍塌， 房间因人游手好闲而漏雨。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "宴席带来欢笑， 酒使人开怀， 钱使人万事亨通。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "宴席带来欢笑， 酒使人开怀， 钱使人万事亨通。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "宴席带来欢笑， 酒使人开怀， 钱使人万事亨通。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "不可咒诅君王， 连这样的意念都不可有， 也不可在卧室里咒诅富豪， 因为天空的飞鸟会通风报信， 有翅膀的会把事情四处传开。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "不可咒诅君王， 连这样的意念都不可有， 也不可在卧室里咒诅富豪， 因为天空的飞鸟会通风报信， 有翅膀的会把事情四处传开。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "不可咒诅君王， 连这样的意念都不可有， 也不可在卧室里咒诅富豪， 因为天空的飞鸟会通风报信， 有翅膀的会把事情四处传开。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "不可咒诅君王， 连这样的意念都不可有， 也不可在卧室里咒诅富豪， 因为天空的飞鸟会通风报信， 有翅膀的会把事情四处传开。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "不可咒诅君王， 连这样的意念都不可有， 也不可在卧室里咒诅富豪， 因为天空的飞鸟会通风报信， 有翅膀的会把事情四处传开。"
+        }
+      ]
+    }
+  ]
+}

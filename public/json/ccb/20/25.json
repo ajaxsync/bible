@@ -1,0 +1,725 @@
+{
+  "book": 20,
+  "chapter": 25,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "所羅門的另一些箴言"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "以下也是所罗门的箴言，由犹大王希西迦的人抄录。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "将事隐藏是上帝的荣耀， 把事查明是君王的光荣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "将事隐藏是上帝的荣耀， 把事查明是君王的光荣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "天之高，地之厚， 君王的心测不透。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "天之高，地之厚， 君王的心测不透。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "除掉银子里的渣滓， 银匠就能铸造器皿。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "除掉银子里的渣滓， 银匠就能铸造器皿。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "清除君王身边的恶人， 王位必因公义而巩固。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "清除君王身边的恶人， 王位必因公义而巩固。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "不可在王面前妄自尊大， 不要占据大人物的位子。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "不可在王面前妄自尊大， 不要占据大人物的位子。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "与其在权贵面前受羞辱， 不如等人邀请你坐上座。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "与其在权贵面前受羞辱， 不如等人邀请你坐上座。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "不可鲁莽地打官司， 以免败诉、羞愧难当。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "不可鲁莽地打官司， 以免败诉、羞愧难当。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "不可鲁莽地打官司， 以免败诉、羞愧难当。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "遇到跟邻舍争讼， 不可泄露其秘密， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "遇到跟邻舍争讼， 不可泄露其秘密，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "遇到跟邻舍争讼， 不可泄露其秘密，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "免得听见的人辱骂你， 你的恶名将永难洗刷。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "免得听见的人辱骂你， 你的恶名将永难洗刷。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "一句话说得合宜， 就像金苹果放在银器里。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "一句话说得合宜， 就像金苹果放在银器里。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "对受教者而言， 智者的责备犹如金耳环和金饰物。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "对受教者而言， 智者的责备犹如金耳环和金饰物。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "忠信的使者叫主人心里舒畅， 就像夏收之时有冰雪的凉气。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "忠信的使者叫主人心里舒畅， 就像夏收之时有冰雪的凉气。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "夸口送礼物却食言的人， 就像没有雨水的风和云。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "夸口送礼物却食言的人， 就像没有雨水的风和云。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "坚忍说服君王， 柔舌折断骨头。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "坚忍说服君王， 柔舌折断骨头。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "找到蜂蜜要酌量而食， 免得吃多了呕吐。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "找到蜂蜜要酌量而食， 免得吃多了呕吐。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "不要频频去邻舍家， 免得惹人烦、遭人厌。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "不要频频去邻舍家， 免得惹人烦、遭人厌。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "作伪证陷害邻舍的人， 无异于大锤、刀和利箭。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "作伪证陷害邻舍的人， 无异于大锤、刀和利箭。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "危难时投靠奸诈之人， 形同倚靠坏牙和跛脚。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "危难时投靠奸诈之人， 形同倚靠坏牙和跛脚。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "对忧伤的人唱歌， 如同天寒脱衣、伤口撒盐。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "对忧伤的人唱歌， 如同天寒脱衣、伤口撒盐。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "对忧伤的人唱歌， 如同天寒脱衣、伤口撒盐。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "你的仇敌若饿了， 就给他吃的； 若渴了，就给他水喝； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "你的仇敌若饿了， 就给他吃的； 若渴了，就给他水喝；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "因为你这是把炭火堆在他头上， 耶和华必奖赏你。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": "因为你这是把炭火堆在他头上， 耶和华必奖赏你。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "北风带来雨水， 谗言激起愤怒。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "北风带来雨水， 谗言激起愤怒。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "宁愿住在屋顶的一角， 不跟争闹的妻子同屋。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": "宁愿住在屋顶的一角， 不跟争闹的妻子同屋。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "有好消息从远方传来， 如凉水滋润干渴的人。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "有好消息从远方传来， 如凉水滋润干渴的人。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "义人向恶人低头， 就像清泉被搅浑， 水井受污染。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "义人向恶人低头， 就像清泉被搅浑， 水井受污染。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "蜂蜜吃得太多有害无益， 追求自己的荣耀也不光彩。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "蜂蜜吃得太多有害无益， 追求自己的荣耀也不光彩。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "无法自制的人就像被攻破的无墙之城。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": "无法自制的人就像被攻破的无墙之城。"
+        }
+      ]
+    }
+  ]
+}

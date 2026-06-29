@@ -1,0 +1,533 @@
+{
+  "book": 42,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "禱告的教訓"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太6‧9－13；7‧7－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "It happened that while Jesus was praying in a certain place, after He had finished, one of His disciples said to Him, “Lord, teach us to pray just as John also taught his disciples.” "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "And He said to them, “When you pray, say: ‘    Father, hallowed be Your name. Your kingdom come. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Give us each day our daily bread. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Give us each day our daily bread."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And forgive us our sins, For we ourselves also forgive everyone who is indebted to us. And lead us not into temptation.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "And forgive us our sins, For we ourselves also forgive everyone who is indebted to us. And lead us not into temptation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "And forgive us our sins, For we ourselves also forgive everyone who is indebted to us. And lead us not into temptation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And forgive us our sins, For we ourselves also forgive everyone who is indebted to us. And lead us not into temptation.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then He said to them, “Suppose one of you has a friend, and goes to him at midnight and says to him, ‘Friend, lend me three loaves; "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "for a friend of mine has come to me from a journey, and I have nothing to set before him’; "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "and from inside he answers and says, ‘Do not bother me; the door has already been shut and my children and I are in bed; I cannot get up and give you anything.’ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "I tell you, even though he will not get up and give him anything because he is his friend, yet because of his persistence he will get up and give him as much as he needs. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“So I say to you, ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "For everyone who asks, receives; and he who seeks, finds; and to him who knocks, it will be opened. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Now suppose one of you fathers is asked by his son for a fish; he will not give him a snake instead of a fish, will he? "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Or if he is asked for an egg, he will not give him a scorpion, will he? "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "If you then, being evil, know how to give good gifts to your children, how much more will your heavenly Father give the Holy Spirit to those who ask Him?” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌和別西卜"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧22－30；可3‧20－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "And He was casting out a demon, and it was mute; when the demon had gone out, the mute man spoke; and the crowds were amazed. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "But some of them said, “He casts out demons by Beelzebul, the ruler of the demons.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Others, to test Him, were demanding of Him a sign from heaven. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "But He knew their thoughts and said to them, “Any kingdom divided against itself is laid waste; and a house divided against itself falls. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "If Satan also is divided against himself, how will his kingdom stand? For you say that I cast out demons by Beelzebul. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "And if I by Beelzebul cast out demons, by whom do your sons cast them out? So they will be your judges. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "But if I cast out demons by the finger of God, then the kingdom of God has come upon you. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "When a strong man, fully armed, guards his own house, his possessions are undisturbed. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "But when someone stronger than he attacks him and overpowers him, he takes away from him all his armor on which he had relied and distributes his plunder. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "He who is not with Me is against Me; and he who does not gather with Me, scatters. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "污鬼回來"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧43－45）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“When the unclean spirit goes out of a man, it passes through waterless places seeking rest, and not finding any, it says, ‘I will return to my house from which I came.’ "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "And when it comes, it finds it swept and put in order. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Then it goes and takes along seven other spirits more evil than itself, and they go in and live there; and the last state of that man becomes worse than the first.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "真正的福"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "While Jesus was saying these things, one of the women in the crowd raised her voice and said to Him, “Blessed is the womb that bore You and the breasts at which You nursed.” "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "But He said, “On the contrary, blessed are those who hear the word of God and observe it.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "求神蹟的受責備"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧38－42）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "As the crowds were increasing, He began to say, “This generation is a wicked generation; it seeks for a sign, and yet no sign will be given to it but the sign of Jonah. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "For just as Jonah became a sign to the Ninevites, so will the Son of Man be to this generation. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "The Queen of the South will rise up with the men of this generation at the judgment and condemn them, because she came from the ends of the earth to hear the wisdom of Solomon; and behold, something greater than Solomon is here. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "The men of Nineveh will stand up with this generation at the judgment and condemn it, because they repented at the preaching of Jonah; and behold, something greater than Jonah is here. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論心裏的光"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太5‧15；6‧22－23）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“No one, after lighting a lamp, puts it away in a cellar nor under a basket, but on the lampstand, so that those who enter may see the light. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "The eye is the lamp of your body; when your eye is clear, your whole body also is full of light; but when it is bad, your body also is full of darkness. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Then watch out that the light in you is not darkness. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "If therefore your whole body is full of light, with no dark part in it, it will be wholly illumined, as when the lamp illumines you with its rays.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "譴責法利賽人和文士"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太23‧1－36；可12‧38－40）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "Now when He had spoken, a Pharisee *asked Him to have lunch with him; and He went in, and reclined at the table. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "When the Pharisee saw it, he was surprised that He had not first ceremonially washed before the meal. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "But the Lord said to him, “Now you Pharisees clean the outside of the cup and of the platter; but inside of you, you are full of robbery and wickedness. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "You foolish ones, did not He who made the outside make the inside also? "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "But give that which is within as charity, and then all things are clean for you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "“But woe to you Pharisees! For you pay tithe of mint and rue and every kind of garden herb, and yet disregard justice and the love of God; but these are the things you should have done without neglecting the others. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "Woe to you Pharisees! For you love the chief seats in the synagogues and the respectful greetings in the market places. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "Woe to you! For you are like concealed tombs, and the people who walk over them are unaware of it.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "One of the lawyers *said to Him in reply, “Teacher, when You say this, You insult us too.” "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "But He said, “Woe to you lawyers as well! For you weigh men down with burdens hard to bear, while you yourselves will not even touch the burdens with one of your fingers. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "Woe to you! For you build the tombs of the prophets, and it was your fathers who killed them. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "So you are witnesses and approve the deeds of your fathers; because it was they who killed them, and you build their tombs. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "For this reason also the wisdom of God said, ‘I will send to them prophets and apostles, and some of them they will kill and some they will persecute, "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "so that the blood of all the prophets, shed since the foundation of the world, may be charged against this generation, "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "from the blood of Abel to the blood of Zechariah, who was killed between the altar and the house of God; yes, I tell you, it shall be charged against this generation.’ "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "Woe to you lawyers! For you have taken away the key of knowledge; you yourselves did not enter, and you hindered those who were entering.” "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "When He left there, the scribes and the Pharisees began to be very hostile and to question Him closely on many subjects, "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "plotting against Him to catch Him in something He might say. "
+        }
+      ]
+    }
+  ]
+}

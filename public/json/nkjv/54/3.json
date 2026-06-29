@@ -1,0 +1,193 @@
+{
+  "book": 54,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "監督的資格"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This is a faithful saying: If a man desires the position of a bishop, he desires a good work. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "A bishop then must be blameless, the husband of one wife, temperate, sober-minded, of good behavior, hospitable, able to teach; "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "not given to wine, not violent, not greedy for money, but gentle, not quarrelsome, not covetous; "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "one who rules his own house well, having his children in submission with all reverence "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "(for if a man does not know how to rule his own house, how will he take care of the church of God?); "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "not a novice, lest being puffed up with pride he fall into the same condemnation as the devil. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Moreover he must have a good testimony among those who are outside, lest he fall into reproach and the snare of the devil. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "執事的資格"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Likewise deacons must  be reverent, not double-tongued, not given to much wine, not greedy for money, "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "holding the mystery of the faith with a pure conscience. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "But let these also first be tested; then let them serve as deacons, being found blameless. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Likewise, their wives must  be reverent, not slanderers, temperate, faithful in all things. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Let deacons be the husbands of one wife, ruling their children and their own houses well. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "For those who have served well as deacons obtain for themselves a good standing and great boldness in the faith which is in Christ Jesus. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "敬虔的奧祕"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "These things I write to you, though I hope to come to you shortly; "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "but if I am delayed, I  write so that you may know how you ought to conduct yourself in the house of God, which is the church of the living God, the pillar and ground of the truth. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory."
+        }
+      ]
+    }
+  ]
+}

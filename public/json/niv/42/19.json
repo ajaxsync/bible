@@ -1,0 +1,389 @@
+{
+  "book": 42,
+  "chapter": 19,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌和撒該"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Jesus entered Jericho and was passing through. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "A man was there by the name of Zacchaeus; he was a chief tax collector and was wealthy. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "He wanted to see who Jesus was, but because he was short he could not see over the crowd. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "So he ran ahead and climbed a sycamore-fig tree to see him, since Jesus was coming that way. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When Jesus reached the spot, he looked up and said to him, “Zacchaeus, come down immediately. I must stay at your house today.” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "So he came down at once and welcomed him gladly. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "All the people saw this and began to mutter, “He has gone to be the guest of a sinner.” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But Zacchaeus stood up and said to the Lord, “Look, Lord! Here and now I give half of my possessions to the poor, and if I have cheated anybody out of anything, I will pay back four times the amount.” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Jesus said to him, “Today salvation has come to this house, because this man, too, is a son of Abraham. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "For the Son of Man came to seek and to save the lost.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "十錠銀子的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太25‧14－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "While they were listening to this, he went on to tell them a parable, because he was near Jerusalem and the people thought that the kingdom of God was going to appear at once. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "He said: “A man of noble birth went to a distant country to have himself appointed king and then to return. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "So he called ten of his servants and gave them ten minas.  ‘Put this money to work,’ he said, ‘until I come back.’ "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“But his subjects hated him and sent a delegation after him to say, ‘We don’t want this man to be our king.’ "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“He was made king, however, and returned home. Then he sent for the servants to whom he had given the money, in order to find out what they had gained with it. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“The first one came and said, ‘Sir, your mina has earned ten more.’ "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘Well done, my good servant!’ his master replied. ‘Because you have been trustworthy in a very small matter, take charge of ten cities.’ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“The second came and said, ‘Sir, your mina has earned five more.’ "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“His master answered, ‘You take charge of five cities.’ "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“Then another servant came and said, ‘Sir, here is your mina; I have kept it laid away in a piece of cloth. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "I was afraid of you, because you are a hard man. You take out what you did not put in and reap what you did not sow.’ "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“His master replied, ‘I will judge you by your own words, you wicked servant! You knew, did you, that I am a hard man, taking out what I did not put in, and reaping what I did not sow? "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Why then didn’t you put my money on deposit, so that when I came back, I could have collected it with interest?’ "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“Then he said to those standing by, ‘Take his mina away from him and give it to the one who has ten minas.’ "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘Sir,’ they said, ‘he already has ten!’ "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“He replied, ‘I tell you that to everyone who has, more will be given, but as for the one who has nothing, even what they have will be taken away. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "But those enemies of mine who did not want me to be king over them—bring them here and kill them in front of me.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "光榮地進耶路撒冷"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧1－11；可11‧1－11；約12‧12－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "After Jesus had said this, he went on ahead, going up to Jerusalem. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "As he approached Bethphage and Bethany at the hill called the Mount of Olives, he sent two of his disciples, saying to them, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "“Go to the village ahead of you, and as you enter it, you will find a colt tied there, which no one has ever ridden. Untie it and bring it here. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "If anyone asks you, ‘Why are you untying it?’ say, ‘The Lord needs it.’ ” "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Those who were sent ahead went and found it just as he had told them. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "As they were untying the colt, its owners asked them, “Why are you untying the colt?” "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "They replied, “The Lord needs it.” "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "They brought it to Jesus, threw their cloaks on the colt and put Jesus on it. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "As he went along, people spread their cloaks on the road. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "When he came near the place where the road goes down the Mount of Olives, the whole crowd of disciples began joyfully to praise God in loud voices for all the miracles they had seen: "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "“Blessed is the king who comes in the name of the Lord!” “Peace in heaven and glory in the highest!” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "“Blessed is the king who comes in the name of the Lord!” “Peace in heaven and glory in the highest!”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "“Blessed is the king who comes in the name of the Lord!” “Peace in heaven and glory in the highest!”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "“Blessed is the king who comes in the name of the Lord!” “Peace in heaven and glory in the highest!”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Some of the Pharisees in the crowd said to Jesus, “Teacher, rebuke your disciples!” "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“I tell you,” he replied, “if they keep quiet, the stones will cry out.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "As he approached Jerusalem and saw the city, he wept over it "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "and said, “If you, even you, had only known on this day what would bring you peace—but now it is hidden from your eyes. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "The days will come upon you when your enemies will build an embankment against you and encircle you and hem you in on every side. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "They will dash you to the ground, you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of God’s coming to you.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "潔淨聖殿"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧12－17；可11‧15－19；約2‧13－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "When Jesus entered the temple courts, he began to drive out those who were selling. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "“It is written,” he said to them, “ ‘My house will be a house of prayer’; but you have made it ‘a den of robbers.’” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "“It is written,” he said to them, “ ‘My house will be a house of prayer’; but you have made it ‘a den of robbers.’”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "“It is written,” he said to them, “ ‘My house will be a house of prayer’; but you have made it ‘a den of robbers.’”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "Every day he was teaching at the temple. But the chief priests, the teachers of the law and the leaders among the people were trying to kill him. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "Yet they could not find any way to do it, because all the people hung on his words. "
+        }
+      ]
+    }
+  ]
+}

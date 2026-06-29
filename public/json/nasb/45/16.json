@@ -1,0 +1,194 @@
+{
+  "book": 45,
+  "chapter": 16,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問安"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "I commend to you our sister Phoebe, who is a servant of the church which is at Cenchrea; "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "that you receive her in the Lord in a manner worthy of the saints, and that you help her in whatever matter she may have need of you; for she herself has also been a helper of many, and of myself as well. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Greet Prisca and Aquila, my fellow workers in Christ Jesus, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "who for my life risked their own necks, to whom not only do I give thanks, but also all the churches of the Gentiles; "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "also greet the church that is in their house. Greet Epaenetus, my beloved, who is the first convert to Christ from Asia. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Greet Mary, who has worked hard for you. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Greet Andronicus and Junias, my kinsmen and my fellow prisoners, who are outstanding among the apostles, who also were in Christ before me. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Greet Ampliatus, my beloved in the Lord. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Greet Urbanus, our fellow worker in Christ, and Stachys my beloved. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Greet Apelles, the approved in Christ. Greet those who are of the household of Aristobulus. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Greet Herodion, my kinsman. Greet those of the household of Narcissus, who are in the Lord. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Greet Tryphaena and Tryphosa, workers in the Lord. Greet Persis the beloved, who has worked hard in the Lord. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Greet Rufus, a choice man in the Lord, also his mother and mine. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas and the brethren with them. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Greet Philologus and Julia, Nereus and his sister, and Olympas, and all the saints who are with them. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Greet one another with a holy kiss. All the churches of Christ greet you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Now I urge you, brethren, keep your eye on those who cause dissensions and hindrances contrary to the teaching which you learned, and turn away from them. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "For such men are slaves, not of our Lord Christ but of their own appetites; and by their smooth and flattering speech they deceive the hearts of the unsuspecting. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "For the report of your obedience has reached to all; therefore I am rejoicing over you, but I want you to be wise in what is good and innocent in what is evil. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The God of peace will soon crush Satan under your feet. The grace of our Lord Jesus be with you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Timothy my fellow worker greets you, and so do Lucius and Jason and Sosipater, my kinsmen. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "I, Tertius, who write this letter, greet you in the Lord. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Gaius, host to me and to the whole church, greets you. Erastus, the city treasurer greets you, and Quartus, the brother. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "[The grace of our Lord Jesus Christ be with you all. Amen.] "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "頌讚"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Now to Him who is able to establish you according to my gospel and the preaching of Jesus Christ, according to the revelation of the mystery which has been kept secret for long ages past, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "but now is manifested, and by the Scriptures of the prophets, according to the commandment of the eternal God, has been made known to all the nations, leading to obedience of faith; "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "to the only wise God, through Jesus Christ, be the glory forever. Amen. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "book": 35,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The prophecy that Habakkuk the prophet received. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "哈巴谷為不公平而訴苦"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "How long, Lord, must I call for help, but you do not listen? Or cry out to you, “Violence!” but you do not save? "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "How long, Lord, must I call for help, but you do not listen? Or cry out to you, “Violence!” but you do not save?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "How long, Lord, must I call for help, but you do not listen? Or cry out to you, “Violence!” but you do not save?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Why do you make me look at injustice? Why do you tolerate wrongdoing? Destruction and violence are before me; there is strife, and conflict abounds. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Why do you make me look at injustice? Why do you tolerate wrongdoing? Destruction and violence are before me; there is strife, and conflict abounds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Why do you make me look at injustice? Why do you tolerate wrongdoing? Destruction and violence are before me; there is strife, and conflict abounds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Why do you make me look at injustice? Why do you tolerate wrongdoing? Destruction and violence are before me; there is strife, and conflict abounds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Therefore the law is paralyzed, and justice never prevails. The wicked hem in the righteous, so that justice is perverted. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Therefore the law is paralyzed, and justice never prevails. The wicked hem in the righteous, so that justice is perverted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Therefore the law is paralyzed, and justice never prevails. The wicked hem in the righteous, so that justice is perverted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Therefore the law is paralyzed, and justice never prevails. The wicked hem in the righteous, so that justice is perverted."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶和華的回答"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“Look at the nations and watch— and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Look at the nations and watch— and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Look at the nations and watch— and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Look at the nations and watch— and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "I am raising up the Babylonians, that ruthless and impetuous people, who sweep across the whole earth to seize dwellings not their own. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "I am raising up the Babylonians, that ruthless and impetuous people, who sweep across the whole earth to seize dwellings not their own."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "I am raising up the Babylonians, that ruthless and impetuous people, who sweep across the whole earth to seize dwellings not their own."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "They are a feared and dreaded people; they are a law to themselves and promote their own honor. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "They are a feared and dreaded people; they are a law to themselves and promote their own honor."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour; "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "they all come intent on violence. Their hordes advance like a desert wind and gather prisoners like sand. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "they all come intent on violence. Their hordes advance like a desert wind and gather prisoners like sand."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "they all come intent on violence. Their hordes advance like a desert wind and gather prisoners like sand."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They mock kings and scoff at rulers. They laugh at all fortified cities; by building earthen ramps they capture them. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "They mock kings and scoff at rulers. They laugh at all fortified cities; by building earthen ramps they capture them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Then they sweep past like the wind and go on— guilty people, whose own strength is their god.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Then they sweep past like the wind and go on— guilty people, whose own strength is their god.”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "哈巴谷又向耶和華訴苦"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Lord, are you not from everlasting? My God, my Holy One, you will never die. You, Lord, have appointed them to execute judgment; you, my Rock, have ordained them to punish. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "Lord, are you not from everlasting? My God, my Holy One, you will never die. You, Lord, have appointed them to execute judgment; you, my Rock, have ordained them to punish."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "Lord, are you not from everlasting? My God, my Holy One, you will never die. You, Lord, have appointed them to execute judgment; you, my Rock, have ordained them to punish."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "Lord, are you not from everlasting? My God, my Holy One, you will never die. You, Lord, have appointed them to execute judgment; you, my Rock, have ordained them to punish."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "Lord, are you not from everlasting? My God, my Holy One, you will never die. You, Lord, have appointed them to execute judgment; you, my Rock, have ordained them to punish."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves? "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "You have made people like the fish in the sea, like the sea creatures that have no ruler. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "You have made people like the fish in the sea, like the sea creatures that have no ruler."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The wicked foe pulls all of them up with hooks, he catches them in his net, he gathers them up in his dragnet; and so he rejoices and is glad. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The wicked foe pulls all of them up with hooks, he catches them in his net, he gathers them up in his dragnet; and so he rejoices and is glad."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The wicked foe pulls all of them up with hooks, he catches them in his net, he gathers them up in his dragnet; and so he rejoices and is glad."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Therefore he sacrifices to his net and burns incense to his dragnet, for by his net he lives in luxury and enjoys the choicest food. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Therefore he sacrifices to his net and burns incense to his dragnet, for by his net he lives in luxury and enjoys the choicest food."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Is he to keep on emptying his net, destroying nations without mercy? "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "Is he to keep on emptying his net, destroying nations without mercy?"
+        }
+      ]
+    }
+  ]
+}

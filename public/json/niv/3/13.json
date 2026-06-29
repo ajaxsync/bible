@@ -1,0 +1,414 @@
+{
+  "book": 3,
+  "chapter": 13,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關皮膚病的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses and Aaron, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“When anyone has a swelling or a rash or a shiny spot on their skin that may be a defiling skin disease, they must be brought to Aaron the priest or to one of his sons who is a priest. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine the sore on the skin, and if the hair in the sore has turned white and the sore appears to be more than skin deep, it is a defiling skin disease. When the priest examines that person, he shall pronounce them ceremonially unclean. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "If the shiny spot on the skin is white but does not appear to be more than skin deep and the hair in it has not turned white, the priest is to isolate the affected person for seven days. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest is to examine them, and if he sees that the sore is unchanged and has not spread in the skin, he is to isolate them for another seven days. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest is to examine them again, and if the sore has faded and has not spread in the skin, the priest shall pronounce them clean; it is only a rash. They must wash their clothes, and they will be clean. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "But if the rash does spread in their skin after they have shown themselves to the priest to be pronounced clean, they must appear before the priest again. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine that person, and if the rash has spread in the skin, he shall pronounce them unclean; it is a defiling skin disease. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“When anyone has a defiling skin disease, they must be brought to the priest. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine them, and if there is a white swelling in the skin that has turned the hair white and if there is raw flesh in the swelling, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "it is a chronic skin disease and the priest shall pronounce them unclean. He is not to isolate them, because they are already unclean. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“If the disease breaks out all over their skin and, so far as the priest can see, it covers all the skin of the affected person from head to foot, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "the priest is to examine them, and if the disease has covered their whole body, he shall pronounce them clean. Since it has all turned white, they are clean. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But whenever raw flesh appears on them, they will be unclean. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "When the priest sees the raw flesh, he shall pronounce them unclean. The raw flesh is unclean; they have a defiling disease. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "If the raw flesh changes and turns white, they must go to the priest. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine them, and if the sores have turned white, the priest shall pronounce the affected person clean; then they will be clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“When someone has a boil on their skin and it heals, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "and in the place where the boil was, a white swelling or reddish-white spot appears, they must present themselves to the priest. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine it, and if it appears to be more than skin deep and the hair in it has turned white, the priest shall pronounce that person unclean. It is a defiling skin disease that has broken out where the boil was. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "But if, when the priest examines it, there is no white hair in it and it is not more than skin deep and has faded, then the priest is to isolate them for seven days. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "If it is spreading in the skin, the priest shall pronounce them unclean; it is a defiling disease. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "But if the spot is unchanged and has not spread, it is only a scar from the boil, and the priest shall pronounce them clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“When someone has a burn on their skin and a reddish-white or white spot appears in the raw flesh of the burn, "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "the priest is to examine the spot, and if the hair in it has turned white, and it appears to be more than skin deep, it is a defiling disease that has broken out in the burn. The priest shall pronounce them unclean; it is a defiling skin disease. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "But if the priest examines it and there is no white hair in the spot and if it is not more than skin deep and has faded, then the priest is to isolate them for seven days. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest is to examine that person, and if it is spreading in the skin, the priest shall pronounce them unclean; it is a defiling skin disease. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "If, however, the spot is unchanged and has not spread in the skin but has faded, it is a swelling from the burn, and the priest shall pronounce them clean; it is only a scar from the burn. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“If a man or woman has a sore on their head or chin, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "the priest is to examine the sore, and if it appears to be more than skin deep and the hair in it is yellow and thin, the priest shall pronounce them unclean; it is a defiling skin disease on the head or chin. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "But if, when the priest examines the sore, it does not seem to be more than skin deep and there is no black hair in it, then the priest is to isolate the affected person for seven days. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest is to examine the sore, and if it has not spread and there is no yellow hair in it and it does not appear to be more than skin deep, "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "then the man or woman must shave themselves, except for the affected area, and the priest is to keep them isolated another seven days. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest is to examine the sore, and if it has not spread in the skin and appears to be no more than skin deep, the priest shall pronounce them clean. They must wash their clothes, and they will be clean. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "But if the sore does spread in the skin after they are pronounced clean, "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "the priest is to examine them, and if he finds that the sore has spread in the skin, he does not need to look for yellow hair; they are unclean. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "If, however, the sore is unchanged so far as the priest can see, and if black hair has grown in it, the affected person is healed. They are clean, and the priest shall pronounce them clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "“When a man or woman has white spots on the skin, "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "the priest is to examine them, and if the spots are dull white, it is a harmless rash that has broken out on the skin; they are clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“A man who has lost his hair and is bald is clean. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "If he has lost his hair from the front of his scalp and has a bald forehead, he is clean. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "But if he has a reddish-white sore on his bald head or forehead, it is a defiling disease breaking out on his head or forehead. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine him, and if the swollen sore on his head or forehead is reddish-white like a defiling skin disease, "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "the man is diseased and is unclean. The priest shall pronounce him unclean because of the sore on his head. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone with such a defiling disease must wear torn clothes, let their hair be unkempt, cover the lower part of their face and cry out, ‘Unclean! Unclean!’ "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "As long as they have the disease they remain unclean. They must live alone; they must live outside the camp. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "衣物發霉的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "“As for any fabric that is spoiled with a defiling mold—any woolen or linen clothing, "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "any woven or knitted material of linen or wool, any leather or anything made of leather— "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "if the affected area in the fabric, the leather, the woven or knitted material, or any leather article, is greenish or reddish, it is a defiling mold and must be shown to the priest. "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to examine the affected area and isolate the article for seven days. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day he is to examine it, and if the mold has spread in the fabric, the woven or knitted material, or the leather, whatever its use, it is a persistent defiling mold; the article is unclean. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "He must burn the fabric, the woven or knitted material of wool or linen, or any leather article that has been spoiled; because the defiling mold is persistent, the article must be burned. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "“But if, when the priest examines it, the mold has not spread in the fabric, the woven or knitted material, or the leather article, "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "he shall order that the spoiled article be washed. Then he is to isolate it for another seven days. "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "After the article has been washed, the priest is to examine it again, and if the mold has not changed its appearance, even though it has not spread, it is unclean. Burn it, no matter which side of the fabric has been spoiled. "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "If, when the priest examines it, the mold has faded after the article has been washed, he is to tear the spoiled part out of the fabric, the leather, or the woven or knitted material. "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "But if it reappears in the fabric, in the woven or knitted material, or in the leather article, it is a spreading mold; whatever has the mold must be burned. "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "Any fabric, woven or knitted material, or any leather article that has been washed and is rid of the mold, must be washed again. Then it will be clean.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 58,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "These are the regulations concerning defiling molds in woolen or linen clothing, woven or knitted material, or any leather article, for pronouncing them clean or unclean. "
+        }
+      ]
+    }
+  ]
+}

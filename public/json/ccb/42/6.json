@@ -1,0 +1,548 @@
+{
+  "book": 42,
+  "chapter": 6,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "安息日的問題"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧1－8；可2‧23－28）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "有一个安息日，耶稣和门徒走过一片麦田，门徒随手摘下一些麦穗搓了吃。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "有些法利赛人说：“你们为什么做在安息日不准做的事？” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "耶稣答道：“你们没有读过大卫的事吗？有一天，大卫和他的部下饿了， "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他进入上帝的殿，拿了献给上帝的供饼。这饼只有祭司才可以吃，大卫不但自己吃了，还分给他的部下吃。” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶稣又对他们说：“人子是安息日的主。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "治好枯乾了一隻手的人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧9－14；可3‧1－6）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "又有一个安息日，耶稣进入会堂教导人，座中有一个右手萎缩的人。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "律法教师和法利赛人密切地监视耶稣，看祂会不会在安息日医治病人，好找个借口控告祂。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "耶稣知道他们的心思，就对那个右手萎缩的人说：“起来，站在大家面前！”那人就起来站在那里。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "耶稣问众人：“我问你们，在安息日应该行善呢，还是作恶呢？救人呢，还是害人呢？” "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "祂环视众人，然后对那人说：“把手伸出来！”那人的手一伸就复原了。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "但法利赛人和律法教师却怒火中烧，开始商议对付耶稣的办法。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "挑選十二門徒"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太10‧1－4；可3‧13－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "一天，耶稣到山上整夜向上帝祷告。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "天明时分，祂召集门徒，从中选出十二人立为使徒。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他们是：西门——耶稣给他取名叫彼得、西门的兄弟安得烈、雅各、约翰、腓力、巴多罗买、 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "马太、多马、亚勒腓的儿子雅各、激进党人西门、 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "雅各的儿子犹大和出卖耶稣的加略人犹大。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "向羣眾傳道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太4‧23－25）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "耶稣和他们下了山，站在一处平地上，身边有一大群门徒，还有大批从犹太、耶路撒冷以及泰尔和西顿沿海地区来的人，要听祂讲道，盼望祂医治他们的疾病。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "那些被污鬼缠身的人也得到了祂的医治。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "大家都想去摸祂，因为有能力从祂身上发出来，可以治好人们的疾病。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論福和禍"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太5‧1－12）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "耶稣抬头望着门徒，对他们说： “贫穷的人有福了， 因为上帝的国属于你们！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "耶稣抬头望着门徒，对他们说： “贫穷的人有福了， 因为上帝的国属于你们！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "耶稣抬头望着门徒，对他们说： “贫穷的人有福了， 因为上帝的国属于你们！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "现在饥饿的人有福了， 因为你们将得饱足！ 现在哀哭的人有福了， 因为你们将要欢笑！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "现在饥饿的人有福了， 因为你们将得饱足！ 现在哀哭的人有福了， 因为你们将要欢笑！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "现在饥饿的人有福了， 因为你们将得饱足！ 现在哀哭的人有福了， 因为你们将要欢笑！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "现在饥饿的人有福了， 因为你们将得饱足！ 现在哀哭的人有福了， 因为你们将要欢笑！"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "你们为人子的缘故而遭人憎恨、弃绝、侮辱、毁谤，就有福了！ "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "那时你们要欢喜雀跃，因为你们在天上有大赏赐！他们的祖先也曾这样恶待以前的先知。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“富有的人有祸了， 因为你们已经享尽了人世间的安逸！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": "“富有的人有祸了， 因为你们已经享尽了人世间的安逸！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "现在饱足的人有祸了， 因为你们将要挨饿！ 现在欢笑的人有祸了， 因为你们将要哀哭！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "现在饱足的人有祸了， 因为你们将要挨饿！ 现在欢笑的人有祸了， 因为你们将要哀哭！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "现在饱足的人有祸了， 因为你们将要挨饿！ 现在欢笑的人有祸了， 因为你们将要哀哭！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "现在饱足的人有祸了， 因为你们将要挨饿！ 现在欢笑的人有祸了， 因为你们将要哀哭！"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "人人都夸赞你们的时候， 你们就有祸了， 因为他们的祖先也是这样夸赞假先知！ "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論愛仇敵"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太5‧38－48；7‧12）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "“但是，我告诉你们这些听道的人，要爱你们的仇敌，要善待恨你们的人， "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "要为咒诅你们的人祝福，要替恶待你们的人祷告。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "如果有人打你一边的脸，连另一边也转过来让他打。如果有人夺你的外衣，连内衣也由他拿去。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "有人向你求什么，就给他；有人拿了你的东西，不要追讨。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "你们想要别人怎样对待你们，你们就要怎样对待别人。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "如果你们只爱那些爱你们的人，有什么功劳呢？就是罪人也会这样做。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "如果你们只善待那些善待你们的人，有什么功劳呢？就是罪人也会这样做。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "如果你们借钱给人，指望收回，有什么功劳呢？即使罪人也会借贷给罪人，日后再如数收回。 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "“然而，要爱你们的仇敌，善待他们；无论借出什么，都不要指望归还。这样，你们将有大赏赐，并且将成为至高者的儿子，因为祂以恩慈待那些忘恩负义和作恶的人。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "你们要怜悯人，像你们的天父怜悯人一样。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "不要論斷人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太7‧1－5）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "“不要论断人，免得你们被人论断；不要定人的罪，免得自己也被定罪。要饶恕人，这样你们也必蒙饶恕。 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "你们要给他人，这样上帝必给你们，并且会用大号升斗摇匀压实，满满地倒给你们，因为你们用什么样的量器量给别人，上帝也会用什么样的量器量给你们。” "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "耶稣又给他们讲了个比喻，说：“瞎子岂能给瞎子带路？二人岂不是要双双掉进坑里吗？ "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "学生不会高过老师，学成之后不过像老师一样。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "为什么你只看见你弟兄眼中的小刺，却看不见自己眼中的大梁呢？ "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "你既看不见自己眼中的大梁，又怎能对弟兄说‘让我除去你眼中的小刺’呢？你这伪君子啊！要先除掉自己眼中的大梁，才能看得清楚，以便清除弟兄眼中的小刺。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "樹和果子"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太7‧16－20；12‧33－35）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "“好树不结坏果子，坏树也结不出好果子。 "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "树的好坏从果子就可以分辨出来。人不会从荆棘中采集无花果，也不会在蒺藜上摘取葡萄。 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "善人心存良善，就从他里面发出良善；恶人心存邪恶，就从他里面发出邪恶。因为心里充满的，口里自然会说出来。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "兩種蓋房子的人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太7‧24－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "“你们为什么‘主啊，主啊’地称呼我，却不遵行我的话呢？ "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "我要告诉你们那到我这里来，听了我的话又去遵行的人是什么样。 "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "他好比一个人盖房子，把地挖深，根基立在磐石上。当河流泛滥，洪水冲击房子时，房子却屹立不摇，因为它的根基稳固。 "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "但听了我的话却不遵行的人，好比一个人没有打根基，便将房子盖在地面上，洪水一冲，房子立刻倒塌，完全毁坏了。” "
+        }
+      ]
+    }
+  ]
+}

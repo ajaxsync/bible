@@ -1,0 +1,90 @@
+{
+  "book": 15,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "塞魯士下令猶太人返國"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now in the first year of Cyrus king of Persia, in order to fulfill the word of the Lord by the mouth of Jeremiah, the Lord stirred up the spirit of Cyrus king of Persia, so that he sent a proclamation throughout all his kingdom, and also put it in writing, saying: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Thus says Cyrus king of Persia, ‘The Lord, the God of heaven, has given me all the kingdoms of the earth and He has appointed me to build Him a house in Jerusalem, which is in Judah. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Whoever there is among you of all His people, may his God be with him! Let him go up to Jerusalem which is in Judah and rebuild the house of the Lord, the God of Israel; He is the God who is in Jerusalem. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Every survivor, at whatever place he may live, let the men of that place support him with silver and gold, with goods and cattle, together with a freewill offering for the house of God which is in Jerusalem.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then the heads of fathers’ households of Judah and Benjamin and the priests and the Levites arose, even everyone whose spirit God had stirred to go up and rebuild the house of the Lord which is in Jerusalem. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "All those about them encouraged them with articles of silver, with gold, with goods, with cattle and with valuables, aside from all that was given as a freewill offering. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Also King Cyrus brought out the articles of the house of the Lord, which Nebuchadnezzar had carried away from Jerusalem and put in the house of his gods; "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "and Cyrus, king of Persia, had them brought out by the hand of Mithredath the treasurer, and he counted them out to Sheshbazzar, the prince of Judah. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Now this was their number: 30 gold dishes, 1,000 silver dishes, 29 duplicates; "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "30 gold bowls, 410 silver bowls of a second kind and 1,000 other articles. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "All the articles of gold and silver numbered 5,400. Sheshbazzar brought them all up with the exiles who went up from Babylon to Jerusalem. "
+        }
+      ]
+    }
+  ]
+}

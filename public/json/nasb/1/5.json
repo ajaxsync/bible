@@ -1,0 +1,269 @@
+{
+  "book": 1,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞當的後代"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上1‧1－4）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This is the book of the generations of Adam. In the day when God created man, He made him in the likeness of God. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He created them male and female, and He blessed them and named them Man in the day when they were created. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "When Adam had lived one hundred and thirty years, he became the father of a son in his own likeness, according to his image, and named him Seth. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then the days of Adam after he became the father of Seth were eight hundred years, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "So all the days that Adam lived were nine hundred and thirty years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Seth lived one hundred and five years, and became the father of Enosh. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Then Seth lived eight hundred and seven years after he became the father of Enosh, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Seth were nine hundred and twelve years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Enosh lived ninety years, and became the father of Kenan. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Then Enosh lived eight hundred and fifteen years after he became the father of Kenan, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Enosh were nine hundred and five years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Kenan lived seventy years, and became the father of Mahalalel. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Then Kenan lived eight hundred and forty years after he became the father of Mahalalel, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Kenan were nine hundred and ten years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Mahalalel lived sixty-five years, and became the father of Jared. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Then Mahalalel lived eight hundred and thirty years after he became the father of Jared, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Mahalalel were eight hundred and ninety-five years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Jared lived one hundred and sixty-two years, and became the father of Enoch. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Then Jared lived eight hundred years after he became the father of Enoch, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Jared were nine hundred and sixty-two years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Enoch lived sixty-five years, and became the father of Methuselah. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Then Enoch walked with God three hundred years after he became the father of Methuselah, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Enoch were three hundred and sixty-five years. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Enoch walked with God; and he was not, for God took him. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Methuselah lived one hundred and eighty-seven years, and became the father of Lamech. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Then Methuselah lived seven hundred and eighty-two years after he became the father of Lamech, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Methuselah were nine hundred and sixty-nine years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Lamech lived one hundred and eighty-two years, and became the father of a son. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Now he called his name Noah, saying, “This one will give us rest from our work and from the toil of our hands arising from the ground which the Lord has cursed.” "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Then Lamech lived five hundred and ninety-five years after he became the father of Noah, and he had other sons and daughters. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Lamech were seven hundred and seventy-seven years, and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Noah was five hundred years old, and Noah became the father of Shem, Ham, and Japheth. "
+        }
+      ]
+    }
+  ]
+}

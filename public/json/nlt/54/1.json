@@ -1,0 +1,153 @@
+{
+  "book": 54,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This letter is from Paul, an apostle of Christ Jesus, appointed by the command of God our Savior and Christ Jesus, who gives us hope. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "I am writing to Timothy, my true son in the faith. May God the Father and Christ Jesus our Lord give you grace, mercy, and peace. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "警告虛偽的道理"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "When I left for Macedonia, I urged you to stay there in Ephesus and stop those whose teaching is contrary to the truth. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Don’t let them waste their time in endless discussion of myths and spiritual pedigrees. These things only lead to meaningless speculations, which don’t help people live a life of faith in God. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The purpose of my instruction is that all believers would be filled with love that comes from a pure heart, a clear conscience, and genuine faith. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "But some people have missed this whole point. They have turned away from these things and spend their time in meaningless discussions. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "They want to be known as teachers of the law of Moses, but they don’t know what they are talking about, even though they speak so confidently. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "We know that the law is good when used correctly. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "For the law was not intended for people who do what is right. It is for people who are lawless and rebellious, who are ungodly and sinful, who consider nothing sacred and defile what is holy, who kill their father or mother or commit other murders. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The law is for people who are sexually immoral, or who practice homosexuality, or are slave traders, liars, promise breakers, or who do anything else that contradicts the wholesome teaching "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "that comes from the glorious Good News entrusted to me by our blessed God. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "感謝神的憐憫"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "I thank Christ Jesus our Lord, who has given me strength to do his work. He considered me trustworthy and appointed me to serve him, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "even though I used to blaspheme the name of Christ. In my insolence, I persecuted his people. But God had mercy on me because I did it in ignorance and unbelief. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Oh, how generous and gracious our Lord was! He filled me with the faith and love that come from Christ Jesus. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "This is a trustworthy saying, and everyone should accept it: “Christ Jesus came into the world to save sinners”—and I am the worst of them all. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "But God had mercy on me so that Christ Jesus could use me as a prime example of his great patience with even the worst sinners. Then others will realize that they, too, can believe in him and receive eternal life. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "All honor and glory to God forever and ever! He is the eternal King, the unseen one who never dies; he alone is God. Amen. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Timothy, my son, here are my instructions for you, based on the prophetic words spoken about you earlier. May they help you fight well in the Lord’s battles. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Cling to your faith in Christ, and keep your conscience clear. For some people have deliberately violated their consciences; as a result, their faith has been shipwrecked. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Hymenaeus and Alexander are two examples. I threw them out and handed them over to Satan so they might learn not to blaspheme God. "
+        }
+      ]
+    }
+  ]
+}

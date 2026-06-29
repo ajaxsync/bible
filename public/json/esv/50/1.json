@@ -1,0 +1,213 @@
+{
+  "book": 50,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Paul and Timothy, servants of Christ Jesus, To all the saints in Christ Jesus who are at Philippi, with the overseers and deacons: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Grace to you and peace from God our Father and the Lord Jesus Christ. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "保羅為腓立比信徒禱告"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "I thank my God in all my remembrance of you, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "always in every prayer of mine for you all making my prayer with joy, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "because of your partnership in the gospel from the first day until now. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "It is right for me to feel this way about you all, because I hold you in my heart, for you are all partakers with me of grace, both in my imprisonment and in the defense and confirmation of the gospel. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "For God is my witness, how I yearn for you all with the affection of Christ Jesus. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "And it is my prayer that your love may abound more and more, with knowledge and all discernment, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "so that you may approve what is excellent, and so be pure and blameless for the day of Christ, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "filled with the fruit of righteousness that comes through Jesus Christ, to the glory and praise of God. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "我活着就是基督"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "I want you to know, brothers, that what has happened to me has really served to advance the gospel, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "so that it has become known throughout the whole imperial guard and to all the rest that my imprisonment is for Christ. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "And most of the brothers, having become confident in the Lord by my imprisonment, are much more bold to speak the word without fear. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Some indeed preach Christ from envy and rivalry, but others from good will. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "The latter do it out of love, knowing that I am put here for the defense of the gospel. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The former proclaim Christ out of selfish ambition, not sincerely but thinking to afflict me in my imprisonment. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed, and in that I rejoice. Yes, and I will rejoice, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "for I know that through your prayers and the help of the Spirit of Jesus Christ this will turn out for my deliverance, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "as it is my eager expectation and hope that I will not be at all ashamed, but that with full courage now as always Christ will be honored in my body, whether by life or by death. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "For to me to live is Christ, and to die is gain. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "If I am to live in the flesh, that means fruitful labor for me. Yet which I shall choose I cannot tell. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "I am hard pressed between the two. My desire is to depart and be with Christ, for that is far better. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "But to remain in the flesh is more necessary on your account. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Convinced of this, I know that I will remain and continue with you all, for your progress and joy in the faith, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "so that in me you may have ample cause to glory in Christ Jesus, because of my coming to you again. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Only let your manner of life be worthy of the gospel of Christ, so that whether I come and see you or am absent, I may hear of you that you are standing firm in one spirit, with one mind striving side by side for the faith of the gospel, "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "and not frightened in anything by your opponents. This is a clear sign to them of their destruction, but of your salvation, and that from God. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "engaged in the same conflict that you saw I had and now hear that I still have. "
+        }
+      ]
+    }
+  ]
+}

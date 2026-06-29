@@ -1,0 +1,327 @@
+{
+  "book": 2,
+  "chapter": 21,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "對待奴僕的條例"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（申15‧12－18）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“These are the laws you are to set before them: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“If you buy a Hebrew servant, he is to serve you for six years. But in the seventh year, he shall go free, without paying anything. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "If he comes alone, he is to go free alone; but if he has a wife when he comes, she is to go with him. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "If his master gives him a wife and she bears him sons or daughters, the woman and her children shall belong to her master, and only the man shall go free. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“But if the servant declares, ‘I love my master and my wife and children and do not want to go free,’ "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "then his master must take him before the judges. He shall take him to the door or the doorpost and pierce his ear with an awl. Then he will be his servant for life. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“If a man sells his daughter as a servant, she is not to go free as male servants do. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "If she does not please the master who has selected her for himself, he must let her be redeemed. He has no right to sell her to foreigners, because he has broken faith with her. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "If he selects her for his son, he must grant her the rights of a daughter. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "If he marries another woman, he must not deprive the first one of her food, clothing and marital rights. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "If he does not provide her with these three things, she is to go free, without any payment of money. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "懲罰暴行的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who strikes a person with a fatal blow is to be put to death. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "However, if it is not done intentionally, but God lets it happen, they are to flee to a place I will designate. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But if anyone schemes and kills someone deliberately, that person is to be taken from my altar and put to death. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who attacks their father or mother is to be put to death. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who kidnaps someone is to be put to death, whether the victim has been sold or is still in the kidnapper’s possession. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who curses their father or mother is to be put to death. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“If people quarrel and one person hits another with a stone or with their fist and the victim does not die but is confined to bed, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "the one who struck the blow will not be held liable if the other can get up and walk around outside with a staff; however, the guilty party must pay the injured person for any loss of time and see that the victim is completely healed. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who beats their male or female slave with a rod must be punished if the slave dies as a direct result, "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "but they are not to be punished if the slave recovers after a day or two, since the slave is their property. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“If people are fighting and hit a pregnant woman and she gives birth prematurely but there is no serious injury, the offender must be fined whatever the woman’s husband demands and the court allows. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "But if there is serious injury, you are to take life for life, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "eye for eye, tooth for tooth, hand for hand, foot for foot, "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "burn for burn, wound for wound, bruise for bruise. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“An owner who hits a male or female slave in the eye and destroys it must let the slave go free to compensate for the eye. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "And an owner who knocks out the tooth of a male or female slave must let the slave go free to compensate for the tooth. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "物主的責任"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "“If a bull gores a man or woman to death, the bull is to be stoned to death, and its meat must not be eaten. But the owner of the bull will not be held responsible. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "If, however, the bull has had the habit of goring and the owner has been warned but has not kept it penned up and it kills a man or woman, the bull is to be stoned and its owner also is to be put to death. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "However, if payment is demanded, the owner may redeem his life by the payment of whatever is demanded. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "This law also applies if the bull gores a son or daughter. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "If the bull gores a male or female slave, the owner must pay thirty shekels of silver to the master of the slave, and the bull is to be stoned to death. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone uncovers a pit or digs one and fails to cover it and an ox or a donkey falls into it, "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "the one who opened the pit must pay the owner for the loss and take the dead animal in exchange. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone’s bull injures someone else’s bull and it dies, the two parties are to sell the live one and divide both the money and the dead animal equally. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "However, if it was known that the bull had the habit of goring, yet the owner did not keep it penned up, the owner must pay, animal for animal, and take the dead animal in exchange. "
+        }
+      ]
+    }
+  ]
+}

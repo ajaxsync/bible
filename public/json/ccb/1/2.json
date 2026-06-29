@@ -1,0 +1,230 @@
+{
+  "book": 1,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "天地万物都造好了。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "第七天，上帝完成了祂的创造之工，就在第七天歇了一切的工。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "上帝赐福给第七天，将其定为圣日，因为祂在这一天歇了祂一切的创造之工。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "伊甸園"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "这是有关创造天地的记载。 耶和华上帝创造天地的时候， "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "地上还没有草木菜蔬，因为耶和华上帝还没有降雨在地上，土地也没有人耕作， "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "但有水从地里涌出，浇灌大地。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝用地上的尘土造了人，把生命的气息吹进他的鼻孔里，他就成了有生命的人。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝在东方的伊甸开辟了一个园子，把祂所造的人安置在里面。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝使地面长出各种树木，它们既好看又能结出可吃的果子。在园子的中间有生命树和分别善恶的树。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "有一条河从伊甸流出来灌溉那园子，又从那里分出四条支流。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "第一条支流叫比逊河，它环绕着哈腓拉全境。那里有金子， "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "且是上好的金子，还有珍珠和红玛瑙。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "第二条支流是基训河，它环绕着古实全境。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "第三条支流名叫底格里斯河，它流经亚述的东边。第四条支流是幼发拉底河。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝把那人安置在伊甸的园子里，让他在那里耕种、看管园子。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝吩咐那人说：“你可以随意吃园中所有树上的果子， "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "只是不可吃那棵分别善恶树的果子，因为你若吃了，当天必死。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝说：“那人独自一人不好，我要为他造一个相配的帮手。” "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝用尘土造了各种田野的走兽和空中的飞鸟，把它们带到那人跟前，看他怎么称呼这些动物。他叫这些动物什么，它们的名字就是什么。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "那人给所有的牲畜及田野的走兽和空中的飞鸟都起了名字。可是他找不到一个跟自己相配的帮手。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝使那人沉睡，然后从他身上取出一根肋骨，再把肉合起来。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝用那根肋骨造成一个女人，带到那人跟前。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "那人说： “这才是我的同类， 我骨中的骨，肉中的肉， 要称她为女人， 因为她是从男人身上取出来的。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "那人说： “这才是我的同类， 我骨中的骨，肉中的肉， 要称她为女人， 因为她是从男人身上取出来的。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "那人说： “这才是我的同类， 我骨中的骨，肉中的肉， 要称她为女人， 因为她是从男人身上取出来的。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "那人说： “这才是我的同类， 我骨中的骨，肉中的肉， 要称她为女人， 因为她是从男人身上取出来的。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "那人说： “这才是我的同类， 我骨中的骨，肉中的肉， 要称她为女人， 因为她是从男人身上取出来的。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "因此，人要离开父母，与妻子结合，二人成为一体。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "当时，他们夫妇二人都赤身露体，并不觉得羞耻。 "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "book": 42,
+  "chapter": 24,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶稣复活"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太28‧1－10；可16‧1－8；约20‧1－10）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "七日的头一日，黎明的时候，那些妇女带着所预备的香料来到坟墓前， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "看见石头已经从坟墓滚开了， "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "她们就进去，只是不见主耶稣的身体。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "正在猜疑之间，忽然有两个人站在旁边，衣服放光。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "妇女们惊怕，将脸伏地。那两个人就对她们说：「为甚么在死人中找活人呢？ "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他不在这里，已经复活了。当记念他还在加利利的时候怎样告诉你们， "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "说：『人子必须被交在罪人手里，钉在十字架上，第三日复活。』」 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "她们就想起耶稣的话来， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "便从坟墓那里回去，把这一切的事告诉十一个使徒和其余的人。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "那告诉使徒的就是抹大拉的马利亚和约亚拿，并雅各的母亲马利亚，还有与她们在一处的妇女。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "她们这些话，使徒以为是胡言，就不相信。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "彼得起来，跑到坟墓前，低头往里看，见细麻布独在一处，就回去了，心里希奇所成的事。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "在以马忤斯的路上"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可16‧12－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "正当那日，门徒中有两个人往一个村子去；这村子名叫以马忤斯，离耶路撒冷约有二十五里。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他们彼此谈论所遇见的这一切事。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "正谈论相问的时候，耶稣亲自就近他们，和他们同行； "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "只是他们的眼睛迷糊了，不认识他。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "耶稣对他们说：「你们走路彼此谈论的是甚么事呢？」他们就站住，脸上带着愁容。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "二人中有一个名叫革流巴的回答说：「你在耶路撒冷作客，还不知道这几天在那里所出的事吗？」 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "耶稣说：「甚么事呢？」他们说：「就是拿撒勒人耶稣的事。他是个先知，在神和众百姓面前，说话行事都有大能。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "祭司长和我们的官府竟把他解去，定了死罪，钉在十字架上。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "但我们素来所盼望、要赎以色列民的就是他！不但如此，而且这事成就，现在已经三天了。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "再者，我们中间有几个妇女使我们惊奇；她们清早到了坟墓那里， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "不见他的身体，就回来告诉我们，说看见了天使显现，说他活了。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "又有我们的几个人往坟墓那里去，所遇见的正如妇女们所说的，只是没有看见他。」 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "耶稣对他们说：「无知的人哪，先知所说的一切话，你们的心信得太迟钝了。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "基督这样受害，又进入他的荣耀，岂不是应当的吗？」 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "于是从摩西和众先知起，凡经上所指着自己的话都给他们讲解明白了。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "将近他们所去的村子，耶稣好像还要往前行， "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "他们却强留他，说：「时候晚了，日头已经平西了，请你同我们住下吧！」耶稣就进去，要同他们住下。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "到了坐席的时候，耶稣拿起饼来，祝谢了，擘开，递给他们。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "他们的眼睛明亮了，这才认出他来。忽然耶稣不见了。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "他们彼此说：「在路上，他和我们说话，给我们讲解圣经的时候，我们的心岂不是火热的吗？」 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "他们就立时起身，回耶路撒冷去，正遇见十一个使徒和他们的同人聚集在一处， "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "说：「主果然复活，已经现给西门看了。」 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "两个人就把路上所遇见，和擘饼的时候怎么被他们认出来的事，都述说了一遍。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "向门徒显现"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太28‧16－20；可16‧14－18；约20‧19－23；徒1‧6－8）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "正说这话的时候，耶稣亲自站在他们当中，说：「愿你们平安！」 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "他们却惊慌害怕，以为所看见的是魂。 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "耶稣说：「你们为甚么愁烦？为甚么心里起疑念呢？ "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "你们看我的手，我的脚，就知道实在是我了。摸我看看！魂无骨无肉，你们看，我是有的。」 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "说了这话，就把手和脚给他们看。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "他们正喜得不敢信，并且希奇；耶稣就说：「你们这里有甚么吃的没有？」 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "他们便给他一片烧鱼。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "他接过来，在他们面前吃了。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "耶稣对他们说：「这就是我从前与你们同在之时所告诉你们的话说：摩西的律法、先知的书，和诗篇上所记的，凡指着我的话都必须应验。」 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "于是耶稣开他们的心窍，使他们能明白圣经， "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "又对他们说：「照经上所写的，基督必受害，第三日从死里复活， "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "并且人要奉他的名传悔改、赦罪的道，从耶路撒冷起直传到万邦。 "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "你们就是这些事的见证。 "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "我要将我父所应许的降在你们身上，你们要在城里等候，直到你们领受从上头来的能力。」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶稣升天"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可16‧19－20；徒1‧9－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 49,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "耶稣领他们到伯大尼的对面，就举手给他们祝福。 "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "正祝福的时候，他就离开他们，被带到天上去了。 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "他们就拜他，大大地欢喜，回耶路撒冷去， "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "常在殿里称颂神。"
+        }
+      ]
+    }
+  ]
+}

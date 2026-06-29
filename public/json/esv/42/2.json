@@ -1,0 +1,460 @@
+{
+  "book": 42,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌降生"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太1‧18－25）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "In those days a decree went out from Caesar Augustus that all the world should be registered. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "This was the first registration when Quirinius was governor of Syria. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And all went to be registered, each to his own town. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And Joseph also went up from Galilee, from the town of Nazareth, to Judea, to the city of David, which is called Bethlehem, because he was of the house and lineage of David, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "to be registered with Mary, his betrothed, who was with child. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "And while they were there, the time came for her to give birth. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "天使報喜訊給牧羊的人"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "And in the same region there were shepherds out in the field, keeping watch over their flock by night. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "And an angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were filled with great fear. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "And the angel said to them, “Fear not, for behold, I bring you good news of great joy that will be for all the people. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "For unto you is born this day in the city of David a Savior, who is Christ the Lord. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "And this will be a sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.” "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "And suddenly there was with the angel a multitude of the heavenly host praising God and saying, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“Glory to God in the highest, and on earth peace among those with whom he is pleased!” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“Glory to God in the highest, and on earth peace among those with whom he is pleased!” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "When the angels went away from them into heaven, the shepherds said to one another, “Let us go over to Bethlehem and see this thing that has happened, which the Lord has made known to us.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "And they went with haste and found Mary and Joseph, and the baby lying in a manger. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "And when they saw it, they made known the saying that had been told them concerning this child. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "And all who heard it wondered at what the shepherds told them. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "But Mary treasured up all these things, pondering them in her heart. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "And the shepherds returned, glorifying and praising God for all they had heard and seen, as it had been told them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "And at the end of eight days, when he was circumcised, he was called Jesus, the name given by the angel before he was conceived in the womb. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "在聖殿裏獻與主"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "And when the time came for their purification according to the Law of Moses, they brought him up to Jerusalem to present him to the Lord "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "(as it is written in the Law of the Lord, “Every male who first opens the womb shall be called holy to the Lord”) "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "and to offer a sacrifice according to what is said in the Law of the Lord, “a pair of turtledoves, or two young pigeons.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Now there was a man in Jerusalem, whose name was Simeon, and this man was righteous and devout, waiting for the consolation of Israel, and the Holy Spirit was upon him. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "And it had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord’s Christ. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "And he came in the Spirit into the temple, and when the parents brought in the child Jesus, to do for him according to the custom of the Law, "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "he took him up in his arms and blessed God and said, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“Lord, now you are letting your servant depart in peace, according to your word; "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": "“Lord, now you are letting your servant depart in peace, according to your word;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "for my eyes have seen your salvation "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "that you have prepared in the presence of all peoples, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "a light for revelation to the Gentiles, and for glory to your people Israel.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": "a light for revelation to the Gentiles, and for glory to your people Israel.”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "And his father and his mother marveled at what was said about him. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "And Simeon blessed them and said to Mary his mother, “Behold, this child is appointed for the fall and rising of many in Israel, and for a sign that is opposed "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "And there was a prophetess, Anna, the daughter of Phanuel, of the tribe of Asher. She was advanced in years, having lived with her husband seven years from when she was a virgin, "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "and then as a widow until she was eighty-four. She did not depart from the temple, worshiping with fasting and prayer night and day. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "And coming up at that very hour she began to give thanks to God and to speak of him to all who were waiting for the redemption of Jerusalem. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "回拿撒勒"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "And when they had performed everything according to the Law of the Lord, they returned into Galilee, to their own town of Nazareth. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "And the child grew and became strong, filled with wisdom. And the favor of God was upon him. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "孩童耶穌在聖殿裏"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "Now his parents went to Jerusalem every year at the Feast of the Passover. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "And when he was twelve years old, they went up according to custom. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "And when the feast was ended, as they were returning, the boy Jesus stayed behind in Jerusalem. His parents did not know it, "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "but supposing him to be in the group they went a day’s journey, but then they began to search for him among their relatives and acquaintances, "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "and when they did not find him, they returned to Jerusalem, searching for him. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "After three days they found him in the temple, sitting among the teachers, listening to them and asking them questions. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "And all who heard him were amazed at his understanding and his answers. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "And when his parents saw him, they were astonished. And his mother said to him, “Son, why have you treated us so? Behold, your father and I have been searching for you in great distress.” "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "And he said to them, “Why were you looking for me? Did you not know that I must be in my Father’s house?” "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "And they did not understand the saying that he spoke to them. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "And he went down with them and came to Nazareth and was submissive to them. And his mother treasured up all these things in her heart. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "And Jesus increased in wisdom and in stature and in favor with God and man. "
+        }
+      ]
+    }
+  ]
+}

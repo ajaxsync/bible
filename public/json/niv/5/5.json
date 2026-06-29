@@ -1,0 +1,332 @@
+{
+  "book": 5,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "十誡"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（出20‧1－17）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Moses summoned all Israel and said: Hear, Israel, the decrees and laws I declare in your hearing today. Learn them and be sure to follow them. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The Lord our God made a covenant with us at Horeb. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "It was not with our ancestors that the Lord made this covenant, but with us, with all of us who are alive here today. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "The Lord spoke to you face to face out of the fire on the mountain. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "(At that time I stood between the Lord and you to declare to you the word of the Lord, because you were afraid of the fire and did not go up the mountain.) And he said: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“I am the Lord your God, who brought you out of Egypt, out of the land of slavery. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“You shall have no other gods before me. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not make for yourself an image in the form of anything in heaven above or on the earth beneath or in the waters below. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "You shall not bow down to them or worship them; for I, the Lord your God, am a jealous God, punishing the children for the sin of the parents to the third and fourth generation of those who hate me, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "but showing love to a thousand generations of those who love me and keep my commandments. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not misuse the name of the Lord your God, for the Lord will not hold anyone guiltless who misuses his name. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Observe the Sabbath day by keeping it holy, as the Lord your God has commanded you. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Six days you shall labor and do all your work, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "but the seventh day is a sabbath to the Lord your God. On it you shall not do any work, neither you, nor your son or daughter, nor your male or female servant, nor your ox, your donkey or any of your animals, nor any foreigner residing in your towns, so that your male and female servants may rest, as you do. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Remember that you were slaves in Egypt and that the Lord your God brought you out of there with a mighty hand and an outstretched arm. Therefore the Lord your God has commanded you to observe the Sabbath day. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“Honor your father and your mother, as the Lord your God has commanded you, so that you may live long and that it may go well with you in the land the Lord your God is giving you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not murder. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not commit adultery. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not steal. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not give false testimony against your neighbor. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not covet your neighbor’s wife. You shall not set your desire on your neighbor’s house or land, his male or female servant, his ox or donkey, or anything that belongs to your neighbor.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "These are the commandments the Lord proclaimed in a loud voice to your whole assembly there on the mountain from out of the fire, the cloud and the deep darkness; and he added nothing more. Then he wrote them on two stone tablets and gave them to me. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "百姓看見火焰燒山而懼怕"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（出20‧18－21）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "When you heard the voice out of the darkness, while the mountain was ablaze with fire, all the leaders of your tribes and your elders came to me. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "And you said, “The Lord our God has shown us his glory and his majesty, and we have heard his voice from the fire. Today we have seen that a person can live even if God speaks with them. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "But now, why should we die? This great fire will consume us, and we will die if we hear the voice of the Lord our God any longer. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "For what mortal has ever heard the voice of the living God speaking out of fire, as we have, and survived? "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Go near and listen to all that the Lord our God says. Then tell us whatever the Lord our God tells you. We will listen and obey.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "The Lord heard you when you spoke to me, and the Lord said to me, “I have heard what this people said to you. Everything they said was good. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Oh, that their hearts would be inclined to fear me and keep all my commands always, so that it might go well with them and their children forever! "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "“Go, tell them to return to their tents. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "But you stay here with me so that I may give you all the commands, decrees and laws you are to teach them to follow in the land I am giving them to possess.” "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "So be careful to do what the Lord your God has commanded you; do not turn aside to the right or to the left. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "Walk in obedience to all that the Lord your God has commanded you, so that you may live and prosper and prolong your days in the land that you will possess. "
+        }
+      ]
+    }
+  ]
+}

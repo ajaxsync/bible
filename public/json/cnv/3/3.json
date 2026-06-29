@@ -1,0 +1,115 @@
+{
+  "book": 3,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "平安祭的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“人的供物若是作平安祭，如果獻的是牛，必須在耶和華面前獻一頭沒有殘疾的公牛或母牛； "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他要按手在他的供物的頭上，在會幕門口宰殺牠；亞倫子孫作祭司的，要把血潑在祭壇的四周。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他要從平安祭中奉上獻給耶和華的火祭，就是把遮蓋內臟的脂肪，和內臟上的一切脂肪， "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "兩腎和腎上近腰旁的脂肪，和腎旁的肝葉，一起取下。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "亞倫的子孫要把這些放在祭壇炭火上的木柴上面，在燔祭上焚燒，作獻給耶和華馨香的火祭。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "人若是獻羊作平安祭的供物給耶和華，必須獻一隻沒有殘疾的公羊或母羊。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他獻的供物若是一隻綿羊羔，他要把牠牽到耶和華面前， "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "按手在他的供物的頭上，在會幕門口宰殺牠；亞倫的子孫要把羊血潑在祭壇的四周。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "他要從平安祭中奉上獻給耶和華的火祭，就是把羊的脂肪，從靠近脊骨的地方取下來的整條肥尾巴，遮蓋內臟的脂肪和在內臟上的一切脂肪， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "兩腎和腎上近腰的脂肪，和腎旁的肝葉，一起取下。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "祭司把這些焚燒在祭壇上，是獻給耶和華作食物的火祭。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“人的供物若是一隻山羊，就要把羊牽到耶和華面前， "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "按手在羊頭上，然後在會幕門口宰殺牠；亞倫的子孫要把血潑在祭壇的四周， "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他要從供物中奉上獻給耶和華的火祭，就是把遮蓋內臟的脂肪和內臟上的脂肪， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "祭司把這些焚燒在祭壇上，作為馨香火祭的食物。一切脂肪都是屬於耶和華的， "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "任何脂肪和血你們都不可吃。這是你們在一切住處一條世代永存的律例。” "
+        }
+      ]
+    }
+  ]
+}

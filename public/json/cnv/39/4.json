@@ -1,0 +1,65 @@
+{
+  "book": 39,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶和華的日子臨近"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "萬軍之耶和華說：“看哪！那日來到，像燒著的火爐一樣；驕傲的和作惡的，都必成為碎稭；那要來的日子，必把他們燒盡，不給他們留下一根一枝。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "可是，對你們敬畏我名的人，必有公義的太陽升起來；它的光線有醫治的功能；你們必出來跳躍，像欄裡的肥牛犢。” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "萬軍之耶和華說：“你們必踐踏惡人；在我施行作為的日子，他們必在你們腳掌之下成為塵土。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“你們要謹記我僕人摩西的律法，就是我在何烈山為以色列眾人所吩咐他的律例和典章。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“看哪！在耶和華大而可畏的日子來到以先，我必差派以利亞先知到你們那裡去。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他要使父親的心轉向兒女，兒女的心轉向父親，免得我來擊打這地，以至完全毀滅。” "
+        }
+      ]
+    }
+  ]
+}

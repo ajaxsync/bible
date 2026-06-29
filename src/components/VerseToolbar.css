@@ -1,0 +1,62 @@
+.verse-toolbar {
+  position: sticky;
+  bottom: 0;
+  margin-top: 24px;
+  padding: 12px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 -2px 12px rgba(15, 15, 15, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  z-index: 10;
+}
+
+.verse-toolbar-ref {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.verse-toolbar-btn {
+  padding: 8px 14px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.verse-toolbar-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.verse-hint {
+  margin-top: 24px;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: var(--text-light);
+  text-align: center;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+@media (max-width: 768px) {
+  .verse-toolbar {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    margin: 0;
+  }
+
+  .reader.has-verse-toolbar {
+    padding-bottom: 72px;
+  }
+}

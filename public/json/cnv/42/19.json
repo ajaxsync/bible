@@ -1,0 +1,389 @@
+{
+  "book": 42,
+  "chapter": 19,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌和撒該"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶穌進了耶利哥，正經過的時候， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "有一個人名叫撒該，是稅吏長，又很富有。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他想看看耶穌是怎麼樣的，因為人多，他又身材矮小，就看不見。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "於是他跑到前頭，爬上一棵桑樹，要看看耶穌，因為耶穌就要從那裡經過。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶穌到了那裡，往上一看，對他說：“撒該，快下來，今天我要住在你家裡。” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他就趕快下來，歡歡喜喜地接待耶穌。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "眾人看見就紛紛議論說：“他竟到罪人家裡去住宿！” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "撒該站著對主說：“主啊，請看，我要把家財的一半分給窮人，我若敲詐了誰，就還他四倍。” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "耶穌說：“今天救恩到了這家，他也是亞伯拉罕的子孫。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "因為人子來，是要尋找拯救失喪的人。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "十錠銀子的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太25‧14－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "眾人聽這些話的時候，因為耶穌已經接近耶路撒冷，又因他們以為　神的國快要出現，他就講了一個比喻， "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "說：“有一個貴族往遠方去要接受王位，然後回來。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他叫了自己的十個僕人來，給他們一千銀幣，說：‘你們拿去作生意，等到我回來。’ "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他本國的人卻恨他，就派使者跟著去說：‘我們不願意這個人作王統治我們。’ "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "他得了王位回來，就吩咐把那些領了錢的僕人召來，要知道他們作生意賺了多少。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "第一個走過來說：‘主啊，你的一百銀幣，已經賺了一千。’ "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "主人說：‘好，良善的僕人，你既然在最小的事上忠心，可以有權管理十座城。’ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "第二個來說：‘主啊，你的一百銀幣，已經賺了五百。’ "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "主人說：‘你可以管理五座城。’ "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "另一個來說：‘主啊，你看，你的一百銀幣，我一直保存在手巾裡， "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "因為我怕你，你一向是嚴厲的人，沒有存的要提取，沒有種的要收割。’ "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "主人說：‘可惡的僕人！我要憑你的口定你的罪。你知道我是嚴厲的人，沒有存的要提取，沒有種的要收割嗎？ "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "那你為甚麼不把我的錢存入銀行，等我回來的時候，把它連本帶利取回來呢？’ "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "他就對侍衛說：‘奪過他的一百銀幣，給那有一千的。’ "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "他們說：‘主啊，他已經有一千銀幣了。’ "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "主人說：‘我告訴你們，凡是有的，還要給他；沒有的，就算他有甚麼也要拿去。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "至於我那些仇敵，就是不願意我作王統治他們的，把他們拉到這裡來，在我面前殺掉！’” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "光榮地進耶路撒冷"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧1－11；可11‧1－11；約12‧12－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "耶穌講完這些話，就往前走，上耶路撒冷去。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "將到伯法其和伯大尼，就在橄欖山那裡，他差派兩個門徒， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "說：“你們往對面的村子裡去，走進去的時候，就會看見一頭從來沒有人騎過的小驢，拴在那裡，把牠解開牽來。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "如果有人問為甚麼解開牠，你們要這樣說：‘主需要牠。’” "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "被差的人去了，發現和主所說的一樣。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "他們解開小驢的時候，主人問他們：“你們為甚麼解開牠？” "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "他們說：“主需要牠。” "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "他們把小驢牽到耶穌那裡，把自己的衣服搭在上面，扶著耶穌上去。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "耶穌前行的時候，眾人把自己的衣服鋪在路上。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "他走近耶路撒冷，快要下橄欖山的時候，全體門徒因為所看見的一切神蹟，就歡樂起來，大聲讚美　神， "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "說： “奉主名來的王， 是應當稱頌的！ 在天上有和平， 在至高之處有榮耀！” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "說： “奉主名來的王， 是應當稱頌的！ 在天上有和平， 在至高之處有榮耀！”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "說： “奉主名來的王， 是應當稱頌的！ 在天上有和平， 在至高之處有榮耀！”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "說： “奉主名來的王， 是應當稱頌的！ 在天上有和平， 在至高之處有榮耀！”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "群眾中有幾個法利賽人對他說：“先生，責備你的門徒吧！” "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "耶穌說：“我告訴你們，他們若不出聲，石頭都要呼叫了。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "耶穌走近耶路撒冷的時候，看見了城，就為城哀哭， "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "說：“巴不得你在這日子，知道關於你平安的事，但現在這事在你眼前是隱藏的。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "日子將到，你的仇敵必築壘攻擊你，周圍環繞你，四面困住你， "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "要摧毀你和你裡面的兒女，沒有一塊石頭留在另一塊石頭上面，因為你不知道那眷顧你的時期。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "潔淨聖殿"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧12－17；可11‧15－19；約2‧13－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "耶穌進了聖殿，就趕走作買賣的人， "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "對他們說：“經上記著： ‘我的殿是禱告的殿’， 你們竟把它弄成賊窩了。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "對他們說：“經上記著： ‘我的殿是禱告的殿’， 你們竟把它弄成賊窩了。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "對他們說：“經上記著： ‘我的殿是禱告的殿’， 你們竟把它弄成賊窩了。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "他天天在聖殿裡教導人，祭司長、經學家和民間的首領，都想殺害他； "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "但他們不知道要怎樣下手，因為眾人都圍著他，聽他的教訓。 "
+        }
+      ]
+    }
+  ]
+}

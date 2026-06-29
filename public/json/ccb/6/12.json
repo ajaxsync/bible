@@ -1,0 +1,149 @@
+{
+  "book": 6,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "摩西擊敗的諸王"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "以色列人在约旦河东岸杀死了两个王，占据了他们的领土：自亚嫩谷直到黑门山，包括东面的整个亚拉巴。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "这两个王一个是住在希实本的亚摩利王西宏。他统辖的地区从亚嫩谷旁的亚罗珥，包括山谷中部和基列的一半，直到亚扪人边境的雅博河。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他的领土还包括约旦河谷东部：从加利利海至亚拉巴海，也就是盐海，到伯·耶西末，直到毗斯迦的山麓。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "另一个王是巴珊王噩，他原是利乏音的遗民，住在亚斯她录和以得来。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "他所统辖的地区包括黑门山、撒迦、整个巴珊，直到基述人和玛迦人的边境，还包括基列的另一半，直到希实本王西宏的国界。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "耶和华的仆人摩西带领以色列人征服了这两个王，摩西把他们的土地分给吕便支派、迦得支派和玛拿西半个支派的人作产业。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "約書亞擊敗的諸王"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "约书亚带领以色列人征服了约旦河西的诸王，占领的土地包括从黎巴嫩谷地的巴力·迦得直到西珥的哈拉山。约书亚按以色列的支派把这些土地分给以色列人。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "那里有山区、丘陵、河谷、山坡、旷野和南地，就是赫人、亚摩利人、迦南人、比利洗人、希未人、耶布斯人住的地方。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "这些王是耶利哥王、伯特利附近的艾王、 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "耶路撒冷王、希伯仑王、 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "耶末王、拉吉王、 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "伊矶伦王、基色王、 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "底璧王、基德王、 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "何珥玛王、亚拉得王、 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "立拿王、亚杜兰王、 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "玛基大王、伯特利王、 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "他普亚王、希弗王、 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "亚弗王、拉沙仑王、 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "玛顿王、夏琐王、 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "伸仑·米仑王、押煞王、 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "他纳王、米吉多王、 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "基低斯王、迦密附近的约念王、 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "多珥山上的多珥王、吉甲的戈印王、 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "得撒王，共三十一个王。 "
+        }
+      ]
+    }
+  ]
+}

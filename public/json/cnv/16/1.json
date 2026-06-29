@@ -1,0 +1,100 @@
+{
+  "book": 16,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "尼希米關心耶路撒冷"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "哈迦利亞的兒子尼希米的言行錄：亞達薛西王二十年基斯流月，我在書珊宮中， "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "哈迦利亞的兒子尼希米的言行錄：亞達薛西王二十年基斯流月，我在書珊宮中，"
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "我的一位兄弟哈拿尼和幾個人一起從猶大來到；我詢問他們關於那些從被擄逃脫的猶大餘民和關於耶路撒冷的景況。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他們對我說：“那些從被擄剩下的餘民，在猶大省那裡遭遇大患難，受到凌辱。耶路撒冷的城牆倒塌，城門也被火燒毀。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "我聽見了這些事，就坐下哭泣，悲傷了好幾天，在天上的　神面前禁食禱告， "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "說：“耶和華天上的　神，偉大可畏的　神啊，你向那些愛你，遵守你誡命的人，守約施慈愛。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "求你側著耳，睜著眼的，垂聽你僕人的禱告，我今天在你面前晝夜為著你的僕人以色列人禱告，承認以色列人所犯的罪，就是我與我父的家向你所犯的罪。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我們故意行極大的惡事得罪你，沒有遵守你吩咐你僕人摩西的誡命、律例和典章。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "求你記念你吩咐你僕人摩西的話，說：‘你們若是不忠，我就把你們分散在萬民中。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "但如果你們回心轉意歸向我，謹守遵行我的誡命，即使在你們被趕逐的天邊，我也必從那裡把他們招聚回來，帶他們到我選擇給我的名居住的地方那裡去。’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "這些都是你的僕人，你的子民，是你用你的大能和你強而有力的手所救贖的。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "主啊，求你留意聽你僕人的禱告，也聽那些喜愛敬畏你名的僕人的禱告；求你使你的僕人今天順利，使他在這人面前蒙憐憫。”那時我是王的酒政。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "主啊，求你留意聽你僕人的禱告，也聽那些喜愛敬畏你名的僕人的禱告；求你使你的僕人今天順利，使他在這人面前蒙憐憫。”那時我是王的酒政。"
+        }
+      ]
+    }
+  ]
+}

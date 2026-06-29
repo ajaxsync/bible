@@ -1,0 +1,457 @@
+{
+  "book": 14,
+  "chapter": 6,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "所羅門向人民宣告"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（王上8‧12－21）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那时，所罗门说： “耶和华啊， 你曾说你要住在密云中， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "那时，所罗门说： “耶和华啊， 你曾说你要住在密云中，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "现在我为你建造了殿宇， 作你永远的居所。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "现在我为你建造了殿宇， 作你永远的居所。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "王转身为站立在那里的以色列全体会众祝福。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他说：“以色列的上帝耶和华当受称颂！祂亲口给我父大卫的应许，祂也亲手成就了！ "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "祂曾说，‘自从我把我的子民带出埃及以来，我并没有在以色列众支派中选出一座城建造殿宇作为我名所在之地，也没有选立一人做我以色列子民的君王。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "但如今，我拣选了耶路撒冷作为我名所在之地，又拣选了大卫来治理我的以色列子民。’” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "所罗门又说：“我父大卫曾想建一座殿来尊崇以色列的上帝耶和华之名， "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "但耶和华对我父大卫说，‘你想为我建殿，这番心意是好的， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "但你不要建，要由你的亲生儿子为我建殿。’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "现在耶和华已经成就祂的应许，让我继承我父大卫的王位统治以色列，又为以色列的上帝耶和华的名建了殿。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "我把约柜安放在里面，约柜里有耶和华与以色列人所立的约。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "所羅門的禱告"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（王上8‧22－53）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "所罗门当着以色列会众的面，站在耶和华的坛前，向天伸出双手祷告。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他曾造一个长二点二五米，宽二点二五米，高一点三五米的铜台，放在院子中间。他站在台上，当着以色列会众的面跪下，向天伸出双手， "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "祷告说：“以色列的上帝耶和华啊，天上地下没有神明可以与你相比！你向尽心遵行你旨意的仆人守约、施慈爱。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "你持守给你仆人——我父大卫的应许，你曾亲口应许，你今天亲手成就了。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "以色列的上帝耶和华啊，你曾对你仆人——我父大卫说，‘若你的子孙像你一样谨慎行事，遵行我的律法，你的王朝就不会中断。’求你信守这应许。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "以色列的上帝耶和华啊，求你实现你给你仆人大卫的应许。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“然而，上帝啊，你真的会住在人间吗？看啊，诸天尚且不够你居住，更何况我建造的这殿呢？ "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "可是，我的上帝耶和华啊，求你垂顾你仆人的祷告和祈求，垂听你仆人在你面前的呼求和祷告。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "愿你昼夜看顾这殿——你应许立你名的地方！你仆人向着这地方祷告的时候，求你垂听。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "你仆人和你的以色列子民向这地方祈祷的时候，求你从你天上的居所垂听，赦免我们的罪。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人得罪邻舍，被叫到这殿中，在你的坛前起誓， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "求你从天上垂听，在你众仆人当中施行审判，按他们的行为罚恶赏善。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“当你的以色列子民因得罪你而败在敌人手中时，如果他们回心转意归向你，承认你的名，在这殿里祈祷， "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "求你从天上垂听，赦免他们的罪，带领他们回到你赐给他们和他们祖先的土地上。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“当你的子民得罪你，你惩罚他们，使天不降雨时，如果他们向着这地方祷告，承认你的名，并离开罪恶， "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "求你在天上垂听，赦免你仆人——你以色列子民的罪，教导他们走正道，降下甘霖滋润你赐给你子民作产业的土地。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "“如果国中有饥荒、瘟疫、旱灾、霉病、蝗灾、虫灾，或是城邑被敌人围困，无论遭遇什么灾祸疾病， "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "只要你的以色列子民，或个人或全体，自知心中痛苦并向着这殿伸手祷告，无论祈求什么， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "求你从天上的居所垂听，赦免他们。唯独你能洞察人心，你必按各人的行为施行赏罚， "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "使你的子民在你赐给我们祖先的土地上终生敬畏你，遵行你的道。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "“如果有远方的外族人听说你的大能大力，慕名而来，向着这殿祷告， "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "求你从天上的居所垂听，应允他们的祈求，好叫天下万民都像你的以色列子民一样认识你的名、敬畏你，并知道我建造的这殿属于你的名下。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“你的子民奉你的命令上阵与敌人作战，无论他们在哪里，如果他们向着你选择的这城和我为你建造的这殿祷告， "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "求你从天上垂听，使他们得胜。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "“世上没有不犯罪的人，如果你的子民得罪你，以致你向他们发怒，让敌人把他们掳走，不论远近， "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "若他们在那里回心转意，向你恳求，承认自己犯罪作恶了； "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "若他们全心全意地归向你，朝着你赐给他们祖先的这片土地、你选择的这城和我为你建的这殿向你祷告， "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "求你从你天上的居所垂听他们的祈求，为他们伸张正义，赦免得罪你的子民。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“我的上帝啊， 求你睁眼看、侧耳听在这殿里献上的祷告。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝啊， 愿你起来与你大能的约柜一同进入你的安息之所！ 耶和华上帝啊， 愿你的祭司披上救恩， 愿你的圣民蒙福欢乐！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": "耶和华上帝啊， 愿你起来与你大能的约柜一同进入你的安息之所！ 耶和华上帝啊， 愿你的祭司披上救恩， 愿你的圣民蒙福欢乐！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": "耶和华上帝啊， 愿你起来与你大能的约柜一同进入你的安息之所！ 耶和华上帝啊， 愿你的祭司披上救恩， 愿你的圣民蒙福欢乐！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": "耶和华上帝啊， 愿你起来与你大能的约柜一同进入你的安息之所！ 耶和华上帝啊， 愿你的祭司披上救恩， 愿你的圣民蒙福欢乐！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "耶和华上帝啊， 求你不要厌弃你所膏立的人， 顾念你曾应许以慈爱待你的仆人大卫。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": "耶和华上帝啊， 求你不要厌弃你所膏立的人， 顾念你曾应许以慈爱待你的仆人大卫。”"
+        }
+      ]
+    }
+  ]
+}

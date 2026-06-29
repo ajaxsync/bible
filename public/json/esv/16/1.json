@@ -1,0 +1,100 @@
+{
+  "book": 16,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "尼希米關心耶路撒冷"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The words of Nehemiah the son of Hacaliah. Now it happened in the month of Chislev, in the twentieth year, as I was in Susa the citadel, "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "The words of Nehemiah the son of Hacaliah. Now it happened in the month of Chislev, in the twentieth year, as I was in Susa the citadel,"
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "that Hanani, one of my brothers, came with certain men from Judah. And I asked them concerning the Jews who escaped, who had survived the exile, and concerning Jerusalem. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And they said to me, “The remnant there in the province who had survived the exile is in great trouble and shame. The wall of Jerusalem is broken down, and its gates are destroyed by fire.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And I said, “O Lord God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "let your ear be attentive and your eyes open, to hear the prayer of your servant that I now pray before you day and night for the people of Israel your servants, confessing the sins of the people of Israel, which we have sinned against you. Even I and my father’s house have sinned. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "We have acted very corruptly against you and have not kept the commandments, the statutes, and the rules that you commanded your servant Moses. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Remember the word that you commanded your servant Moses, saying, ‘If you are unfaithful, I will scatter you among the peoples, "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "but if you return to me and keep my commandments and do them, though your outcasts are in the uttermost parts of heaven, from there I will gather them and bring them to the place that I have chosen, to make my name dwell there.’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They are your servants and your people, whom you have redeemed by your great power and by your strong hand. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "O Lord, let your ear be attentive to the prayer of your servant, and to the prayer of your servants who delight to fear your name, and give success to your servant today, and grant him mercy in the sight of this man.” Now I was cupbearer to the king. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "O Lord, let your ear be attentive to the prayer of your servant, and to the prayer of your servants who delight to fear your name, and give success to your servant today, and grant him mercy in the sight of this man.” Now I was cupbearer to the king."
+        }
+      ]
+    }
+  ]
+}

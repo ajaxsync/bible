@@ -1,0 +1,372 @@
+{
+  "book": 4,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞倫的兒子們"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now these are the records of the generations of Aaron and Moses at the time when the Lord spoke with Moses on Mount Sinai. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "These then are the names of the sons of Aaron: Nadab the firstborn, and Abihu, Eleazar and Ithamar. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "These are the names of the sons of Aaron, the anointed priests, whom he ordained to serve as priests. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "But Nadab and Abihu died before the Lord when they offered strange fire before the Lord in the wilderness of Sinai; and they had no children. So Eleazar and Ithamar served as priests in the lifetime of their father Aaron. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人被派作祭司"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord spoke to Moses, saying, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“Bring the tribe of Levi near and set them before Aaron the priest, that they may serve him. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "They shall perform the duties for him and for the whole congregation before the tent of meeting, to do the service of the tabernacle. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "They shall also keep all the furnishings of the tent of meeting, along with the duties of the sons of Israel, to do the service of the tabernacle. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "You shall thus give the Levites to Aaron and to his sons; they are wholly given to him from among the sons of Israel. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "So you shall appoint Aaron and his sons that they may keep their priesthood, but the layman who comes near shall be put to death.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Again the Lord spoke to Moses, saying, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Now, behold, I have taken the Levites from among the sons of Israel instead of every firstborn, the first issue of the womb among the sons of Israel. So the Levites shall be Mine. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "For all the firstborn are Mine; on the day that I struck down all the firstborn in the land of Egypt, I sanctified to Myself all the firstborn in Israel, from man to beast. They shall be Mine; I am the Lord.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人男丁的統計"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord spoke to Moses in the wilderness of Sinai, saying, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“Number the sons of Levi by their fathers’ households, by their families; every male from a month old and upward you shall number.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "So Moses numbered them according to the word of the Lord, just as he had been commanded. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "These then are the sons of Levi by their names: Gershon and Kohath and Merari. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "These are the names of the sons of Gershon by their families: Libni and Shimei; "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "and the sons of Kohath by their families: Amram and Izhar, Hebron and Uzziel; "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "and the sons of Merari by their families: Mahli and Mushi. These are the families of the Levites according to their fathers’ households. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Of Gershon was the family of the Libnites and the family of the Shimeites; these were the families of the Gershonites. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Their numbered men, in the numbering of every male from a month old and upward, even their numbered men were 7,500. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "The families of the Gershonites were to camp behind the tabernacle westward, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "and the leader of the fathers’ households of the Gershonites was Eliasaph the son of Lael. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Now the duties of the sons of Gershon in the tent of meeting involved the tabernacle and the tent, its covering, and the screen for the doorway of the tent of meeting, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "and the hangings of the court, and the screen for the doorway of the court which is around the tabernacle and the altar, and its cords, according to all the service concerning them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Of Kohath was the family of the Amramites and the family of the Izharites and the family of the Hebronites and the family of the Uzzielites; these were the families of the Kohathites. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "In the numbering of every male from a month old and upward, there were 8,600, performing the duties of the sanctuary. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "The families of the sons of Kohath were to camp on the southward side of the tabernacle, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "and the leader of the fathers’ households of the Kohathite families was Elizaphan the son of Uzziel. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Now their duties involved the ark, the table, the lampstand, the altars, and the utensils of the sanctuary with which they minister, and the screen, and all the service concerning them; "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "and Eleazar the son of Aaron the priest was the chief of the leaders of Levi, and had the oversight of those who perform the duties of the sanctuary. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "Of Merari was the family of the Mahlites and the family of the Mushites; these were the families of Merari. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Their numbered men in the numbering of every male from a month old and upward, were 6,200. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "The leader of the fathers’ households of the families of Merari was Zuriel the son of Abihail. They were to camp on the northward side of the tabernacle. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Now the appointed duties of the sons of Merari involved the frames of the tabernacle, its bars, its pillars, its sockets, all its equipment, and the service concerning them, "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "and the pillars around the court with their sockets and their pegs and their cords. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Now those who were to camp before the tabernacle eastward, before the tent of meeting toward the sunrise, are Moses and Aaron and his sons, performing the duties of the sanctuary for the obligation of the sons of Israel; but the layman coming near was to be put to death. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "All the numbered men of the Levites, whom Moses and Aaron numbered at the command of the Lord by their families, every male from a month old and upward, were 22,000. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人代替長子的地位"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, “Number every firstborn male of the sons of Israel from a month old and upward, and make a list of their names. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "You shall take the Levites for Me, I am the Lord, instead of all the firstborn among the sons of Israel, and the cattle of the Levites instead of all the firstborn among the cattle of the sons of Israel.” "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "So Moses numbered all the firstborn among the sons of Israel, just as the Lord had commanded him; "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "and all the firstborn males by the number of names from a month old and upward, for their numbered men were 22,273. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord spoke to Moses, saying, "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“Take the Levites instead of all the firstborn among the sons of Israel and the cattle of the Levites. And the Levites shall be Mine; I am the Lord. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "For the ransom of the 273 of the firstborn of the sons of Israel who are in excess beyond the Levites, "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "you shall take five shekels apiece, per head; you shall take them in terms of the shekel of the sanctuary (the shekel is twenty gerahs), "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "and give the money, the ransom of those who are in excess among them, to Aaron and to his sons.” "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "So Moses took the ransom money from those who were in excess, beyond those ransomed by the Levites; "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "from the firstborn of the sons of Israel he took the money in terms of the shekel of the sanctuary, 1,365. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses gave the ransom money to Aaron and to his sons, at the command of the Lord, just as the Lord had commanded Moses. "
+        }
+      ]
+    }
+  ]
+}

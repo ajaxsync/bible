@@ -1,0 +1,85 @@
+{
+  "book": 32,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "約拿順服耶和華"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和華的話再次臨到約拿，說： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“起來！到尼尼微大城去，向其中的居民宣告我所吩咐你的話。” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "約拿就動身，照耶和華的話往尼尼微去了，這尼尼微是一座極大的城，要三天才能走完。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "約拿進城，走了一天，就宣告說：“再過四十天，尼尼微就要毀滅了。” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "尼尼微人信了 　神，就宣告禁食，從大到小，都穿上麻衣。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "這事傳到尼尼微王那裡，他就起來，離開寶座，脫去王袍，披上麻衣，坐在爐灰中。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他又傳諭全尼尼微，說：“王和大臣有令：‘人、畜、牛、羊，都不准嘗甚麼，不准吃，也不准喝。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "不論人畜，都要披上麻衣；各人要懇切呼求　神，悔改，離開惡行，摒棄手中的強暴。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "或者　神回心轉意，不發烈怒，使我們不致滅亡。’” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "　神看見他們所作的，就是悔改離開惡行，　神就轉意，不把所說的災禍降在他們身上了。 "
+        }
+      ]
+    }
+  ]
+}

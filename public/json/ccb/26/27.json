@@ -1,0 +1,765 @@
+{
+  "book": 26,
+  "chapter": 27,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "哀悼泰爾的輓歌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对我说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“人子啊，你要为泰尔唱哀歌， "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "告诉位于海口、跟沿海各民族通商的泰尔，主耶和华这样说， “‘泰尔啊， 你曾夸耀自己完美无瑕。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "告诉位于海口、跟沿海各民族通商的泰尔，主耶和华这样说， “‘泰尔啊， 你曾夸耀自己完美无瑕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "告诉位于海口、跟沿海各民族通商的泰尔，主耶和华这样说， “‘泰尔啊， 你曾夸耀自己完美无瑕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "你的势力在大海上， 你的建造者把你造得完美无瑕。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "你的势力在大海上， 你的建造者把你造得完美无瑕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "他们用示尼珥的松木做你的船板， 用黎巴嫩的香柏木做桅杆， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "他们用示尼珥的松木做你的船板， 用黎巴嫩的香柏木做桅杆，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "用巴珊的橡木做你的桨， 把象牙镶嵌在基提沿岸的黄杨木上做甲板， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "用巴珊的橡木做你的桨， 把象牙镶嵌在基提沿岸的黄杨木上做甲板， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "用埃及来的绣花细麻布做你的帆， 成为你的旗号， 用伊利沙岛来的蓝布和紫布做船篷。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "用埃及来的绣花细麻布做你的帆， 成为你的旗号， 用伊利沙岛来的蓝布和紫布做船篷。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "用埃及来的绣花细麻布做你的帆， 成为你的旗号， 用伊利沙岛来的蓝布和紫布做船篷。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "西顿和亚发的居民是你的船夫， 你的智者在船上为你掌舵。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "西顿和亚发的居民是你的船夫， 你的智者在船上为你掌舵。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "迦巴勒的老手和智者在船上为你修补船篷， 所有海洋的船只和水手都来与你做生意。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "迦巴勒的老手和智者在船上为你修补船篷， 所有海洋的船只和水手都来与你做生意。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "迦巴勒的老手和智者在船上为你修补船篷， 所有海洋的船只和水手都来与你做生意。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "迦巴勒的老手和智者在船上为你修补船篷， 所有海洋的船只和水手都来与你做生意。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“‘你军队中的战士有波斯人、路德人、弗人，他们在你的墙上挂起盾牌和头盔，展示你的光彩。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "亚发人和你的军队都守卫在你的城墙上，歌玛底人把守你的城楼，他们都在墙上挂满盾牌，使你完美无瑕。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“‘他施人因你有丰富的货物，就拿银、铁、锡、铅来跟你交易。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "雅完人、土巴人、米设人也跟你通商，用奴隶和铜器来换取你的货物。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "陀迦玛人用马匹、战马和骡子来跟你交易。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "底但人也是你的客商，你的市场远及沿海一带，他们拿象牙、乌木来跟你交易。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "因为你的货物丰富，亚兰人也成了你的客户，他们用绿宝石、紫布、刺绣、细麻布、珊瑚和红宝石与你交换货物。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "犹大和以色列也是你的客商，他们用米匿的麦、饼、蜜、油和香料与你交换货物。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "大马士革见你的货物丰富，就用黑本的酒和沙哈的羊毛来跟你交易。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "从乌萨来的威但人和雅完人用铁、肉桂、菖蒲与你交换货物。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "底但人用马鞍垫来跟你交易。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "阿拉伯人和基达的所有首领都来做你的客商，他们用羊羔、绵羊和山羊来跟你交易。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "示巴和拉玛的商人用各类上等香料、宝石和黄金交换你的货物。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "哈兰、干尼、伊甸、示巴、亚述和基抹的商人都来跟你交易， "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "他们把华丽衣服、蓝布、刺绣和彩色地毯捆扎结实，拿来跟你交易。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "“‘他施的船只替你运货， 你在海上载满沉甸甸的货物。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "“‘他施的船只替你运货， 你在海上载满沉甸甸的货物。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "船夫把你摇到汪洋之中， 但东风要把你击碎在海中。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "船夫把你摇到汪洋之中， 但东风要把你击碎在海中。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "你的财富、货物、商品、 水手、舵手、缝匠、客商、 战士和人民在你倾覆的日子都要沉到深海里。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "你的财富、货物、商品、 水手、舵手、缝匠、客商、 战士和人民在你倾覆的日子都要沉到深海里。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "你的财富、货物、商品、 水手、舵手、缝匠、客商、 战士和人民在你倾覆的日子都要沉到深海里。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "你的财富、货物、商品、 水手、舵手、缝匠、客商、 战士和人民在你倾覆的日子都要沉到深海里。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": "你的财富、货物、商品、 水手、舵手、缝匠、客商、 战士和人民在你倾覆的日子都要沉到深海里。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "你舵手的哀号声必震动海岸， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": "你舵手的哀号声必震动海岸，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "所有的船夫、水手、舵手都必弃船登岸， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": "所有的船夫、水手、舵手都必弃船登岸，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": "所有的船夫、水手、舵手都必弃船登岸，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "为你放声痛哭， 把尘埃撒在头上， 在灰中打滚， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "为你放声痛哭， 把尘埃撒在头上， 在灰中打滚，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "为你放声痛哭， 把尘埃撒在头上， 在灰中打滚，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "又为你剃头披麻， 悲痛哀伤。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": "又为你剃头披麻， 悲痛哀伤。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": "又为你剃头披麻， 悲痛哀伤。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": "又为你剃头披麻， 悲痛哀伤。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "他们在痛哭中为你唱起哀歌， 哀悼你说， 有哪一座城像泰尔一样在深海中销声匿迹呢？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": "他们在痛哭中为你唱起哀歌， 哀悼你说， 有哪一座城像泰尔一样在深海中销声匿迹呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": "他们在痛哭中为你唱起哀歌， 哀悼你说， 有哪一座城像泰尔一样在深海中销声匿迹呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": "他们在痛哭中为你唱起哀歌， 哀悼你说， 有哪一座城像泰尔一样在深海中销声匿迹呢？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "你的货物由海上运出， 满足了许多国家； 你的资财和货物使地上的君王富裕。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": "你的货物由海上运出， 满足了许多国家； 你的资财和货物使地上的君王富裕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": "你的货物由海上运出， 满足了许多国家； 你的资财和货物使地上的君王富裕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": "你的货物由海上运出， 满足了许多国家； 你的资财和货物使地上的君王富裕。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "然而，如今你在汪洋中被海浪击碎， 你的货物和人民都一同沉没了。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": "然而，如今你在汪洋中被海浪击碎， 你的货物和人民都一同沉没了。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": "然而，如今你在汪洋中被海浪击碎， 你的货物和人民都一同沉没了。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "沿海的居民因你而惊骇， 君王都吓得面容失色。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "沿海的居民因你而惊骇， 君王都吓得面容失色。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "沿海的居民因你而惊骇， 君王都吓得面容失色。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "各国商人都嗤笑你， 你那可怕的末日来临了， 你将永远不复存在。’” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": "各国商人都嗤笑你， 你那可怕的末日来临了， 你将永远不复存在。’”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": "各国商人都嗤笑你， 你那可怕的末日来临了， 你将永远不复存在。’”"
+        }
+      ]
+    }
+  ]
+}

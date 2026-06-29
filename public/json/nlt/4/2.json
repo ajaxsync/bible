@@ -1,0 +1,245 @@
+{
+  "book": 4,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "各支派在營地的位置"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord gave these instructions to Moses and Aaron: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“When the Israelites set up camp, each tribe will be assigned its own area. The tribal divisions will camp beneath their family banners on all four sides of the Tabernacle, but at some distance from it. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "在東邊，向日出之地，照着軍隊安營的是猶大營的纛。有亞米拿達的兒子拿順作猶大人的首領。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有七萬四千六百名。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "挨着他安營的是以薩迦支派。有蘇押的兒子拿坦業作以薩迦人的首領。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有五萬四千四百名。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "又有西布倫支派。希倫的兒子以利押作西布倫人的首領。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有五萬七千四百名。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "So the total of all the troops on Judah’s side of the camp is 186,400. These three tribes are to lead the way whenever the Israelites travel to a new campsite. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "「在南邊，按着軍隊是呂便營的纛。有示丟珥的兒子以利蓿作呂便人的首領。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有四萬六千五百名。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "挨着他安營的是西緬支派。蘇利沙代的兒子示路蔑作西緬人的首領。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有五萬九千三百名。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "又有迦得支派。丟珥的兒子以利雅薩作迦得人的首領。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有四萬五千六百五十名， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "So the total of all the troops on Reuben’s side of the camp is 151,450. These three tribes will be second in line whenever the Israelites travel. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“Then the Tabernacle, carried by the Levites, will set out from the middle of the camp. All the tribes are to travel in the same order that they camp, each in position under the appropriate family banner. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "「在西邊，按着軍隊是以法蓮營的纛。亞米忽的兒子以利沙瑪作以法蓮人的首領。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有四萬零五百名。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "挨着他的是瑪拿西支派。比大蓿的兒子迦瑪列作瑪拿西人的首領。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有三萬二千二百名。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "又有便雅憫支派。基多尼的兒子亞比但作便雅憫人的首領。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有三萬五千四百名。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "So the total of all the troops on Ephraim’s side of the camp is 108,100. These three tribes will be third in line whenever the Israelites travel. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "「在北邊，按着軍隊是但營的纛。亞米沙代的兒子亞希以謝作但人的首領。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有六萬二千七百名。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "挨着他安營的是亞設支派。俄蘭的兒子帕結作亞設人的首領。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有四萬一千五百名。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "又有拿弗他利支派。以南的兒子亞希拉作拿弗他利人的首領。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "他軍隊被數的，共有五萬三千四百名。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "So the total of all the troops on Dan’s side of the camp is 157,600. These three tribes will be last, marching under their banners whenever the Israelites travel.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "In summary, the troops of Israel listed by their families totaled 603,550. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "But as the Lord had commanded, the Levites were not included in this registration. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "So the people of Israel did everything as the Lord had commanded Moses. Each clan and family set up camp and marched under their banners exactly as the Lord had instructed them. "
+        }
+      ]
+    }
+  ]
+}

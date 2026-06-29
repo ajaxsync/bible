@@ -1,0 +1,414 @@
+{
+  "book": 3,
+  "chapter": 13,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關皮膚病的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses and Aaron, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone has a swelling or a rash or discolored skin that might develop into a serious skin disease, that person must be brought to Aaron the priest or to one of his sons. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The priest will examine the affected area of the skin. If the hair in the affected area has turned white and the problem appears to be more than skin-deep, it is a serious skin disease, and the priest who examines it must pronounce the person ceremonially unclean. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“But if the affected area of the skin is only a white discoloration and does not appear to be more than skin-deep, and if the hair on the spot has not turned white, the priest will quarantine the person for seven days. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest will make another examination. If he finds the affected area has not changed and the problem has not spread on the skin, the priest will quarantine the person for seven more days. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest will make another examination. If he finds the affected area has faded and has not spread, the priest will pronounce the person ceremonially clean. It was only a rash. The person’s clothing must be washed, and the person will be ceremonially clean. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "But if the rash continues to spread after the person has been examined by the priest and has been pronounced clean, the infected person must return to be examined again. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "If the priest finds that the rash has spread, he must pronounce the person ceremonially unclean, for it is indeed a skin disease. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who develops a serious skin disease must go to the priest for an examination. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "If the priest finds a white swelling on the skin, and some hair on the spot has turned white, and there is an open sore in the affected area, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "it is a chronic skin disease, and the priest must pronounce the person ceremonially unclean. In such cases the person need not be quarantined, for it is obvious that the skin is defiled by the disease. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Now suppose the disease has spread all over the person’s skin, covering the body from head to foot. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "When the priest examines the infected person and finds that the disease covers the entire body, he will pronounce the person ceremonially clean. Since the skin has turned completely white, the person is clean. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But if any open sores appear, the infected person will be pronounced ceremonially unclean. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The priest must make this pronouncement as soon as he sees an open sore, since open sores indicate the presence of a skin disease. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "However, if the open sores heal and turn white like the rest of the skin, the person must return to the priest "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "for another examination. If the affected areas have indeed turned white, the priest will then pronounce the person ceremonially clean by declaring, ‘You are clean!’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone has a boil on the skin that has started to heal, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "but a white swelling or a reddish white spot develops in its place, that person must go to the priest to be examined. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "If the priest examines it and finds it to be more than skin-deep, and if the hair in the affected area has turned white, the priest must pronounce the person ceremonially unclean. The boil has become a serious skin disease. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "But if the priest finds no white hair on the affected area and the problem appears to be no more than skin-deep and has faded, the priest must quarantine the person for seven days. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "If during that time the affected area spreads on the skin, the priest must pronounce the person ceremonially unclean, because it is a serious disease. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "But if the area grows no larger and does not spread, it is merely the scar from the boil, and the priest will pronounce the person ceremonially clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone has suffered a burn on the skin and the burned area changes color, becoming either reddish white or shiny white, "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "the priest must examine it. If he finds that the hair in the affected area has turned white and the problem appears to be more than skin-deep, a skin disease has broken out in the burn. The priest must then pronounce the person ceremonially unclean, for it is clearly a serious skin disease. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "But if the priest finds no white hair on the affected area and the problem appears to be no more than skin-deep and has faded, the priest must quarantine the infected person for seven days. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest must examine the person again. If the affected area has spread on the skin, the priest must pronounce that person ceremonially unclean, for it is clearly a serious skin disease. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "But if the affected area has not changed or spread on the skin and has faded, it is simply a swelling from the burn. The priest will then pronounce the person ceremonially clean, for it is only the scar from the burn. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone, either a man or woman, has a sore on the head or chin, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "the priest must examine it. If he finds it is more than skin-deep and has fine yellow hair on it, the priest must pronounce the person ceremonially unclean. It is a scabby sore of the head or chin. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "If the priest examines the scabby sore and finds that it is only skin-deep but there is no black hair on it, he must quarantine the person for seven days. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest must examine the sore again. If he finds that the scabby sore has not spread, and there is no yellow hair on it, and it appears to be only skin-deep, "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "the person must shave off all hair except the hair on the affected area. Then the priest must quarantine the person for another seven days. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day he will examine the sore again. If it has not spread and appears to be no more than skin-deep, the priest will pronounce the person ceremonially clean. The person’s clothing must be washed, and the person will be ceremonially clean. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "But if the scabby sore begins to spread after the person is pronounced clean, "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "the priest must do another examination. If he finds that the sore has spread, the priest does not need to look for yellow hair. The infected person is ceremonially unclean. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "But if the color of the scabby sore does not change and black hair has grown on it, it has healed. The priest will then pronounce the person ceremonially clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "“If anyone, either a man or woman, has shiny white patches on the skin, "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "the priest must examine the affected area. If he finds that the shiny patches are only pale white, this is a harmless skin rash, and the person is ceremonially clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“If a man loses his hair and his head becomes bald, he is still ceremonially clean. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "And if he loses hair on his forehead, he simply has a bald forehead; he is still clean. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "However, if a reddish white sore appears on the bald area on top of his head or on his forehead, this is a skin disease. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "The priest must examine him, and if he finds swelling around the reddish white sore anywhere on the man’s head and it looks like a skin disease, "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "the man is indeed infected with a skin disease and is unclean. The priest must pronounce him ceremonially unclean because of the sore on his head. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“Those who suffer from a serious skin disease must tear their clothing and leave their hair uncombed. They must cover their mouth and call out, ‘Unclean! Unclean!’ "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "As long as the serious disease lasts, they will be ceremonially unclean. They must live in isolation in their place outside the camp. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "衣物發霉的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "“Now suppose mildew contaminates some woolen or linen clothing, "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "woolen or linen fabric, the hide of an animal, or anything made of leather. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "If the contaminated area in the clothing, the animal hide, the fabric, or the leather article has turned greenish or reddish, it is contaminated with mildew and must be shown to the priest. "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "After examining the affected spot, the priest will put the article in quarantine for seven days. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "On the seventh day the priest must inspect it again. If the contaminated area has spread, the clothing or fabric or leather is clearly contaminated by a serious mildew and is ceremonially unclean. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "The priest must burn the item—the clothing, the woolen or linen fabric, or piece of leather—for it has been contaminated by a serious mildew. It must be completely destroyed by fire. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "“But if the priest examines it and finds that the contaminated area has not spread in the clothing, the fabric, or the leather, "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "the priest will order the object to be washed and then quarantined for seven more days. "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "Then the priest must examine the object again. If he finds that the contaminated area has not changed color after being washed, even if it did not spread, the object is defiled. It must be completely burned up, whether the contaminated spot is on the inside or outside. "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "But if the priest examines it and finds that the contaminated area has faded after being washed, he must cut the spot from the clothing, the fabric, or the leather. "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "If the spot later reappears on the clothing, the fabric, or the leather article, the mildew is clearly spreading, and the contaminated object must be burned up. "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "But if the spot disappears from the clothing, the fabric, or the leather article after it has been washed, it must be washed again; then it will be ceremonially clean. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 58,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "“These are the instructions for dealing with mildew that contaminates woolen or linen clothing or fabric or anything made of leather. This is how the priest will determine whether these items are ceremonially clean or unclean.” "
+        }
+      ]
+    }
+  ]
+}

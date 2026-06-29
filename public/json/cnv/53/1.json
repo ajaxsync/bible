@@ -1,0 +1,89 @@
+{
+  "book": 53,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "保羅、西拉和提摩太，寫信給帖撒羅尼迦、在我們的父　神和主耶穌基督裡的教會。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "願恩惠平安從父　神和主耶穌基督臨到你們。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "基督再來時的審判"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "弟兄們，我們應該常常為你們感謝　神，這是合適的。因為你們的信心格外長進，你們眾人彼此相愛的心也在增加。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "所以我們在　神的眾教會裡，親自誇獎你們，因為你們在所受的一切迫害患難中，仍然存著堅忍和信心。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "這正是　神公義判斷的明證，使你們可以算是配得上他的國；你們也是為了　神的國而受苦。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "神既是公義的，就必將患難報應那加患難給你們的人， "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "也必使你們這受患難的人與我們同得平安。那時，主耶穌同他有能力的天使從天上在火焰中顯現， "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "又要報應那些不認識　神、不聽從我們主耶穌的福音的人。910當主來的時候，他們要受永遠沉淪的懲罰，就是離開主的面和他權能的榮光。在那一天，他要在聖徒身上得著榮耀，又要在所有信徒身上受到尊崇。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "他們要受刑罰，就是永遠沉淪，離開主的面和他權能的榮光。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "這正是主降臨、要在他聖徒的身上得榮耀、又在一切信的人身上顯為希奇的那日子。我們對你們作的見證，你們也信了。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "因此，我們常常為你們禱告，願我們的　神看你們是配得上所蒙的召，又用大能成就你們所羨慕的一切良善和信心的工作， "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "使我們主耶穌的名，照著我們的　神和主耶穌基督的恩，在你們身上得著榮耀，你們也在他身上得著榮耀。 "
+        }
+      ]
+    }
+  ]
+}

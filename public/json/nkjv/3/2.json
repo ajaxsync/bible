@@ -1,0 +1,115 @@
+{
+  "book": 3,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "素祭的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "‘When anyone offers a grain offering to the Lord, his offering shall be of fine flour. And he shall pour oil on it, and put frankincense on it. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He shall bring it to Aaron’s sons, the priests, one of whom shall take from it his handful of fine flour and oil with all the frankincense. And the priest shall burn it  as a memorial on the altar, an offering made by fire, a sweet aroma to the Lord. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The rest of the grain offering shall  be Aaron’s and his sons’. It  is most holy of the offerings to the Lord made by fire. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "‘And if you bring as an offering a grain offering baked in the oven, it  shall  be unleavened cakes of fine flour mixed with oil, or unleavened wafers anointed with oil. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "But if your offering is a grain offering baked in a pan, it  shall  be  of fine flour, unleavened, mixed with oil. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "You shall break it in pieces and pour oil on it; it is a grain offering. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "‘If your offering is a grain offering baked in a covered pan, it shall be made of fine flour with oil. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "You shall bring the grain offering that is made of these things to the Lord. And when it is presented to the priest, he shall bring it to the altar. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Then the priest shall take from the grain offering a memorial portion, and burn it on the altar. It  is an offering made by fire, a sweet aroma to the Lord. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "And what is left of the grain offering shall  be Aaron’s and his sons’. It  is most holy of the offerings to the Lord made by fire. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "‘No grain offering which you bring to the Lord shall be made with leaven, for you shall burn no leaven nor any honey in any offering to the Lord made by fire. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "As for the offering of the firstfruits, you shall offer them to the Lord, but they shall not be burned on the altar for a sweet aroma. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "And every offering of your grain offering you shall season with salt; you shall not allow the salt of the covenant of your God to be lacking from your grain offering. With all your offerings you shall offer salt. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "‘If you offer a grain offering of your firstfruits to the Lord, you shall offer for the grain offering of your firstfruits green heads of grain roasted on the fire, grain beaten from full heads. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "And you shall put oil on it, and lay frankincense on it. It is a grain offering. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Then the priest shall burn the memorial portion: part of its beaten grain and part of its oil, with all the frankincense, as an offering made by fire to the Lord. "
+        }
+      ]
+    }
+  ]
+}

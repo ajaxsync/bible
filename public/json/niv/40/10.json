@@ -1,0 +1,387 @@
+{
+  "book": 40,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "十二使徒"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可3‧13－19；路6‧12－16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Jesus called his twelve disciples to him and gave them authority to drive out impure spirits and to heal every disease and sickness. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "These are the names of the twelve apostles: first, Simon (who is called Peter) and his brother Andrew; James son of Zebedee, and his brother John; "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Philip and Bartholomew; Thomas and Matthew the tax collector; James son of Alphaeus, and Thaddaeus; "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Simon the Zealot and Judas Iscariot, who betrayed him. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "十二使徒的使命"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可6‧7－13；路9‧1－6）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "These twelve Jesus sent out with the following instructions: “Do not go among the Gentiles or enter any town of the Samaritans. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Go rather to the lost sheep of Israel. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "As you go, proclaim this message: ‘The kingdom of heaven has come near.’ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Heal the sick, raise the dead, cleanse those who have leprosy,  drive out demons. Freely you have received; freely give. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“Do not get any gold or silver or copper to take with you in your belts— "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "no bag for the journey or extra shirt or sandals or a staff, for the worker is worth his keep. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Whatever town or village you enter, search there for some worthy person and stay at their house until you leave. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "As you enter the home, give it your greeting. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "If the home is deserving, let your peace rest on it; if it is not, let your peace return to you. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "If anyone will not welcome you or listen to your words, leave that home or town and shake the dust off your feet. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Truly I tell you, it will be more bearable for Sodom and Gomorrah on the day of judgment than for that town. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "將來的逼迫"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可13‧9－13；路21‧12－17）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“I am sending you out like sheep among wolves. Therefore be as shrewd as snakes and as innocent as doves. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Be on your guard; you will be handed over to the local councils and be flogged in the synagogues. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "On my account you will be brought before governors and kings as witnesses to them and to the Gentiles. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "But when they arrest you, do not worry about what to say or how to say it. At that time you will be given what to say, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "for it will not be you speaking, but the Spirit of your Father speaking through you. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "“Brother will betray brother to death, and a father his child; children will rebel against their parents and have them put to death. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "You will be hated by everyone because of me, but the one who stands firm to the end will be saved. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "When you are persecuted in one place, flee to another. Truly I tell you, you will not finish going through the towns of Israel before the Son of Man comes. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“The student is not above the teacher, nor a servant above his master. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "It is enough for students to be like their teachers, and servants like their masters. If the head of the house has been called Beelzebul, how much more the members of his household! "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "該怕的是誰"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路12‧2－7）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“So do not be afraid of them, for there is nothing concealed that will not be disclosed, or hidden that will not be made known. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "What I tell you in the dark, speak in the daylight; what is whispered in your ear, proclaim from the roofs. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Do not be afraid of those who kill the body but cannot kill the soul. Rather, be afraid of the One who can destroy both soul and body in hell. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Are not two sparrows sold for a penny? Yet not one of them will fall to the ground outside your Father’s care. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "And even the very hairs of your head are all numbered. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "So don’t be afraid; you are worth more than many sparrows. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "在人的面前承認基督"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路12‧8－9）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "“Whoever acknowledges me before others, I will also acknowledge before my Father in heaven. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "But whoever disowns me before others, I will disown before my Father in heaven. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "不是和平，而是刀劍"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路12‧51－53；14‧26－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“Do not suppose that I have come to bring peace to the earth. I did not come to bring peace, but a sword. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "For I have come to turn “ ‘a man against his father, a daughter against her mother, a daughter-in-law against her mother-in-law— "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "For I have come to turn “ ‘a man against his father, a daughter against her mother, a daughter-in-law against her mother-in-law—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "For I have come to turn “ ‘a man against his father, a daughter against her mother, a daughter-in-law against her mother-in-law—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "For I have come to turn “ ‘a man against his father, a daughter against her mother, a daughter-in-law against her mother-in-law—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "a man’s enemies will be the members of his own household.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who loves their father or mother more than me is not worthy of me; anyone who loves their son or daughter more than me is not worthy of me. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Whoever does not take up their cross and follow me is not worthy of me. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Whoever finds their life will lose it, and whoever loses their life for my sake will find it. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論報賞"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可9‧41）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who welcomes you welcomes me, and anyone who welcomes me welcomes the one who sent me. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "Whoever welcomes a prophet as a prophet will receive a prophet’s reward, and whoever welcomes a righteous person as a righteous person will receive a righteous person’s reward. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "And if anyone gives even a cup of cold water to one of these little ones who is my disciple, truly I tell you, that person will certainly not lose their reward.” "
+        }
+      ]
+    }
+  ]
+}

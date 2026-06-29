@@ -1,0 +1,245 @@
+{
+  "book": 4,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "各支派在營地的位置"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses and Aaron: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“The Israelites are to camp around the tent of meeting some distance from it, each of them under their standard and holding the banners of their family.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "On the east, toward the sunrise, the divisions of the camp of Judah are to encamp under their standard. The leader of the people of Judah is Nahshon son of Amminadab. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 74,600. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Issachar will camp next to them. The leader of the people of Issachar is Nethanel son of Zuar. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 54,400. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Zebulun will be next. The leader of the people of Zebulun is Eliab son of Helon. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 57,400. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "All the men assigned to the camp of Judah, according to their divisions, number 186,400. They will set out first. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "On the south will be the divisions of the camp of Reuben under their standard. The leader of the people of Reuben is Elizur son of Shedeur. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 46,500. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Simeon will camp next to them. The leader of the people of Simeon is Shelumiel son of Zurishaddai. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 59,300. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Gad will be next. The leader of the people of Gad is Eliasaph son of Deuel. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 45,650. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "All the men assigned to the camp of Reuben, according to their divisions, number 151,450. They will set out second. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Then the tent of meeting and the camp of the Levites will set out in the middle of the camps. They will set out in the same order as they encamp, each in their own place under their standard. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "On the west will be the divisions of the camp of Ephraim under their standard. The leader of the people of Ephraim is Elishama son of Ammihud. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 40,500. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Manasseh will be next to them. The leader of the people of Manasseh is Gamaliel son of Pedahzur. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 32,200. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Benjamin will be next. The leader of the people of Benjamin is Abidan son of Gideoni. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 35,400. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "All the men assigned to the camp of Ephraim, according to their divisions, number 108,100. They will set out third. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "On the north will be the divisions of the camp of Dan under their standard. The leader of the people of Dan is Ahiezer son of Ammishaddai. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 62,700. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Asher will camp next to them. The leader of the people of Asher is Pagiel son of Okran. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 41,500. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "The tribe of Naphtali will be next. The leader of the people of Naphtali is Ahira son of Enan. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "His division numbers 53,400. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "All the men assigned to the camp of Dan number 157,600. They will set out last, under their standards. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "These are the Israelites, counted according to their families. All the men in the camps, by their divisions, number 603,550. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The Levites, however, were not counted along with the other Israelites, as the Lord commanded Moses. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "So the Israelites did everything the Lord commanded Moses; that is the way they encamped under their standards, and that is the way they set out, each of them with their clan and family. "
+        }
+      ]
+    }
+  ]
+}

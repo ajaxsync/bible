@@ -1,0 +1,659 @@
+{
+  "book": 23,
+  "chapter": 32,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "公正的王"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "看哪！必有一王憑公義執政， 必有眾領袖按公平治理。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "看哪！必有一王憑公義執政， 必有眾領袖按公平治理。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "必有一人像避風所， 和避暴雨的隱密處， 像乾旱之地的溪水， 又像疲乏之地的大磐石的陰影。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "必有一人像避風所， 和避暴雨的隱密處， 像乾旱之地的溪水， 又像疲乏之地的大磐石的陰影。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "必有一人像避風所， 和避暴雨的隱密處， 像乾旱之地的溪水， 又像疲乏之地的大磐石的陰影。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "那時，能看見事物者的眼睛，必不再昏暗； 能聽到事物者的耳朵，必然傾聽。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "那時，能看見事物者的眼睛，必不再昏暗； 能聽到事物者的耳朵，必然傾聽。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "性急者的心必明白知識， 口吃者的舌頭必說話清楚。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "性急者的心必明白知識， 口吃者的舌頭必說話清楚。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "愚頑人不再被稱為高尚， 惡棍也不再被稱為大方。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "愚頑人不再被稱為高尚， 惡棍也不再被稱為大方。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為愚頑人說的是愚頑話， 他心裡所想的是罪孽， 慣行褻瀆　神的事，說錯謬的話攻擊耶和華， 使飢餓的人仍空著肚子， 使口渴的人仍無水可喝。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "至於惡棍，他的手段是邪惡的， 他圖謀惡計， 用虛假的言語毀滅困苦的人， 即使在窮乏人講公理的時候，他也是這樣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "至於惡棍，他的手段是邪惡的， 他圖謀惡計， 用虛假的言語毀滅困苦的人， 即使在窮乏人講公理的時候，他也是這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "至於惡棍，他的手段是邪惡的， 他圖謀惡計， 用虛假的言語毀滅困苦的人， 即使在窮乏人講公理的時候，他也是這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "至於惡棍，他的手段是邪惡的， 他圖謀惡計， 用虛假的言語毀滅困苦的人， 即使在窮乏人講公理的時候，他也是這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "至於惡棍，他的手段是邪惡的， 他圖謀惡計， 用虛假的言語毀滅困苦的人， 即使在窮乏人講公理的時候，他也是這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "高尚的人卻籌謀高尚的事， 他也必堅持這些高尚的事。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "高尚的人卻籌謀高尚的事， 他也必堅持這些高尚的事。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "審判和復興"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "安逸的婦女啊！你們要起來， 聽我的聲音； 無憂無慮的女子啊！ 你們要側耳聽我的話。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "安逸的婦女啊！你們要起來， 聽我的聲音； 無憂無慮的女子啊！ 你們要側耳聽我的話。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "無憂無慮的女子啊！再過一年多， 你們就必受困擾， 因為沒有葡萄可摘， 收禾稼的日子也沒有來。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "無憂無慮的女子啊！再過一年多， 你們就必受困擾， 因為沒有葡萄可摘， 收禾稼的日子也沒有來。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "無憂無慮的女子啊！再過一年多， 你們就必受困擾， 因為沒有葡萄可摘， 收禾稼的日子也沒有來。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "安逸的婦女啊！你們要受震驚。 無憂無慮的女子啊！你們要受困擾了， 脫去衣服，赤著身子，以麻布束腰吧。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "安逸的婦女啊！你們要受震驚。 無憂無慮的女子啊！你們要受困擾了， 脫去衣服，赤著身子，以麻布束腰吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "安逸的婦女啊！你們要受震驚。 無憂無慮的女子啊！你們要受困擾了， 脫去衣服，赤著身子，以麻布束腰吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "安逸的婦女啊！你們要受震驚。 無憂無慮的女子啊！你們要受困擾了， 脫去衣服，赤著身子，以麻布束腰吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "你們要為美好的田地和多結果子的葡萄樹搥胸哀哭。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "你們要為美好的田地和多結果子的葡萄樹搥胸哀哭。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "也為那些在我子民的土地上長起來的荊棘和蒺藜而哀哭， 為那歡樂的城和所有快樂的房屋，也是這樣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "也為那些在我子民的土地上長起來的荊棘和蒺藜而哀哭， 為那歡樂的城和所有快樂的房屋，也是這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "因為宮殿必被丟棄，熱鬧的城市也被撇下， 山岡和守望樓必永遠成為洞穴， 作了野驢喜歡的地方和羊群的草場。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "因為宮殿必被丟棄，熱鬧的城市也被撇下， 山岡和守望樓必永遠成為洞穴， 作了野驢喜歡的地方和羊群的草場。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "因為宮殿必被丟棄，熱鬧的城市也被撇下， 山岡和守望樓必永遠成為洞穴， 作了野驢喜歡的地方和羊群的草場。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "因為宮殿必被丟棄，熱鬧的城市也被撇下， 山岡和守望樓必永遠成為洞穴， 作了野驢喜歡的地方和羊群的草場。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "因為宮殿必被丟棄，熱鬧的城市也被撇下， 山岡和守望樓必永遠成為洞穴， 作了野驢喜歡的地方和羊群的草場。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "等到聖靈從高處傾倒在我們身上， 曠野變為肥田， 肥田被看為樹林的時候， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "等到聖靈從高處傾倒在我們身上， 曠野變為肥田， 肥田被看為樹林的時候，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "等到聖靈從高處傾倒在我們身上， 曠野變為肥田， 肥田被看為樹林的時候，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "公平就必居在曠野中， 公義必住在肥田裡。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "公平就必居在曠野中， 公義必住在肥田裡。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "公義的果效必是平安， 公義的效驗必是平靜與安穩，直到永遠。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "公義的果效必是平安， 公義的效驗必是平靜與安穩，直到永遠。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "那時，我的子民必住在平安的居所， 安穩的住處，不受騷擾的安息之處。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": "那時，我的子民必住在平安的居所， 安穩的住處，不受騷擾的安息之處。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "但在敵人的國土中，必有冰雹降下，打倒他們的樹林， 他們的城必被夷平。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "但在敵人的國土中，必有冰雹降下，打倒他們的樹林， 他們的城必被夷平。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "你們這些在各水邊撒種， 又使牛驢隨意走動的，是多麼有福啊！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": "你們這些在各水邊撒種， 又使牛驢隨意走動的，是多麼有福啊！"
+        }
+      ]
+    }
+  ]
+}

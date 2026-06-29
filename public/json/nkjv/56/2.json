@@ -1,0 +1,100 @@
+{
+  "book": 56,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "純正的道理"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "But as for you, speak the things which are proper for sound doctrine: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "that the older men be sober, reverent, temperate, sound in faith, in love, in patience; "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "the older women likewise, that they be reverent in behavior, not slanderers, not given to much wine, teachers of good things— "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "that they admonish the young women to love their husbands, to love their children, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "to  be discreet, chaste, homemakers, good, obedient to their own husbands, that the word of God may not be blasphemed. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Likewise, exhort the young men to be sober-minded, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "in all things showing yourself to  be  a pattern of good works; in doctrine showing integrity, reverence, incorruptibility, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "sound speech that cannot be condemned, that one who is an opponent may be ashamed, having nothing evil to say of you. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Exhort  bondservants to be obedient to their own masters, to be well pleasing in all things, not answering back, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "not pilfering, but showing all good fidelity, that they may adorn the doctrine of God our Savior in all things. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "For the grace of God that brings salvation has appeared to all men, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly in the present age, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "looking for the blessed hope and glorious appearing of our great God and Savior Jesus Christ, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "who gave Himself for us, that He might redeem us from every lawless deed and purify for Himself His own special people, zealous for good works. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Speak these things, exhort, and rebuke with all authority. Let no one despise you. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "book": 55,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "末世的人性"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "But mark this: There will be terrible times in the last days. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "People will be lovers of themselves, lovers of money, boastful, proud, abusive, disobedient to their parents, ungrateful, unholy, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "without love, unforgiving, slanderous, without self-control, brutal, not lovers of the good, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "treacherous, rash, conceited, lovers of pleasure rather than lovers of God— "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "having a form of godliness but denying its power. Have nothing to do with such people. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "They are the kind who worm their way into homes and gain control over gullible women, who are loaded down with sins and are swayed by all kinds of evil desires, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "always learning but never able to come to a knowledge of the truth. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Just as Jannes and Jambres opposed Moses, so also these teachers oppose the truth. They are men of depraved minds, who, as far as the faith is concerned, are rejected. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "But they will not get very far because, as in the case of those men, their folly will be clear to everyone. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "對提摩太的最後指示"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "You, however, know all about my teaching, my way of life, my purpose, faith, patience, love, endurance, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "persecutions, sufferings—what kinds of things happened to me in Antioch, Iconium and Lystra, the persecutions I endured. Yet the Lord rescued me from all of them. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "In fact, everyone who wants to live a godly life in Christ Jesus will be persecuted, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "while evildoers and impostors will go from bad to worse, deceiving and being deceived. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But as for you, continue in what you have learned and have become convinced of, because you know those from whom you learned it, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "and how from infancy you have known the Holy Scriptures, which are able to make you wise for salvation through faith in Christ Jesus. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "so that the servant of God may be thoroughly equipped for every good work. "
+        }
+      ]
+    }
+  ]
+}

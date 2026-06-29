@@ -1,0 +1,74 @@
+{
+  "book": 6,
+  "chapter": 20,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "設立庇護城"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民35‧9－28；申19‧1－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Joshua: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Tell the Israelites to designate the cities of refuge, as I instructed you through Moses, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "so that anyone who kills a person accidentally and unintentionally may flee there and find protection from the avenger of blood. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "When they flee to one of these cities, they are to stand in the entrance of the city gate and state their case before the elders of that city. Then the elders are to admit the fugitive into their city and provide a place to live among them. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "If the avenger of blood comes in pursuit, the elders must not surrender the fugitive, because the fugitive killed their neighbor unintentionally and without malice aforethought. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "They are to stay in that city until they have stood trial before the assembly and until the death of the high priest who is serving at that time. Then they may go back to their own home in the town from which they fled.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "So they set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath Arba (that is, Hebron) in the hill country of Judah. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "East of the Jordan (on the other side from Jericho) they designated Bezer in the wilderness on the plateau in the tribe of Reuben, Ramoth in Gilead in the tribe of Gad, and Golan in Bashan in the tribe of Manasseh. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Any of the Israelites or any foreigner residing among them who killed someone accidentally could flee to these designated cities and not be killed by the avenger of blood prior to standing trial before the assembly. "
+        }
+      ]
+    }
+  ]
+}

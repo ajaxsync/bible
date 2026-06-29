@@ -1,0 +1,50 @@
+{
+  "book": 23,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "And seven women shall take hold of one man in that day, saying, “We will eat our own bread and wear our own clothes, only let us be called by your name; take away our reproach.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶路撒冷的重建"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "In that day the branch of the Lord shall be beautiful and glorious, and the fruit of the land shall be the pride and honor of the survivors of Israel. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And he who is left in Zion and remains in Jerusalem will be called holy, everyone who has been recorded for life in Jerusalem, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord will create over the whole site of Mount Zion and over her assemblies a cloud by day, and smoke and the shining of a flaming fire by night; for over all the glory there will be a canopy. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "There will be a booth for shade by day from the heat, and for a refuge and a shelter from the storm and rain. "
+        }
+      ]
+    }
+  ]
+}

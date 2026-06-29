@@ -1,0 +1,668 @@
+{
+  "book": 2,
+  "chapter": 15,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "摩西的歌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses and the Israelites sang this song to the Lord: “I will sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Then Moses and the Israelites sang this song to the Lord: “I will sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Then Moses and the Israelites sang this song to the Lord: “I will sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“The Lord is my strength and my defense; he has become my salvation. He is my God, and I will praise him, my father’s God, and I will exalt him. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“The Lord is my strength and my defense; he has become my salvation. He is my God, and I will praise him, my father’s God, and I will exalt him."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“The Lord is my strength and my defense; he has become my salvation. He is my God, and I will praise him, my father’s God, and I will exalt him."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“The Lord is my strength and my defense; he has become my salvation. He is my God, and I will praise him, my father’s God, and I will exalt him."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The Lord is a warrior; the Lord is his name. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "The Lord is a warrior; the Lord is his name."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Pharaoh’s chariots and his army he has hurled into the sea. The best of Pharaoh’s officers are drowned in the Red Sea. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Pharaoh’s chariots and his army he has hurled into the sea. The best of Pharaoh’s officers are drowned in the Red Sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The deep waters have covered them; they sank to the depths like a stone. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "The deep waters have covered them; they sank to the depths like a stone."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Your right hand, Lord, was majestic in power. Your right hand, Lord, shattered the enemy. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Your right hand, Lord, was majestic in power. Your right hand, Lord, shattered the enemy."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“In the greatness of your majesty you threw down those who opposed you. You unleashed your burning anger; it consumed them like stubble. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "“In the greatness of your majesty you threw down those who opposed you. You unleashed your burning anger; it consumed them like stubble."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "By the blast of your nostrils the waters piled up. The surging waters stood up like a wall; the deep waters congealed in the heart of the sea. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "By the blast of your nostrils the waters piled up. The surging waters stood up like a wall; the deep waters congealed in the heart of the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "By the blast of your nostrils the waters piled up. The surging waters stood up like a wall; the deep waters congealed in the heart of the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The enemy boasted, ‘I will pursue, I will overtake them. I will divide the spoils; I will gorge myself on them. I will draw my sword and my hand will destroy them.’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "The enemy boasted, ‘I will pursue, I will overtake them. I will divide the spoils; I will gorge myself on them. I will draw my sword and my hand will destroy them.’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "The enemy boasted, ‘I will pursue, I will overtake them. I will divide the spoils; I will gorge myself on them. I will draw my sword and my hand will destroy them.’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "But you blew with your breath, and the sea covered them. They sank like lead in the mighty waters. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "But you blew with your breath, and the sea covered them. They sank like lead in the mighty waters."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Who among the gods is like you, Lord? Who is like you— majestic in holiness, awesome in glory, working wonders? "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Who among the gods is like you, Lord? Who is like you— majestic in holiness, awesome in glory, working wonders?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Who among the gods is like you, Lord? Who is like you— majestic in holiness, awesome in glory, working wonders?"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“You stretch out your right hand, and the earth swallows your enemies. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "“You stretch out your right hand, and the earth swallows your enemies."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "In your unfailing love you will lead the people you have redeemed. In your strength you will guide them to your holy dwelling. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "In your unfailing love you will lead the people you have redeemed. In your strength you will guide them to your holy dwelling."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The nations will hear and tremble; anguish will grip the people of Philistia. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "The nations will hear and tremble; anguish will grip the people of Philistia."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The chiefs of Edom will be terrified, the leaders of Moab will be seized with trembling, the people of Canaan will melt away; "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The chiefs of Edom will be terrified, the leaders of Moab will be seized with trembling, the people of Canaan will melt away;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The chiefs of Edom will be terrified, the leaders of Moab will be seized with trembling, the people of Canaan will melt away;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "terror and dread will fall on them. By the power of your arm they will be as still as a stone— until your people pass by, Lord, until the people you bought pass by. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "terror and dread will fall on them. By the power of your arm they will be as still as a stone— until your people pass by, Lord, until the people you bought pass by."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "terror and dread will fall on them. By the power of your arm they will be as still as a stone— until your people pass by, Lord, until the people you bought pass by."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "terror and dread will fall on them. By the power of your arm they will be as still as a stone— until your people pass by, Lord, until the people you bought pass by."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "terror and dread will fall on them. By the power of your arm they will be as still as a stone— until your people pass by, Lord, until the people you bought pass by."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "You will bring them in and plant them on the mountain of your inheritance— the place, Lord, you made for your dwelling, the sanctuary, Lord, your hands established. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "You will bring them in and plant them on the mountain of your inheritance— the place, Lord, you made for your dwelling, the sanctuary, Lord, your hands established."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "You will bring them in and plant them on the mountain of your inheritance— the place, Lord, you made for your dwelling, the sanctuary, Lord, your hands established."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“The Lord reigns for ever and ever.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "米利暗的歌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "When Pharaoh’s horses, chariots and horsemen went into the sea, the Lord brought the waters of the sea back over them, but the Israelites walked through the sea on dry ground. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Then Miriam the prophet, Aaron’s sister, took a timbrel in her hand, and all the women followed her, with timbrels and dancing. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Miriam sang to them: “Sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "Miriam sang to them: “Sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": "Miriam sang to them: “Sing to the Lord, for he is highly exalted. Both horse and driver he has hurled into the sea.”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "苦水"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses led Israel from the Red Sea and they went into the Desert of Shur. For three days they traveled in the desert without finding water. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "When they came to Marah, they could not drink its water because it was bitter. (That is why the place is called Marah.) "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "So the people grumbled against Moses, saying, “What are we to drink?” "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses cried out to the Lord, and the Lord showed him a piece of wood. He threw it into the water, and the water became fit to drink. There the Lord issued a ruling and instruction for them and put them to the test. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "Then Moses cried out to the Lord, and the Lord showed him a piece of wood. He threw it into the water, and the water became fit to drink. There the Lord issued a ruling and instruction for them and put them to the test."
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "He said, “If you listen carefully to the Lord your God and do what is right in his eyes, if you pay attention to his commands and keep all his decrees, I will not bring on you any of the diseases I brought on the Egyptians, for I am the Lord, who heals you.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Then they came to Elim, where there were twelve springs and seventy palm trees, and they camped there near the water. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "book": 3,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "節期"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你要告诉以色列人，以下是耶和华所定的节期，你们要宣布这些节期为举行圣会的日子。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“你们一周可以工作六天，但第七天是安息日，你们要休息，举行圣会。不可做任何工，无论你们住在哪里，都要守耶和华的安息日。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“以下是耶和华所定的节期，你们要在这些日子召开圣会。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "逾越節和除酵節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民28‧16－25）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“一月十四日从黄昏开始是耶和华的逾越节。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "从一月十五日开始是耶和华的无酵节，一连七天你们必须吃无酵饼。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "在无酵节的第一天，你们要举行圣会，不可做日常工作。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "这七天你们要献火祭给耶和华。第七天，你们要举行圣会，不可做日常工作。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“你把以下条例告诉以色列人。 “你们进入耶和华将要赐给你们的那片土地以后，每逢庄稼初熟之时，你们要带一捆初熟的谷物交给祭司。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "祭司要在安息日后第一天把那捆谷物在耶和华面前摇一摇，你们所献的就会得到悦纳。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "在献谷物那天，你们要献给耶和华一只毫无残疾、一岁的公羊羔作燔祭， "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "同时要把两公斤调油的细面粉作素祭，一起献给耶和华作馨香的火祭，也要献一升酒作奠祭。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "你们必须先将这些祭物献给你们的上帝后，才可以吃饼、烘烤的谷物和新鲜穗子。不论住在哪里，你们都要世代遵守这永远不变的律例。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "五旬收穫節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民28‧26－31）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“从安息日后第一天，即你们献上摇祭的那天算起，你们要数整整七周， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "一直数到第七个安息日后的第一天，共五十天。到那天，你们要把新收的谷物作为素祭献给耶和华。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "你们要用两公斤细面粉加上酵，烤成两个饼作摇祭，从你们居住的地方带来献给耶和华作初熟之祭。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "你们要把七只毫无残疾、一岁的公羊羔、一头公牛犊、两只公绵羊和那两个饼一起献给耶和华作燔祭。这些一起献上的燔祭、素祭和奠祭是蒙耶和华悦纳的馨香火祭。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "你们也要献一只公山羊作赎罪祭，两只一岁的公绵羊作平安祭。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "祭司要把这两只公绵羊和初熟之物做的饼作为摇祭在耶和华面前摇一摇。这些是献给耶和华的圣物，归祭司所有。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "你们要在那天召开圣会，不可做日常工作。不论住在哪里，你们都要世代遵守这永远不变的律例。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "你们收割时，不可割尽田角地边的庄稼，也不可捡落在地里的。要把这些留给穷人和外族人。我是你们的上帝耶和华。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "新年"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧1－6）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“你告诉以色列人，‘你们要在七月一日休息，要吹号作纪念，召开圣会。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "你们不可做日常工作，要献火祭给耶和华。’” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "贖罪日"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧7－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "“七月十日是赎罪日，你们要举行圣会，禁食，献火祭给耶和华。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "那是在你们的上帝耶和华面前为自己赎罪的日子，你们不可工作。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "那天，凡不禁食的，要将他从民中铲除； "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "凡工作的，耶和华要毁灭他。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "你们不可做任何工作。不论住在哪里，你们都要世代遵守这永不改变的律例。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "那是你们可以完全休息的安息之日。从七月九日傍晚至次日傍晚，你们必须禁食。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "住棚節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧12－40）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“你把以下条例告诉以色列人。 “从七月十五日开始，你们要一连七天向耶和华守住棚节。 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "第一天，你们要举行圣会，不可做日常工作。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "这七天你们要献火祭给耶和华。第八天要举行圣会，献火祭给耶和华。这是庄严的聚会，你们不可做日常工作。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "“以上是耶和华所定的节期。在这些节期里，你们要召开圣会，按规定的日子献给耶和华燔祭、素祭、奠祭和其他祭物。 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "除了守安息日并向耶和华献供物、还愿祭和自愿献的祭以外，你们还要守这些节期。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "“你们收割完后，从七月十五日起，要一连七天庆祝耶和华的节期，第一天和第八天是安息之日。 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "第一天，你们要摘下树上结的上好果子，折下棕树枝、叶子浓密的树枝与河边的柳枝，在你们的上帝耶和华面前欢庆七天。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "在每年七月的这七天，你们要向耶和华守这节期。这是永远不变的律例，你们世世代代都要遵守。 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "你们要搭棚居住七天，所有以色列人都要住在棚里。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "这样，你们的后代就会知道，我带领以色列人离开埃及后，曾让他们住在棚里。我是你们的上帝耶和华。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "于是，摩西向以色列人宣布了耶和华所定的这些节期。 "
+        }
+      ]
+    }
+  ]
+}

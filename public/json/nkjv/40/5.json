@@ -1,0 +1,561 @@
+{
+  "book": 40,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "山上寶訓"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "And seeing the multitudes, He went up on a mountain, and when He was seated His disciples came to Him. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Then He opened His mouth and taught them, saying: "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論福"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路6‧20－23）"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“Blessed  are the poor in spirit, For theirs is the kingdom of heaven. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "“Blessed  are the poor in spirit, For theirs is the kingdom of heaven."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are those who mourn, For they shall be comforted. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are those who mourn, For they shall be comforted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are the meek, For they shall inherit the earth. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are the meek, For they shall inherit the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are those who hunger and thirst for righteousness, For they shall be filled. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are those who hunger and thirst for righteousness, For they shall be filled."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are the merciful, For they shall obtain mercy. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are the merciful, For they shall obtain mercy."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are the pure in heart, For they shall see God. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are the pure in heart, For they shall see God."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are the peacemakers, For they shall be called sons of God. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are the peacemakers, For they shall be called sons of God."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Blessed are those who are persecuted for righteousness’ sake, For theirs is the kingdom of heaven. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "Blessed are those who are persecuted for righteousness’ sake, For theirs is the kingdom of heaven."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“Blessed are you when they revile and persecute you, and say all kinds of evil against you falsely for My sake. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Rejoice and be exceedingly glad, for great is your reward in heaven, for so they persecuted the prophets who were before you. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "鹽和光"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可9‧50；路14‧34－35）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "“You are the salt of the earth; but if the salt loses its flavor, how shall it be seasoned? It is then good for nothing but to be thrown out and trampled underfoot by men. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“You are the light of the world. A city that is set on a hill cannot be hidden. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Nor do they light a lamp and put it under a basket, but on a lampstand, and it gives light to all who are in the house. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Let your light so shine before men, that they may see your good works and glorify your Father in heaven. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論律法"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“Do not think that I came to destroy the Law or the Prophets. I did not come to destroy but to fulfill. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "For assuredly, I say to you, till heaven and earth pass away, one jot or one tittle will by no means pass from the law till all is fulfilled. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Whoever therefore breaks one of the least of these commandments, and teaches men so, shall be called least in the kingdom of heaven; but whoever does and teaches them, he shall be called great in the kingdom of heaven. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "For I say to you, that unless your righteousness exceeds the righteousness of the scribes and Pharisees, you will by no means enter the kingdom of heaven. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論發怒"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "“You have heard that it was said to those of old, ‘You shall not murder, and whoever murders will be in danger of the judgment.’ "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "But I say to you that whoever is angry with his brother without a cause shall be in danger of the judgment. And whoever says to his brother, ‘Raca!’ shall be in danger of the council. But whoever says, ‘You fool!’ shall be in danger of hell fire. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Therefore if you bring your gift to the altar, and there remember that your brother has something against you, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Agree with your adversary quickly, while you are on the way with him, lest your adversary deliver you to the judge, the judge hand you over to the officer, and you be thrown into prison. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Assuredly, I say to you, you will by no means get out of there till you have paid the last penny. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論姦淫"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "“You have heard that it was said to those of old,  ‘You shall not commit adultery.’ "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "But I say to you that whoever looks at a woman to lust for her has already committed adultery with her in his heart. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "If your right eye causes you to sin, pluck it out and cast it from you; for it is more profitable for you that one of your members perish, than for your whole body to be cast into hell. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "And if your right hand causes you to sin, cut it off and cast it from you; for it is more profitable for you that one of your members perish, than for your whole body to be cast into hell. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論休妻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太19‧9；可10‧11－12；路16‧18）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "“Furthermore it has been said, ‘Whoever divorces his wife, let him give her a certificate of divorce.’ "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "But I say to you that whoever divorces his wife for any reason except sexual immorality causes her to commit adultery; and whoever marries a woman who is divorced commits adultery. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論起誓"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“Again you have heard that it was said to those of old, ‘You shall not swear falsely, but shall perform your oaths to the Lord.’ "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "But I say to you, do not swear at all: neither by heaven, for it is God’s throne; "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "nor by the earth, for it is His footstool; nor by Jerusalem, for it is the city of the great King. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Nor shall you swear by your head, because you cannot make one hair white or black. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "But let your ‘Yes’ be ‘Yes,’ and your ‘No,’ ‘No.’ For whatever is more than these is from the evil one. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論報復"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路6‧29－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "“You have heard that it was said, ‘An eye for an eye and a tooth for a tooth.’ "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "But I tell you not to resist an evil person. But whoever slaps you on your right cheek, turn the other to him also. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "If anyone wants to sue you and take away your tunic, let him have your cloak also. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "And whoever compels you to go one mile, go with him two. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "Give to him who asks you, and from him who wants to borrow from you do not turn away. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論愛仇敵"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路6‧27－28；32－36）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "“You have heard that it was said, ‘You shall love your neighbor  and hate your enemy.’ "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "But I say to you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who spitefully use you and persecute you, "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "that you may be sons of your Father in heaven; for He makes His sun rise on the evil and on the good, and sends rain on the just and on the unjust. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "For if you love those who love you, what reward have you? Do not even the tax collectors do the same? "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "And if you greet your brethren only, what do you do more than others? Do not even the tax collectors do so? "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "Therefore you shall be perfect, just as your Father in heaven is perfect. "
+        }
+      ]
+    }
+  ]
+}

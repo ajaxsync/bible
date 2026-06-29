@@ -1,0 +1,94 @@
+{
+  "book": 19,
+  "chapter": 133,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "兄弟相愛頌"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "看哪！弟兄和睦共處， 是多麼的善，多麼的美。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "看哪！弟兄和睦共處， 是多麼的善，多麼的美。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "這好比那珍貴的油澆在亞倫的頭上， 流到鬍鬚， 又從亞倫的鬍鬚， 流到他的衣領上。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "這好比那珍貴的油澆在亞倫的頭上， 流到鬍鬚， 又從亞倫的鬍鬚， 流到他的衣領上。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "又好比黑門的甘露 落在錫安的眾山上， 在那裡有耶和華命定的福， 就是永遠的生命。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "又好比黑門的甘露 落在錫安的眾山上， 在那裡有耶和華命定的福， 就是永遠的生命。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "又好比黑門的甘露 落在錫安的眾山上， 在那裡有耶和華命定的福， 就是永遠的生命。"
+        }
+      ]
+    }
+  ]
+}

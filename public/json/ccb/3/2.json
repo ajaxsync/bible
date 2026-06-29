@@ -1,0 +1,115 @@
+{
+  "book": 3,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "素祭的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人献素祭给耶和华，要用细面粉作祭物。要在细面粉上浇油、加乳香， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "带到祭司——亚伦的子孙那里。祭司要抓一把浇了油的细面粉，连同所有乳香，作为象征放在坛上焚烧。这是蒙耶和华悦纳的馨香火祭。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "剩下的素祭要归亚伦及其子孙，这在献给耶和华的火祭中是至圣的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“如果献用炉子烤的素祭，要献调油的无酵细面饼，或涂油的无酵薄饼。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“如果献用平底锅烤的素祭，要献调油的无酵细面饼。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "要把饼掰成碎块，浇上油。这是素祭。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“如果献用煎锅煎的素祭，要献用细面粉和油做的祭物。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“要把做好的素祭带到耶和华面前，交给祭司献在祭坛上。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "祭司要从中取出一部分，作为象征放在祭坛上焚烧。这是蒙耶和华悦纳的馨香火祭。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "剩下的素祭要归亚伦及其子孙。在献给耶和华的火祭中，这是至圣之物。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“献给耶和华的任何素祭都不可含酵，因为你们不可把酵或蜜当作火祭献给耶和华。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "你们可以把酵和蜜作为初熟之祭献给耶和华，但不可作为馨香之祭烧在祭坛上。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "所有素祭中都要放盐，借此提醒你们与上帝所立的约。所有祭物中都要放盐。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“如果将初熟的谷物献给耶和华作素祭，要用烘好后压碎的新麦穗， "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "加上油和乳香。这是素祭。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "祭司要将一些压碎的麦穗、油及所有乳香作为象征焚烧。这是献给耶和华的火祭。” "
+        }
+      ]
+    }
+  ]
+}

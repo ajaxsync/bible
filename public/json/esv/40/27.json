@@ -1,0 +1,489 @@
+{
+  "book": 40,
+  "chapter": 27,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌被交給彼拉多"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧1；路23‧1－2；約18‧28－32）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "When morning came, all the chief priests and the elders of the people took counsel against Jesus to put him to death. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "And they bound him and led him away and delivered him over to Pilate the governor. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "猶大的死"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（徒1‧18－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Then when Judas, his betrayer, saw that Jesus was condemned, he changed his mind and brought back the thirty pieces of silver to the chief priests and the elders, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "saying, “I have sinned by betraying innocent blood.” They said, “What is that to us? See to it yourself.” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And throwing down the pieces of silver into the temple, he departed, and he went and hanged himself. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "But the chief priests, taking the pieces of silver, said, “It is not lawful to put them into the treasury, since it is blood money.” "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "So they took counsel and bought with them the potter’s field as a burial place for strangers. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Therefore that field has been called the Field of Blood to this day. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Then was fulfilled what had been spoken by the prophet Jeremiah, saying, “And they took the thirty pieces of silver, the price of him on whom a price had been set by some of the sons of Israel, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "and they gave them for the potter’s field, as the Lord directed me.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌在彼拉多面前受審"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧2－5；路23‧3－5；約18‧33－38）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Now Jesus stood before the governor, and the governor asked him, “Are you the King of the Jews?” Jesus said, “You have said so.” "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "But when he was accused by the chief priests and elders, he gave no answer. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Then Pilate said to him, “Do you not hear how many things they testify against you?” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But he gave him no answer, not even to a single charge, so that the governor was greatly amazed. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌被判死刑"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧6－15；路23‧13－25；約18‧39－19‧16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Now at the feast the governor was accustomed to release for the crowd any one prisoner whom they wanted. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "And they had then a notorious prisoner called Barabbas. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "So when they had gathered, Pilate said to them, “Whom do you want me to release for you: Barabbas, or Jesus who is called Christ?” "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "For he knew that it was out of envy that they had delivered him up. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Besides, while he was sitting on the judgment seat, his wife sent word to him, “Have nothing to do with that righteous man, for I have suffered much because of him today in a dream.” "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Now the chief priests and the elders persuaded the crowd to ask for Barabbas and destroy Jesus. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The governor again said to them, “Which of the two do you want me to release for you?” And they said, “Barabbas.” "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Pilate said to them, “Then what shall I do with Jesus who is called Christ?” They all said, “Let him be crucified!” "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "And he said, “Why? What evil has he done?” But they shouted all the more, “Let him be crucified!” "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "So when Pilate saw that he was gaining nothing, but rather that a riot was beginning, he took water and washed his hands before the crowd, saying, “I am innocent of this man’s blood;  see to it yourselves.” "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "And all the people answered, “His blood be on us and on our children!” "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Then he released for them Barabbas, and having scourged Jesus, delivered him to be crucified. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "兵丁戲弄耶穌"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧16－20；約19‧2－3）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Then the soldiers of the governor took Jesus into the governor’s headquarters, and they gathered the whole battalion before him. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "And they stripped him and put a scarlet robe on him, "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "and twisting together a crown of thorns, they put it on his head and put a reed in his right hand. And kneeling before him, they mocked him, saying, “Hail, King of the Jews!” "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "And they spit on him and took the reed and struck him on the head. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "And when they had mocked him, they stripped him of the robe and put his own clothes on him and led him away to crucify him. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌被釘十字架"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧21－32；路23‧26－43；約19‧17－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "As they went out, they found a man of Cyrene, Simon by name. They compelled this man to carry his cross. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "And when they came to a place called Golgotha (which means Place of a Skull), "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "they offered him wine to drink, mixed with gall, but when he tasted it, he would not drink it. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "And when they had crucified him, they divided his garments among them by casting lots. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Then they sat down and kept watch over him there. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "And over his head they put the charge against him, which read, “This is Jesus, the King of the Jews.” "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Then two robbers were crucified with him, one on the right and one on the left. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "And those who passed by derided him, wagging their heads "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "and saying, “You who would destroy the temple and rebuild it in three days, save yourself! If you are the Son of God, come down from the cross.” "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "So also the chief priests, with the scribes and elders, mocked him, saying, "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "“He saved others; he cannot save himself. He is the King of Israel; let him come down now from the cross, and we will believe in him. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "He trusts in God; let God deliver him now, if he desires him. For he said, ‘I am the Son of God.’” "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "And the robbers who were crucified with him also reviled him in the same way. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌的死"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧33－41；路23‧44－49；約19‧28－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "Now from the sixth hour there was darkness over all the land until the ninth hour. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "And about the ninth hour Jesus cried out with a loud voice, saying, “Eli, Eli, lema sabachthani?” that is, “My God, my God, why have you forsaken me?” "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "And some of the bystanders, hearing it, said, “This man is calling Elijah.” "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "And one of them at once ran and took a sponge, filled it with sour wine, and put it on a reed and gave it to him to drink. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "But the others said, “Wait, let us see whether Elijah will come to save him.” "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "And Jesus cried out again with a loud voice and yielded up his spirit. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "And behold, the curtain of the temple was torn in two, from top to bottom. And the earth shook, and the rocks were split. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "The tombs also were opened. And many bodies of the saints who had fallen asleep were raised, "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "and coming out of the tombs after his resurrection they went into the holy city and appeared to many. "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "When the centurion and those who were with him, keeping watch over Jesus, saw the earthquake and what took place, they were filled with awe and said, “Truly this was the Son of God!” "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "There were also many women there, looking on from a distance, who had followed Jesus from Galilee, ministering to him, "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "among whom were Mary Magdalene and Mary the mother of James and Joseph and the mother of the sons of Zebedee. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌的安葬"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可15‧42－47；路23‧50－56；約19‧38－42）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 56,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "When it was evening, there came a rich man from Arimathea, named Joseph, who also was a disciple of Jesus. "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "He went to Pilate and asked for the body of Jesus. Then Pilate ordered it to be given to him. "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "And Joseph took the body and wrapped it in a clean linen shroud "
+        },
+        {
+          "verseNum": 60,
+          "hasVerseLabel": true,
+          "verseText": "and laid it in his own new tomb, which he had cut in the rock. And he rolled a great stone to the entrance of the tomb and went away. "
+        },
+        {
+          "verseNum": 61,
+          "hasVerseLabel": true,
+          "verseText": "Mary Magdalene and the other Mary were there, sitting opposite the tomb. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "封石妥守"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 61,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 62,
+          "hasVerseLabel": true,
+          "verseText": "The next day, that is, after the day of Preparation, the chief priests and the Pharisees gathered before Pilate "
+        },
+        {
+          "verseNum": 63,
+          "hasVerseLabel": true,
+          "verseText": "and said, “Sir, we remember how that impostor said, while he was still alive, ‘After three days I will rise.’ "
+        },
+        {
+          "verseNum": 64,
+          "hasVerseLabel": true,
+          "verseText": "Therefore order the tomb to be made secure until the third day, lest his disciples go and steal him away and tell the people, ‘He has risen from the dead,’ and the last fraud will be worse than the first.” "
+        },
+        {
+          "verseNum": 65,
+          "hasVerseLabel": true,
+          "verseText": "Pilate said to them, “You have a guard of soldiers. Go, make it as secure as you can.” "
+        },
+        {
+          "verseNum": 66,
+          "hasVerseLabel": true,
+          "verseText": "So they went and made the tomb secure by sealing the stone and setting a guard. "
+        }
+      ]
+    }
+  ]
+}

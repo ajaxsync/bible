@@ -1,0 +1,345 @@
+{
+  "book": 42,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "施洗約翰傳道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太3‧1－12；可1‧1－8；約1‧19－28）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "凯撒提比略在位第十五年，本丢彼拉多任犹太总督，希律做加利利的分封王，他的弟弟菲利普做以土利亚和特拉克尼地区的分封王，卢萨尼亚做阿比利尼的分封王， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "亚纳和该亚法任大祭司——那时，神的话语在旷野临到撒迦利亚的儿子约翰。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他就来到约旦河周围所有的地区宣讲为罪得赦免而悔改的洗礼。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "正如先知以赛亚书上所记载的话： “在旷野有声音呼喊着： ‘你们当预备主的道， 当修直    他的路！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "正如先知以赛亚书上所记载的话： “在旷野有声音呼喊着： ‘你们当预备主的道， 当修直    他的路！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "正如先知以赛亚书上所记载的话： “在旷野有声音呼喊着： ‘你们当预备主的道， 当修直    他的路！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "正如先知以赛亚书上所记载的话： “在旷野有声音呼喊着： ‘你们当预备主的道， 当修直    他的路！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "一切山谷将被填满， 山岭小丘将被削平； 扭曲的道将要修直， 崎岖的路将要铺平。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "一切山谷将被填满， 山岭小丘将被削平； 扭曲的道将要修直， 崎岖的路将要铺平。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "一切山谷将被填满， 山岭小丘将被削平； 扭曲的道将要修直， 崎岖的路将要铺平。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "一切山谷将被填满， 山岭小丘将被削平； 扭曲的道将要修直， 崎岖的路将要铺平。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "所有的人    都将看见神的救恩。’” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "约翰对那些出来受他洗礼的人群说：“你们这些毒蛇的子孙！谁指示你们逃避那将要来临的震怒呢？ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "你们应当结出果子，与悔改的心相称！你们不要自己里面一开始就说‘我们有亚伯拉罕为先祖。’我告诉你们：神能从这些石头中给亚伯拉罕兴起儿女来。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "现在斧子已经放在树根上，所有不结好果子的树都要被砍下来，被丢进火里。” "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "众人问他，说：“那么，我们该做什么呢？” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "约翰回答说：“有两件衣服的，当分给那没有的；有食物的，也当如此做。” "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "一些税吏也来受洗。他们问约翰：“老师，我们该做什么呢？” "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "约翰对他们说：“除了给你们规定的以外，不要多收。” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "有些当兵的也问他，说：“那么我们呢？我们该做什么呢？” 约翰说：“不要敲诈任何人，也不要勒索人，当以自己的粮饷为满足。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "当时，民众都在心里对约翰有期待并猜想，或许他就是基督。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "约翰就回答大家，说：“我用水给你们施洗，但有一位比我更强有力的要来，我就是为他解鞋带也不配。他要用圣灵和火给你们施洗。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "他手里拿着扬谷的锨，要扬净他的打谷场，把麦子收进他的仓库，却把糠秕用不灭的火烧掉。” "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "这样，约翰又用很多别的话劝民众，向他们传福音。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "分封王希律为了他弟弟的妻子希罗迪娅的事，以及自己所做的一切恶事，受到约翰的责备。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "希律在这一切事上又加了一件，就是把约翰关在监狱里。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌受洗"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太3‧13－17；可1‧9－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "有一次，当民众都来受洗的时候，耶稣也受了洗。他正在祷告，天开了， "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "圣灵好像鸽子，有形有体地降临在他身上，并且有声音从天上传来，说： “你是我的爱子， 我喜悦你。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌的家譜"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太1‧1－17）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "耶稣开始传道的时候，大约三十岁。照人看来， 他是约瑟的儿子，约瑟是希里的儿子， "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "希里是玛塔特的儿子，玛塔特是利未的儿子， 利未是麦基的儿子，麦基是雅拿的儿子， 雅拿是约瑟的儿子， "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "约瑟是玛塔提亚的儿子， 玛塔提亚是亚摩斯的儿子，亚摩斯是拿鸿的儿子， 拿鸿是以斯利的儿子，以斯利是拿该的儿子， "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "拿该是玛押的儿子，玛押是玛塔提亚的儿子， 玛塔提亚是西美的儿子，西美是约瑟的儿子， 约瑟是犹大的儿子， "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "犹大是约亚拿的儿子， 约亚拿是利撒的儿子，利撒是所罗巴伯的儿子， 所罗巴伯是撒拉铁的儿子，撒拉铁是尼利的儿子， "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "尼利是麦基的儿子，麦基是亚底的儿子， 亚底是哥桑的儿子，哥桑是以摩当的儿子， 以摩当是珥的儿子， "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "珥是约细的儿子， 约细是以利以谢的儿子，以利以谢是约令的儿子， 约令是玛塔特的儿子，玛塔特是利未的儿子， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "利未是西缅的儿子，西缅是犹大的儿子， 犹大是约瑟的儿子，约瑟是约南的儿子， 约南是以利亚敬的儿子， "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "以利亚敬是米利亚的儿子， 米利亚是迈南的儿子，迈南是玛塔达的儿子， 玛塔达是拿单的儿子，拿单是大卫的儿子， "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "大卫是耶西的儿子，耶西是俄备得的儿子， 俄备得是波阿斯的儿子，波阿斯是撒门的儿子， 撒门是拿顺的儿子， "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "拿顺是亚米拿达的儿子， 亚米拿达是亚特民的儿子，亚特民是亚兰的儿子， 亚兰是希斯仑的儿子，希斯仑是法勒斯的儿子， 法勒斯是犹大的儿子， "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "犹大是雅各的儿子， 雅各是以撒的儿子，以撒是亚伯拉罕的儿子， 亚伯拉罕是塔拉的儿子，塔拉是拿鹤的儿子， "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "拿鹤是西鹿的儿子，西鹿是拉吴的儿子， 拉吴是法勒的儿子，法勒是希伯的儿子， 希伯是沙拉的儿子， "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "沙拉是该南的儿子， 该南是亚法撒的儿子，亚法撒是闪的儿子， 闪是挪亚的儿子，挪亚是拉迈的儿子， "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "拉迈是玛土撒拉的儿子，玛土撒拉是以诺的儿子， 以诺是雅列的儿子，雅列是玛勒列的儿子， 玛勒列是该南的儿子， "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "该南是以挪士的儿子， 以挪士是塞特的儿子，塞特是亚当的儿子， 亚当是神的儿子。 "
+        }
+      ]
+    }
+  ]
+}

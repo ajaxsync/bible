@@ -1,0 +1,85 @@
+{
+  "book": 32,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "約拿順服耶和華"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the word of the Lord came to Jonah a second time: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Go to the great city of Nineveh and proclaim to it the message I give you.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Jonah obeyed the word of the Lord and went to Nineveh. Now Nineveh was a very large city; it took three days to go through it. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Jonah began by going a day’s journey into the city, proclaiming, “Forty more days and Nineveh will be overthrown.” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The Ninevites believed God. A fast was proclaimed, and all of them, from the greatest to the least, put on sackcloth. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "When Jonah’s warning reached the king of Nineveh, he rose from his throne, took off his royal robes, covered himself with sackcloth and sat down in the dust. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "This is the proclamation he issued in Nineveh: “By the decree of the king and his nobles: Do not let people or animals, herds or flocks, taste anything; do not let them eat or drink. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But let people and animals be covered with sackcloth. Let everyone call urgently on God. Let them give up their evil ways and their violence. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Who knows? God may yet relent and with compassion turn from his fierce anger so that we will not perish.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "When God saw what they did and how they turned from their evil ways, he relented and did not bring on them the destruction he had threatened. "
+        }
+      ]
+    }
+  ]
+}

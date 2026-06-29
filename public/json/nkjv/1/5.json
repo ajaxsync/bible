@@ -1,0 +1,269 @@
+{
+  "book": 1,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞當的後代"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上1‧1－4）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This is the book of the genealogy of Adam. In the day that God created man, He made him in the likeness of God. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He created them male and female, and blessed them and called them Mankind in the day they were created. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And Adam lived one hundred and thirty years, and begot a  son  in his own likeness, after his image, and named him Seth. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Seth, the days of Adam were eight hundred years; and he had sons and daughters. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "So all the days that Adam lived were nine hundred and thirty years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Seth lived one hundred and five years, and begot Enosh. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Enosh, Seth lived eight hundred and seven years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Seth were nine hundred and twelve years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Enosh lived ninety years, and begot Cainan. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Cainan, Enosh lived eight hundred and fifteen years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Enosh were nine hundred and five years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Cainan lived seventy years, and begot Mahalalel. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Mahalalel, Cainan lived eight hundred and forty years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Cainan were nine hundred and ten years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Mahalalel lived sixty-five years, and begot Jared. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Jared, Mahalalel lived eight hundred and thirty years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Mahalalel were eight hundred and ninety-five years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Jared lived one hundred and sixty-two years, and begot Enoch. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Enoch, Jared lived eight hundred years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Jared were nine hundred and sixty-two years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Enoch lived sixty-five years, and begot Methuselah. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Methuselah, Enoch walked with God three hundred years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Enoch were three hundred and sixty-five years. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "And Enoch walked with God; and he was not, for God took him. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Methuselah lived one hundred and eighty-seven years, and begot Lamech. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Lamech, Methuselah lived seven hundred and eighty-two years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Methuselah were nine hundred and sixty-nine years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Lamech lived one hundred and eighty-two years, and had a son. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "And he called his name Noah, saying, “This one will comfort us concerning our work and the toil of our hands, because of the ground which the Lord has cursed.” "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "After he begot Noah, Lamech lived five hundred and ninety-five years, and had sons and daughters. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "So all the days of Lamech were seven hundred and seventy-seven years; and he died. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "And Noah was five hundred years old, and Noah begot Shem, Ham, and Japheth. "
+        }
+      ]
+    }
+  ]
+}

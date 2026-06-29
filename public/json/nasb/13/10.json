@@ -1,0 +1,109 @@
+{
+  "book": 13,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "掃羅逝世"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（撒上31‧1－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the Philistines fought against Israel; and the men of Israel fled before the Philistines and fell slain on Mount Gilboa. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The Philistines closely pursued Saul and his sons, and the Philistines struck down Jonathan, Abinadab and Malchi-shua, the sons of Saul. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The battle became heavy against Saul, and the archers overtook him; and he was wounded by the archers. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then Saul said to his armor bearer, “Draw your sword and thrust me through with it, otherwise these uncircumcised will come and abuse me.” But his armor bearer would not, for he was greatly afraid. Therefore Saul took his sword and fell on it. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When his armor bearer saw that Saul was dead, he likewise fell on his sword and died. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Thus Saul died with his three sons, and all those of his house died together. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "When all the men of Israel who were in the valley saw that they had fled, and that Saul and his sons were dead, they forsook their cities and fled; and the Philistines came and lived in them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "It came about the next day, when the Philistines came to strip the slain, that they found Saul and his sons fallen on Mount Gilboa. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "So they stripped him and took his head and his armor and sent messengers around the land of the Philistines to carry the good news to their idols and to the people. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They put his armor in the house of their gods and fastened his head in the house of Dagon. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "When all Jabesh-gilead heard all that the Philistines had done to Saul, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "all the valiant men arose and took away the body of Saul and the bodies of his sons and brought them to Jabesh, and they buried their bones under the oak in Jabesh, and fasted seven days. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "So Saul died for his trespass which he committed against the Lord, because of the word of the Lord which he did not keep; and also because he asked counsel of a medium, making inquiry of it, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "and did not inquire of the Lord. Therefore He killed him and turned the kingdom to David the son of Jesse. "
+        }
+      ]
+    }
+  ]
+}

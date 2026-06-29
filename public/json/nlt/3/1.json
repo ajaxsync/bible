@@ -1,0 +1,130 @@
+{
+  "book": 3,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "燔祭的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord called to Moses from the Tabernacle and said to him, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Give the following instructions to the people of Israel. When you present an animal as an offering to the Lord, you may take it from your herd of cattle or your flock of sheep and goats. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“If the animal you present as a burnt offering is from the herd, it must be a male with no defects. Bring it to the entrance of the Tabernacle so you may be accepted by the Lord. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Lay your hand on the animal’s head, and the Lord will accept its death in your place to purify you, making you right with him. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then slaughter the young bull in the Lord’s presence, and Aaron’s sons, the priests, will present the animal’s blood by splattering it against all sides of the altar that stands at the entrance to the Tabernacle. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Then skin the animal and cut it into pieces. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Aaron the priest will build a wood fire on the altar. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "They will arrange the pieces of the offering, including the head and fat, on the wood burning on the altar. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "But the internal organs and the legs must first be washed with water. Then the priest will burn the entire sacrifice on the altar as a burnt offering. It is a special gift, a pleasing aroma to the Lord. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“If the animal you present as a burnt offering is from the flock, it may be either a sheep or a goat, but it must be a male with no defects. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Slaughter the animal on the north side of the altar in the Lord’s presence, and Aaron’s sons, the priests, will splatter its blood against all sides of the altar. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Then cut the animal in pieces, and the priests will arrange the pieces of the offering, including the head and fat, on the wood burning on the altar. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "But the internal organs and the legs must first be washed with water. Then the priest will burn the entire sacrifice on the altar as a burnt offering. It is a special gift, a pleasing aroma to the Lord. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“If you present a bird as a burnt offering to the Lord, choose either a turtledove or a young pigeon. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The priest will take the bird to the altar, wring off its head, and burn it on the altar. But first he must drain its blood against the side of the altar. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "The priest must also remove the crop and the feathers and throw them in the ashes on the east side of the altar. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Then, grasping the bird by its wings, the priest will tear the bird open, but without tearing it apart. Then he will burn it as a burnt offering on the wood burning on the altar. It is a special gift, a pleasing aroma to the Lord. "
+        }
+      ]
+    }
+  ]
+}

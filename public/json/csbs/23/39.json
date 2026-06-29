@@ -1,0 +1,69 @@
+{
+  "book": 23,
+  "chapter": 39,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "巴比倫王的使節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（王下20‧12－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "在那段时期，巴比伦王巴拉旦的儿子米罗达·巴拉旦听说了希西加患病又康复了，就给他送来书信和礼物。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "希西加对使者们的到来很欢喜，就给他们看他宝库里的金子、银子、香料、贵重的膏油，看他的整个武器库，以及他库房中能找到的一切。他家中和国中的所有东西，希西加没有一样不给他们看。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "于是先知以赛亚去希西加王那里问他：“那些人说了什么？他们是从哪里来见你的？” 希西加回答：“他们是从遥远之地巴比伦来见我的。” "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "以赛亚问：“在你的家中他们看了什么？” 希西加回答：“我家中的所有东西，他们都看了；库房中的一切，我没有一样不给他们看。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "以赛亚就对希西加说：“你要听万军之耶和华的话语： "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "‘看哪！日子将要来到，你家中的一切，以及你祖先所积蓄到今日的一切，都要被掳到巴比伦去，一样也不留。’耶和华还说： "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "‘从你而出的、你亲生的儿子们中，必有被带到巴比伦王的宫中作太监的。’” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "希西加对以赛亚说：“你所说的耶和华的话甚好。”因为他想：“至少在我的年日里，必有平安和安稳。” "
+        }
+      ]
+    }
+  ]
+}

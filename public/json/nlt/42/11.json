@@ -1,0 +1,533 @@
+{
+  "book": 42,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "禱告的教訓"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太6‧9－13；7‧7－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Once Jesus was in a certain place praying. As he finished, one of his disciples came to him and said, “Lord, teach us to pray, just as John taught his disciples.” "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Jesus said, “This is how you should pray: “Father, may your name be kept holy. May your Kingdom come soon. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Give us each day the food we need, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Give us each day the food we need,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "and forgive us our sins, as we forgive those who sin against us. And don’t let us yield to temptation.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "and forgive us our sins, as we forgive those who sin against us. And don’t let us yield to temptation.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "and forgive us our sins, as we forgive those who sin against us. And don’t let us yield to temptation.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "and forgive us our sins, as we forgive those who sin against us. And don’t let us yield to temptation.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then, teaching them more about prayer, he used this story: “Suppose you went to a friend’s house at midnight, wanting to borrow three loaves of bread. You say to him, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "‘A friend of mine has just arrived for a visit, and I have nothing for him to eat.’ "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "And suppose he calls out from his bedroom, ‘Don’t bother me. The door is locked for the night, and my family and I are all in bed. I can’t help you.’ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But I tell you this—though he won’t do it for friendship’s sake, if you keep knocking long enough, he will get up and give you whatever you need because of your shameless persistence. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“And so I tell you, keep on asking, and you will receive what you ask for. Keep on seeking, and you will find. Keep on knocking, and the door will be opened to you. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "For everyone who asks, receives. Everyone who seeks, finds. And to everyone who knocks, the door will be opened. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“You fathers—if your children ask for a fish, do you give them a snake instead? "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Or if they ask for an egg, do you give them a scorpion? Of course not! "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "So if you sinful people know how to give good gifts to your children, how much more will your heavenly Father give the Holy Spirit to those who ask him.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌和別西卜"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧22－30；可3‧20－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "One day Jesus cast out a demon from a man who couldn’t speak, and when the demon was gone, the man began to speak. The crowds were amazed, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "but some of them said, “No wonder he can cast out demons. He gets his power from Satan, the prince of demons.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Others, trying to test Jesus, demanded that he show them a miraculous sign from heaven to prove his authority. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "He knew their thoughts, so he said, “Any kingdom divided by civil war is doomed. A family splintered by feuding will fall apart. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "You say I am empowered by Satan. But if Satan is divided and fighting against himself, how can his kingdom survive? "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "And if I am empowered by Satan, what about your own exorcists? They cast out demons, too, so they will condemn you for what you have said. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "But if I am casting out demons by the power of God, then the Kingdom of God has arrived among you. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "For when a strong man is fully armed and guards his palace, his possessions are safe— "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "until someone even stronger attacks and overpowers him, strips him of his weapons, and carries off his belongings. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "“Anyone who isn’t with me opposes me, and anyone who isn’t working with me is actually working against me. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "污鬼回來"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧43－45）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“When an evil spirit leaves a person, it goes into the desert, searching for rest. But when it finds none, it says, ‘I will return to the person I came from.’ "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "So it returns and finds that its former home is all swept and in order. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Then the spirit finds seven other spirits more evil than itself, and they all enter the person and live there. And so that person is worse off than before.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "真正的福"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "As he was speaking, a woman in the crowd called out, “God bless your mother—the womb from which you came, and the breasts that nursed you!” "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Jesus replied, “But even more blessed are all who hear the word of God and put it into practice.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "求神蹟的受責備"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太12‧38－42）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "As the crowd pressed in on Jesus, he said, “This evil generation keeps asking me to show them a miraculous sign. But the only sign I will give them is the sign of Jonah. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "What happened to him was a sign to the people of Nineveh that God had sent him. What happens to the Son of Man will be a sign to these people that he was sent by God. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "“The queen of Sheba will stand up against this generation on judgment day and condemn it, for she came from a distant land to hear the wisdom of Solomon. Now someone greater than Solomon is here—but you refuse to listen. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "The people of Nineveh will also stand up against this generation on judgment day and condemn it, for they repented of their sins at the preaching of Jonah. Now someone greater than Jonah is here—but you refuse to repent. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "論心裏的光"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太5‧15；6‧22－23）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“No one lights a lamp and then hides it or puts it under a basket. Instead, a lamp is placed on a stand, where its light can be seen by all who enter the house. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“Your eye is like a lamp that provides light for your body. When your eye is healthy, your whole body is filled with light. But when it is unhealthy, your body is filled with darkness. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Make sure that the light you think you have is not actually darkness. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "If you are filled with light, with no dark corners, then your whole life will be radiant, as though a floodlight were filling you with light.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "譴責法利賽人和文士"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太23‧1－36；可12‧38－40）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "As Jesus was speaking, one of the Pharisees invited him home for a meal. So he went in and took his place at the table. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "His host was amazed to see that he sat down to eat without first performing the hand-washing ceremony required by Jewish custom. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to him, “You Pharisees are so careful to clean the outside of the cup and the dish, but inside you are filthy—full of greed and wickedness! "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Fools! Didn’t God make the inside as well as the outside? "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "So clean the inside by giving gifts to the poor, and you will be clean all over. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "“What sorrow awaits you Pharisees! For you are careful to tithe even the tiniest income from your herb gardens, but you ignore justice and the love of God. You should tithe, yes, but do not neglect the more important things. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "“What sorrow awaits you Pharisees! For you love to sit in the seats of honor in the synagogues and receive respectful greetings as you walk in the marketplaces. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "Yes, what sorrow awaits you! For you are like hidden graves in a field. People walk over them without knowing the corruption they are stepping on.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“Teacher,” said an expert in religious law, “you have insulted us, too, in what you just said.” "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "“Yes,” said Jesus, “what sorrow also awaits you experts in religious law! For you crush people with unbearable religious demands, and you never lift a finger to ease the burden. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "What sorrow awaits you! For you build monuments for the prophets your own ancestors killed long ago. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "But in fact, you stand as witnesses who agree with what your ancestors did. They killed the prophets, and you join in their crime by building the monuments! "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "This is what God in his wisdom said about you: ‘I will send prophets and apostles to them, but they will kill some and persecute the others.’ "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "“As a result, this generation will be held responsible for the murder of all God’s prophets from the creation of the world— "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "from the murder of Abel to the murder of Zechariah, who was killed between the altar and the sanctuary. Yes, it will certainly be charged against this generation. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "“What sorrow awaits you experts in religious law! For you remove the key to knowledge from the people. You don’t enter the Kingdom yourselves, and you prevent others from entering.” "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "As Jesus was leaving, the teachers of religious law and the Pharisees became hostile and tried to provoke him with many questions. "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "They wanted to trap him into saying something they could use against him. "
+        }
+      ]
+    }
+  ]
+}

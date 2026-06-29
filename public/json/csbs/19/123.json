@@ -1,0 +1,129 @@
+{
+  "book": 19,
+  "chapter": 123,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "求主憐憫"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "在天上坐着为王的那一位啊， 我要向你举目！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "在天上坐着为王的那一位啊， 我要向你举目！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "看哪！仆人的眼睛怎样望着自己主人的手， 婢女的眼睛怎样望着自己主母的手， 我们的眼睛也照样望着耶和华我们的神， 直到他恩待我们。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "看哪！仆人的眼睛怎样望着自己主人的手， 婢女的眼睛怎样望着自己主母的手， 我们的眼睛也照样望着耶和华我们的神， 直到他恩待我们。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "看哪！仆人的眼睛怎样望着自己主人的手， 婢女的眼睛怎样望着自己主母的手， 我们的眼睛也照样望着耶和华我们的神， 直到他恩待我们。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "看哪！仆人的眼睛怎样望着自己主人的手， 婢女的眼睛怎样望着自己主母的手， 我们的眼睛也照样望着耶和华我们的神， 直到他恩待我们。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "耶和华啊，求你恩待我们， 求你恩待我们！ 因为我们实在受尽了藐视—— "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "耶和华啊，求你恩待我们， 求你恩待我们！ 因为我们实在受尽了藐视——"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "安逸人的嘲笑和高慢人的藐视， 我们实在受尽了。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "安逸人的嘲笑和高慢人的藐视， 我们实在受尽了。"
+        }
+      ]
+    }
+  ]
+}

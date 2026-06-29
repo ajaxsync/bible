@@ -1,0 +1,145 @@
+{
+  "book": 2,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "以色列人在埃及受虐待"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "These are the names of the sons of Israel (that is, Jacob) who moved to Egypt with their father, each with his family: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Reuben, Simeon, Levi, Judah, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Issachar, Zebulun, Benjamin, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Dan, Naphtali, Gad, and Asher. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "In all, Jacob had seventy descendants in Egypt, including Joseph, who was already there. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "In time, Joseph and all of his brothers died, ending that entire generation. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "But their descendants, the Israelites, had many children and grandchildren. In fact, they multiplied so greatly that they became extremely powerful and filled the land. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Eventually, a new king came to power in Egypt who knew nothing about Joseph or what he had done. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "He said to his people, “Look, the people of Israel now outnumber us and are stronger than we are. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "We must make a plan to keep them from growing even more. If we don’t, and if war breaks out, they will join our enemies and fight against us. Then they will escape from the country.” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So the Egyptians made the Israelites their slaves. They appointed brutal slave drivers over them, hoping to wear them down with crushing labor. They forced them to build the cities of Pithom and Rameses as supply centers for the king. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "But the more the Egyptians oppressed them, the more the Israelites multiplied and spread, and the more alarmed the Egyptians became. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "So the Egyptians worked the people of Israel without mercy. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "They made their lives bitter, forcing them to mix mortar and make bricks and do all the work in the fields. They were ruthless in all their demands. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Then Pharaoh, the king of Egypt, gave this order to the Hebrew midwives, Shiphrah and Puah: "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“When you help the Hebrew women as they give birth, watch as they deliver. If the baby is a boy, kill him; if it is a girl, let her live.” "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "But because the midwives feared God, they refused to obey the king’s orders. They allowed the boys to live, too. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "So the king of Egypt called for the midwives. “Why have you done this?” he demanded. “Why have you allowed the boys to live?” "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“The Hebrew women are not like the Egyptian women,” the midwives replied. “They are more vigorous and have their babies so quickly that we cannot get there in time.” "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "So God was good to the midwives, and the Israelites continued to multiply, growing more and more powerful. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "And because the midwives feared God, he gave them families of their own. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Then Pharaoh gave this order to all his people: “Throw every newborn Hebrew boy into the Nile River. But you may let the girls live.” "
+        }
+      ]
+    }
+  ]
+}

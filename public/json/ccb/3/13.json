@@ -1,0 +1,414 @@
+{
+  "book": 3,
+  "chapter": 13,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關皮膚病的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西和亚伦说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人皮肤上长肿包、皮疹或白斑，出现麻风病症状，要将他带到祭司亚伦或亚伦做祭司的子孙那里。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "祭司要检查患处，如果患处凹陷，患处的毛发变白，就是麻风病，要宣布他是不洁净的。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "如果那人的患处有白斑，没有凹陷，患处的毛发也没有变白，祭司要把他隔离七天。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要再次检查患处，如果患处没有恶化，没有扩散，祭司要把他再隔离七天。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要再次检查，如果患处颜色变淡，也没有扩散，祭司要宣布他是洁净的。他患的不过是皮疹，他要洗净衣物，便会洁净。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "如果祭司已查看并宣布他是洁净的，但皮疹又扩散，他必须再去见祭司。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，如果发现皮疹已扩散，就要宣布他是不洁净的，患了麻风病。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人患麻风病，必须将他带到祭司面前。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，如果发现他皮肤上有白色肿包，毛发变白，患处出现疮口， "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "他就是患了慢性麻风病，祭司要宣布他是不洁净的。他无须被隔离，因他已经不洁净。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "如果他的麻风病已扩散，头上脚上到处可见， "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "祭司就要检查。如果发现麻风病已扩散到他全身，全身的皮肤变白，祭司就要宣布他是洁净的。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "但如果他身上出现溃烂之处，他便不洁净。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "祭司看到他身上的溃烂之处，就要宣布他是不洁净的，因为那溃烂之处表明他患了麻风病。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "如果溃烂之处痊愈并变白，他就要去见祭司。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，若发现溃烂之处确已变白，就要宣布他是洁净的，他便洁净了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人身上长疮，又痊愈了， "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "但原患处出现白色肿包或白里带红的斑，他就要去让祭司检查。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，若发现患处凹陷，患处的毛发变白，就要宣布他是不洁净的。这是疮变成了麻风病。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "但祭司检查时，若发现患处没有白毛，没有凹陷，肉色变淡，就要把他隔离七天。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "隔离期间，若患处扩散，祭司要宣布他是不洁净的，是患了麻风病。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "如果患处的斑原样未变，没有扩散，便是疮疤，祭司要宣布他是洁净的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人被火烧伤，患处变白或白中带红， "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "祭司要检查他的患处。如果患处的毛发变白，伤口凹陷，他的烧伤已变成麻风病，祭司要宣布他是不洁净的，因为他患了麻风病。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，若发现患处没有白毛，伤口没有凹陷，颜色变淡，就要把他隔离七天。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要再次检查，若发现患处扩散，就要宣布他是不洁净的，因为他患了麻风病。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "如果患处没有扩散，颜色变淡，就是烧伤引起的肿包，祭司要宣布他是洁净的，因为那不过是烧伤的疤痕。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“如果有男女头上或下巴长疮， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "祭司要检查患处，若发现患处凹陷，上面有黄色细毛，就要宣布那人是不洁净的，因为那是疥癣，是麻风病。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查时，若发现患处没有凹陷，没有黑毛，就要将那人隔离七天。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要检查患处，若发现疥癣没有扩散，上面没有黄毛，患处没有凹陷， "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "那人要剃去头发和胡须，但不可剃患处的毛发。祭司要将他再隔离七天。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要再次检查，若发现疥癣没有扩散，患处没有凹陷，就要宣布那人是洁净的。那人要洗净衣服，便洁净了。 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "那人洁净以后，疥癣若再次扩散， "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "祭司就要再次检查。如果疥癣确已扩散，祭司不必再找黄毛，那人是不洁净的。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "如果祭司看到疥癣原样未变，患处长出黑毛，那人就已经痊愈，是洁净的。祭司要宣布那人是洁净的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "“如果有男女身上长白斑， "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "祭司要检查患处，若发现斑呈灰白色，就是皮疹，那人是洁净的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人脱发，成了秃头，他是洁净的。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "如果有人前额脱发，他只是前额光秃，仍是洁净的。 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "如果在光秃的头上或前额上长出白里带红的疮，那就是麻风病。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "祭司要检查患处，若发现疮周围肿胀，看起来像麻风病， "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "就是得了麻风病，那人是不洁净的。祭司要宣布那人是不洁净的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“患麻风病的人必须撕裂衣服，披头散发，遮住脸的下半部，高喊‘不洁净！不洁净！’ "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "只要病不痊愈，他就不洁净，要独自住在营外。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "衣物發霉的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "“如果衣物出现霉斑，不论是羊毛衣、细麻衣、 "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "羊毛织品、细麻织品，还是皮革或皮革制品， "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "只要发现霉斑是绿色或红色的，那就是霉变，要拿给祭司检查。 "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "祭司检查后，要把那衣物隔离七天。 "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "第七天，祭司要再次检查，若发现衣物、编织品或皮革上的霉斑蔓延，那衣物就是不洁净的。 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "不论那是衣服、羊毛或细麻织品，还是皮革制品，祭司都必须把它烧掉，因为那是霉变。必须烧掉霉变的衣物。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "如果祭司发现衣服、编织品或皮革上的霉斑没有蔓延， "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "就要吩咐人洗净衣物，再隔离七天。 "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "之后，祭司要再次检查洗过的衣物，若发现霉斑原样未变，即使没有蔓延，那衣物也是不洁净的。无论衣物里面还是外面霉变，都必须把它烧掉。 "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "如果祭司发现洗过后霉斑退色，就要把霉变的部分从衣服、皮革、编织品上撕下来。 "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "以后衣物、编织品或皮革上若再次出现霉斑，便是旧患复发，要把它烧掉。 "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "如果洗过衣服、编织品或皮革后，霉斑消失了，要再洗一次就洁净了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 58,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "“羊毛衣、细麻衣、编织品或皮革制品出现霉变时，以上条例可用来鉴定这些衣物是否洁净。” "
+        }
+      ]
+    }
+  ]
+}

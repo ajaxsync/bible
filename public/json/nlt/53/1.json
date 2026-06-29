@@ -1,0 +1,89 @@
+{
+  "book": 53,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This letter is from Paul, Silas, and Timothy. We are writing to the church in Thessalonica, to you who belong to God our Father and the Lord Jesus Christ. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "May God our Father and the Lord Jesus Christ give you grace and peace. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "基督再來時的審判"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Dear brothers and sisters, we can’t help but thank God for you, because your faith is flourishing and your love for one another is growing. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "We proudly tell God’s other churches about your endurance and faithfulness in all the persecutions and hardships you are suffering. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And God will use this persecution to show his justice and to make you worthy of his Kingdom, for which you are suffering. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "In his justice he will pay back those who persecute you. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "And God will provide rest for you who are being persecuted and also for us when the Lord Jesus appears from heaven. He will come with his mighty angels, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "in flaming fire, bringing judgment on those who don’t know God and on those who refuse to obey the Good News of our Lord Jesus. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "They will be punished with eternal destruction, forever separated from the Lord and from his glorious power. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "When he comes on that day, he will receive glory from his holy people—praise from all who believe. And this includes you, for you believed what we told you about him. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So we keep on praying for you, asking our God to enable you to live a life worthy of his call. May he give you the power to accomplish all the good things your faith prompts you to do. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Then the name of our Lord Jesus will be honored because of the way you live, and you will be honored along with him. This is all made possible because of the grace of our God and Lord, Jesus Christ. "
+        }
+      ]
+    }
+  ]
+}

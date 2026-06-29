@@ -1,0 +1,370 @@
+{
+  "book": 4,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "以色列的第一次人口普查"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "以色列人离开埃及后第二年的二月一日，耶和华在西奈旷野的会幕中对摩西说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你要按以色列人的宗族和家系统计人口，登记所有男子的姓名。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你和亚伦要一队一队地统计以色列人中二十岁以上、有作战能力的男子。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "每一支派要有一个人来协助你们。他们都是各宗族的族长， "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "名单如下。 “吕便支派示丢珥的儿子以利苏、 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "西缅支派苏利沙代的儿子示路蔑、 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "犹大支派亚米拿达的儿子拿顺、 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "以萨迦支派苏押的儿子拿坦业、 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "西布伦支派希伦的儿子以利押、 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "约瑟的后裔——以法莲支派亚米忽的儿子以利沙玛和玛拿西支派比大苏的儿子迦玛列、 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "便雅悯支派基多尼的儿子亚比但、 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "但支派亚米沙代的儿子亚希以谢、 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "亚设支派俄兰的儿子帕结、 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "迦得支派丢珥的儿子以利雅萨、 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "拿弗他利支派以南的儿子亚希拉。” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "他们都是从会众中选出来的，是各支派的首领，也是以色列的将领。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "摩西和亚伦在这些族长的帮助下， "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "在二月一日招聚全体会众，按照宗族和家系统计人口，登记所有二十岁以上的男子。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "摩西照耶和华的吩咐在西奈旷野统计人口。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": " 以色列的長子，呂便子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的男丁，共有四萬六千五百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": " 西緬子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的男丁，共有五萬九千三百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": " 迦得子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有四萬五千六百五十名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": " 猶大子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有七萬四千六百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": " 以薩迦子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有五萬四千四百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": " 西布倫子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有五萬七千四百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": " 約瑟子孫屬以法蓮子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有四萬零五百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": " 瑪拿西子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有三萬二千二百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": " 便雅憫子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有三萬五千四百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": " 但子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有六萬二千七百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": " 亞設子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有四萬一千五百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": " 拿弗他利子孫的後代，照着家室、宗族、人名的數目，從二十歲以外，凡能出去打仗、被數的，共有五萬三千四百名。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "以上就是摩西、亚伦和各代表自己家族的十二位以色列首领所统计的男子人数。 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "这样，以色列人中二十岁以上、有作战能力的男子按宗族、家系和姓名一一被登记下来， "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "其中不包括利未人， "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "因为耶和华曾经对摩西说： "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "“你不要统计利未支派的人数，不要把他们的人数算在以色列人中。 "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "你要派利未人负责搬运和照料放约柜的圣幕及其所有器具，他们要在圣幕四围扎营。 "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "在迁移的时候，利未人要负责拆卸和支搭圣幕；其他人若走近圣幕，必被处死。 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "以色列人要按照他们的队伍各自扎营，各归本旗。 "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "但利未人要在放约柜的圣幕四周扎营，防止以色列人触怒耶和华。利未人负责看守圣幕。” "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "以色列人就按耶和华对摩西的吩咐行了。 "
+        }
+      ]
+    }
+  ]
+}

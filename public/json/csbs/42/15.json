@@ -1,0 +1,207 @@
+{
+  "book": 42,
+  "chapter": 15,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "迷羊的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太18‧12－14）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "当时，税吏和罪人都接近耶稣，听他讲说。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "法利赛人和经文士抱怨，说：“这个人欢迎罪人，又与他们一起吃饭。” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "于是耶稣对他们讲了这个比喻： "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“你们当中的哪一个人拥有一百只羊，而丢失其中的一只，就不会把九十九只留在旷野，去找那一只丢失的，直到找到了它呢？ "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "一旦找到了，他就快快乐乐地扛在自己的肩上， "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "回到家里请朋友和邻居来，对他们说：‘你们与我一同欢乐吧，因为我找到了那只丢失的羊。’ "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我告诉你们：同样，一个罪人的悔改，比九十九个不需要悔改的义人，会让天上更有喜乐。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "失錢的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“或者，如果一个妇人有十个银币    ，丢失了一个，难道她不点上油灯，打扫屋子，仔细寻找，直到找到了它吗？ "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "一旦找到了，她就会请朋友和邻居来，说：‘你们与我一同欢乐吧，因为我找到了那个丢失的银币。’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "同样，我告诉你们：一个罪人的悔改，会让神的天使们面前有喜乐。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "浪子的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "耶稣又说：“某人有两个儿子。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "小儿子对父亲说：‘父亲，请把我应得的那份家产给我。’父亲就把财产分给两个儿子。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "没过几天，那小儿子就收拾了一切，往一个遥远的地方去旅行了。他在那里过着放荡的生活，挥霍他的钱财。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "当他花尽了自己的一切，那地方又发生了严重的饥荒，他就开始穷困起来。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "于是他去投靠当地的一个居民，那人打发他到自己的田里去放猪。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "他就是渴望拿猪吃的豆荚来充饥，也没有人给他。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "可是他醒悟过来的时候，就说：‘我父亲那么多的雇工都食物充足，我却要在这里饿死吗？ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "我要起来，到我父亲那里去，对他说：‘父亲，我对天犯了罪，也在你面前犯了罪。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "我再也不配称为你的儿子，请把我当做你的一个雇工吧。’ "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "于是他起来往自己的父亲那里去。他离得还远的时候，他父亲就看到他，动了怜悯之心，跑上去搂住他的脖子亲吻他。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "儿子说：‘父亲，我对天犯了罪，也在你面前犯了罪。我再也不配称为你的儿子。’ "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“父亲却对奴仆们说：‘赶快    把那最好的袍子拿来给他穿上，把戒指戴在他手上，把鞋子穿在他脚上， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "把那只养肥的牛犊牵来宰杀了，让我们吃喝、庆祝吧！ "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "因为我这个儿子是死而复生、失而复得的。’于是他们开始庆祝。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "“那时，大儿子正在田里。当他往回走，快到家的时候，听见音乐和跳舞的声音， "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "就叫来一个仆人，问这些到底是什么事。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "仆人对他说：‘你弟弟回来了。你父亲因他平安无恙地回来，就宰杀了那只养肥的牛犊。’ "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "“大儿子发怒，不肯进去，他父亲就出来劝    他。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "他回答父亲，说：‘你看，我服事你这么多年，从来没有违背过你的命令，可是你从来没有给过我一只小山羊，好让我与朋友们一同庆祝。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "而你这个儿子，这个与妓女们一起吞尽了你财产的，他一来了，你就为他宰杀了养肥的牛犊！’ "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "“父亲对他说：‘孩子啊，你一直与我在一起，我的一切都是你的。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "现在，我们应该庆祝、欢喜，因为你这个弟弟是死而复生、失而复得的。’” "
+        }
+      ]
+    }
+  ]
+}

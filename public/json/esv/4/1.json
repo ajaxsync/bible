@@ -1,0 +1,370 @@
+{
+  "book": 4,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "以色列的第一次人口普查"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord spoke to Moses in the wilderness of Sinai, in the tent of meeting, on the first day of the second month, in the second year after they had come out of the land of Egypt, saying, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Take a census of all the congregation of the people of Israel, by clans, by fathers’ houses, according to the number of names, every male, head by head. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "From twenty years old and upward, all in Israel who are able to go to war, you and Aaron shall list them, company by company. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And there shall be with you a man from each tribe, each man being the head of the house of his fathers. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And these are the names of the men who shall assist you. From Reuben, Elizur the son of Shedeur; "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "from Simeon, Shelumiel the son of Zurishaddai; "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "from Judah, Nahshon the son of Amminadab; "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "from Issachar, Nethanel the son of Zuar; "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "from Zebulun, Eliab the son of Helon; "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "from the sons of Joseph, from Ephraim, Elishama the son of Ammihud, and from Manasseh, Gamaliel the son of Pedahzur; "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "from Benjamin, Abidan the son of Gideoni; "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "from Dan, Ahiezer the son of Ammishaddai; "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "from Asher, Pagiel the son of Ochran; "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "from Gad, Eliasaph the son of Deuel; "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "from Naphtali, Ahira the son of Enan.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "These were the ones chosen from the congregation, the chiefs of their ancestral tribes, the heads of the clans of Israel. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Moses and Aaron took these men who had been named, "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "and on the first day of the second month, they assembled the whole congregation together, who registered themselves by clans, by fathers’ houses, according to the number of names from twenty years old and upward, head by head, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "as the Lord commanded Moses. So he listed them in the wilderness of Sinai. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The people of Reuben, Israel’s firstborn, their generations, by their clans, by their fathers’ houses, according to the number of names, head by head, every male from twenty years old and upward, all who were able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Simeon, their generations, by their clans, by their fathers’ houses, those of them who were listed, according to the number of names, head by head, every male from twenty years old and upward, all who were able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Gad, their generations, by their clans, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Judah, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Issachar, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Zebulun, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Joseph, namely, of the people of Ephraim, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Manasseh, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Benjamin, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Dan, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Asher, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "Of the people of Naphtali, their generations, by their clans, by their fathers’ houses, according to the number of names, from twenty years old and upward, every man able to go to war: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "These are those who were listed, whom Moses and Aaron listed with the help of the chiefs of Israel, twelve men, each representing his fathers’ house. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "So all those listed of the people of Israel, by their fathers’ houses, from twenty years old and upward, every man able to go to war in Israel— "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "But the Levites were not listed along with them by their ancestral tribe. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "For the Lord spoke to Moses, saying, "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "“Only the tribe of Levi you shall not list, and you shall not take a census of them among the people of Israel. "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "But appoint the Levites over the tabernacle of the testimony, and over all its furnishings, and over all that belongs to it. They are to carry the tabernacle and all its furnishings, and they shall take care of it and shall camp around the tabernacle. "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "When the tabernacle is to set out, the Levites shall take it down, and when the tabernacle is to be pitched, the Levites shall set it up. And if any outsider comes near, he shall be put to death. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "The people of Israel shall pitch their tents by their companies, each man in his own camp and each man by his own standard. "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "But the Levites shall camp around the tabernacle of the testimony, so that there may be no wrath on the congregation of the people of Israel. And the Levites shall keep guard over the tabernacle of the testimony.” "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "Thus did the people of Israel; they did according to all that the Lord commanded Moses. "
+        }
+      ]
+    }
+  ]
+}

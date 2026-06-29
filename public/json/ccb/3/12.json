@@ -1,0 +1,65 @@
+{
+  "book": 3,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "產婦潔淨禮的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你把以下条例告诉以色列人。 “如果有妇人生了男婴，她就要不洁净七天，像在经期内不洁净一样。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "第八天，婴儿要接受割礼。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "妇人因产后流血，要等三十三天才能洁净。其间，不可接触任何圣物，也不可进入圣所。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "如果妇人生的是女婴，她就要不洁净十四天，像在经期内不洁净一样。她因产后流血，要等六十六天才能洁净。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "不论她生男生女，洁净期满后，都要预备一只一岁的羊羔作燔祭、一只雏鸽或斑鸠作赎罪祭，带到会幕门口交给祭司。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "祭司要在耶和华面前献祭，为她赎罪，她就洁净了。这是有关产妇的条例。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "她若负担不起一只羊羔，可以带两只斑鸠或雏鸽来，一只作燔祭，一只作赎罪祭。祭司为她赎罪后，她就洁净了。” "
+        }
+      ]
+    }
+  ]
+}

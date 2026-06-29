@@ -1,0 +1,478 @@
+{
+  "book": 10,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "大衛的遺言"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "These are the last words of David: “David, the son of Jesse, speaks— David, the man who was raised up so high, David, the man anointed by the God of Jacob, David, the sweet psalmist of Israel. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“The Spirit of the Lord speaks through me; his words are upon my tongue. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“The Spirit of the Lord speaks through me; his words are upon my tongue."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The God of Israel spoke. The Rock of Israel said to me: ‘The one who rules righteously, who rules in the fear of God, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "The God of Israel spoke. The Rock of Israel said to me: ‘The one who rules righteously, who rules in the fear of God,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "The God of Israel spoke. The Rock of Israel said to me: ‘The one who rules righteously, who rules in the fear of God,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "The God of Israel spoke. The Rock of Israel said to me: ‘The one who rules righteously, who rules in the fear of God,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "is like the light of morning at sunrise, like a morning without clouds, like the gleaming of the sun on new grass after rain.’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "is like the light of morning at sunrise, like a morning without clouds, like the gleaming of the sun on new grass after rain.’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "is like the light of morning at sunrise, like a morning without clouds, like the gleaming of the sun on new grass after rain.’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "is like the light of morning at sunrise, like a morning without clouds, like the gleaming of the sun on new grass after rain.’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“Is it not my family God has chosen? Yes, he has made an everlasting covenant with me. His agreement is arranged and guaranteed in every detail. He will ensure my safety and success. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Is it not my family God has chosen? Yes, he has made an everlasting covenant with me. His agreement is arranged and guaranteed in every detail. He will ensure my safety and success."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Is it not my family God has chosen? Yes, he has made an everlasting covenant with me. His agreement is arranged and guaranteed in every detail. He will ensure my safety and success."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Is it not my family God has chosen? Yes, he has made an everlasting covenant with me. His agreement is arranged and guaranteed in every detail. He will ensure my safety and success."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“Is it not my family God has chosen? Yes, he has made an everlasting covenant with me. His agreement is arranged and guaranteed in every detail. He will ensure my safety and success."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "But the godless are like thorns to be thrown away, for they tear the hand that touches them. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "But the godless are like thorns to be thrown away, for they tear the hand that touches them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "One must use iron tools to chop them down; they will be totally consumed by fire.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "One must use iron tools to chop them down; they will be totally consumed by fire.”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "大衛的勇士"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上11‧10－47）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "These are the names of David’s mightiest warriors. The first was Jashobeam the Hacmonite, who was leader of the Three—the three mightiest warriors among David’s men. He once used his spear to kill 800 enemy warriors in a single battle. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Next in rank among the Three was Eleazar son of Dodai, a descendant of Ahoah. Once Eleazar and David stood together against the Philistines when the entire Israelite army had fled. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "He killed Philistines until his hand was too tired to lift his sword, and the Lord gave him a great victory that day. The rest of the army did not return until it was time to collect the plunder! "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Next in rank was Shammah son of Agee from Harar. One time the Philistines gathered at Lehi and attacked the Israelites in a field full of lentils. The Israelite army fled, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "but Shammah held his ground in the middle of the field and beat back the Philistines. So the Lord brought about a great victory. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Once during the harvest, when David was at the cave of Adullam, the Philistine army was camped in the valley of Rephaim. The Three (who were among the Thirty—an elite group among David’s fighting men) went down to meet him there. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "David was staying in the stronghold at the time, and a Philistine detachment had occupied the town of Bethlehem. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "David remarked longingly to his men, “Oh, how I would love some of that good water from the well by the gate in Bethlehem.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "So the Three broke through the Philistine lines, drew some water from the well by the gate in Bethlehem, and brought it back to David. But he refused to drink it. Instead, he poured it out as an offering to the Lord. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“The Lord forbid that I should drink this!” he exclaimed. “This water is as precious as the blood of these men who risked their lives to bring it to me.” So David did not drink it. These are examples of the exploits of the Three. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Abishai son of Zeruiah, the brother of Joab, was the leader of the Thirty. He once used his spear to kill 300 enemy warriors in a single battle. It was by such feats that he became as famous as the Three. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Abishai was the most famous of the Thirty and was their commander, though he was not one of the Three. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "There was also Benaiah son of Jehoiada, a valiant warrior from Kabzeel. He did many heroic deeds, which included killing two champions of Moab. Another time, on a snowy day, he chased a lion down into a pit and killed it. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Once, armed only with a club, he killed an imposing Egyptian warrior who was armed with a spear. Benaiah wrenched the spear from the Egyptian’s hand and killed him with it. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Deeds like these made Benaiah as famous as the Three mightiest warriors. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "He was more honored than the other members of the Thirty, though he was not one of the Three. And David made him captain of his bodyguard. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Other members of the Thirty included: Asahel, Joab’s brother; Elhanan son of Dodo from Bethlehem; "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Shammah from Harod; Elika from Harod; "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Helez from Pelon; Ira son of Ikkesh from Tekoa; "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Abiezer from Anathoth; Sibbecai from Hushah; "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Zalmon from Ahoah; Maharai from Netophah; "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Heled son of Baanah from Netophah; Ithai son of Ribai from Gibeah (in the land of Benjamin); "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Benaiah from Pirathon; Hurai from Nahale-gaash; "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Abi-albon from Arabah; Azmaveth from Bahurim; "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Eliahba from Shaalbon; the sons of Jashen; Jonathan "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "son of Shagee from Harar; Ahiam son of Sharar from Harar; "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Eliphelet son of Ahasbai from Maacah; Eliam son of Ahithophel from Giloh; "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Hezro from Carmel; Paarai from Arba; "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Igal son of Nathan from Zobah; Bani from Gad; "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "Zelek from Ammon; Naharai from Beeroth, the armor bearer of Joab son of Zeruiah; "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Ira from Jattir; Gareb from Jattir; "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Uriah the Hittite. There were thirty-seven in all. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": 23,
+  "chapter": 20,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "露身赤腳的先知"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "In the year that the supreme commander, sent by Sargon king of Assyria, came to Ashdod and attacked and captured it— "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "at that time the Lord spoke through Isaiah son of Amoz. He said to him, “Take off the sackcloth from your body and the sandals from your feet.” And he did so, going around stripped and barefoot. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said, “Just as my servant Isaiah has gone stripped and barefoot for three years, as a sign and portent against Egypt and Cush, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "so the king of Assyria will lead away stripped and barefoot the Egyptian captives and Cushite exiles, young and old, with buttocks bared—to Egypt’s shame. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Those who trusted in Cush and boasted in Egypt will be dismayed and put to shame. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "In that day the people who live on this coast will say, ‘See what has happened to those we relied on, those we fled to for help and deliverance from the king of Assyria! How then can we escape?’ ” "
+        }
+      ]
+    }
+  ]
+}

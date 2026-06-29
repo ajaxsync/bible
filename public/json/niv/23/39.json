@@ -1,0 +1,69 @@
+{
+  "book": 23,
+  "chapter": 39,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "巴比倫王的使節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（王下20‧12－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "At that time Marduk-Baladan son of Baladan king of Babylon sent Hezekiah letters and a gift, because he had heard of his illness and recovery. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Hezekiah received the envoys gladly and showed them what was in his storehouses—the silver, the gold, the spices, the fine olive oil—his entire armory and everything found among his treasures. There was nothing in his palace or in all his kingdom that Hezekiah did not show them. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Then Isaiah the prophet went to King Hezekiah and asked, “What did those men say, and where did they come from?” “From a distant land,” Hezekiah replied. “They came to me from Babylon.” "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "The prophet asked, “What did they see in your palace?” “They saw everything in my palace,” Hezekiah said. “There is nothing among my treasures that I did not show them.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then Isaiah said to Hezekiah, “Hear the word of the Lord Almighty: "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The time will surely come when everything in your palace, and all that your predecessors have stored up until this day, will be carried off to Babylon. Nothing will be left, says the Lord. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "And some of your descendants, your own flesh and blood who will be born to you, will be taken away, and they will become eunuchs in the palace of the king of Babylon.” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“The word of the Lord you have spoken is good,” Hezekiah replied. For he thought, “There will be peace and security in my lifetime.” "
+        }
+      ]
+    }
+  ]
+}

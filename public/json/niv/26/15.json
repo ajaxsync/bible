@@ -1,0 +1,55 @@
+{
+  "book": 26,
+  "chapter": 15,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "葡萄樹的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The word of the Lord came to me: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Son of man, how is the wood of a vine different from that of a branch from any of the trees in the forest? "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Is wood ever taken from it to make anything useful? Do they make pegs from it to hang things on? "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And after it is thrown on the fire as fuel and the fire burns both ends and chars the middle, is it then useful for anything? "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "If it was not useful for anything when it was whole, how much less can it be made into something useful when the fire has burned it and it is charred? "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“Therefore this is what the Sovereign Lord says: As I have given the wood of the vine among the trees of the forest as fuel for the fire, so will I treat the people living in Jerusalem. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "I will set my face against them. Although they have come out of the fire, the fire will yet consume them. And when I set my face against them, you will know that I am the Lord. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "I will make the land desolate because they have been unfaithful, declares the Sovereign Lord.” "
+        }
+      ]
+    }
+  ]
+}

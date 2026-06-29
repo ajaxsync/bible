@@ -1,0 +1,213 @@
+{
+  "book": 50,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "问候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "基督耶稣的仆人保罗和提摩太写信给凡住腓立比、在基督耶稣里的众圣徒，和诸位监督，诸位执事。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "愿恩惠、平安从神我们的父并主耶稣基督归与你们！"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "保罗为腓立比信徒祷告"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我每逢想念你们，就感谢我的神； "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "每逢为你们众人祈求的时候，常是欢欢喜喜地祈求。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "因为从头一天直到如今，你们是同心合意地兴旺福音。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "我深信那在你们心里动了善工的，必成全这工，直到耶稣基督的日子。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我为你们众人有这样的意念，原是应当的；因你们常在我心里，无论我是在捆锁之中，是辩明证实福音的时候，你们都与我一同得恩。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "我体会基督耶稣的心肠，切切地想念你们众人；这是神可以给我作见证的。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "我所祷告的，就是要你们的爱心在知识和各样见识上多而又多， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "使你们能分别是非，作诚实无过的人，直到基督的日子； "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "并靠着耶稣基督结满了仁义的果子，叫荣耀称赞归与神。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "我活着就是基督"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "弟兄们，我愿意你们知道，我所遭遇的事更是叫福音兴旺， "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "以致我受的捆锁在御营全军和其余的人中，已经显明是为基督的缘故。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "并且那在主里的弟兄多半因我受的捆锁就笃信不疑，越发放胆传神的道，无所惧怕。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "有的传基督是出于嫉妒纷争，也有的是出于好意。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "这一等是出于爱心，知道我是为辩明福音设立的； "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "那一等传基督是出于结党，并不诚实，意思要加增我捆锁的苦楚。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "这有何妨呢？或是假意，或是真心，无论怎样，基督究竟被传开了。为此，我就欢喜，并且还要欢喜； "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "因为我知道，这事借着你们的祈祷和耶稣基督之灵的帮助，终必叫我得救。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "照着我所切慕、所盼望的，没有一事叫我羞愧。只要凡事放胆，无论是生是死，总叫基督在我身上照常显大。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "因我活着就是基督，我死了就有益处。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "但我在肉身活着，若成就我工夫的果子，我就不知道该挑选甚么。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "我正在两难之间，情愿离世与基督同在，因为这是好得无比的。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "然而，我在肉身活着，为你们更是要紧的。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "我既然这样深信，就知道仍要住在世间，且与你们众人同住，使你们在所信的道上又长进又喜乐， "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "叫你们在基督耶稣里的欢乐，因我再到你们那里去，就越发加增。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "只要你们行事为人与基督的福音相称，叫我或来见你们，或不在你们那里，可以听见你们的景况，知道你们同有一个心志，站立得稳，为所信的福音齐心努力。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "凡事不怕敌人的惊吓，这是证明他们沉沦，你们得救都是出于神。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "因为你们蒙恩，不但得以信服基督，并要为他受苦。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "你们的争战，就与你们在我身上从前所看见、现在所听见的一样。"
+        }
+      ]
+    }
+  ]
+}

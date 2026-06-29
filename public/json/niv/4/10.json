@@ -1,0 +1,283 @@
+{
+  "book": 4,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "製銀號"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Make two trumpets of hammered silver, and use them for calling the community together and for having the camps set out. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "When both are sounded, the whole community is to assemble before you at the entrance to the tent of meeting. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "If only one is sounded, the leaders—the heads of the clans of Israel—are to assemble before you. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When a trumpet blast is sounded, the tribes camping on the east are to set out. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "At the sounding of a second blast, the camps on the south are to set out. The blast will be the signal for setting out. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "To gather the assembly, blow the trumpets, but not with the signal for setting out. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“The sons of Aaron, the priests, are to blow the trumpets. This is to be a lasting ordinance for you and the generations to come. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "When you go into battle in your own land against an enemy who is oppressing you, sound a blast on the trumpets. Then you will be remembered by the Lord your God and rescued from your enemies. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Also at your times of rejoicing—your appointed festivals and New Moon feasts—you are to sound the trumpets over your burnt offerings and fellowship offerings, and they will be a memorial for you before your God. I am the Lord your God.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "離開西奈山"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "On the twentieth day of the second month of the second year, the cloud lifted from above the tabernacle of the covenant law. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Then the Israelites set out from the Desert of Sinai and traveled from place to place until the cloud came to rest in the Desert of Paran. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "They set out, this first time, at the Lord’s command through Moses. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The divisions of the camp of Judah went first, under their standard. Nahshon son of Amminadab was in command. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Nethanel son of Zuar was over the division of the tribe of Issachar, "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "and Eliab son of Helon was over the division of the tribe of Zebulun. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Then the tabernacle was taken down, and the Gershonites and Merarites, who carried it, set out. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "The divisions of the camp of Reuben went next, under their standard. Elizur son of Shedeur was in command. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Shelumiel son of Zurishaddai was over the division of the tribe of Simeon, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "and Eliasaph son of Deuel was over the division of the tribe of Gad. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Then the Kohathites set out, carrying the holy things. The tabernacle was to be set up before they arrived. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The divisions of the camp of Ephraim went next, under their standard. Elishama son of Ammihud was in command. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Gamaliel son of Pedahzur was over the division of the tribe of Manasseh, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "and Abidan son of Gideoni was over the division of the tribe of Benjamin. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Finally, as the rear guard for all the units, the divisions of the camp of Dan set out under their standard. Ahiezer son of Ammishaddai was in command. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Pagiel son of Okran was over the division of the tribe of Asher, "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "and Ahira son of Enan was over the division of the tribe of Naphtali. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "This was the order of march for the Israelite divisions as they set out. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Now Moses said to Hobab son of Reuel the Midianite, Moses’ father-in-law, “We are setting out for the place about which the Lord said, ‘I will give it to you.’ Come with us and we will treat you well, for the Lord has promised good things to Israel.” "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "He answered, “No, I will not go; I am going back to my own land and my own people.” "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "But Moses said, “Please do not leave us. You know where we should camp in the wilderness, and you can be our eyes. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "If you come with us, we will share with you whatever good things the Lord gives us.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "眾民和約櫃往前行"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "So they set out from the mountain of the Lord and traveled for three days. The ark of the covenant of the Lord went before them during those three days to find them a place to rest. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "The cloud of the Lord was over them by day when they set out from the camp. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Whenever the ark set out, Moses said, “Rise up, Lord! May your enemies be scattered; may your foes flee before you.” "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Whenever it came to rest, he said, “Return, Lord, to the countless thousands of Israel.” "
+        }
+      ]
+    }
+  ]
+}

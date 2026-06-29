@@ -1,0 +1,333 @@
+{
+  "book": 44,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "彼得、約翰在公會被查問"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "彼得和约翰正向民众讲话的时候，祭司们、圣殿守卫长和撒都该人忽然来了。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "这些人非常恼怒，因为使徒们教导民众，藉着耶稣传讲从死人中复活的事。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "于是他们下手捉拿了彼得和约翰。因为天已经晚了，就把他们关在监里，直到第二天。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "然而听了这话语的人中，有许多人相信了；男人的数目约有五千。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "到了第二天，犹太人的首领、长老和经文士们都聚集在耶路撒冷。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "大祭司亚纳、该亚法、约翰、亚历山大，以及大祭司家族的人都在那里。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他们叫彼得和约翰站在中间，质问他们，说：“你们凭着什么能力，以谁的名做这事？” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "那时，彼得被圣灵充满，对他们说：“民众的首领和长老们， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "如果我们今天因在一个残疾人身上所行的善事，被查问这个人怎样得到救治， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "那么，你们大家和所有以色列子民应当知道：这个人健全地站在你们面前，是藉着拿撒勒人耶稣基督的名。这位耶稣基督，你们把他钉上十字架，但是神使他从死人中复活了！ "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "这一位就是 ‘被你们工匠所藐视的石头， 它已经成了房角的头块石头。’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "这一位就是 ‘被你们工匠所藐视的石头， 它已经成了房角的头块石头。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "这一位就是 ‘被你们工匠所藐视的石头， 它已经成了房角的头块石头。’"
+        }
+      ]
+    },
+    {
+      "type": "paragraph-no-indent",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "除他以外，没有救恩；因为在天下人间，没有赐下别的名，我们必须靠着得救。” "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他们看见彼得和约翰的胆量，又了解他们是没有学问的普通人，就感到惊奇，并且了解他们是曾经与耶稣在一起的； "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "又看见那得了痊愈的人和他们一同站着，就无话可说了， "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "于是命令他们到议会外面去，就彼此商议， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "说：“我们该怎么处理这些人呢？藉着他们，确实发生了一个明显的神迹，所有住在耶路撒冷的人都清清楚楚；我们也不能否认。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "不过为了避免这事在民间传扬更广，让我们威吓他们，不可再奉耶稣的名对任何人讲话。” "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "于是把他们叫来，吩咐他们绝对不可奉耶稣的名讲说或教导人。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "可是彼得和约翰回答说：“听从你们过于听从神，在神面前是理所当然的吗？你们自己判断吧！ "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "要知道，我们所看见所听见的，我们不能不说。” "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "官长们又威吓他们一番，为了民众的缘故把他们释放了。官长们找不出任何理由来惩罚他们，因为众人都为所发生的事不住地荣耀神。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "实际上，因神迹而痊愈的那个人已经四十多岁了。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "門徒求主賜膽量"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "彼得和约翰被释放了，就回到自己的人那里，把祭司长们和长老们所说的话都告诉他们。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "他们听了，就同心合意地高声向神说：“主啊，你是造了天、地、海和其中万有的那一位。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "你曾经藉着圣灵，用你的仆人——我们先祖大卫的口说： ‘列国为什么狂怒骚乱， 众民为什么图谋虚空？ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "你曾经藉着圣灵，用你的仆人——我们先祖大卫的口说： ‘列国为什么狂怒骚乱， 众民为什么图谋虚空？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": "你曾经藉着圣灵，用你的仆人——我们先祖大卫的口说： ‘列国为什么狂怒骚乱， 众民为什么图谋虚空？"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "地上的众君王都起来， 首领们也聚集在一起， 抵挡主和他的基督。’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "地上的众君王都起来， 首领们也聚集在一起， 抵挡主和他的基督。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": "地上的众君王都起来， 首领们也聚集在一起， 抵挡主和他的基督。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "地上的众君王都起来， 首领们也聚集在一起， 抵挡主和他的基督。’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph-no-indent",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "“事实上，希律和本丢彼拉多，与外邦人和以色列子民果然在这城里一同聚集，对付你所膏立的圣仆耶稣， "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "做成了你手和你计划所预定要成就的一切事。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "主啊，现在求你鉴察他们的威吓，使你的奴仆们能满有胆量地传讲你的话语。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "他们祷告完了，聚集的地方就被震动，大家都被圣灵充满，就坦然无惧地传讲神的话语。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "凡物公用"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "于是那一群信徒都同心合意，没有一个人说他所拥有的哪样东西是自己的；相反，他们凡物共有。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "使徒们大有能力地为主耶稣的复活做见证，并且在他们每个人身上都有极大的恩典。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "他们当中没有一个缺乏的人，因为凡是拥有田产或房屋的人，都卖掉了那些东西，把所卖得的钱拿来， "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "放在使徒们的脚前，按照各人的需要分给每个人。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "有一个出生在塞浦路斯的利未人约瑟，使徒们称他为巴拿巴——“巴拿巴”翻译出来就是“安慰之子”； "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "他有一块田地，也卖掉了，把钱拿来放在使徒们的脚前。 "
+        }
+      ]
+    }
+  ]
+}

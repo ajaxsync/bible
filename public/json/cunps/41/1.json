@@ -1,0 +1,448 @@
+{
+  "book": 41,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "施洗约翰传道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太3‧1－12；路3‧1－18；约1‧19－28）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "神的儿子，耶稣基督福音的起头。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "正如先知以赛亚书上记着说："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "看哪，我要差遣我的使者在你前面，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "预备道路。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "在旷野有人声喊着说："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "预备主的道，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "修直他的路。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": " 照这话，约翰来了，在旷野施洗，传悔改的洗礼，使罪得赦。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "犹太全地和耶路撒冷的人都出去到约翰那里，承认他们的罪，在约旦河里受他的洗。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "约翰穿骆驼毛的衣服，腰束皮带，吃的是蝗虫、野蜜。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他传道说：「有一位在我以后来的，能力比我更大，我就是弯腰给他解鞋带也是不配的。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "我是用水给你们施洗，他却要用圣灵给你们施洗。」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶稣受洗"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太3‧13－17；路3‧21－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "那时，耶稣从加利利的拿撒勒来，在约旦河里受了约翰的洗。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "他从水里一上来，就看见天裂开了，圣灵仿佛鸽子，降在他身上。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "又有声音从天上来，说：「你是我的爱子，我喜悦你。」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶稣受试探"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太4‧1－11；路4‧1－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "圣灵就把耶稣催到旷野里去。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他在旷野四十天，受撒但的试探，并与野兽同在一处，且有天使来伺候他。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "开始在加利利传道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太4‧12－17；路4‧14－15）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": " 约翰下监以后，耶稣来到加利利，宣传神的福音， "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "说：「日期满了，神的国近了。你们当悔改，信福音！」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "呼召四个渔夫"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太4‧18－22；路5‧1－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "耶稣顺着加利利的海边走，看见西门和西门的兄弟安得烈在海里撒网；他们本是打鱼的。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "耶稣对他们说：「来跟从我，我要叫你们得人如得鱼一样。」 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "他们就立刻舍了网，跟从了他。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "耶稣稍往前走，又见西庇太的儿子雅各和雅各的兄弟约翰在船上补网。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "耶稣随即招呼他们，他们就把父亲西庇太和雇工人留在船上，跟从耶稣去了。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "一个污鬼附身的人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路4‧31－37）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "到了迦百农，耶稣就在安息日进了会堂教训人。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "众人很希奇他的教训；因为他教训他们，正像有权柄的人，不像文士。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "在会堂里，有一个人被污鬼附着。他喊叫说： "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "「拿撒勒人耶稣，我们与你有甚么相干？你来灭我们吗？我知道你是谁，乃是神的圣者。」 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "耶稣责备他说：「不要作声！从这人身上出来吧。」 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "污鬼叫那人抽了一阵疯，大声喊叫，就出来了。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "众人都惊讶，以致彼此对问说：「这是甚么事？是个新道理啊！他用权柄吩咐污鬼，连污鬼也听从了他。」 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "耶稣的名声就传遍了加利利的四方。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "治好许多病人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太8‧14－17；路4‧38－41）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "他们一出会堂，就同着雅各、约翰，进了西门和安得烈的家。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "西门的岳母正害热病躺着，就有人告诉耶稣。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "耶稣进前拉着她的手，扶她起来，热就退了，她就服事他们。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "天晚日落的时候，有人带着一切害病的，和被鬼附的，来到耶稣跟前。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "合城的人都聚集在门前。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "耶稣治好了许多害各样病的人，又赶出许多鬼，不许鬼说话，因为鬼认识他。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "在加利利各会堂传道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路4‧42－44）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "次日早晨，天未亮的时候，耶稣起来，到旷野地方去，在那里祷告。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "西门和同伴追了他去， "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "遇见了就对他说：「众人都找你。」 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "耶稣对他们说：「我们可以往别处去，到邻近的乡村，我也好在那里传道，因为我是为这事出来的。」 "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "于是在加利利全地，进了会堂，传道，赶鬼。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "洁净长大痲疯的人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太8‧1－4；路5‧12－16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "有一个长大痲疯的来求耶稣，向他跪下，说：「你若肯，必能叫我洁净了。」 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "耶稣动了慈心，就伸手摸他，说：「我肯，你洁净了吧！」 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "大痲疯即时离开他，他就洁净了。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "耶稣严严地嘱咐他，就打发他走， "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "对他说：「你要谨慎，甚么话都不可告诉人，只要去把身体给祭司察看，又因为你洁净了，献上摩西所吩咐的礼物，对众人作证据。」 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "那人出去，倒说许多的话，把这件事传扬开了，叫耶稣以后不得再明明地进城，只好在外边旷野地方。人从各处都就了他来。"
+        }
+      ]
+    }
+  ]
+}

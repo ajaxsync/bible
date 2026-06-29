@@ -1,0 +1,128 @@
+{
+  "book": 64,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "我这做长老的， 致蒙爱的盖尤斯，就是我在真理中所爱的： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "蒙爱的人哪，我愿你凡事安顺，身体健康，正如你的灵魂安顺。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "有些弟兄来到这里，见证了你对真理的忠信，就是你怎样在真理中行事，这使我极其欢喜。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "听到我的儿女在真理中行事，我的喜乐没有比这更大的了。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "合作和反對"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "蒙爱的人哪，你为弟兄们，尤其是为异乡的弟兄们所做的，都是忠心的。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他们在教会面前见证了你的爱。你如果以神喜悦的方式送他们上路，就做得很好了， "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "因为他们为了基督的名出去，并没有从外邦人接受什么。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "所以，我们应该帮助这样的人，好让我们为真理成为同工。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "我写了信给教会，但是他们中那喜欢为首的迪奥特菲不接纳我们。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "所以，如果我来了，我一定要提起他所做的事，就是他用坏话污蔑我们；而且他在这些事上还不满足，不但自己不接纳弟兄们，也阻止那些愿意接纳的人，甚至把他们赶出教会。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "蒙爱的人哪，不要效法恶，而要效法善。那行善的属于神；那作恶的未曾看见神。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "迪米特斯受到了大家的赞许，也得了真理本身的赞许；我们也为他做见证，而且你知道我们的见证是真实的。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "問安"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "我有很多话要写给你，但不愿意用笔墨写给你。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "我希望立刻见到你，并且面对面交谈。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "愿你平安！朋友们都问候你。请你一一提名问候各位朋友。 "
+        }
+      ]
+    }
+  ]
+}

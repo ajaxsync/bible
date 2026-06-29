@@ -1,0 +1,514 @@
+{
+  "book": 16,
+  "chapter": 7,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "After the wall was finished and I had set up the doors in the gates, the gatekeepers, singers, and Levites were appointed. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "I gave the responsibility of governing Jerusalem to my brother Hanani, along with Hananiah, the commander of the fortress, for he was a faithful man who feared God more than most. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "I said to them, “Do not leave the gates open during the hottest part of the day. And even while the gatekeepers are on duty, have them shut and bar the doors. Appoint the residents of Jerusalem to act as guards, everyone on a regular watch. Some will serve at sentry posts and some in front of their own homes.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "被擄歸回者的名單"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（拉2‧1－70）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "At that time the city was large and spacious, but the population was small, and none of the houses had been rebuilt. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "So my God gave me the idea to call together all the nobles and leaders of the city, along with the ordinary citizens, for registration. I had found the genealogical record of those who had first returned to Judah. This is what was written there: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Here is the list of the Jewish exiles of the provinces who returned from their captivity. King Nebuchadnezzar had deported them to Babylon, but now they returned to Jerusalem and the other towns in Judah where they originally lived. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Their leaders were Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Nahamani, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah. This is the number of the men of Israel who returned from exile: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The family of Parosh 2,172 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The family of Shephatiah 372 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The family of Arah 652 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "The family of Pahath-moab (descendants of Jeshua and Joab) 2,818 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "The family of Elam 1,254 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "The family of Zattu 845 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The family of Zaccai 760 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The family of Bani 648 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "The family of Bebai 628 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The family of Azgad 2,322 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "The family of Adonikam 667 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The family of Bigvai 2,067 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The family of Adin 655 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The family of Ater (descendants of Hezekiah) 98 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The family of Hashum 328 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "The family of Bezai 324 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "The family of Jorah 112 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "The family of Gibbar 95 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "The people of Bethlehem and Netophah 188 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "The people of Anathoth 128 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "The people of Beth-azmaveth 42 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "The people of Kiriath-jearim, Kephirah, and Beeroth 743 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "The people of Ramah and Geba 621 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "The people of Micmash 122 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "The people of Bethel and Ai 123 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The people of West Nebo 52 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "The citizens of West Elam 1,254 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "The citizens of Harim 320 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "The citizens of Jericho 345 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "The citizens of Lod, Hadid, and Ono 721 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "The citizens of Senaah 3,930 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "These are the priests who returned from exile: The family of Jedaiah (through the line of Jeshua) 973 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "The family of Immer 1,052 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "The family of Pashhur 1,247 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "The family of Harim 1,017 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "These are the Levites who returned from exile: The families of Jeshua and Kadmiel (descendants of Hodaviah) 74 "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "The singers of the family of Asaph 148 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "The gatekeepers of the families of Shallum, Ater, Talmon, Akkub, Hatita, and Shobai 138 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of the following Temple servants returned from exile: Ziha, Hasupha, Tabbaoth, "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "Keros, Siaha, Padon, "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "Lebanah, Hagabah, Shalmai, "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "Hanan, Giddel, Gahar, "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "Reaiah, Rezin, Nekoda, "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "Gazzam, Uzza, Paseah, "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "Besai, Meunim, Nephusim, "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "Bakbuk, Hakupha, Harhur, "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "Bazluth, Mehida, Harsha, "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "Barkos, Sisera, Temah, "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "Neziah, and Hatipha. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 56,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of these servants of King Solomon returned from exile: Sotai, Hassophereth, Peruda, "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "Jaalah, Darkon, Giddel, "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "Shephatiah, Hattil, Pokereth-hazzebaim, and Ami. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 59,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 60,
+          "hasVerseLabel": true,
+          "verseText": "In all, the Temple servants and the descendants of Solomon’s servants numbered 392. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 60,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 61,
+          "hasVerseLabel": true,
+          "verseText": "Another group returned at this time from the towns of Tel-melah, Tel-harsha, Kerub, Addan, and Immer. However, they could not prove that they or their families were descendants of Israel. "
+        },
+        {
+          "verseNum": 62,
+          "hasVerseLabel": true,
+          "verseText": "This group included the families of Delaiah, Tobiah, and Nekoda—a total of 642 people. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 62,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 63,
+          "hasVerseLabel": true,
+          "verseText": "Three families of priests—Hobaiah, Hakkoz, and Barzillai—also returned. (This Barzillai had married a woman who was a descendant of Barzillai of Gilead, and he had taken her family name.) "
+        },
+        {
+          "verseNum": 64,
+          "hasVerseLabel": true,
+          "verseText": "They searched for their names in the genealogical records, but they were not found, so they were disqualified from serving as priests. "
+        },
+        {
+          "verseNum": 65,
+          "hasVerseLabel": true,
+          "verseText": "The governor told them not to eat the priests’ share of food from the sacrifices until a priest could consult the Lord about the matter by using the Urim and Thummim—the sacred lots. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 65,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 66,
+          "hasVerseLabel": true,
+          "verseText": "So a total of 42,360 people returned to Judah, "
+        },
+        {
+          "verseNum": 67,
+          "hasVerseLabel": true,
+          "verseText": "in addition to 7,337 servants and 245 singers, both men and women. "
+        },
+        {
+          "verseNum": 68,
+          "hasVerseLabel": true,
+          "verseText": "They took with them 736 horses, 245 mules, "
+        },
+        {
+          "verseNum": 69,
+          "hasVerseLabel": true,
+          "verseText": "435 camels, and 6,720 donkeys. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 69,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 70,
+          "hasVerseLabel": true,
+          "verseText": "Some of the family leaders gave gifts for the work. The governor gave to the treasury 1,000 gold coins, 50 gold basins, and 530 robes for the priests. "
+        },
+        {
+          "verseNum": 71,
+          "hasVerseLabel": true,
+          "verseText": "The other leaders gave to the treasury a total of 20,000 gold coins and some 2,750 pounds of silver for the work. "
+        },
+        {
+          "verseNum": 72,
+          "hasVerseLabel": true,
+          "verseText": "The rest of the people gave 20,000 gold coins, about 2,500 pounds of silver, and 67 robes for the priests. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 72,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 73,
+          "hasVerseLabel": true,
+          "verseText": "So the priests, the Levites, the gatekeepers, the singers, the Temple servants, and some of the common people settled near Jerusalem. The rest of the people returned to their own towns throughout Israel. "
+        }
+      ]
+    }
+  ]
+}

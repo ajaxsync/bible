@@ -1,0 +1,90 @@
+{
+  "book": 9,
+  "chapter": 29,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "非利士人不要大衛"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "非利士人把全部军队聚集在亚弗，以色列军则在耶斯列水泉旁扎营。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "非利士首领统率以百人和千人为单位的士兵向前推进，大卫和他的部下跟着亚吉走在队伍的后面。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "非利士人的官长说：“这些希伯来人在这里做什么？”亚吉告诉他们说：“这是以色列王扫罗的臣仆大卫，他追随我有一段日子了，自从他投奔我以来，我没发现他有什么过错。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他们却生气地说：“请送这个人回到你安置他的地方，他不可和我们一起去打仗，免得他在战场上倒戈。他提着我们的脑袋去重投故主岂不是最好的方法吗？ "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "以前妇女们跳舞歌唱‘扫罗杀死千千，大卫杀死万万’，歌颂的不就是这个大卫吗？” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "亚吉便叫大卫过来，对他说：“我凭永活的耶和华起誓，你一向忠心耿耿，自从你投奔我以来，我没发现你有什么过错，我很愿意你与我一同作战，只是众首领不赞成。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "你安心地回去吧，免得他们不悦。” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "大卫说：“我究竟做错了什么？自从仆人投奔你以来，你发现仆人有什么过错？为什么不让我为我主我王杀敌呢？” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "亚吉说：“你在我眼中就像上帝的天使一样好，只是非利士众官长反对你与我们一起出战。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "明天一早，你就和从扫罗手下投奔你的人启程回去吧。” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "于是，大卫和部下清早起来返回非利士，非利士军则前往耶斯列。 "
+        }
+      ]
+    }
+  ]
+}

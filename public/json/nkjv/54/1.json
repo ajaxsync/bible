@@ -1,0 +1,153 @@
+{
+  "book": 54,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Paul, an apostle of Jesus Christ, by the commandment of God our Savior and the Lord Jesus Christ, our hope, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "To Timothy, a true son in the faith: Grace, mercy, and peace from God our Father and Jesus Christ our Lord. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "警告虛偽的道理"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "As I urged you when I went into Macedonia—remain in Ephesus that you may charge some that they teach no other doctrine, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "nor give heed to fables and endless genealogies, which cause disputes rather than godly edification which is in faith. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Now the purpose of the commandment is love from a pure heart, from a good conscience, and from sincere faith, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "from which some, having strayed, have turned aside to idle talk, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "desiring to be teachers of the law, understanding neither what they say nor the things which they affirm. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But we know that the law is  good if one uses it lawfully, "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "knowing this: that the law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and for sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "for fornicators, for sodomites, for kidnappers, for liars, for perjurers, and if there is any other thing that is contrary to sound doctrine, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "according to the glorious gospel of the blessed God which was committed to my trust. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "感謝神的憐憫"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "And I thank Christ Jesus our Lord who has enabled me, because He counted me faithful, putting me into the ministry, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "although I was formerly a blasphemer, a persecutor, and an insolent man; but I obtained mercy because I did it ignorantly in unbelief. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "And the grace of our Lord was exceedingly abundant, with faith and love which are in Christ Jesus. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "This is a faithful saying and worthy of all acceptance, that Christ Jesus came into the world to save sinners, of whom I am chief. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "However, for this reason I obtained mercy, that in me first Jesus Christ might show all longsuffering, as a pattern to those who are going to believe on Him for everlasting life. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "This charge I commit to you, son Timothy, according to the prophecies previously made concerning you, that by them you may wage the good warfare, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "having faith and a good conscience, which some having rejected, concerning the faith have suffered shipwreck, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "of whom are Hymenaeus and Alexander, whom I delivered to Satan that they may learn not to blaspheme. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "book": 6,
+  "chapter": 21,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "利未人的城邑"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the family heads of the Levites approached Eleazar the priest, Joshua son of Nun, and the heads of the other tribal families of Israel "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "at Shiloh in Canaan and said to them, “The Lord commanded through Moses that you give us towns to live in, with pasturelands for our livestock.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "So, as the Lord had commanded, the Israelites gave the Levites the following towns and pasturelands out of their own inheritance: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "The first lot came out for the Kohathites, according to their clans. The Levites who were descendants of Aaron the priest were allotted thirteen towns from the tribes of Judah, Simeon and Benjamin. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The rest of Kohath’s descendants were allotted ten towns from the clans of the tribes of Ephraim, Dan and half of Manasseh. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Gershon were allotted thirteen towns from the clans of the tribes of Issachar, Asher, Naphtali and the half-tribe of Manasseh in Bashan. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Merari, according to their clans, received twelve towns from the tribes of Reuben, Gad and Zebulun. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "So the Israelites allotted to the Levites these towns and their pasturelands, as the Lord had commanded through Moses. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "From the tribes of Judah and Simeon they allotted the following towns by name "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "They gave them Kiriath Arba (that is, Hebron), with its surrounding pastureland, in the hill country of Judah. (Arba was the forefather of Anak.) "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "But the fields and villages around the city they had given to Caleb son of Jephunneh as his possession. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "So to the descendants of Aaron the priest they gave Hebron (a city of refuge for one accused of murder), Libnah, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Jattir, Eshtemoa, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Holon, Debir, "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Ain, Juttah and Beth Shemesh, together with their pasturelands—nine towns from these two tribes. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "And from the tribe of Benjamin they gave them: Gibeon, Geba, "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Anathoth and Almon, together with their pasturelands—four towns. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The total number of towns for the priests, the descendants of Aaron, came to thirteen, together with their pasturelands. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The rest of the Kohathite clans of the Levites were allotted towns from the tribe of Ephraim: "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "In the hill country of Ephraim they were given Shechem (a city of refuge for one accused of murder) and Gezer, "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Kibzaim and Beth Horon, together with their pasturelands—four towns. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Also from the tribe of Dan they received: Eltekeh, Gibbethon, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Aijalon and Gath Rimmon, together with their pasturelands—four towns. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "From half the tribe of Manasseh they received: Taanach and Gath Rimmon, together with their pasturelands—two towns. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "All these ten towns and their pasturelands were given to the rest of the Kohathite clans. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "The Levite clans of the Gershonites were given: from the half-tribe of Manasseh, Golan in Bashan (a city of refuge for one accused of murder) and Be Eshterah, together with their pasturelands—two towns; "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "from the tribe of Issachar, Kishion, Daberath, "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Jarmuth and En Gannim, together with their pasturelands—four towns; "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "from the tribe of Asher, Mishal, Abdon, "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Helkath and Rehob, together with their pasturelands—four towns; "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "from the tribe of Naphtali, Kedesh in Galilee (a city of refuge for one accused of murder), Hammoth Dor and Kartan, together with their pasturelands—three towns. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The total number of towns of the Gershonite clans came to thirteen, together with their pasturelands. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "The Merarite clans (the rest of the Levites) were given: from the tribe of Zebulun, Jokneam, Kartah, "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Dimnah and Nahalal, together with their pasturelands—four towns; "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "from the tribe of Reuben, Bezer, Jahaz, "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "Kedemoth and Mephaath, together with their pasturelands—four towns; "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "from the tribe of Gad, Ramoth in Gilead (a city of refuge for one accused of murder), Mahanaim, "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Heshbon and Jazer, together with their pasturelands—four towns in all. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "The total number of towns allotted to the Merarite clans, who were the rest of the Levites, came to twelve. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "The towns of the Levites in the territory held by the Israelites were forty-eight in all, together with their pasturelands. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "Each of these towns had pasturelands surrounding it; this was true for all these towns. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以色列人得地為業"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "So the Lord gave Israel all the land he had sworn to give their ancestors, and they took possession of it and settled there. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "The Lord gave them rest on every side, just as he had sworn to their ancestors. Not one of their enemies withstood them; the Lord gave all their enemies into their hands. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "Not one of all the Lord’s good promises to Israel failed; every one was fulfilled. "
+        }
+      ]
+    }
+  ]
+}

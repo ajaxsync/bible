@@ -1,0 +1,389 @@
+{
+  "book": 42,
+  "chapter": 19,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶稣和撒该"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶稣进了耶利哥，正经过的时候， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "有一个人名叫撒该，作税吏长，是个财主。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他要看看耶稣是怎样的人；只因人多，他的身量又矮，所以不得看见， "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "就跑到前头，爬上桑树，要看耶稣，因为耶稣必从那里经过。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶稣到了那里，擡头一看，对他说：「撒该，快下来！今天我必住在你家里。」 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他就急忙下来，欢欢喜喜地接待耶稣。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "众人看见，都私下议论说：「他竟到罪人家里去住宿。」 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "撒该站着对主说：「主啊，我把所有的一半给穷人；我若讹诈了谁，就还他四倍。」 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "耶稣说：「今天救恩到了这家，因为他也是亚伯拉罕的子孙。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "人子来，为要寻找、拯救失丧的人。」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "十锭银子的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太25‧14－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "众人正在听见这些话的时候，耶稣因为将近耶路撒冷，又因他们以为神的国快要显出来，就另设一个比喻，说： "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "「有一个贵胄往远方去，要得国回来， "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "便叫了他的十个仆人来，交给他们十锭银子，说：『你们去做生意，直等我回来。』 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他本国的人却恨他，打发使者随后去，说：『我们不愿意这个人作我们的王。』 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "他既得国回来，就吩咐叫那领银子的仆人来，要知道他们做生意赚了多少。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "头一个上来，说：『主啊，你的一锭银子已经赚了十锭。』 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "主人说：『好！良善的仆人，你既在最小的事上有忠心，可以有权柄管十座城。』 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "第二个来，说：『主啊， 你的一锭银子已经赚了五锭。』 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "主人说：『你也可以管五座城。』 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "又有一个来说：『主啊，看哪，你的一锭银子在这里，我把它包在手巾里存着。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "我原是怕你，因为你是严厉的人；没有放下的，还要去拿， 没有种下的，还要去收。』 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "主人对他说：『你这恶仆，我要凭你的口定你的罪。你既知道我是严厉的人，没有放下的，还要去拿，没有种下的，还要去收， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "为甚么不把我的银子交给银行，等我来的时候，连本带利都可以要回来呢？』 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "就对旁边站着的人说：『夺过他这一锭来，给那有十锭的。』 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "他们说：『主啊，他已经有十锭了。』 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "主人说：『我告诉你们，凡有的，还要加给他；没有的，连他所有的也要夺过来。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "至于我那些仇敌，不要我作他们王的，把他们拉来，在我面前杀了吧！』」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "光荣地进耶路撒冷"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧1－11；可11‧1－11；约12‧12－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "耶稣说完了这话，就在前面走，上耶路撒冷去。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "将近伯法其和伯大尼，在一座山名叫橄榄山那里，就打发两个门徒，说： "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "「你们往对面村子里去，进去的时候，必看见一匹驴驹拴在那里，是从来没有人骑过的，可以解开牵来。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "若有人问为甚么解牠，你们就说：『主要用牠。』」 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "打发的人去了，所遇见的正如耶稣所说的。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "他们解驴驹的时候，主人问他们说：「解驴驹做甚么？」 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "他们说：「主要用牠。」 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "他们牵到耶稣那里，把自己的衣服搭在上面，扶着耶稣骑上。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "走的时候，众人把衣服铺在路上。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "将近耶路撒冷，正下橄榄山的时候，众门徒因所见过的一切异能，都欢乐起来，大声赞美神， "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "说："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "奉主名来的王是应当称颂的！"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "在天上有和平；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": "在至高之处有荣光。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "众人中有几个法利赛人对耶稣说：「夫子，责备你的门徒吧！」 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "耶稣说：「我告诉你们，若是他们闭口不说，这些石头必要呼叫起来。」"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "耶稣快到耶路撒冷，看见城，就为它哀哭， "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "说：「巴不得你在这日子知道关系你平安的事；无奈这事现在是隐藏的，叫你的眼看不出来。 "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "因为日子将到，你的仇敌必筑起土垒，周围环绕你，四面困住你， "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "并要扫灭你和你里头的儿女，连一块石头也不留在石头上，因你不知道眷顾你的时候。」"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "洁净圣殿"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太21‧12－17；可11‧15－19；约2‧13－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 44,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "耶稣进了殿，赶出里头做买卖的人， "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "对他们说：「经上说："
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "我的殿必作祷告的殿，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "你们倒使它成为贼窝了。」"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "耶稣天天在殿里教训人。祭司长和文士与百姓的尊长都想要杀他， "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "但寻不出法子来，因为百姓都侧耳听他。"
+        }
+      ]
+    }
+  ]
+}

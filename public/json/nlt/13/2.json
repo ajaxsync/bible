@@ -1,0 +1,386 @@
+{
+  "book": 13,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "猶大的後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Israel were Reuben, Simeon, Levi, Judah, Issachar, Zebulun, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Dan, Joseph, Benjamin, Naphtali, Gad, and Asher. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Judah had three sons from Bathshua, a Canaanite woman. Their names were Er, Onan, and Shelah. But the Lord saw that the oldest son, Er, was a wicked man, so he killed him. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Later Judah had twin sons from Tamar, his widowed daughter-in-law. Their names were Perez and Zerah. So Judah had five sons in all. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Perez were Hezron and Hamul. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Zerah were Zimri, Ethan, Heman, Calcol, and Darda—five in all. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The son of Carmi (a descendant of Zimri) was Achan, who brought disaster on Israel by taking plunder that had been set apart for the Lord. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The son of Ethan was Azariah. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "大衛王的家譜"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Hezron were Jerahmeel, Ram, and Caleb. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Ram was the father of Amminadab. Amminadab was the father of Nahshon, a leader of Judah. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Nahshon was the father of Salmon. Salmon was the father of Boaz. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Boaz was the father of Obed. Obed was the father of Jesse. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Jesse’s first son was Eliab, his second was Abinadab, his third was Shimea, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "his fourth was Nethanel, his fifth was Raddai, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "his sixth was Ozem, and his seventh was David. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Their sisters were named Zeruiah and Abigail. Zeruiah had three sons named Abishai, Joab, and Asahel. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Abigail married a man named Jether, an Ishmaelite, and they had a son named Amasa. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "希斯崙的後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Hezron’s son Caleb had sons from his wife Azubah and from Jerioth. Her sons were named Jesher, Shobab, and Ardon. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "After Azubah died, Caleb married Ephrathah, and they had a son named Hur. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Hur was the father of Uri. Uri was the father of Bezalel. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "When Hezron was sixty years old, he married Gilead’s sister, the daughter of Makir. They had a son named Segub. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Segub was the father of Jair, who ruled twenty-three towns in the land of Gilead. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "(But Geshur and Aram captured the Towns of Jair and also took Kenath and its sixty surrounding villages.) All these were descendants of Makir, the father of Gilead. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Soon after Hezron died in the town of Caleb-ephrathah, his wife Abijah gave birth to a son named Ashhur (the father of Tekoa). "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶拉篾的後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Jerahmeel, the oldest son of Hezron, were Ram (the firstborn), Bunah, Oren, Ozem, and Ahijah. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Jerahmeel had a second wife named Atarah. She was the mother of Onam. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Ram, the oldest son of Jerahmeel, were Maaz, Jamin, and Eker. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Onam were Shammai and Jada. The sons of Shammai were Nadab and Abishur. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Abishur and his wife Abihail were Ahban and Molid. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Nadab were Seled and Appaim. Seled died without children, "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "but Appaim had a son named Ishi. The son of Ishi was Sheshan. Sheshan had a descendant named Ahlai. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Jada, Shammai’s brother, were Jether and Jonathan. Jether died without children, "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "but Jonathan had two sons named Peleth and Zaza. These were all descendants of Jerahmeel. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Sheshan had no sons, though he did have daughters. He also had an Egyptian servant named Jarha. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Sheshan gave one of his daughters to be the wife of Jarha, and they had a son named Attai. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Attai was the father of Nathan. Nathan was the father of Zabad. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "Zabad was the father of Ephlal. Ephlal was the father of Obed. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Obed was the father of Jehu. Jehu was the father of Azariah. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Azariah was the father of Helez. Helez was the father of Eleasah. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Eleasah was the father of Sismai. Sismai was the father of Shallum. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "Shallum was the father of Jekamiah. Jekamiah was the father of Elishama. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "迦勒的其餘後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 41,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Caleb, the brother of Jerahmeel, included Mesha (the firstborn), who became the father of Ziph. Caleb’s descendants also included the sons of Mareshah, the father of Hebron. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Hebron were Korah, Tappuah, Rekem, and Shema. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "Shema was the father of Raham. Raham was the father of Jorkeam. Rekem was the father of Shammai. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "The son of Shammai was Maon. Maon was the father of Beth-zur. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "Caleb’s concubine Ephah gave birth to Haran, Moza, and Gazez. Haran was the father of Gazez. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Jahdai were Regem, Jotham, Geshan, Pelet, Ephah, and Shaaph. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "Another of Caleb’s concubines, Maacah, gave birth to Sheber and Tirhanah. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "She also gave birth to Shaaph (the father of Madmannah) and Sheva (the father of Macbenah and Gibea). Caleb also had a daughter named Acsah. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 49,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "These were all descendants of Caleb. The sons of Hur, the oldest son of Caleb’s wife Ephrathah, were Shobal (the founder of Kiriath-jearim), "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "Salma (the founder of Bethlehem), and Hareph (the founder of Beth-gader). "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Shobal (the founder of Kiriath-jearim) were Haroeh, half the Manahathites, "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "and the families of Kiriath-jearim—the Ithrites, Puthites, Shumathites, and Mishraites, from whom came the people of Zorah and Eshtaol. "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Salma were the people of Bethlehem, the Netophathites, Atroth-beth-joab, the other half of the Manahathites, the Zorites, "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "and the families of scribes living at Jabez—the Tirathites, Shimeathites, and Sucathites. All these were Kenites who descended from Hammath, the father of the family of Recab. "
+        }
+      ]
+    }
+  ]
+}

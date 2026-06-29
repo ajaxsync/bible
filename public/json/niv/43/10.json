@@ -1,0 +1,283 @@
+{
+  "book": 43,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "羊圈的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“Very truly I tell you Pharisees, anyone who does not enter the sheep pen by the gate, but climbs in by some other way, is a thief and a robber. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The one who enters by the gate is the shepherd of the sheep. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The gatekeeper opens the gate for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "When he has brought out all his own, he goes on ahead of them, and his sheep follow him because they know his voice. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "But they will never follow a stranger; in fact, they will run away from him because they do not recognize a stranger’s voice.” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Jesus used this figure of speech, but the Pharisees did not understand what he was telling them. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "好牧人耶穌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Therefore Jesus said again, “Very truly I tell you, I am the gate for the sheep. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "All who have come before me are thieves and robbers, but the sheep have not listened to them. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "I am the gate; whoever enters through me will be saved.  They will come in and go out, and find pasture. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“I am the good shepherd. The good shepherd lays down his life for the sheep. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "The hired hand is not the shepherd and does not own the sheep. So when he sees the wolf coming, he abandons the sheep and runs away. Then the wolf attacks the flock and scatters it. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "The man runs away because he is a hired hand and cares nothing for the sheep. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“I am the good shepherd; I know my sheep and my sheep know me— "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "just as the Father knows me and I know the Father—and I lay down my life for the sheep. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "I have other sheep that are not of this sheep pen. I must bring them also. They too will listen to my voice, and there shall be one flock and one shepherd. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The reason my Father loves me is that I lay down my life—only to take it up again. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "No one takes it from me, but I lay it down of my own accord. I have authority to lay it down and authority to take it up again. This command I received from my Father.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The Jews who heard these words were again divided. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Many of them said, “He is demon-possessed and raving mad. Why listen to him?” "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "But others said, “These are not the sayings of a man possessed by a demon. Can a demon open the eyes of the blind?” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "被猶太人棄絕"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Then came the Festival of Dedication at Jerusalem. It was winter, "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "and Jesus was in the temple courts walking in Solomon’s Colonnade. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "The Jews who were there gathered around him, saying, “How long will you keep us in suspense? If you are the Messiah, tell us plainly.” "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Jesus answered, “I did tell you, but you do not believe. The works I do in my Father’s name testify about me, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "but you do not believe because you are not my sheep. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "My sheep listen to my voice; I know them, and they follow me. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "I give them eternal life, and they shall never perish; no one will snatch them out of my hand. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "My Father, who has given them to me, is greater than all; no one can snatch them out of my Father’s hand. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "I and the Father are one.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Again his Jewish opponents picked up stones to stone him, "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "but Jesus said to them, “I have shown you many good works from the Father. For which of these do you stone me?” "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“We are not stoning you for any good work,” they replied, “but for blasphemy, because you, a mere man, claim to be God.” "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Jesus answered them, “Is it not written in your Law, ‘I have said you are “gods” ’? "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "If he called them ‘gods,’ to whom the word of God came—and Scripture cannot be set aside— "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "what about the one whom the Father set apart as his very own and sent into the world? Why then do you accuse me of blasphemy because I said, ‘I am God’s Son’? "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "Do not believe me unless I do the works of my Father. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "But if I do them, even though you do not believe me, believe the works, that you may know and understand that the Father is in me, and I in the Father.” "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "Again they tried to seize him, but he escaped their grasp. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus went back across the Jordan to the place where John had been baptizing in the early days. There he stayed, "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "and many people came to him. They said, “Though John never performed a sign, all that John said about this man was true.” "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "And in that place many believed in Jesus. "
+        }
+      ]
+    }
+  ]
+}

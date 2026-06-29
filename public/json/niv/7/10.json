@@ -1,0 +1,153 @@
+{
+  "book": 7,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "陀拉"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "After the time of Abimelek, a man of Issachar named Tola son of Puah, the son of Dodo, rose to save Israel. He lived in Shamir, in the hill country of Ephraim. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He led Israel twenty-three years; then he died, and was buried in Shamir. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "睚珥"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "He was followed by Jair of Gilead, who led Israel twenty-two years. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "He had thirty sons, who rode thirty donkeys. They controlled thirty towns in Gilead, which to this day are called Havvoth Jair. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When Jair died, he was buried in Kamon. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶弗他"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Again the Israelites did evil in the eyes of the Lord. They served the Baals and the Ashtoreths, and the gods of Aram, the gods of Sidon, the gods of Moab, the gods of the Ammonites and the gods of the Philistines. And because the Israelites forsook the Lord and no longer served him, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "he became angry with them. He sold them into the hands of the Philistines and the Ammonites, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "who that year shattered and crushed them. For eighteen years they oppressed all the Israelites on the east side of the Jordan in Gilead, the land of the Amorites. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The Ammonites also crossed the Jordan to fight against Judah, Benjamin and Ephraim; Israel was in great distress. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Then the Israelites cried out to the Lord, “We have sinned against you, forsaking our God and serving the Baals.” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "The Lord replied, “When the Egyptians, the Amorites, the Ammonites, the Philistines, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "the Sidonians, the Amalekites and the Maonites oppressed you and you cried to me for help, did I not save you from their hands? "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "But you have forsaken me and served other gods, so I will no longer save you. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Go and cry out to the gods you have chosen. Let them save you when you are in trouble!” "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "But the Israelites said to the Lord, “We have sinned. Do with us whatever you think best, but please rescue us now.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Then they got rid of the foreign gods among them and served the Lord. And he could bear Israel’s misery no longer. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "When the Ammonites were called to arms and camped in Gilead, the Israelites assembled and camped at Mizpah. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "The leaders of the people of Gilead said to each other, “Whoever will take the lead in attacking the Ammonites will be head over all who live in Gilead.” "
+        }
+      ]
+    }
+  ]
+}

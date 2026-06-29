@@ -1,0 +1,195 @@
+{
+  "book": 3,
+  "chapter": 18,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關淫亂的禁令"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和華對摩西說： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你要告訴以色列人，對他們說：我是耶和華你們的　神。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你們從前住過的埃及地，那裡的居民的行為，你們不可隨從；我要領你們到的迦南地，那裡的居民的行為，你們也不可仿效。你們不可跟隨他們的風俗行。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "你們要遵行我的典章，謹守我的律例，要遵照奉行；我是耶和華你們的　神。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "所以你們要謹守我的律例和典章；人應該遵行這些，按照它們生活，我是耶和華。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“你們任何人都不可親近骨肉之親，揭露她的下體；我是耶和華。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你父親的下體，就是你母親的下體；她是你的母親，你不可揭露她的下體。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "你父親的妻子的下體，你不可揭露；那本是你父親的下體。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "你姊妹的下體，無論是異母同父的，或是異父同母的，是在家裡生的，或是在外面生的，你都不可揭露她們的下體。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "你的孫女，或是你的外孫女的下體，你都不可揭露，因為她們的下體就是你自己的下體。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "你的繼母為你父親所生的女兒的下體，是你的妹妹，你不可揭露她的下體。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你姑母的下體；她是你父親的骨肉之親。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你姨母的下體；她是你母親的骨肉之親。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你叔伯的下體，不可親近他的妻子，她本是你的嬸母。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你兒媳的下體；她是你兒子的妻子，你不可揭露她的下體。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露你兄弟妻子的下體；那本是你兄弟的下體。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "你不可揭露一個婦人的下體，又揭露她女兒的下體；不可娶她的孫女，或是她的外孫女，揭露她的下體；她們是骨肉之親，這是醜惡的事。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "妻子還活著的時候，你不可另娶她的姊妹，作她的情敵，揭露她的下體。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“在污穢不潔中的婦女，你不可親近她，揭露她的下體。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "你不可與你同伴的妻子私通，因她而玷污自己。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "你不可把你的子孫獻給摩洛，也不可褻瀆你　神的名；我是耶和華。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "你不可與男人同睡交合，像與女人同睡交合一樣，這是可憎的事。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "你不可與任何走獸同睡交合，因牠而玷污自己；女人也不可站在走獸面前，與牠交合；這是逆性的事。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“你們不可讓這些事的任何一件玷污自己，因為我將要從你們面前趕出去的各族，就是被這些事玷污了自己。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "連地也被玷污，所以我追討那地的罪孽，那地就把居民吐出去。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "所以，你們要謹守我的律例和典章；這一切可憎的事，無論是本地人或是在你們中間寄居的外人，一件都不可作 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "； "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "免得你們玷污那地，那地就把你們吐出去，像吐出了在你們以前的各民族一樣。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "無論甚麼人，行了一件這些可憎的事，必從自己的族人中被剪除。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "所以你們要謹守我的吩咐，免得你們行那些可憎的風俗，就是你們以前的人所行的，玷污了自己。我是耶和華你們的　神。” "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "book": 23,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "感恩的詩歌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "And in that day you will say: “O Lord, I will praise You; Though You were angry with me, Your anger is turned away, and You comfort me. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “O Lord, I will praise You; Though You were angry with me, Your anger is turned away, and You comfort me."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “O Lord, I will praise You; Though You were angry with me, Your anger is turned away, and You comfort me."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “O Lord, I will praise You; Though You were angry with me, Your anger is turned away, and You comfort me."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “O Lord, I will praise You; Though You were angry with me, Your anger is turned away, and You comfort me."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Behold, God is my salvation, I will trust and not be afraid; ‘For Yah, the Lord, is my strength and song; He also has become my salvation.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Behold, God is my salvation, I will trust and not be afraid; ‘For Yah, the Lord, is my strength and song; He also has become my salvation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Behold, God is my salvation, I will trust and not be afraid; ‘For Yah, the Lord, is my strength and song; He also has become my salvation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Behold, God is my salvation, I will trust and not be afraid; ‘For Yah, the Lord, is my strength and song; He also has become my salvation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Behold, God is my salvation, I will trust and not be afraid; ‘For Yah, the Lord, is my strength and song; He also has become my salvation.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Therefore with joy you will draw water From the wells of salvation. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And in that day you will say: “Praise the Lord, call upon His name; Declare His deeds among the peoples, Make mention that His name is exalted. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “Praise the Lord, call upon His name; Declare His deeds among the peoples, Make mention that His name is exalted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “Praise the Lord, call upon His name; Declare His deeds among the peoples, Make mention that His name is exalted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "And in that day you will say: “Praise the Lord, call upon His name; Declare His deeds among the peoples, Make mention that His name is exalted."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Sing to the Lord, For He has done excellent things; This is known in all the earth. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Sing to the Lord, For He has done excellent things; This is known in all the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Sing to the Lord, For He has done excellent things; This is known in all the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Cry out and shout, O inhabitant of Zion, For great is  the Holy One of Israel in your midst!” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Cry out and shout, O inhabitant of Zion, For great is  the Holy One of Israel in your midst!”"
+        }
+      ]
+    }
+  ]
+}

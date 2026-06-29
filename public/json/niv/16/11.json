@@ -1,0 +1,269 @@
+{
+  "book": 16,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "住在耶路撒冷的人"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the leaders of the people settled in Jerusalem. The rest of the people cast lots to bring one out of every ten of them to live in Jerusalem, the holy city, while the remaining nine were to stay in their own towns. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The people commended all who volunteered to live in Jerusalem. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "These are the provincial leaders who settled in Jerusalem (now some Israelites, priests, Levites, temple servants and descendants of Solomon’s servants lived in the towns of Judah, each on their own property in the various towns, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "while other people from both Judah and Benjamin lived in Jerusalem): From the descendants of Judah: Athaiah son of Uzziah, the son of Zechariah, the son of Amariah, the son of Shephatiah, the son of Mahalalel, a descendant of Perez; "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "and Maaseiah son of Baruch, the son of Kol-Hozeh, the son of Hazaiah, the son of Adaiah, the son of Joiarib, the son of Zechariah, a descendant of Shelah. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Perez who lived in Jerusalem totaled 468 men of standing. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "From the descendants of Benjamin: Sallu son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "and his followers, Gabbai and Sallai—928 men. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Joel son of Zikri was their chief officer, and Judah son of Hassenuah was over the New Quarter of the city. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "From the priests: Jedaiah; the son of Joiarib; Jakin; "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Seraiah son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the official in charge of the house of God, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "and their associates, who carried on work for the temple—822 men; Adaiah son of Jeroham, the son of Pelaliah, the son of Amzi, the son of Zechariah, the son of Pashhur, the son of Malkijah, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "and his associates, who were heads of families—242 men; Amashsai son of Azarel, the son of Ahzai, the son of Meshillemoth, the son of Immer, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "and his associates, who were men of standing—128. Their chief officer was Zabdiel son of Haggedolim. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "From the Levites: Shemaiah son of Hasshub, the son of Azrikam, the son of Hashabiah, the son of Bunni; "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Shabbethai and Jozabad, two of the heads of the Levites, who had charge of the outside work of the house of God; "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Mattaniah son of Mika, the son of Zabdi, the son of Asaph, the director who led in thanksgiving and prayer; Bakbukiah, second among his associates; and Abda son of Shammua, the son of Galal, the son of Jeduthun. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "The Levites in the holy city totaled 284. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The gatekeepers: Akkub, Talmon and their associates, who kept watch at the gates—172 men. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The rest of the Israelites, with the priests and Levites, were in all the towns of Judah, each on their ancestral property. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The temple servants lived on the hill of Ophel, and Ziha and Gishpa were in charge of them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The chief officer of the Levites in Jerusalem was Uzzi son of Bani, the son of Hashabiah, the son of Mattaniah, the son of Mika. Uzzi was one of Asaph’s descendants, who were the musicians responsible for the service of the house of God. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "The musicians were under the king’s orders, which regulated their daily activity. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Pethahiah son of Meshezabel, one of the descendants of Zerah son of Judah, was the king’s agent in all affairs relating to the people. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "居住其他城鎮的人"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "As for the villages with their fields, some of the people of Judah lived in Kiriath Arba and its surrounding settlements, in Dibon and its settlements, in Jekabzeel and its villages, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "in Jeshua, in Moladah, in Beth Pelet, "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "in Hazar Shual, in Beersheba and its settlements, "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "in Ziklag, in Mekonah and its settlements, "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "in En Rimmon, in Zorah, in Jarmuth, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Zanoah, Adullam and their villages, in Lachish and its fields, and in Azekah and its settlements. So they were living all the way from Beersheba to the Valley of Hinnom. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of the Benjamites from Geba lived in Mikmash, Aija, Bethel and its settlements, "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "in Anathoth, Nob and Ananiah, "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "in Hazor, Ramah and Gittaim, "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "in Hadid, Zeboim and Neballat, "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "in Lod and Ono, and in Ge Harashim. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Some of the divisions of the Levites of Judah settled in Benjamin. "
+        }
+      ]
+    }
+  ]
+}

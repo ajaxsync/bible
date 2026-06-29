@@ -1,0 +1,431 @@
+{
+  "book": 13,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "从亚当到亚伯拉罕"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（创5‧1－32；10‧1－32；11‧10－26）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": " 亚当 生 塞特；塞特生以挪士； "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "以挪士生该南；该南生玛勒列；玛勒列生雅列； "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "雅列生以诺；以诺生玛土撒拉；玛土撒拉生拉麦； "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "拉麦生挪亚；挪亚生闪、含、雅弗。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": " 雅弗的儿子是歌篾、玛各、玛代、雅完、土巴、米设、提拉。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "歌篾的儿子是亚实基拿、低法、陀迦玛。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "雅完的儿子是以利沙、他施、基提、多单。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": " 含的儿子是古实、麦西、弗、迦南。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "古实的儿子是西巴、哈腓拉、撒弗他、拉玛、撒弗提迦。拉玛的儿子是示巴、底但。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "古实生宁录；他为世上英雄之首。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": " 麦西生路低人、亚拿米人、利哈比人、拿弗土希人、 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "帕斯鲁细人、迦斯路希人、迦斐托人；从迦斐托出来的有非利士人。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": " 迦南生长子西顿，又生赫 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "和耶布斯人、亚摩利人、革迦撒人、 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "希未人、亚基人、西尼人、 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "亚瓦底人、洗玛利人，并哈马人。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": " 闪的儿子是以拦、亚述、亚法撒、路德、亚兰、乌斯、户勒、基帖、米设。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "亚法撒生沙拉；沙拉生希伯。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "希伯生了两个儿子：一个名叫法勒，因为那时人就分地居住；法勒的兄弟名叫约坍。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "约坍生亚摩答、沙列、哈萨玛非、耶拉、 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "哈多兰、乌萨、德拉、 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "以巴录、亚比玛利、示巴、 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "阿斐、哈腓拉、约巴。这都是约坍的儿子。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": " 闪 生 亚法撒；亚法撒生沙拉； "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "沙拉生希伯；希伯生法勒；法勒生拉吴； "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "拉吴生西鹿；西鹿生拿鹤；拿鹤生他拉； "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "他拉生亚伯兰，亚伯兰就是亚伯拉罕。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以实玛利的后裔"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（创25‧12－16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": " 亚伯拉罕的儿子是以撒、以实玛利。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "以实玛利的儿子记在下面：以实玛利的长子是尼拜约，其次是基达、押德别、米比衫、 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "米施玛、度玛、玛撒、哈达、提玛、 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "伊突、拿非施、基底玛。这都是以实玛利的儿子。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "亚伯拉罕的妾基土拉所生的儿子，就是心兰、约珊、米但、米甸、伊施巴、书亚。约珊的儿子是示巴、底但。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "米甸的儿子是以法、以弗、哈诺、亚比大、以勒大。这都是基土拉的子孙。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以扫的后裔"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（创36‧1－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": " 亚伯拉罕生以撒；以撒的儿子是以扫和以色列。 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "以扫的儿子是以利法、流珥、耶乌施、雅兰、可拉。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "以利法的儿子是提幔、阿抹、洗玻、迦坦、基纳斯、亭纳、亚玛力。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "流珥的儿子是拿哈、谢拉、沙玛、米撒。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以东地的原住民"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（创36‧20－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": " 西珥的儿子是罗坍、朔巴、祭便、亚拿、底顺、以察、底珊。 "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "罗坍的儿子是何利、荷幔；罗坍的妹子是亭纳。 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "朔巴的儿子是亚勒文、玛拿辖、以巴录、示非、阿南。祭便的儿子是亚雅、亚拿。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "亚拿的儿子是底顺。底顺的儿子是哈默兰、伊是班、益兰、基兰。 "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "以察的儿子是辟罕、撒番、亚干。底珊的儿子是乌斯、亚兰。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以东诸王"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（创36‧31－43）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": " 以色列人未有君王治理之先，在以东地作王的记在下面：有比珥的儿子比拉，他的京城名叫亭哈巴。 "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "比拉死了，波斯拉人谢拉的儿子约巴接续他作王。 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "约巴死了，提幔地的人户珊接续他作王。 "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "户珊死了，比达的儿子哈达接续他作王。这哈达就是在摩押地杀败米甸人的，他的京城名叫亚未得。 "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "哈达死了，玛士利加人桑拉接续他作王。 "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "桑拉死了，大河边的利河伯人扫罗接续他作王。 "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "扫罗死了，亚革波的儿子巴勒‧哈南接续他作王。 "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "巴勒‧哈南死了，哈达接续他作王。他的京城名叫巴伊，他的妻子名叫米希她别，是米‧萨合的孙女，玛特列的女儿。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 50,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": " 哈达死了，以东人的族长有亭纳族长、亚勒瓦族长、耶帖族长、 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "亚何利巴玛族长、以拉族长、比嫩族长、 "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "基纳斯族长、提幔族长、米比萨族长、 "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "玛基叠族长、以兰族长。这都是以东人的族长。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "book": 6,
+  "chapter": 20,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "設立庇護城"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民35‧9－28；申19‧1－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Joshua, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Say to the people of Israel, ‘Appoint the cities of refuge, of which I spoke to you through Moses, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "that the manslayer who strikes any person without intent or unknowingly may flee there. They shall be for you a refuge from the avenger of blood. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "He shall flee to one of these cities and shall stand at the entrance of the gate of the city and explain his case to the elders of that city. Then they shall take him into the city and give him a place, and he shall remain with them. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And if the avenger of blood pursues him, they shall not give up the manslayer into his hand, because he struck his neighbor unknowingly, and did not hate him in the past. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "And he shall remain in that city until he has stood before the congregation for judgment, until the death of him who is high priest at the time. Then the manslayer may return to his own town and his own home, to the town from which he fled.’” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "So they set apart Kedesh in Galilee in the hill country of Naphtali, and Shechem in the hill country of Ephraim, and Kiriath-arba (that is, Hebron) in the hill country of Judah. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "And beyond the Jordan east of Jericho, they appointed Bezer in the wilderness on the tableland, from the tribe of Reuben, and Ramoth in Gilead, from the tribe of Gad, and Golan in Bashan, from the tribe of Manasseh. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "These were the cities designated for all the people of Israel and for the stranger sojourning among them, that anyone who killed a person without intent could flee there, so that he might not die by the hand of the avenger of blood, till he stood before the congregation. "
+        }
+      ]
+    }
+  ]
+}

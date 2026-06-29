@@ -1,0 +1,524 @@
+{
+  "book": 42,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "防備假冒為善"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太10‧26－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那時有成千上萬的人聚在一起，甚至彼此踐踏。耶穌就先對門徒說：“你們要提防法利賽人的酵，就是虛偽。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "沒有甚麼掩蓋的事不被揭露，也沒有甚麼隱藏的事不被人知道。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "所以，你們在暗處所說的，必在明處被人聽見；在內室附耳所談的，必在房頂上宣揚出來。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "該怕的是誰"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太10‧28－31）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“我的朋友，我告訴你們，那殺身體以後不能再作甚麼的，不要怕他們。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我要指示你們當怕的是誰：當怕那殺身體以後，有權把人投入地獄裡的；我告訴你們，應當怕他。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "五隻麻雀，不是賣兩個大錢嗎？但在　神面前，一隻也不被忘記。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "甚至你們的頭髮都一一數過了。不要怕，你們比許多麻雀貴重得多呢。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "在人的面前承認基督"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太10‧32－33；12‧32；10‧19－20）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“我告訴你們，凡在人面前承認我的，人子在　神的使者面前也承認他； "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "在人面前不認我的，我在　神的使者面前也不認他。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "凡說話得罪人子的，還可以赦免；但褻瀆聖靈的，必不得赦免。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "人把你們拉到會堂、官長和當權者的面前，你們不要思慮怎樣申辯或說甚麼話。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "到了時候，聖靈必把當說的話教導你們。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "無知財主的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "群眾中有一個人對耶穌說：“老師，請吩咐我的兄弟和我分家業。” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "耶穌說：“你這個人，誰立我作你們的審判官和分家業的人呢？” "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "於是他對眾人說：“你們要謹慎，遠離一切貪心，因為人的生命並不在於家道豐富。” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "就對他們講了一個比喻，說：“有一個富翁的田地豐收。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "他自己心裡說：‘怎麼辦呢？因為我沒有足夠的地方收藏出產了！’ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "又說：‘我要這樣辦：我要拆掉這些倉房，建造更大的，好在那裡收藏我的一切糧食和貨物。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "然後，我要對我的靈魂說：靈魂啊，你擁有許多好東西，足夠多年享用，只管安安逸逸地吃喝快樂吧！’ "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "　神卻對他說：‘無知的人哪，今天晚上，你的靈魂必被取去，你所預備的要歸給誰呢？’ "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "凡為自己積財，在　神面前卻不富足的，也是這樣。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "不要憂慮"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太6‧25－34，19－21）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "耶穌又對門徒說：“所以我告訴你們，不要為生命憂慮吃甚麼，也不要為身體憂慮穿甚麼。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "因為生命比飲食重要，身體比衣服重要。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "你們想想烏鴉：牠們不種也不收，無倉又無庫，　神尚且養活牠們；你們比飛鳥貴重得多了。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "你們中間誰能用憂慮使自己的壽命延長一刻呢？ "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "既然連這極小的事都不能作，為甚麼還憂慮其他的事呢？ "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "你們想想百合花，怎樣不勞苦，也不紡織。但我告訴你們，就是所羅門最榮華的時候所穿的，也比不上這花中的一朵呢。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "小信的人哪，田野的草，今天還在，明天就投進爐裡，　神尚且這樣給它裝飾，何況你們呢？ "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "你們不要求吃甚麼，喝甚麼，也不要憂慮， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "因為這一切都是世上不信的人所尋求的。你們的父原知道你們需要這一切。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "你們只管求他的國，這些東西都必加給你們。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "你們這小群，不要怕，因為你們的父樂意把國賜給你們。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "當變賣你們所有的施捨給人，為自己製造不朽壞的錢囊，積蓄用不盡的財寶在天上，就是賊不能近、蟲不能蛀的地方。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "因為你們的財寶在哪裡，你們的心也在哪裡。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "警醒的僕人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太24‧45－51）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "“你們的腰當束起來，燈也該點著， "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "像等候自己的主人從婚筵回來一樣，好叫你們在主人回來敲門時，立刻給他開門。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "主人來到了，看見僕人警醒，這些僕人就有福了。我實在告訴你們，主人必親自束腰，招待他們吃飯，進前來侍候他們。 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "主人也許半夜之前，或天亮之前回來，看見他們這樣，這些僕人就有福了。 "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "你們都知道，家主若曉得竊賊甚麼時候來，就不會讓他摸進屋裡。 "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "你們也要準備妥當，因為在想不到的時候，人子就來了。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "彼得說：“主啊，你說這比喻，是為我們還是為眾人呢？” "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "主說：“誰是那忠心精明的管家，被主人指派管理家裡的僕人，按時分糧呢？ "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "主人來到的時候，看見他這樣作，那僕人就有福了。 "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "我實在告訴你們，主人要指派他管理主人的一切財產。 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "如果那僕人心裡說：‘我的主人不會那麼快回來’，就動手打其他的僕人使女，並且吃喝醉酒； "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "在他想不到的日子、不知道的時間，那僕人的主人要來，嚴厲地處罰他，使他和不信的人同在一起。 "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "那僕人知道主人的意思，卻不預備，也不照他的意思行，必多受責打； "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "但那不知道的，雖然作了該受責打的事，也必少受責打。多給誰就向誰多取，多託誰就向誰多要。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "分裂的原因"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太10‧34－36）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 48,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "“我來要把火投在地上，如果燒了起來，那是我所願意的。 "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "我有應當受的洗，我是多麼迫切地期待這事完成。 "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "你們以為我來是要地上有和平嗎？不是的，我告訴你們，是要有紛爭。 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "從今以後，一家五口將起紛爭，三個反對兩個，兩個反對三個。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他們將起紛爭： 父親反對兒子， 兒子反對父親， 母親反對女兒， 女兒反對母親， 婆婆反對媳婦， 媳婦反對婆婆。”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "分辨 時候"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太16‧2－3）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "耶穌又對眾人說：“你們一看見西邊有雲彩升起來，就說：‘要下大雨’，果然這樣； "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "起了南風，就說：‘天要熱了’，也果然這樣。 "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "偽君子啊！你們知道分辨天地的氣象，怎麼不知道分辨這個時代呢？ "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "同對頭和解"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太5‧25－26）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 56,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "“你們為甚麼自己不能判斷甚麼是對的呢？ "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "你和你的對頭去見官長，還在路上的時候，應當盡力向他求和，免得他把你拉到法官面前，法官把你交給差役，差役把你關在監裡。 "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "我告訴你，除非你還清最後的一個小錢，否則決不能從那裡出來。” "
+        }
+      ]
+    }
+  ]
+}

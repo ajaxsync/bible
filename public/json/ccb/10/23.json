@@ -1,0 +1,478 @@
+{
+  "book": 10,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "大衛的遺言"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶西的儿子大卫是雅各的上帝膏立的王，他身居高位，在以色列能歌善咏。以下是他的遗言： "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“耶和华的灵借着我说话， 祂的言语在我口中。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“耶和华的灵借着我说话， 祂的言语在我口中。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "以色列的上帝告诉我， 以色列的磐石对我说， ‘以公义治理人民， 敬畏上帝的君王， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "以色列的上帝告诉我， 以色列的磐石对我说， ‘以公义治理人民， 敬畏上帝的君王，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "以色列的上帝告诉我， 以色列的磐石对我说， ‘以公义治理人民， 敬畏上帝的君王，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "以色列的上帝告诉我， 以色列的磐石对我说， ‘以公义治理人民， 敬畏上帝的君王，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "就像黎明的曙光、 晴朗的早晨， 又像雨后的光辉， 使大地长出青草。’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "就像黎明的曙光、 晴朗的早晨， 又像雨后的光辉， 使大地长出青草。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "就像黎明的曙光、 晴朗的早晨， 又像雨后的光辉， 使大地长出青草。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "就像黎明的曙光、 晴朗的早晨， 又像雨后的光辉， 使大地长出青草。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我的家在上帝面前不正是如此吗？ 上帝与我立下永远的约， 这约稳妥可靠。 祂必拯救我，成全我的愿望。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我的家在上帝面前不正是如此吗？ 上帝与我立下永远的约， 这约稳妥可靠。 祂必拯救我，成全我的愿望。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我的家在上帝面前不正是如此吗？ 上帝与我立下永远的约， 这约稳妥可靠。 祂必拯救我，成全我的愿望。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我的家在上帝面前不正是如此吗？ 上帝与我立下永远的约， 这约稳妥可靠。 祂必拯救我，成全我的愿望。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我的家在上帝面前不正是如此吗？ 上帝与我立下永远的约， 这约稳妥可靠。 祂必拯救我，成全我的愿望。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "但恶人要像荆棘一样被丢弃， 没人用手碰他们， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "但恶人要像荆棘一样被丢弃， 没人用手碰他们，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "人要拿铁器和长矛把他们收集起来焚毁。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "人要拿铁器和长矛把他们收集起来焚毁。”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "大衛的勇士"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上11‧10－47）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "以下是大卫的勇士：他革扪人约设·巴设，又称伊斯尼人亚底挪，是三勇士之首，曾在一场交战中杀掉八百敌人。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "其次是亚合人朵多的儿子以利亚撒，他是三勇士之一。有一次，以色列人和非利士人打仗，他跟随大卫向非利士人骂阵。以色列军队都撤退了， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "他却坚守阵地，奋勇杀敌，直到手臂发麻，握刀的手无法松开。那天，耶和华使以色列人大获全胜。以色列军队回到以利亚撒那里来捡死人的财物。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "第三位勇士是哈拉人亚基的儿子沙玛。有一次非利士人聚集在一块长满扁豆的田中和以色列人打仗，以色列人都逃跑了， "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "沙玛却站在田中间击杀敌人，保卫了那块田。那次，耶和华使以色列人大获全胜。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "在收割的时候，非利士军兵在利乏音谷扎营，三十勇士中的三位到亚杜兰洞见大卫。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "那时大卫留守在堡垒里，非利士人的驻军在伯利恒。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "大卫渴了，说：“真想喝一些伯利恒城门旁的井水！” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "这三位勇士就冲过非利士人的营地，到伯利恒城门旁的井打水，带回来给大卫。大卫却不肯喝，他把水浇奠在耶和华面前， "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "说：“耶和华啊！这三人冒死去打水，这些水就像是他们的血，我决不能喝！”因此，大卫不肯喝。这是三勇士的事迹。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "洗鲁雅的儿子、约押的兄弟亚比筛是这三位勇士的统领，他曾挥矛刺死三百人，在三勇士中出了名， "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "最有声望，因此做了他们的统领，只是不及前三位勇士。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "甲薛人耶何耶大的儿子比拿雅是位勇士，做过非凡的事。他曾杀死摩押的两个勇猛战士，也曾在下雪天跳进坑中杀死一头狮子， "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "还杀死了一个埃及勇士。当时埃及人拿着长矛，比拿雅拿着棍子迎战，他夺了对方的长矛，用那矛刺死了对方。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "这是耶何耶大的儿子比拿雅的事迹，他在三个勇士中出了名。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "他比三十勇士更有声望，只是不及前三位勇士。大卫封他为护卫长。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "三十勇士中有：约押的兄弟亚撒黑、伯利恒人朵多的儿子伊勒哈难、 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "哈律人沙玛、哈律人以利加、 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "帕勒提人希利斯、提哥亚人益吉的儿子以拉、 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "亚拿突人亚比以谢、户沙人米本乃、 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "亚合人撒们、尼陀法人玛哈莱、 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "尼陀法人巴拿的儿子希立、便雅悯支派基比亚人利拜的儿子以太、 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "比拉顿人比拿雅、迦实溪人希太、 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "伯·亚拉巴人亚比亚本、巴鲁米人押斯玛弗、 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "沙本人以利雅哈巴、雅善的儿子们、哈拉人沙玛的儿子约拿单、 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "哈拉人沙拉的儿子亚希暗、 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "玛迦人亚哈拜的儿子以利法列、基罗人亚希多弗的儿子以连、 "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "迦密人希斯莱、亚巴人帕莱、 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "琐巴人拿单的儿子以甲、迦得人巴尼、 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "亚扪人洗勒、为洗鲁雅的儿子约押拿兵器的比录人拿哈莱、 "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "以帖人以拉、以帖人迦立、 "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "赫人乌利亚，共三十七名勇士。 "
+        }
+      ]
+    }
+  ]
+}

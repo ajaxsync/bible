@@ -1,0 +1,376 @@
+{
+  "book": 41,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "撒種的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太13‧1－9；路8‧4－8）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Again Jesus began to teach by the lake. The crowd that gathered around him was so large that he got into a boat and sat in it out on the lake, while all the people were along the shore at the water’s edge. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He taught them many things by parables, and in his teaching said: "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“Listen! A farmer went out to sow his seed. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "As he was scattering the seed, some fell along the path, and the birds came and ate it up. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Some fell on rocky places, where it did not have much soil. It sprang up quickly, because the soil was shallow. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "But when the sun came up, the plants were scorched, and they withered because they had no root. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Other seed fell among thorns, which grew up and choked the plants, so that they did not bear grain. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Still other seed fell on good soil. It came up, grew and produced a crop, some multiplying thirty, some sixty, some a hundred times.” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus said, “Whoever has ears to hear, let them hear.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "用比喻的目的"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太13‧10－17；路8‧9－10）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "When he was alone, the Twelve and the others around him asked him about the parables. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "He told them, “The secret of the kingdom of God has been given to you. But to those on the outside everything is said in parables "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "so that, “ ‘they may be ever seeing but never perceiving, and ever hearing but never understanding; otherwise they might turn and be forgiven!’    ” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "so that, “ ‘they may be ever seeing but never perceiving, and ever hearing but never understanding; otherwise they might turn and be forgiven!’    ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "so that, “ ‘they may be ever seeing but never perceiving, and ever hearing but never understanding; otherwise they might turn and be forgiven!’    ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "so that, “ ‘they may be ever seeing but never perceiving, and ever hearing but never understanding; otherwise they might turn and be forgiven!’    ”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "解明撒種的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太13‧18－23；路8‧11－15）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus said to them, “Don’t you understand this parable? How then will you understand any parable? "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The farmer sows the word. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Some people are like seed along the path, where the word is sown. As soon as they hear it, Satan comes and takes away the word that was sown in them. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Others, like seed sown on rocky places, hear the word and at once receive it with joy. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "But since they have no root, they last only a short time. When trouble or persecution comes because of the word, they quickly fall away. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Still others, like seed sown among thorns, hear the word; "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "but the worries of this life, the deceitfulness of wealth and the desires for other things come in and choke the word, making it unfruitful. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Others, like seed sown on good soil, hear the word, accept it, and produce a crop—some thirty, some sixty, some a hundred times what was sown.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "斗底下的燈"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路8‧16－18）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "He said to them, “Do you bring in a lamp to put it under a bowl or a bed? Instead, don’t you put it on its stand? "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "For whatever is hidden is meant to be disclosed, and whatever is concealed is meant to be brought out into the open. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "If anyone has ears to hear, let them hear.” "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“Consider carefully what you hear,” he continued. “With the measure you use, it will be measured to you—and even more. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Whoever has will be given more; whoever does not have, even what they have will be taken from them.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "種子長大的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "He also said, “This is what the kingdom of God is like. A man scatters seed on the ground. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Night and day, whether he sleeps or gets up, the seed sprouts and grows, though he does not know how. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "All by itself the soil produces grain—first the stalk, then the head, then the full kernel in the head. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "As soon as the grain is ripe, he puts the sickle to it, because the harvest has come.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "芥菜種的比喻"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太13‧31－32；路13‧18－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Again he said, “What shall we say the kingdom of God is like, or what parable shall we use to describe it? "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "It is like a mustard seed, which is the smallest of all seeds on earth. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Yet when planted, it grows and becomes the largest of all garden plants, with such big branches that the birds can perch in its shade.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌用比喻講道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太13‧34）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "With many similar parables Jesus spoke the word to them, as much as they could understand. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "He did not say anything to them without using a parable. But when he was alone with his own disciples, he explained everything. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "平靜風和海"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太8‧23－27；路8‧22－25）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "That day when evening came, he said to his disciples, “Let us go over to the other side.” "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "Leaving the crowd behind, they took him along, just as he was, in the boat. There were also other boats with him. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "A furious squall came up, and the waves broke over the boat, so that it was nearly swamped. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Jesus was in the stern, sleeping on a cushion. The disciples woke him and said to him, “Teacher, don’t you care if we drown?” "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "He got up, rebuked the wind and said to the waves, “Quiet! Be still!” Then the wind died down and it was completely calm. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "He said to his disciples, “Why are you so afraid? Do you still have no faith?” "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "They were terrified and asked each other, “Who is this? Even the wind and the waves obey him!” "
+        }
+      ]
+    }
+  ]
+}

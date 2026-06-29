@@ -1,0 +1,199 @@
+{
+  "book": 19,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "pre-heading",
+      "heading": "詩、篇、卷、一"
+    },
+    {
+      "type": "heading",
+      "heading": "真福"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "有福的人： 不從惡人的計謀， 不站罪人的道路， 不坐好譏笑的人的座位。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "有福的人： 不從惡人的計謀， 不站罪人的道路， 不坐好譏笑的人的座位。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "有福的人： 不從惡人的計謀， 不站罪人的道路， 不坐好譏笑的人的座位。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他喜愛的是耶和華的律法， 他晝夜默誦的也是耶和華的律法。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "他喜愛的是耶和華的律法， 他晝夜默誦的也是耶和華的律法。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "他喜愛的是耶和華的律法， 他晝夜默誦的也是耶和華的律法。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他像一棵樹，栽在溪水旁， 按時結果子， 葉子總不枯乾； 他所作的一切，盡都順利。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "他像一棵樹，栽在溪水旁， 按時結果子， 葉子總不枯乾； 他所作的一切，盡都順利。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "他像一棵樹，栽在溪水旁， 按時結果子， 葉子總不枯乾； 他所作的一切，盡都順利。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "他像一棵樹，栽在溪水旁， 按時結果子， 葉子總不枯乾； 他所作的一切，盡都順利。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "惡人卻不是這樣， 他們好像糠秕， 被風吹散。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "惡人卻不是這樣， 他們好像糠秕， 被風吹散。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "因此，在審判的時候，惡人必站立不住； 在義人的團體中，罪人也必這樣。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "因此，在審判的時候，惡人必站立不住； 在義人的團體中，罪人也必這樣。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "因為耶和華看顧義人的道路， 惡人的道路卻必滅亡。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因為耶和華看顧義人的道路， 惡人的道路卻必滅亡。"
+        }
+      ]
+    }
+  ]
+}

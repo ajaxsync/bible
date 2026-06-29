@@ -1,0 +1,85 @@
+{
+  "book": 2,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "所有頭胎的都死"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the Lord had said to Moses, “I will bring one more plague on Pharaoh and on Egypt. After that, he will let you go from here, and when he does, he will drive you out completely. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Tell the people that men and women alike are to ask their neighbors for articles of silver and gold.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "(The Lord made the Egyptians favorably disposed toward the people, and Moses himself was highly regarded in Egypt by Pharaoh’s officials and by the people.) "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "So Moses said, “This is what the Lord says: ‘About midnight I will go throughout Egypt. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Every firstborn son in Egypt will die, from the firstborn son of Pharaoh, who sits on the throne, to the firstborn son of the female slave, who is at her hand mill, and all the firstborn of the cattle as well. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "There will be loud wailing throughout Egypt—worse than there has ever been or ever will be again. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "But among the Israelites not a dog will bark at any person or animal.’ Then you will know that the Lord makes a distinction between Egypt and Israel. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "All these officials of yours will come to me, bowing down before me and saying, ‘Go, you and all the people who follow you!’ After that I will leave.” Then Moses, hot with anger, left Pharaoh. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The Lord had said to Moses, “Pharaoh will refuse to listen to you—so that my wonders may be multiplied in Egypt.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Moses and Aaron performed all these wonders before Pharaoh, but the Lord hardened Pharaoh’s heart, and he would not let the Israelites go out of his country. "
+        }
+      ]
+    }
+  ]
+}

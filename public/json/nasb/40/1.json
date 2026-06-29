@@ -1,0 +1,232 @@
+{
+  "book": 40,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌基督的家譜"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路3‧23－38）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The record of the genealogy of Jesus the Messiah, the son of David, the son of Abraham: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, and Hezron the father of Ram. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Ram was the father of Amminadab, Amminadab the father of Nahshon, and Nahshon the father of Salmon. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Salmon was the father of Boaz by Rahab, Boaz was the father of Obed by Ruth, and Obed the father of Jesse. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Jesse was the father of David the king. David was the father of Solomon by Bathsheba who had been the wife of Uriah. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Jesse was the father of David the king. David was the father of Solomon by Bathsheba who had been the wife of Uriah."
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Solomon was the father of Rehoboam, Rehoboam the father of Abijah, and Abijah the father of Asa. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Asa was the father of Jehoshaphat, Jehoshaphat the father of Joram, and Joram the father of Uzziah. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Uzziah was the father of Jotham, Jotham the father of Ahaz, and Ahaz the father of Hezekiah. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Hezekiah was the father of Manasseh, Manasseh the father of Amon, and Amon the father of Josiah. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Josiah became the father of Jeconiah and his brothers, at the time of the deportation to Babylon. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "After the deportation to Babylon: Jeconiah became the father of Shealtiel, and Shealtiel the father of Zerubbabel. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Zerubbabel was the father of Abihud, Abihud the father of Eliakim, and Eliakim the father of Azor. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Azor was the father of Zadok, Zadok the father of Achim, and Achim the father of Eliud. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Eliud was the father of Eleazar, Eleazar the father of Matthan, and Matthan the father of Jacob. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Jacob was the father of Joseph the husband of Mary, by whom Jesus was born, who is called the Messiah. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "So all the generations from Abraham to David are fourteen generations; from David to the deportation to Babylon, fourteen generations; and from the deportation to Babylon to the Messiah, fourteen generations. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌基督降生"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路2‧1－7）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Now the birth of Jesus Christ was as follows: when His mother Mary had been betrothed to Joseph, before they came together she was found to be with child by the Holy Spirit. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "And Joseph her husband, being a righteous man and not wanting to disgrace her, planned to send her away secretly. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "But when he had considered this, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, do not be afraid to take Mary as your wife; for the Child who has been conceived in her is of the Holy Spirit. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "She will bear a Son; and you shall call His name Jesus, for He will save His people from their sins.” "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Now all this took place to fulfill what was spoken by the Lord through the prophet: "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "“Behold, the virgin shall be with child and shall bear a Son, and they shall call His name Immanuel,” which translated means, “God with us.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Behold, the virgin shall be with child and shall bear a Son, and they shall call His name Immanuel,” which translated means, “God with us.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Behold, the virgin shall be with child and shall bear a Son, and they shall call His name Immanuel,” which translated means, “God with us.”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph-no-indent",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Behold, the virgin shall be with child and shall bear a Son, and they shall call His name Immanuel,” which translated means, “God with us.”"
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "And Joseph awoke from his sleep and did as the angel of the Lord commanded him, and took Mary as his wife, "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "but kept her a virgin until she gave birth to a Son; and he called His name Jesus. "
+        }
+      ]
+    }
+  ]
+}

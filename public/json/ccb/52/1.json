@@ -1,0 +1,79 @@
+{
+  "book": 52,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "我保罗同西拉和提摩太写信给帖撒罗尼迦属于父上帝和主耶稣基督的教会。 愿恩典和平安归给你们！ "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "帖撒羅尼迦信徒的信心和榜樣"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "我们常常为你们众人感谢上帝，为你们祷告， "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "在我们的父上帝面前不断地想到你们因信我们主耶稣基督而做的工作、因爱祂而受的劳苦和因祂所赐的盼望而激发的忍耐。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "上帝所爱的弟兄姊妹，我们知道上帝拣选了你们， "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "因为我们传福音给你们不只是靠言语，也靠上帝的能力、圣灵的同在和充分的确据。你们也知道，我们为了你们的缘故怎样在你们中间行事为人。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "你们效法了我们和我们的主，尽管深受苦难，仍然怀着圣灵所赐的喜乐领受真道， "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "成了马其顿和亚该亚所有信徒的榜样。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "主的道从你们那里不仅传到了马其顿和亚该亚，还传到了其他各地，你们对上帝的信心也广为人知，我们无须再多说什么。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "因为人们都在传讲你们如何接待我们，如何离弃偶像归向上帝，事奉又真又活的上帝， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "等候祂的儿子从天降临，就是祂使之从死里复活、救我们脱离将来可怕审判的耶稣。 "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "book": 2,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "摩西和亞倫見埃及王"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "And afterward Moses and Aaron came and said to Pharaoh, “Thus says the Lord, the God of Israel, ‘Let My people go that they may celebrate a feast to Me in the wilderness.’ ” "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "But Pharaoh said, “Who is the Lord that I should obey His voice to let Israel go? I do not know the Lord, and besides, I will not let Israel go.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Then they said, “The God of the Hebrews has met with us. Please, let us go a three days’ journey into the wilderness that we may sacrifice to the Lord our God, otherwise He will fall upon us with pestilence or with the sword.” "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "But the king of Egypt said to them, “Moses and Aaron, why do you draw the people away from their work? Get back to your labors!” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Again Pharaoh said, “Look, the people of the land are now many, and you would have them cease from their labors!” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "So the same day Pharaoh commanded the taskmasters over the people and their foremen, saying, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“You are no longer to give the people straw to make brick as previously; let them go and gather straw for themselves. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But the quota of bricks which they were making previously, you shall impose on them; you are not to reduce any of it. Because they are lazy, therefore they cry out, ‘Let us go and sacrifice to our God.’ "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Let the labor be heavier on the men, and let them work at it so that they will pay no attention to false words.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "So the taskmasters of the people and their foremen went out and spoke to the people, saying, “Thus says Pharaoh, ‘I am not going to give you any straw. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "You go and get straw for yourselves wherever you can find it, but none of your labor will be reduced.’ ” "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "So the people scattered through all the land of Egypt to gather stubble for straw. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "The taskmasters pressed them, saying, “Complete your work quota, your daily amount, just as when you had straw.” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Moreover, the foremen of the sons of Israel, whom Pharaoh’s taskmasters had set over them, were beaten and were asked, “Why have you not completed your required amount either yesterday or today in making brick as previously?” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Then the foremen of the sons of Israel came and cried out to Pharaoh, saying, “Why do you deal this way with your servants? "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "There is no straw given to your servants, yet they keep saying to us, ‘Make bricks!’ And behold, your servants are being beaten; but it is the fault of your own people.” "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "But he said, “You are lazy, very lazy; therefore you say, ‘Let us go and sacrifice to the Lord.’ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "So go now and work; for you will be given no straw, yet you must deliver the quota of bricks.” "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The foremen of the sons of Israel saw that they were in trouble because they were told, “You must not reduce your daily amount of bricks.” "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "When they left Pharaoh’s presence, they met Moses and Aaron as they were waiting for them. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "They said to them, “May the Lord look upon you and judge you, for you have made us odious in Pharaoh’s sight and in the sight of his servants, to put a sword in their hand to kill us.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "摩西向耶和華訴苦"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses returned to the Lord and said, “O Lord, why have You brought harm to this people? Why did You ever send me? "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Ever since I came to Pharaoh to speak in Your name, he has done harm to this people, and You have not delivered Your people at all.” "
+        }
+      ]
+    }
+  ]
+}

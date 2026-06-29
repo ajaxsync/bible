@@ -1,0 +1,151 @@
+{
+  "book": 40,
+  "chapter": 28,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌復活"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可16‧1－10；路24‧1－12；約20‧1－10）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "After the Sabbath, at dawn on the first day of the week, Mary Magdalene and the other Mary went to look at the tomb. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "There was a violent earthquake, for an angel of the Lord came down from heaven and, going to the tomb, rolled back the stone and sat on it. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "His appearance was like lightning, and his clothes were white as snow. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "The guards were so afraid of him that they shook and became like dead men. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The angel said to the women, “Do not be afraid, for I know that you are looking for Jesus, who was crucified. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "He is not here; he has risen, just as he said. Come and see the place where he lay. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Then go quickly and tell his disciples: ‘He has risen from the dead and is going ahead of you into Galilee. There you will see him.’ Now I have told you.” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "So the women hurried away from the tomb, afraid yet filled with joy, and ran to tell his disciples. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Suddenly Jesus met them. “Greetings,” he said. They came to him, clasped his feet and worshiped him. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus said to them, “Do not be afraid. Go and tell my brothers to go to Galilee; there they will see me.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "看守的兵報告祭司長"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "While the women were on their way, some of the guards went into the city and reported to the chief priests everything that had happened. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "When the chief priests had met with the elders and devised a plan, they gave the soldiers a large sum of money, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "telling them, “You are to say, ‘His disciples came during the night and stole him away while we were asleep.’ "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "If this report gets to the governor, we will satisfy him and keep you out of trouble.” "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "So the soldiers took the money and did as they were instructed. And this story has been widely circulated among the Jews to this very day. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "門徒奉差遣"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可16‧14－18；路24‧36－49；約20‧19－23；徒1‧6－8）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Then the eleven disciples went to Galilee, to the mountain where Jesus had told them to go. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "When they saw him, they worshiped him; but some doubted. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus came to them and said, “All authority in heaven and on earth has been given to me. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.” "
+        }
+      ]
+    }
+  ]
+}

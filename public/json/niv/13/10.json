@@ -1,0 +1,109 @@
+{
+  "book": 13,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "掃羅逝世"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（撒上31‧1－13）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the Philistines fought against Israel; the Israelites fled before them, and many fell dead on Mount Gilboa. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The Philistines were in hot pursuit of Saul and his sons, and they killed his sons Jonathan, Abinadab and Malki-Shua. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The fighting grew fierce around Saul, and when the archers overtook him, they wounded him. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Saul said to his armor-bearer, “Draw your sword and run me through, or these uncircumcised fellows will come and abuse me.” But his armor-bearer was terrified and would not do it; so Saul took his own sword and fell on it. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When the armor-bearer saw that Saul was dead, he too fell on his sword and died. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "So Saul and his three sons died, and all his house died together. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "When all the Israelites in the valley saw that the army had fled and that Saul and his sons had died, they abandoned their towns and fled. And the Philistines came and occupied them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The next day, when the Philistines came to strip the dead, they found Saul and his sons fallen on Mount Gilboa. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "They stripped him and took his head and his armor, and sent messengers throughout the land of the Philistines to proclaim the news among their idols and their people. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They put his armor in the temple of their gods and hung up his head in the temple of Dagon. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "When all the inhabitants of Jabesh Gilead heard what the Philistines had done to Saul, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "all their valiant men went and took the bodies of Saul and his sons and brought them to Jabesh. Then they buried their bones under the great tree in Jabesh, and they fasted seven days. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Saul died because he was unfaithful to the Lord; he did not keep the word of the Lord and even consulted a medium for guidance, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "and did not inquire of the Lord. So the Lord put him to death and turned the kingdom over to David son of Jesse. "
+        }
+      ]
+    }
+  ]
+}

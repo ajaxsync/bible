@@ -1,0 +1,570 @@
+{
+  "book": 22,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Song of Songs, which is Solomon’s. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "第一首"
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“May he kiss me with the kisses of his mouth! For your love is better than wine. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“May he kiss me with the kisses of his mouth! For your love is better than wine."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Your oils have a pleasing fragrance, Your name is like purified oil; Therefore the maidens love you. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Your oils have a pleasing fragrance, Your name is like purified oil; Therefore the maidens love you."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Your oils have a pleasing fragrance, Your name is like purified oil; Therefore the maidens love you."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Draw me after you and let us run together! The king has brought me into his chambers.” “We will rejoice in you and be glad; We will extol your love more than wine. Rightly do they love you.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“I am black but lovely, O daughters of Jerusalem, Like the tents of Kedar, Like the curtains of Solomon. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“I am black but lovely, O daughters of Jerusalem, Like the tents of Kedar, Like the curtains of Solomon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“I am black but lovely, O daughters of Jerusalem, Like the tents of Kedar, Like the curtains of Solomon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“I am black but lovely, O daughters of Jerusalem, Like the tents of Kedar, Like the curtains of Solomon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Do not stare at me because I am swarthy, For the sun has burned me. My mother’s sons were angry with me; They made me caretaker of the vineyards, But I have not taken care of my own vineyard. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Do not stare at me because I am swarthy, For the sun has burned me. My mother’s sons were angry with me; They made me caretaker of the vineyards, But I have not taken care of my own vineyard."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Do not stare at me because I am swarthy, For the sun has burned me. My mother’s sons were angry with me; They made me caretaker of the vineyards, But I have not taken care of my own vineyard."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Do not stare at me because I am swarthy, For the sun has burned me. My mother’s sons were angry with me; They made me caretaker of the vineyards, But I have not taken care of my own vineyard."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Tell me, O you whom my soul loves, Where do you pasture your flock, Where do you make it lie down at noon? For why should I be like one who veils herself Beside the flocks of your companions?” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "Tell me, O you whom my soul loves, Where do you pasture your flock, Where do you make it lie down at noon? For why should I be like one who veils herself Beside the flocks of your companions?”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "Tell me, O you whom my soul loves, Where do you pasture your flock, Where do you make it lie down at noon? For why should I be like one who veils herself Beside the flocks of your companions?”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "Tell me, O you whom my soul loves, Where do you pasture your flock, Where do you make it lie down at noon? For why should I be like one who veils herself Beside the flocks of your companions?”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "Tell me, O you whom my soul loves, Where do you pasture your flock, Where do you make it lie down at noon? For why should I be like one who veils herself Beside the flocks of your companions?”"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“If you yourself do not know, Most beautiful among women, Go forth on the trail of the flock And pasture your young goats By the tents of the shepherds. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "“If you yourself do not know, Most beautiful among women, Go forth on the trail of the flock And pasture your young goats By the tents of the shepherds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "“If you yourself do not know, Most beautiful among women, Go forth on the trail of the flock And pasture your young goats By the tents of the shepherds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "“If you yourself do not know, Most beautiful among women, Go forth on the trail of the flock And pasture your young goats By the tents of the shepherds."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“To me, my darling, you are like My mare among the chariots of Pharaoh. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "“To me, my darling, you are like My mare among the chariots of Pharaoh."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Your cheeks are lovely with ornaments, Your neck with strings of beads.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "Your cheeks are lovely with ornaments, Your neck with strings of beads.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "“We will make for you ornaments of gold With beads of silver.” "
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“While the king was at his table, My perfume gave forth its fragrance. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "“While the king was at his table, My perfume gave forth its fragrance."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "My beloved is to me a pouch of myrrh Which lies all night between my breasts. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "My beloved is to me a pouch of myrrh Which lies all night between my breasts."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "My beloved is to me a cluster of henna blossoms In the vineyards of Engedi.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "My beloved is to me a cluster of henna blossoms In the vineyards of Engedi.”"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“How beautiful you are, my darling, How beautiful you are! Your eyes are like doves.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "“How beautiful you are, my darling, How beautiful you are! Your eyes are like doves.”"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“How handsome you are, my beloved, And so pleasant! Indeed, our couch is luxuriant! "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "“How handsome you are, my beloved, And so pleasant! Indeed, our couch is luxuriant!"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The beams of our houses are cedars, Our rafters, cypresses. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "The beams of our houses are cedars, Our rafters, cypresses."
+        }
+      ]
+    }
+  ]
+}

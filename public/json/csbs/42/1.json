@@ -1,0 +1,924 @@
+{
+  "book": 42,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "寫給提阿非羅"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "提阿费罗大人哪，既然有许多人着手编录关于在我们中间所成就的事， "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我也已经从头仔细地追踪了这一切，我就认为应该按着次序写给您， "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "好让您了解到您所领受的话语都是确实的。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "預言施洗約翰的誕生"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "在犹太王希律的那些日子里，有一个祭司名叫撒迦利亚，属于亚比雅班组。他的妻子也是亚伦的子孙，名叫伊莉莎白。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他们两个人在神面前都是义人，遵行主的一切诫命和公义规定，无可指责。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "可是他们没有孩子，因为伊莉莎白不能生育，两个人又都上了年纪。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "有一次，当撒迦利亚的班组轮值的时候，撒迦利亚在神面前履行祭司的职务， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "照着祭司职务的规矩，抽中了签就进入主的圣所烧香。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "烧香的时候，全体民众都在外面祷告。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "有主的一位天使站在香坛的右边向他显现。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "撒迦利亚看见后，就惊慌不安，恐惧就临到了他。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "天使对他说： “撒迦利亚，不要怕， 因为你的祈祷已蒙垂听。 你的妻子伊莉莎白要为你生一个儿子， 你要给他起名叫约翰。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他将使你欢喜、快乐， 许多人也会因他的诞生而欢欣， "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "因为他将要在主面前为大。 淡酒和烈酒他绝不能喝， 还在母腹中的时候， 他就会被圣灵充满。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "他将使许多以色列子民 归向主——他们的神。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "他将藉着以利亚的灵和能力， 在主的面前先行， 使父亲的心 转向儿女， 使悖逆的人 转向义人的智慧， 好为主准备一群预备好了的子民。” "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "撒迦利亚对天使说：“我凭着什么能知道这事呢？我是个老人，我的妻子也上了年纪。” "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "天使回答他，说：“我是站在神面前的加百列，奉差派来对你说话，向你传达这些好消息。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "看哪，你要成为哑巴，不能说话，一直到这些事成就的日子，因为你不相信我的话！到了时候，我的话就会应验。” "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "民众等候着撒迦利亚，对他在圣所里的迟延不出感到惊奇。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "当他出来不能和他们说话的时候，他们才了解他在圣所里看到了异象。撒迦利亚一直向他们打手势，却始终不能说话。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "他服事的日子满了以后，就回家去了。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "这些日子以后，他的妻子伊莉莎白怀了孕，隐居了五个月。她说： "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "“为了除去我在人间的耻辱，主在这些眷顾的日子里，这样看待了我。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "預言耶穌的降生"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "在第六个月，天使加百列从神那里奉差派，去加利利一个叫拿撒勒的城， "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "到一个童贞女那里。这童贞女名叫玛丽亚，已经许配给大卫家族一个名叫约瑟的人。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "天使来到她面前，说：“蒙大恩的女子，愿你欢喜，主与你同在！” "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "玛丽亚因这话就惊慌不安，思索这问候到底是什么意思。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "天使对她说： “玛丽亚，不要怕， 因为你在神面前蒙恩了。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "看哪，你将要怀孕生一个儿子， 你要给他起名叫耶稣。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "他将要为大， 被称为至高者的儿子； 主、神要把他先祖大卫的王位赐给他。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "他要做王统管雅各家，直到永远， 他的国度没有穷尽。” "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "玛丽亚对天使说：“我既然没有出嫁，怎么会有这事呢？” "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "天使回答她，说： “圣灵将要临到你， 至高者的大能要荫庇你， 因此，那要诞生的圣者 将被称为神的儿子。 "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "你看，你的亲戚伊莉莎白虽然年老，也怀了男胎；那被称为不能生育的，现在已有六个月的身孕了。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "因为在神没有什么事是不可能的。” "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "玛丽亚说：“看哪，我是主的婢女，愿这事照着你的话成就在我身上。”于是天使离开了她。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "馬利亞訪問伊利莎白"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "就在那些日子里，玛丽亚起身到山区去，赶往犹大的一个城， "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "进了撒迦利亚的家，问候伊莉莎白。 "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "伊莉莎白一听到玛丽亚的问候，胎儿就在她的腹中跳动，伊莉莎白也被圣灵充满， "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "大声呼喊说： “你在妇女中是蒙祝福的， 你腹中的胎儿也是蒙祝福的！ "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "我主的母亲竟然到我这里来，这事怎么会临到我呢？ "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "看哪，原来你问候的声音一传入我的耳朵，胎儿就在我的腹中欢喜跳跃。 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "这相信的女子是蒙福的，因为主对她说的话都会实现。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "馬利亞的尊主頌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "玛丽亚说： “我的心尊主为大， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": "玛丽亚说： “我的心尊主为大，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 46,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "我的灵以神我的救主为乐， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 47,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "因为他看顾他婢女的卑微。 看哪，从今以后， 世世代代都要称我有福， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 48,
+          "hasVerseLabel": false,
+          "verseText": "因为他看顾他婢女的卑微。 看哪，从今以后， 世世代代都要称我有福，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 48,
+          "hasVerseLabel": false,
+          "verseText": "因为他看顾他婢女的卑微。 看哪，从今以后， 世世代代都要称我有福，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 48,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "因为那全能者 为我行了大事； 他的名是神圣的。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 49,
+          "hasVerseLabel": false,
+          "verseText": "因为那全能者 为我行了大事； 他的名是神圣的。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 49,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "他的怜悯， 世世代代临到敬畏他的人。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 50,
+          "hasVerseLabel": false,
+          "verseText": "他的怜悯， 世世代代临到敬畏他的人。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 50,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "他用膀臂施展大能， 驱散那些心思意念骄傲的人。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 51,
+          "hasVerseLabel": false,
+          "verseText": "他用膀臂施展大能， 驱散那些心思意念骄傲的人。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 51,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "他把权能者从高位上拉下， 又把卑微的人高举。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": "他把权能者从高位上拉下， 又把卑微的人高举。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 52,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "他用美物满足饥饿的人， 让富有的人空手而去。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": "他用美物满足饥饿的人， 让富有的人空手而去。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 53,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "他扶助他的仆人以色列， 不忘怜悯， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 54,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "正如他对我们祖先， 对亚伯拉罕和他的后裔所说的，直到永远。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 55,
+          "hasVerseLabel": false,
+          "verseText": "正如他对我们祖先， 对亚伯拉罕和他的后裔所说的，直到永远。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 55,
+          "hasVerseLabel": false,
+          "verseText": "正如他对我们祖先， 对亚伯拉罕和他的后裔所说的，直到永远。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 55,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "玛丽亚与伊莉莎白一起住了大约三个月，就回家去了。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "施洗約翰的出生"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 56,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "伊莉莎白产期到了，生了一个儿子。 "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "她的邻居和亲戚听说主向她大施怜悯，就与她一同欢乐。 "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "到了第八天，他们来给孩子行割礼，要按照他父亲的名字叫他撒迦利亚。 "
+        },
+        {
+          "verseNum": 60,
+          "hasVerseLabel": true,
+          "verseText": "可是孩子的母亲应声说：“不！他要被称为约翰。” "
+        },
+        {
+          "verseNum": 61,
+          "hasVerseLabel": true,
+          "verseText": "他们对她说：“你的亲族中没有叫这名字的。” "
+        },
+        {
+          "verseNum": 62,
+          "hasVerseLabel": true,
+          "verseText": "于是他们向孩子的父亲打手势，到底他愿意叫他什么名字。 "
+        },
+        {
+          "verseNum": 63,
+          "hasVerseLabel": true,
+          "verseText": "撒迦利亚要了一块写字板，写上：“他的名字是约翰。”大家都感到惊奇。 "
+        },
+        {
+          "verseNum": 64,
+          "hasVerseLabel": true,
+          "verseText": "撒迦利亚的口立刻开了，舌头也松了，就说出话来，颂赞神。 "
+        },
+        {
+          "verseNum": 65,
+          "hasVerseLabel": true,
+          "verseText": "于是住在他们周围的人都感到惧怕，整个犹太山区的人也都在谈论这一切事。 "
+        },
+        {
+          "verseNum": 66,
+          "hasVerseLabel": true,
+          "verseText": "所有听见的人都把这一切存在心里，说：“这孩子将来究竟会怎么样呢？”因为显然有主的手与他同在。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "撒迦利亞的預言"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 66,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 67,
+          "hasVerseLabel": true,
+          "verseText": "他的父亲撒迦利亚被圣灵充满，就预言说： "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 67,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 68,
+          "hasVerseLabel": true,
+          "verseText": "“主——以色列的神是当受颂赞的， 因为他临到了他的子民， 并施行了救赎。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 68,
+          "hasVerseLabel": false,
+          "verseText": "“主——以色列的神是当受颂赞的， 因为他临到了他的子民， 并施行了救赎。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 68,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 69,
+          "hasVerseLabel": true,
+          "verseText": "他在他的仆人大卫家中， 为我们兴起了一只救恩的角， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 69,
+          "hasVerseLabel": false,
+          "verseText": "他在他的仆人大卫家中， 为我们兴起了一只救恩的角，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 69,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 70,
+          "hasVerseLabel": true,
+          "verseText": "正如他自古以来藉着圣先知们的口所说的， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 70,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 71,
+          "hasVerseLabel": true,
+          "verseText": "拯救我们脱离敌人、脱离一切恨我们之人的手， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 71,
+          "hasVerseLabel": false,
+          "verseText": "拯救我们脱离敌人、脱离一切恨我们之人的手，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 71,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 72,
+          "hasVerseLabel": true,
+          "verseText": "向我们的祖先施怜悯， 不忘他神圣的约， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 72,
+          "hasVerseLabel": false,
+          "verseText": "向我们的祖先施怜悯， 不忘他神圣的约，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 72,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 73,
+          "hasVerseLabel": true,
+          "verseText": "就是向我们的先祖亚伯拉罕所起的誓， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 73,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 74,
+          "hasVerseLabel": true,
+          "verseText": "使我们从敌人的手中被救出， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 74,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 75,
+          "hasVerseLabel": true,
+          "verseText": "在我们所有的日子里无所惧怕， 以圣洁和公义事奉他； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 75,
+          "hasVerseLabel": false,
+          "verseText": "在我们所有的日子里无所惧怕， 以圣洁和公义事奉他；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 75,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 76,
+          "hasVerseLabel": true,
+          "verseText": "而你——孩子啊！ 你将被称为至高者的先知， 因为你将走在主的前面， 预备他的路， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 76,
+          "hasVerseLabel": false,
+          "verseText": "而你——孩子啊！ 你将被称为至高者的先知， 因为你将走在主的前面， 预备他的路，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 76,
+          "hasVerseLabel": false,
+          "verseText": "而你——孩子啊！ 你将被称为至高者的先知， 因为你将走在主的前面， 预备他的路，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 76,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 77,
+          "hasVerseLabel": true,
+          "verseText": "藉着罪得赦免， 赐给他的子民救恩的知识。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 77,
+          "hasVerseLabel": false,
+          "verseText": "藉着罪得赦免， 赐给他的子民救恩的知识。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 77,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 78,
+          "hasVerseLabel": true,
+          "verseText": "因着我们神怜悯的心肠， 黎明的曙光将从高天临到我们， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 78,
+          "hasVerseLabel": false,
+          "verseText": "因着我们神怜悯的心肠， 黎明的曙光将从高天临到我们，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 78,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 79,
+          "hasVerseLabel": true,
+          "verseText": "照亮那些坐在黑暗 和死亡阴影中的人， 引导我们的脚步进入平安之路。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 79,
+          "hasVerseLabel": false,
+          "verseText": "照亮那些坐在黑暗 和死亡阴影中的人， 引导我们的脚步进入平安之路。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 79,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 80,
+          "hasVerseLabel": true,
+          "verseText": "那孩子渐渐长大，灵里刚强。他住在旷野，直到他向以色列公开出现的那天。 "
+        }
+      ]
+    }
+  ]
+}

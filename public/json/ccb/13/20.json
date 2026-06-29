@@ -1,0 +1,77 @@
+{
+  "book": 13,
+  "chapter": 20,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "大衛攻取拉巴城"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（撒下12‧26－31）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "第二年春天，在列王出征的时节，约押率领军兵去毁坏亚扪人的土地，然后围攻拉巴，将城摧毁。当时，大卫在耶路撒冷。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "大卫赶到拉巴夺取了亚扪王头上的金冠。这金冠重达三十四公斤，上面还镶着宝石，人们将它戴在大卫头上。大卫从城里获得许多战利品， "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他把城里的人带出来，命他们用锯、铁耙和斧头做工。他用同样的方法对待亚扪其他城邑的居民。之后，大卫和全军返回耶路撒冷。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "與非利士巨人爭戰"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（撒下21‧15－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "这事以后，以色列人又在基色与非利士人交战。户沙人西比该杀死一个叫细派的巨人后裔，非利士人被征服。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "后来，以色列人又与非利士人交战，雅珥的儿子伊勒哈难杀了迦特人歌利亚的兄弟拉哈米，拉哈米的枪杆粗如织布机的轴。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "此后，在迦特又起了战事，那里有个身材高大的人，是巨人的后代。他每只手脚各有六个手指和脚趾，共二十四个手指和脚趾。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他向以色列人骂阵，大卫的哥哥示米亚的儿子约拿单杀了他。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "这三个迦特巨人的后裔都死在了大卫和他的部下手里。 "
+        }
+      ]
+    }
+  ]
+}

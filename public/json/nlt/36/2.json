@@ -1,0 +1,589 @@
+{
+  "book": 36,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "呼籲百姓悔改"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Gather together—yes, gather together, you shameless nation. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Gather together—yes, gather together, you shameless nation."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Gather together—yes, gather together, you shameless nation."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Gather together—yes, gather together, you shameless nation."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Gather together—yes, gather together, you shameless nation."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "Gather together—yes, gather together, you shameless nation."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Seek the Lord, all who are humble, and follow his commands. Seek to do what is right and to live humbly. Perhaps even yet the Lord will protect you— protect you from his anger on that day of destruction. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Seek the Lord, all who are humble, and follow his commands. Seek to do what is right and to live humbly. Perhaps even yet the Lord will protect you— protect you from his anger on that day of destruction."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Seek the Lord, all who are humble, and follow his commands. Seek to do what is right and to live humbly. Perhaps even yet the Lord will protect you— protect you from his anger on that day of destruction."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Seek the Lord, all who are humble, and follow his commands. Seek to do what is right and to live humbly. Perhaps even yet the Lord will protect you— protect you from his anger on that day of destruction."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以色列鄰國的結局"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Gaza and Ashkelon will be abandoned, Ashdod and Ekron torn down. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Gaza and Ashkelon will be abandoned, Ashdod and Ekron torn down."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Gaza and Ashkelon will be abandoned, Ashdod and Ekron torn down."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Gaza and Ashkelon will be abandoned, Ashdod and Ekron torn down."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And what sorrow awaits you Philistines who live along the coast and in the land of Canaan, for this judgment is against you, too! The Lord will destroy you until not one of you is left. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "And what sorrow awaits you Philistines who live along the coast and in the land of Canaan, for this judgment is against you, too! The Lord will destroy you until not one of you is left."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "And what sorrow awaits you Philistines who live along the coast and in the land of Canaan, for this judgment is against you, too! The Lord will destroy you until not one of you is left."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The Philistine coast will become a wilderness pasture, a place of shepherd camps and enclosures for sheep and goats. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "The Philistine coast will become a wilderness pasture, a place of shepherd camps and enclosures for sheep and goats."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The remnant of the tribe of Judah will pasture there. They will rest at night in the abandoned houses in Ashkelon. For the Lord their God will visit his people in kindness and restore their prosperity again. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The remnant of the tribe of Judah will pasture there. They will rest at night in the abandoned houses in Ashkelon. For the Lord their God will visit his people in kindness and restore their prosperity again."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The remnant of the tribe of Judah will pasture there. They will rest at night in the abandoned houses in Ashkelon. For the Lord their God will visit his people in kindness and restore their prosperity again."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The remnant of the tribe of Judah will pasture there. They will rest at night in the abandoned houses in Ashkelon. For the Lord their God will visit his people in kindness and restore their prosperity again."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The remnant of the tribe of Judah will pasture there. They will rest at night in the abandoned houses in Ashkelon. For the Lord their God will visit his people in kindness and restore their prosperity again."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“I have heard the taunts of the Moabites and the insults of the Ammonites, mocking my people and invading their borders. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "“I have heard the taunts of the Moabites and the insults of the Ammonites, mocking my people and invading their borders."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "“I have heard the taunts of the Moabites and the insults of the Ammonites, mocking my people and invading their borders."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "Now, as surely as I live,” says the Lord of Heaven’s Armies, the God of Israel, “Moab and Ammon will be destroyed— destroyed as completely as Sodom and Gomorrah. Their land will become a place of stinging nettles, salt pits, and eternal desolation. The remnant of my people will plunder them and take their land.”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They will receive the wages of their pride, for they have scoffed at the people of the Lord of Heaven’s Armies. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "They will receive the wages of their pride, for they have scoffed at the people of the Lord of Heaven’s Armies."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "The Lord will terrify them as he destroys all the gods in the land. Then nations around the world will worship the Lord, each in their own land. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "The Lord will terrify them as he destroys all the gods in the land. Then nations around the world will worship the Lord, each in their own land."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "The Lord will terrify them as he destroys all the gods in the land. Then nations around the world will worship the Lord, each in their own land."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“You Ethiopians will also be slaughtered by my sword,” says the Lord. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord will strike the lands of the north with his fist, destroying the land of Assyria. He will make its great capital, Nineveh, a desolate wasteland, parched like a desert. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "And the Lord will strike the lands of the north with his fist, destroying the land of Assyria. He will make its great capital, Nineveh, a desolate wasteland, parched like a desert."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The proud city will become a pasture for flocks and herds, and all sorts of wild animals will settle there. The desert owl and screech owl will roost on its ruined columns, their calls echoing through the gaping windows. Rubble will block all the doorways, and the cedar paneling will be exposed to the weather. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "The proud city will become a pasture for flocks and herds, and all sorts of wild animals will settle there. The desert owl and screech owl will roost on its ruined columns, their calls echoing through the gaping windows. Rubble will block all the doorways, and the cedar paneling will be exposed to the weather."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "The proud city will become a pasture for flocks and herds, and all sorts of wild animals will settle there. The desert owl and screech owl will roost on its ruined columns, their calls echoing through the gaping windows. Rubble will block all the doorways, and the cedar paneling will be exposed to the weather."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "The proud city will become a pasture for flocks and herds, and all sorts of wild animals will settle there. The desert owl and screech owl will roost on its ruined columns, their calls echoing through the gaping windows. Rubble will block all the doorways, and the cedar paneling will be exposed to the weather."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "The proud city will become a pasture for flocks and herds, and all sorts of wild animals will settle there. The desert owl and screech owl will roost on its ruined columns, their calls echoing through the gaping windows. Rubble will block all the doorways, and the cedar paneling will be exposed to the weather."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "This is the boisterous city, once so secure. “I am the greatest!” it boasted. “No other city can compare with me!” But now, look how it has become an utter ruin, a haven for wild animals. Everyone passing by will laugh in derision and shake a defiant fist. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "This is the boisterous city, once so secure. “I am the greatest!” it boasted. “No other city can compare with me!” But now, look how it has become an utter ruin, a haven for wild animals. Everyone passing by will laugh in derision and shake a defiant fist."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "This is the boisterous city, once so secure. “I am the greatest!” it boasted. “No other city can compare with me!” But now, look how it has become an utter ruin, a haven for wild animals. Everyone passing by will laugh in derision and shake a defiant fist."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "This is the boisterous city, once so secure. “I am the greatest!” it boasted. “No other city can compare with me!” But now, look how it has become an utter ruin, a haven for wild animals. Everyone passing by will laugh in derision and shake a defiant fist."
+        }
+      ]
+    }
+  ]
+}

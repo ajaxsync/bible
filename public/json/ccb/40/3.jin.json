@@ -1,0 +1,413 @@
+{
+  "book": 40,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "施浸約翰傳道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": [
+        "（",
+        {
+          "href": "/biblebase/41/1/1",
+          "text": "可1:1-8"
+        },
+        "；",
+        {
+          "href": "/biblebase/42/3/1",
+          "text": "路3:1-18"
+        },
+        "；",
+        {
+          "href": "/biblebase/43/1/19",
+          "text": "約1:19-28"
+        },
+        "）"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那时，施洗者约翰来到犹太的旷野传道，说： "
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "那时，施洗者约翰来到犹太的旷野传道，说："
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "那时，施洗者约翰来到犹太的旷野传道，说："
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "那时，施洗者约翰来到犹太的旷野传道，说："
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "那时，施洗者约翰来到犹太的旷野传道，说："
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“悔改吧，因为天国临近了！” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref",
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref quote",
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref quote",
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "note",
+          "title": "以賽亞書40:3",
+          "href": "/biblebase/23/40/3",
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "约翰就是以赛亚先知所说的那位，他说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "约翰身穿骆驼毛的衣服，腰束皮带，吃的是蝗虫、野蜜。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "约翰身穿骆驼毛的衣服，腰束皮带，吃的是蝗虫、野蜜。"
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "约翰身穿骆驼毛的衣服，腰束皮带，吃的是蝗虫、野蜜。"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里， "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "那时，耶路撒冷、犹太各地和约旦河一带的人都来到约翰那里，"
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "承认他们的罪，在约旦河里接受他的洗礼。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "承认他们的罪，在约旦河里接受他的洗礼。"
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "承认他们的罪，在约旦河里接受他的洗礼。"
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "约翰看见很多法利赛人和撒都该人也来受洗，就对他们说：“你们这些毒蛇的后代！谁指示你们逃避那将临的烈怒呢？ "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "约翰看见很多法利赛人和撒都该人也来受洗，就对他们说：“你们这些毒蛇的后代！谁指示你们逃避那将临的烈怒呢？"
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "你们要结出与悔改相称的果子。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "不要心里说，‘我们是亚伯拉罕的子孙。’我告诉你们，上帝可以从这些石头中兴起亚伯拉罕的子孙。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "不要心里说，‘我们是亚伯拉罕的子孙。’我告诉你们，上帝可以从这些石头中兴起亚伯拉罕的子孙。"
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "不要心里说，‘我们是亚伯拉罕的子孙。’我告诉你们，上帝可以从这些石头中兴起亚伯拉罕的子孙。"
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "不要心里说，‘我们是亚伯拉罕的子孙。’我告诉你们，上帝可以从这些石头中兴起亚伯拉罕的子孙。"
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "不要心里说，‘我们是亚伯拉罕的子孙。’我告诉你们，上帝可以从这些石头中兴起亚伯拉罕的子孙。"
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "现在斧头已经放在树根上了，不结好果子的树都要被砍下，丢在火里。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "我用水为你们施洗，叫你们悔改。但在我之后，有位比我更有能力的要来，我连替祂提鞋都不配。祂要用圣灵和火为你们施洗。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "祂手拿簸箕，要把谷场清理干净，将麦子存入仓里，用不灭的火把糠秕烧尽。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌受浸"
+    },
+    {
+      "type": "ref-heading",
+      "heading": [
+        "（",
+        {
+          "href": "/biblebase/41/1/9",
+          "text": "可1:9-11"
+        },
+        "；",
+        {
+          "href": "/biblebase/42/3/21",
+          "text": "路3:21-22"
+        },
+        "）"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "后来，耶稣从加利利来到约旦河要约翰为祂施洗。"
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "约翰想要拦住祂，就说：“应该是你为我施洗才对，你反倒来找我？” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "约翰想要拦住祂，就说：“应该是你为我施洗才对，你反倒来找我？”"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "classes": "lord",
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "耶稣回答说：“你就这样做吧！我们理当这样遵行上帝一切的要求。”于是约翰答应了。"
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "耶稣受了洗，刚从水里上来，天就开了。祂看见上帝的圣灵像鸽子一样降到祂身上， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "耶稣受了洗，刚从水里上来，天就开了。祂看见上帝的圣灵像鸽子一样降到祂身上，"
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "又有声音从天上传来：“这是我的爱子，我甚喜悦祂。” "
+        }
+      ]
+    }
+  ]
+}

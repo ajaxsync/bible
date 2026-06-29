@@ -1,0 +1,289 @@
+{
+  "book": 5,
+  "chapter": 27,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "神的律法寫在石頭上"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses and the leaders of Israel gave this charge to the people: “Obey all these commands that I am giving you today. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "When you cross the Jordan River and enter the land the Lord your God is giving you, set up some large stones and coat them with plaster. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Write this whole body of instruction on them when you cross the river to enter the land the Lord your God is giving you—a land flowing with milk and honey, just as the Lord, the God of your ancestors, promised you. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "When you cross the Jordan, set up these stones at Mount Ebal and coat them with plaster, as I am commanding you today. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“Then build an altar there to the Lord your God, using natural, uncut stones. You must not shape the stones with an iron tool. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Build the altar of uncut stones, and use it to offer burnt offerings to the Lord your God. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Also sacrifice peace offerings on it, and celebrate by feasting there before the Lord your God. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "You must clearly write all these instructions on the stones coated with plaster.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses and the Levitical priests addressed all Israel as follows: “O Israel, be quiet and listen! Today you have become the people of the Lord your God. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "So you must obey the Lord your God by keeping all these commands and decrees that I am giving you today.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "違命必受咒詛"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "That same day Moses also gave this charge to the people: "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“When you cross the Jordan River, the tribes of Simeon, Levi, Judah, Issachar, Joseph, and Benjamin must stand on Mount Gerizim to proclaim a blessing over the people. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "And the tribes of Reuben, Gad, Asher, Zebulun, Dan, and Naphtali must stand on Mount Ebal to proclaim a curse. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“Then the Levites will shout to all the people of Israel: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who carves or casts an idol and secretly sets it up. These idols, the work of craftsmen, are detestable to the Lord.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who dishonors father or mother.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who steals property from a neighbor by moving a boundary marker.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who leads a blind person astray on the road.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who denies justice to foreigners, orphans, or widows.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who has sexual intercourse with one of his father’s wives, for he has violated his father.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who has sexual intercourse with an animal.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who has sexual intercourse with his sister, whether she is the daughter of his father or his mother.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who has sexual intercourse with his mother-in-law.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who attacks a neighbor in secret.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who accepts payment to kill an innocent person.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "‘Cursed is anyone who does not affirm and obey the terms of these instructions.’ And all the people will reply, ‘Amen.’ "
+        }
+      ]
+    }
+  ]
+}

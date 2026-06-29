@@ -1,0 +1,569 @@
+{
+  "book": 23,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "和平的國度"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "A shoot will come up from the stump of Jesse; from his roots a Branch will bear fruit. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "A shoot will come up from the stump of Jesse; from his roots a Branch will bear fruit."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The Spirit of the Lord will rest on him— the Spirit of wisdom and of understanding, the Spirit of counsel and of might, the Spirit of the knowledge and fear of the Lord— "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "The Spirit of the Lord will rest on him— the Spirit of wisdom and of understanding, the Spirit of counsel and of might, the Spirit of the knowledge and fear of the Lord—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "The Spirit of the Lord will rest on him— the Spirit of wisdom and of understanding, the Spirit of counsel and of might, the Spirit of the knowledge and fear of the Lord—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "The Spirit of the Lord will rest on him— the Spirit of wisdom and of understanding, the Spirit of counsel and of might, the Spirit of the knowledge and fear of the Lord—"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "and he will delight in the fear of the Lord. He will not judge by what he sees with his eyes, or decide by what he hears with his ears; "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "and he will delight in the fear of the Lord. He will not judge by what he sees with his eyes, or decide by what he hears with his ears;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "and he will delight in the fear of the Lord. He will not judge by what he sees with his eyes, or decide by what he hears with his ears;"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "but with righteousness he will judge the needy, with justice he will give decisions for the poor of the earth. He will strike the earth with the rod of his mouth; with the breath of his lips he will slay the wicked. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "but with righteousness he will judge the needy, with justice he will give decisions for the poor of the earth. He will strike the earth with the rod of his mouth; with the breath of his lips he will slay the wicked."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "but with righteousness he will judge the needy, with justice he will give decisions for the poor of the earth. He will strike the earth with the rod of his mouth; with the breath of his lips he will slay the wicked."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "but with righteousness he will judge the needy, with justice he will give decisions for the poor of the earth. He will strike the earth with the rod of his mouth; with the breath of his lips he will slay the wicked."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Righteousness will be his belt and faithfulness the sash around his waist. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Righteousness will be his belt and faithfulness the sash around his waist."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The wolf will live with the lamb, the leopard will lie down with the goat, the calf and the lion and the yearling together; and a little child will lead them. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "The wolf will live with the lamb, the leopard will lie down with the goat, the calf and the lion and the yearling together; and a little child will lead them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "The wolf will live with the lamb, the leopard will lie down with the goat, the calf and the lion and the yearling together; and a little child will lead them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "The wolf will live with the lamb, the leopard will lie down with the goat, the calf and the lion and the yearling together; and a little child will lead them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The cow will feed with the bear, their young will lie down together, and the lion will eat straw like the ox. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The cow will feed with the bear, their young will lie down together, and the lion will eat straw like the ox."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "The cow will feed with the bear, their young will lie down together, and the lion will eat straw like the ox."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The infant will play near the cobra’s den, and the young child will put its hand into the viper’s nest. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "The infant will play near the cobra’s den, and the young child will put its hand into the viper’s nest."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "They will neither harm nor destroy on all my holy mountain, for the earth will be filled with the knowledge of the Lord as the waters cover the sea. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "They will neither harm nor destroy on all my holy mountain, for the earth will be filled with the knowledge of the Lord as the waters cover the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "They will neither harm nor destroy on all my holy mountain, for the earth will be filled with the knowledge of the Lord as the waters cover the sea."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "They will neither harm nor destroy on all my holy mountain, for the earth will be filled with the knowledge of the Lord as the waters cover the sea."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "流亡的人回鄉"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "In that day the Root of Jesse will stand as a banner for the peoples; the nations will rally to him, and his resting place will be glorious. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "In that day the Lord will reach out his hand a second time to reclaim the surviving remnant of his people from Assyria, from Lower Egypt, from Upper Egypt, from Cush, from Elam, from Babylonia, from Hamath and from the islands of the Mediterranean. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "He will raise a banner for the nations and gather the exiles of Israel; he will assemble the scattered people of Judah from the four quarters of the earth. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "He will raise a banner for the nations and gather the exiles of Israel; he will assemble the scattered people of Judah from the four quarters of the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "He will raise a banner for the nations and gather the exiles of Israel; he will assemble the scattered people of Judah from the four quarters of the earth."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Ephraim’s jealousy will vanish, and Judah’s enemies will be destroyed; Ephraim will not be jealous of Judah, nor Judah hostile toward Ephraim. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Ephraim’s jealousy will vanish, and Judah’s enemies will be destroyed; Ephraim will not be jealous of Judah, nor Judah hostile toward Ephraim."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Ephraim’s jealousy will vanish, and Judah’s enemies will be destroyed; Ephraim will not be jealous of Judah, nor Judah hostile toward Ephraim."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Ephraim’s jealousy will vanish, and Judah’s enemies will be destroyed; Ephraim will not be jealous of Judah, nor Judah hostile toward Ephraim."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "They will swoop down on the slopes of Philistia to the west; together they will plunder the people to the east. They will subdue Edom and Moab, and the Ammonites will be subject to them. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "They will swoop down on the slopes of Philistia to the west; together they will plunder the people to the east. They will subdue Edom and Moab, and the Ammonites will be subject to them. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "They will swoop down on the slopes of Philistia to the west; together they will plunder the people to the east. They will subdue Edom and Moab, and the Ammonites will be subject to them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "They will swoop down on the slopes of Philistia to the west; together they will plunder the people to the east. They will subdue Edom and Moab, and the Ammonites will be subject to them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "They will swoop down on the slopes of Philistia to the west; together they will plunder the people to the east. They will subdue Edom and Moab, and the Ammonites will be subject to them."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The Lord will dry up the gulf of the Egyptian sea; with a scorching wind he will sweep his hand over the Euphrates River. He will break it up into seven streams so that anyone can cross over in sandals. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The Lord will dry up the gulf of the Egyptian sea; with a scorching wind he will sweep his hand over the Euphrates River. He will break it up into seven streams so that anyone can cross over in sandals."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "The Lord will dry up the gulf of the Egyptian sea; with a scorching wind he will sweep his hand over the Euphrates River. He will break it up into seven streams so that anyone can cross over in sandals."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "There will be a highway for the remnant of his people that is left from Assyria, as there was for Israel when they came up from Egypt. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "There will be a highway for the remnant of his people that is left from Assyria, as there was for Israel when they came up from Egypt."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "There will be a highway for the remnant of his people that is left from Assyria, as there was for Israel when they came up from Egypt."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "There will be a highway for the remnant of his people that is left from Assyria, as there was for Israel when they came up from Egypt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "book": 9,
+  "chapter": 31,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "掃羅和他兒子的死"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上10‧1－12）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Now the Philistines were fighting against Israel, and the men of Israel fled from before the Philistines and fell slain on Mount Gilboa. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The Philistines overtook Saul and his sons; and the Philistines killed Jonathan and Abinadab and Malchi-shua the sons of Saul. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The battle went heavily against Saul, and the archers hit him; and he was badly wounded by the archers. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then Saul said to his armor bearer, “Draw your sword and pierce me through with it, otherwise these uncircumcised will come and pierce me through and make sport of me.” But his armor bearer would not, for he was greatly afraid. So Saul took his sword and fell on it. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "When his armor bearer saw that Saul was dead, he also fell on his sword and died with him. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Thus Saul died with his three sons, his armor bearer, and all his men on that day together. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "When the men of Israel who were on the other side of the valley, with those who were beyond the Jordan, saw that the men of Israel had fled and that Saul and his sons were dead, they abandoned the cities and fled; then the Philistines came and lived in them. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "It came about on the next day when the Philistines came to strip the slain, that they found Saul and his three sons fallen on Mount Gilboa. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "They cut off his head and stripped off his weapons, and sent them throughout the land of the Philistines, to carry the good news to the house of their idols and to the people. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They put his weapons in the temple of Ashtaroth, and they fastened his body to the wall of Beth-shan. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Now when the inhabitants of Jabesh-gilead heard what the Philistines had done to Saul, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "all the valiant men rose and walked all night, and took the body of Saul and the bodies of his sons from the wall of Beth-shan, and they came to Jabesh and burned them there. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "They took their bones and buried them under the tamarisk tree at Jabesh, and fasted seven days. "
+        }
+      ]
+    }
+  ]
+}

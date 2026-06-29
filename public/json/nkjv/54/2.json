@@ -1,0 +1,100 @@
+{
+  "book": 54,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關禱告的指示"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Therefore I exhort first of all that supplications, prayers, intercessions, and giving of thanks be made for all men, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "for kings and all who are in authority, that we may lead a quiet and peaceable life in all godliness and reverence. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "For this is  good and acceptable in the sight of God our Savior, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "who desires all men to be saved and to come to the knowledge of the truth. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "For there  is one God and one Mediator between God and men, the Man Christ Jesus, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "who gave Himself a ransom for all, to be testified in due time, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "for which I was appointed a preacher and an apostle—I am speaking the truth in Christ and not lying—a teacher of the Gentiles in faith and truth. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "I desire therefore that the men pray everywhere, lifting up holy hands, without wrath and doubting; "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "in like manner also, that the women adorn themselves in modest apparel, with propriety and moderation, not with braided hair or gold or pearls or costly clothing, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "but, which is proper for women professing godliness, with good works. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Let a woman learn in silence with all submission. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "And I do not permit a woman to teach or to have authority over a man, but to be in silence. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "For Adam was formed first, then Eve. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "And Adam was not deceived, but the woman being deceived, fell into transgression. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Nevertheless she will be saved in childbearing if they continue in faith, love, and holiness, with self-control. "
+        }
+      ]
+    }
+  ]
+}

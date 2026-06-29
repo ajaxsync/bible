@@ -1,0 +1,384 @@
+{
+  "book": 45,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "這樣說來，猶太人獨特的地方在哪裡呢？割禮又有甚麼益處呢？ "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "從各方面來說，的確很多。最重要的，是　神的聖言已經託付了他們。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "即使有人不信，又有甚麼關係呢？難道他們的不信會使　神的信實無效嗎？ "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "絕不可能！　神總是誠實的，人卻是虛謊的，正如經上所記： “你在話語上，顯為公義； 你被論斷時，必然得勝。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "絕不可能！　神總是誠實的，人卻是虛謊的，正如經上所記： “你在話語上，顯為公義； 你被論斷時，必然得勝。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "絕不可能！　神總是誠實的，人卻是虛謊的，正如經上所記： “你在話語上，顯為公義； 你被論斷時，必然得勝。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph-no-indent",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我且照著人的見解來說，我們的不義若彰顯　神的義，我們可以說甚麼呢？難道降怒的　神是不義的嗎？ "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "絕對不是！如果是這樣，　神怎能審判世界呢？ "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "但是　神的誠實，如果因我的虛謊而更加顯出他的榮耀來，為甚麼我還要像罪人一樣受審判呢？ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "為甚麼不說：“我們去作惡以成善吧！”這種人被定罪是理所當然的。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "沒有義人"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "那又怎麼樣呢？我們比他們強嗎？絕不是的。因為我們已經控訴過，無論是猶太人或是希臘人，都在罪惡之下， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "正如經上所說： “沒有義人，連一個也沒有， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "正如經上所說： “沒有義人，連一個也沒有，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "沒有明白的，沒有尋求　神的； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "沒有明白的，沒有尋求　神的；"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "人人都偏離了正道，一同變成污穢； 沒有行善的，連一個也沒有。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "人人都偏離了正道，一同變成污穢； 沒有行善的，連一個也沒有。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "人人都偏離了正道，一同變成污穢； 沒有行善的，連一個也沒有。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他們的喉嚨是敞開的墳墓， 他們用舌頭弄詭詐， 他們嘴裡有虺蛇的毒， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "他們的喉嚨是敞開的墳墓， 他們用舌頭弄詭詐， 他們嘴裡有虺蛇的毒，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "他們的喉嚨是敞開的墳墓， 他們用舌頭弄詭詐， 他們嘴裡有虺蛇的毒，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "滿口是咒罵和惡毒； "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "為了殺人流血，他們的腳步飛快， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "為了殺人流血，他們的腳步飛快，"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "在經過的路上留下毀滅和悲慘。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "和睦之道，他們不曉得， "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "他們的眼中也不怕　神。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "然而我們曉得，凡律法所說的，都是對在律法之下的人說的，好讓每一個人都沒有話可講，使全世界的人都伏在　神的審判之下。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "沒有一個人可以靠行律法，在　神面前得稱為義，因為藉著律法，人對於罪才有充分的認識。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "因信稱義"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "現在，有律法和先知的話可以證明：　神的義在律法之外已經顯明出來， "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "就是　神的義，因著信耶穌基督，毫無區別地臨到所有信的人。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "因為人人都犯了罪，虧缺了　神的榮耀， "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "但他們卻因著　神的恩典，藉著在基督耶穌裡的救贖，就白白地稱義。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "　神設立了耶穌為贖罪祭，是憑著他的血，藉著人的信，為的是要顯明　神的義；因為　神用忍耐的心寬容了人從前所犯的罪， "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "好在現今顯明他的義，使人知道他自己為義，又稱信耶穌的人為義。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "這樣，有甚麼可誇的呢？沒有可誇的了。憑甚麼準則說沒有的呢？憑行為嗎？不是的，而是以信心為準則說的。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "因為我們認定，人稱義是由於信，並不是靠行律法。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "難道　神只是猶太人的　神嗎？不也是外族人的　神嗎？是的，他也是外族人的　神。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "　神既然只有一位，他就以信為準則稱受割禮的為義，也要以信為準則稱沒有受割禮的為義。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "這樣說來，我們以信廢掉了律法嗎？絕對不是，倒是鞏固了律法。 "
+        }
+      ]
+    }
+  ]
+}

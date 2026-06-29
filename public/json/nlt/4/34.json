@@ -1,0 +1,224 @@
+{
+  "book": 4,
+  "chapter": 34,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "迦南地的境界"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Give these instructions to the Israelites: When you come into the land of Canaan, which I am giving you as your special possession, these will be the boundaries. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The southern portion of your country will extend from the wilderness of Zin, along the edge of Edom. The southern boundary will begin on the east at the Dead Sea. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "It will then run south past Scorpion Pass in the direction of Zin. Its southernmost point will be Kadesh-barnea, from which it will go to Hazar-addar, and on to Azmon. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "From Azmon the boundary will turn toward the Brook of Egypt and end at the Mediterranean Sea. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“Your western boundary will be the coastline of the Mediterranean Sea. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "“Your northern boundary will begin at the Mediterranean Sea and run east to Mount Hor, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "then to Lebo-hamath, and on through Zedad "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "and Ziphron to Hazar-enan. This will be your northern boundary. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“The eastern boundary will start at Hazar-enan and run south to Shepham, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "then down to Riblah on the east side of Ain. From there the boundary will run down along the eastern edge of the Sea of Galilee, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "and then along the Jordan River to the Dead Sea. These are the boundaries of your land.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Then Moses told the Israelites, “This territory is the homeland you are to divide among yourselves by sacred lot. The Lord has commanded that the land be divided among the nine and a half remaining tribes. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The families of the tribes of Reuben, Gad, and half the tribe of Manasseh have already received their grants of land "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "on the east side of the Jordan River, across from Jericho toward the sunrise.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "各支派首領負責分地"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord said to Moses, "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "“Eleazar the priest and Joshua son of Nun are the men designated to divide the grants of land among the people. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Enlist one leader from each tribe to help them with the task. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "These are the tribes and the names of the leaders: Judah Caleb son of Jephunneh "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Simeon Shemuel son of Ammihud "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Benjamin Elidad son of Kislon "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Dan Bukki son of Jogli "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Manasseh son of Joseph Hanniel son of Ephod "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Ephraim son of Joseph Kemuel son of Shiphtan "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Zebulun Elizaphan son of Parnach "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Issachar Paltiel son of Azzan "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Asher Ahihud son of Shelomi "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Naphtali Pedahel son of Ammihud "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "These are the men the Lord has appointed to divide the grants of land in Canaan among the Israelites.” "
+        }
+      ]
+    }
+  ]
+}

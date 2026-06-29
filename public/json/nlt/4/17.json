@@ -1,0 +1,100 @@
+{
+  "book": 4,
+  "chapter": 17,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞倫的杖"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Tell the people of Israel to bring you twelve wooden staffs, one from each leader of Israel’s ancestral tribes, and inscribe each leader’s name on his staff. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Inscribe Aaron’s name on the staff of the tribe of Levi, for there must be one staff for the leader of each ancestral tribe. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Place these staffs in the Tabernacle in front of the Ark containing the tablets of the Covenant, where I meet with you. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Buds will sprout on the staff belonging to the man I choose. Then I will finally put an end to the people’s murmuring and complaining against you.” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "So Moses gave the instructions to the people of Israel, and each of the twelve tribal leaders, including Aaron, brought Moses a staff. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Moses placed the staffs in the Lord’s presence in the Tabernacle of the Covenant. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "When he went into the Tabernacle of the Covenant the next day, he found that Aaron’s staff, representing the tribe of Levi, had sprouted, budded, blossomed, and produced ripe almonds! "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "When Moses brought all the staffs out from the Lord’s presence, he showed them to the people. Each man claimed his own staff. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord said to Moses: “Place Aaron’s staff permanently before the Ark of the Covenant to serve as a warning to rebels. This should put an end to their complaints against me and prevent any further deaths.” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So Moses did as the Lord commanded him. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Then the people of Israel said to Moses, “Look, we are doomed! We are dead! We are ruined! "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Everyone who even comes close to the Tabernacle of the Lord dies. Are we all doomed to die?” "
+        }
+      ]
+    }
+  ]
+}

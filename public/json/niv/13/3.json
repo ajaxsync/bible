@@ -1,0 +1,163 @@
+{
+  "book": 13,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "大衛的兒女"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "These were the sons of David born to him in Hebron: The firstborn was Amnon the son of Ahinoam of Jezreel; the second, Daniel the son of Abigail of Carmel; "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "the third, Absalom the son of Maakah daughter of Talmai king of Geshur; the fourth, Adonijah the son of Haggith; "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "the fifth, Shephatiah the son of Abital; and the sixth, Ithream, by his wife Eglah. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "These six were born to David in Hebron, where he reigned seven years and six months. David reigned in Jerusalem thirty-three years, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "and these were the children born to him there: Shammua, Shobab, Nathan and Solomon. These four were by Bathsheba daughter of Ammiel. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "There were also Ibhar, Elishua, Eliphelet, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Nogah, Nepheg, Japhia, "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Elishama, Eliada and Eliphelet—nine in all. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "All these were the sons of David, besides his sons by his concubines. And Tamar was their sister. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "所羅門的後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Solomon’s son was Rehoboam, Abijah his son, Asa his son, Jehoshaphat his son, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Jehoram his son, Ahaziah his son, Joash his son, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Amaziah his son, Azariah his son, Jotham his son, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Ahaz his son, Hezekiah his son, Manasseh his son, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Amon his son, Josiah his son. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Josiah: Johanan the firstborn, Jehoiakim the second son, Zedekiah the third, Shallum the fourth. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "The successors of Jehoiakim: Jehoiachin his son, and Zedekiah. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶哥尼雅的後裔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Jehoiachin the captive: Shealtiel his son, "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Malkiram, Pedaiah, Shenazzar, Jekamiah, Hoshama and Nedabiah. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Pedaiah: Zerubbabel and Shimei. The sons of Zerubbabel: Meshullam and Hananiah. Shelomith was their sister. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "There were also five others: Hashubah, Ohel, Berekiah, Hasadiah and Jushab-Hesed. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Hananiah: Pelatiah and Jeshaiah, and the sons of Rephaiah, of Arnan, of Obadiah and of Shekaniah. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Shekaniah: Shemaiah and his sons: Hattush, Igal, Bariah, Neariah and Shaphat—six in all. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Neariah: Elioenai, Hizkiah and Azrikam—three in all. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Elioenai: Hodaviah, Eliashib, Pelaiah, Akkub, Johanan, Delaiah and Anani—seven in all. "
+        }
+      ]
+    }
+  ]
+}

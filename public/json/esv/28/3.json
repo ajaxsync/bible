@@ -1,0 +1,40 @@
+{
+  "book": 28,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "何西阿和那不貞的婦人"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord said to me, “Go again, love a woman who is loved by another man and is an adulteress, even as the Lord loves the children of Israel, though they turn to other gods and love cakes of raisins.” "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "So I bought her for fifteen shekels of silver and a homer and a lethech of barley. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And I said to her, “You must dwell as mine for many days. You shall not play the whore, or belong to another man; so will I also be to you.” "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "For the children of Israel shall dwell many days without king or prince, without sacrifice or pillar, without ephod or household gods. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Afterward the children of Israel shall return and seek the Lord their God, and David their king, and they shall come in fear to the Lord and to his goodness in the latter days. "
+        }
+      ]
+    }
+  ]
+}

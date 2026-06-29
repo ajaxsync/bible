@@ -1,0 +1,100 @@
+{
+  "book": 16,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "尼希米關心耶路撒冷"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "以下是哈迦利亚的儿子尼希米的记述。 波斯王亚达薛西二十年基斯流月，我在书珊城里。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "以下是哈迦利亚的儿子尼希米的记述。 波斯王亚达薛西二十年基斯流月，我在书珊城里。"
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "从犹大来了我的一个兄弟哈拿尼和一些人，我问他们有关从流亡之地归回的犹太余民和耶路撒冷的情况。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他们回答说：“那些从流亡之地归回犹大省的人深陷苦难，饱受凌辱。耶路撒冷的城墙已经倒塌，城门也被烧毁。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "我一听见这消息，就坐下痛哭，悲伤了好几天。我在天上的上帝面前禁食祷告，说： "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“天上的上帝耶和华啊，你是伟大而可畏的上帝，你向爱你、守你诫命的人守约，施慈爱。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "仆人在你面前昼夜为你的众仆人以色列民祈祷，求你睁眼察看，侧耳倾听。我承认以色列人向你所犯的罪，以及我和我的家族所犯的罪。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我们行事败坏，没有遵守你赐给你仆人摩西的诫命、律例和典章。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "求你顾念你对你仆人摩西所说的话，‘如果你们不忠，我必把你们驱散到列邦中。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "但如果你们转向我，谨遵我的诫命，即使你们流落天涯，我也必从那里把你们召集到我选为我名所在之地。’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "我们是你的仆人、你的子民，是你用大能大力救赎的。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "主啊，求你侧耳听你仆人的祷告，垂听那些喜爱敬畏你名的众仆人的祈求，使你仆人今天亨通，在王面前蒙恩。” 我是王的侍酒总管。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "主啊，求你侧耳听你仆人的祷告，垂听那些喜爱敬畏你名的众仆人的祈求，使你仆人今天亨通，在王面前蒙恩。” 我是王的侍酒总管。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "book": 32,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "約拿順服耶和華"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华的话语第二次临到约拿，说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“起来！到尼尼微大城去，向那城宣告我告诉你的信息！” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "约拿照着耶和华的话就起身，到尼尼微去。尼尼微是一座超级大城，走遍它需要三天的路程。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "约拿开始进入那城，走了一天的路程，宣告说：“再过四十天，尼尼微就要覆灭了。” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "尼尼微人就相信神，并宣告禁食，无论是尊贵的还是卑微的，都披上麻布。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "这话语传到尼尼微王的时候，他从自己的宝座上起来，从身上脱下王袍，披上麻布，坐在灰烬中。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "然后他颁布谕令，说：“在尼尼微，王和大臣有令：‘无论人或牲畜，牛群或羊群，都不可尝什么，不可吃什么，也不可喝水。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "人和牲畜都当披上麻布；各人都当迫切地向神呼求，从自己邪恶的道路上、手里的残暴中转回。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "或许神会转回、施怜悯，从他猛烈的怒气中转回，使我们不致灭亡。’” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "神看到他们所行的——从邪恶的道路上转回了，神就施怜悯，没有降下原先所说的要降在他们身上的灾祸。 "
+        }
+      ]
+    }
+  ]
+}

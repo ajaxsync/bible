@@ -1,0 +1,79 @@
+{
+  "book": 62,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "生命之道"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "有关生命之道， 是从太初就有的， 是我们所听到、 所亲眼看到、 所观察过、 又亲手摸过的—— "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "的确，这生命已经显明出来； 我们看到了， 现在也做见证， 并向你们宣扬这永恒的生命； 这生命原来与父同在、 又向我们显明出来了。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我们把所看到、 所听到的也向你们宣扬， 好使你们也能够与我们相契合； 而我们又是与父 和他的儿子耶稣基督相契合的。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "我们写这些事， 好使我们大家的喜乐得以满足。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "神就是光"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我们从基督所听到，现在又传讲给你们的信息是这样的：神就是光，在他里面毫无黑暗。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "如果我们说自己与神相契合，却仍然在黑暗中行走，我们就是在说谎，没有遵行真理； "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "但如果我们在光明中行走，就像神在光明中那样，我们就是彼此相契合的；而且神的儿子耶稣的血也洁净我们脱离一切的罪。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "如果我们说自己没有罪，我们就是在欺骗自己，真理就不在我们里面了； "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "如果我们承认自己的罪孽，神是信实的、公义的，他就会赦免我们的罪孽，洁净我们脱离一切的不义。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "如果我们说自己没有犯罪，我们就是把神当做说谎者，他的话语就不在我们里面了。 "
+        }
+      ]
+    }
+  ]
+}

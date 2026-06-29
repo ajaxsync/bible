@@ -1,0 +1,230 @@
+{
+  "book": 18,
+  "chapter": 42,
+  "sections": [
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "约伯回答耶和华说： "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“我知道你无所不能， 你的旨意无不成就。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“我知道你无所不能， 你的旨意无不成就。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你问，‘谁用无知的话使我的旨意晦暗不明？’ 诚然，我对自己所谈论的事一无所知， 这些事太奇妙，我无法明白。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "你问，‘谁用无知的话使我的旨意晦暗不明？’ 诚然，我对自己所谈论的事一无所知， 这些事太奇妙，我无法明白。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "你问，‘谁用无知的话使我的旨意晦暗不明？’ 诚然，我对自己所谈论的事一无所知， 这些事太奇妙，我无法明白。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "你说，‘你且听着，我要发言。 我来提问，你来回答。’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "你说，‘你且听着，我要发言。 我来提问，你来回答。’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我从前风闻有你， 现在亲眼看见你。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "我从前风闻有你， 现在亲眼看见你。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "因此我厌恶自己， 在尘土和炉灰中忏悔。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "因此我厌恶自己， 在尘土和炉灰中忏悔。”"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "結尾"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对约伯说完这些话后，就对提幔人以利法说：“你和你的两个朋友令我愤怒，因为你们对我的议论不如我仆人约伯说的有理。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "现在你们要取七头公牛和七只公羊，到我仆人约伯那里，为自己献上燔祭，因为你们对我的议论不如我仆人约伯说的有理。我仆人约伯会为你们祷告，我会悦纳他的祷告，不按你们的愚妄惩罚你们。” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "于是，提幔人以利法、书亚人比勒达和拿玛人琐法遵命而行，耶和华悦纳了约伯的祷告。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "约伯为朋友们祷告后，耶和华恢复了他以前的昌盛，并且耶和华赐给他的比以前多一倍。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "约伯的兄弟姊妹和从前的朋友都来探望他，在他家里一同吃饭，为他遭受耶和华所降的种种灾难而安抚、慰问他。他们每人送他一块银子和一个金环。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "耶和华赐给约伯晚年的福分比起初更多：他有一万四千只羊、六千只骆驼、一千对牛和一千头母驴。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "他还有七个儿子和三个女儿。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他给长女取名叫耶米玛、次女叫基洗亚、三女叫基连·哈朴。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "那地方找不到像约伯三个女儿那样美丽的女子。约伯让她们与弟兄一同承受产业。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "此后，约伯又活了一百四十年，得见四代子孙。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "约伯年纪老迈，寿终正寝。 "
+        }
+      ]
+    }
+  ]
+}

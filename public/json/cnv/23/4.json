@@ -1,0 +1,50 @@
+{
+  "book": 23,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "到那日，七個女人必拉住一個男人，說：“我們吃自己的飯，穿自己的衣服；只求你讓我們歸在你名下，使我們的羞辱可以除掉。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶路撒冷的重建"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "到那日，從耶和華那裡發生的苗必華美榮耀；那地的果實成為以色列那些逃脫的人的誇耀和光榮。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "那時，錫安餘剩、仍留在耶路撒冷的人，就是所有登記在耶路撒冷活人名冊上的，都必稱為聖。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "然後，耶和華必在錫安全山之上，並會眾之上，在日間創造雲和煙，夜間創造有火燄的光亮，因為在一切榮耀之上，必有遮蓋。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "也必有亭子，日間可以使人得陰涼、避炎熱，也可以作避難時藏身之所，或作躲避狂風暴雨之處。 "
+        }
+      ]
+    }
+  ]
+}

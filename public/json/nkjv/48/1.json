@@ -1,0 +1,193 @@
+{
+  "book": 48,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Paul, an apostle (not from men nor through man, but through Jesus Christ and God the Father who raised Him from the dead), "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "and all the brethren who are with me, To the churches of Galatia: "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Grace to you and peace from God the Father and our Lord Jesus Christ, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "who gave Himself for our sins, that He might deliver us from this present evil age, according to the will of our God and Father, "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "to whom be glory forever and ever. Amen. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "沒有別的福音"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "I marvel that you are turning away so soon from Him who called you in the grace of Christ, to a different gospel, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "which is not another; but there are some who trouble you and want to pervert the gospel of Christ. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But even if we, or an angel from heaven, preach any other gospel to you than what we have preached to you, let him be accursed. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "As we have said before, so now I say again, if anyone preaches any other gospel to you than what you have received, let him be accursed. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "For do I now persuade men, or God? Or do I seek to please men? For if I still pleased men, I would not be a bondservant of Christ. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "保羅怎樣成為使徒"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "But I make known to you, brethren, that the gospel which was preached by me is not according to man. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "For I neither received it from man, nor was I taught it, but it  came  through the revelation of Jesus Christ. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "For you have heard of my former conduct in Judaism, how I persecuted the church of God beyond measure and tried  to destroy it. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "And I advanced in Judaism beyond many of my contemporaries in my own nation, being more exceedingly zealous for the traditions of my fathers. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "But when it pleased God, who separated me from my mother’s womb and called me through His grace, "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "to reveal His Son in me, that I might preach Him among the Gentiles, I did not immediately confer with flesh and blood, "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "nor did I go up to Jerusalem to those who  were apostles before me; but I went to Arabia, and returned again to Damascus. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Then after three years I went up to Jerusalem to see Peter, and remained with him fifteen days. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "But I saw none of the other apostles except James, the Lord’s brother. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "(Now concerning the things which I write to you, indeed, before God, I do not lie.) "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Afterward I went into the regions of Syria and Cilicia. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "And I was unknown by face to the churches of Judea which were in Christ. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "But they were hearing only, “He who formerly persecuted us now preaches the faith which he once tried  to destroy.” "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "And they glorified God in me. "
+        }
+      ]
+    }
+  ]
+}

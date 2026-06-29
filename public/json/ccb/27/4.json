@@ -1,0 +1,418 @@
+{
+  "book": 27,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "尼布甲尼撒的第二個夢"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "尼布甲尼撒王传谕天下各族、各邦、各语种的人：“愿你们大享平安！ "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "我乐意向你们述说至高的上帝对我所行的神迹奇事。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“祂的神迹何其伟大！ 祂的奇事何其可畏！ 祂的国度永远长存， 祂的统治直到万代。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "“祂的神迹何其伟大！ 祂的奇事何其可畏！ 祂的国度永远长存， 祂的统治直到万代。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "“祂的神迹何其伟大！ 祂的奇事何其可畏！ 祂的国度永远长存， 祂的统治直到万代。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "“祂的神迹何其伟大！ 祂的奇事何其可畏！ 祂的国度永远长存， 祂的统治直到万代。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“我尼布甲尼撒安居在家，在宫中享受荣华。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "但我做了一个梦，令我害怕。我躺在床上的时候，脑中出现的情景和异象使我恐惧。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "我便召巴比伦所有的智者来为我解梦。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "术士、巫师、占星家和占卜者都来了，我将梦告诉他们，他们却不能给我解梦。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "最后但以理来到我面前，他又名伯提沙撒——取自我神明的名，他有圣洁神明的灵。我将梦告诉他，说， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "‘术士的首领伯提沙撒啊，我知道你有圣洁神明的灵，任何奥秘都难不倒你。请你为我解释我梦中所见的异象。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“‘以下是我躺在床上时脑中出现的异象：我看见大地中央有棵非常高大的树。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "这树长得苍劲有力，高可参天，从地极都能看见。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "它的叶子美丽，果实累累，可作众生的食物。野兽在它的荫下躺卧，飞鸟在它的枝头栖息，一切生灵都从它那里得到食物。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "“‘我躺在床上时脑中出现了异象，我看见一位圣洁的守望者从天而降。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "他大声说，砍倒那棵树，削掉它的枝子，剥光它的叶子，抛散它的果子，使野兽逃离树下，飞鸟离开枝头。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "但把树丕留在地里，用铁环和铜环箍住他留在野地的青草中，让他被天上的露水浸湿，与野兽一起吃草。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "要改变他的人心，给他一个兽心，达七年之久。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "这是守望者的命令，是圣者的决定，要让众生知道至高者主宰世上万国，祂要把国赐给谁就赐给谁，即使是最卑微的人。’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“这就是我尼布甲尼撒王所做的梦。伯提沙撒啊，你要为我解梦，因为我国中所有的智者都不能为我解梦。但是你能，因为你有圣洁神明的灵。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "但以理解夢"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "但以理，又名伯提沙撒，一时非常惊讶，惶恐不安。王说：“伯提沙撒啊，不要因为这梦和梦的意思而惶恐不安。”伯提沙撒回答说：“我主啊，愿这梦发生在恨你的人身上，梦的意思应验在你的仇敌身上。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "你梦见的树苍劲有力，高可参天，从地极都能看见。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "它的叶子美丽，果实累累，可作众生的食物。野兽住在它的荫下，飞鸟宿在它的枝头。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "王啊，这苍劲有力的树就是你，你的威名高达穹苍，你的权柄延至地极。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "王看见圣洁的守望者从天而降，说，‘将这树砍倒、毁灭，但把树丕用铁环和铜环箍住留在野地的青草中，让他被天上的露水浸湿，与野兽一起吃草，达七年之久。’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“王啊，以下是梦的意思，是至高者裁定要临到我主我王的事： "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "你必从人群中被赶走，与野兽同住，像牛一样吃草，被天上的露水浸湿，达七年之久，直到你知道至高者主宰世上万国，祂要把国赐给谁就赐给谁。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "守望者命令留下树丕，表示等到你承认上天掌权后，你将重掌国权。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "王啊，请接受我的劝谏，你要秉公行义，以断绝罪恶；怜悯穷人，以除掉罪过。这样，你的国运也许可以延续。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "这一切事果然发生在尼布甲尼撒王身上。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "十二个月后，他在巴比伦王宫的屋顶散步时， "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "说：“这宏伟的巴比伦岂不是我用大能建立为京都，以显我的威严和荣耀吗？” "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "话未说完，天上就有声音说：“尼布甲尼撒王啊，你听着，你已失去王权。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "你必从人群中被赶走，与野兽同住，像牛一样吃草，达七年之久，直到你知道至高者主宰世上万国，祂要把国赐给谁就赐给谁。” "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "这话立刻应验在尼布甲尼撒身上。他从人群中被赶走，像牛一样吃草，身体被天上的露水浸湿，直到他的头发长如鹰毛，指甲长如鸟爪。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "尼布甲尼撒頌讚神"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“七年后，我尼布甲尼撒举目望天，恢复了神智，便称颂至高者，赞美、尊崇永活者。 “祂的统治永无穷尽， 祂的国度直到万代。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": "“七年后，我尼布甲尼撒举目望天，恢复了神智，便称颂至高者，赞美、尊崇永活者。 “祂的统治永无穷尽， 祂的国度直到万代。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": "“七年后，我尼布甲尼撒举目望天，恢复了神智，便称颂至高者，赞美、尊崇永活者。 “祂的统治永无穷尽， 祂的国度直到万代。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 34,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "世人都微不足道， 祂在天军和世人中独行其道， 无人能拦阻祂的手， 或质问祂的作为。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "世人都微不足道， 祂在天军和世人中独行其道， 无人能拦阻祂的手， 或质问祂的作为。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "世人都微不足道， 祂在天军和世人中独行其道， 无人能拦阻祂的手， 或质问祂的作为。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "世人都微不足道， 祂在天军和世人中独行其道， 无人能拦阻祂的手， 或质问祂的作为。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": "世人都微不足道， 祂在天军和世人中独行其道， 无人能拦阻祂的手， 或质问祂的作为。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "“那时，我恢复了神智，也恢复了我的威严和荣耀，重现我国度的辉煌。我的谋士和大臣都来朝见我，我重掌国权，势力比以前更大。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "现在我尼布甲尼撒颂赞、尊崇、敬奉天上的王，因为祂的作为公正，祂行事公平，能够贬抑行为骄傲的人。” "
+        }
+      ]
+    }
+  ]
+}

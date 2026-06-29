@@ -1,0 +1,149 @@
+{
+  "book": 6,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "摩西擊敗的諸王"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "These are the kings of the land whom the Israelites had defeated and whose territory they took over east of the Jordan, from the Arnon Gorge to Mount Hermon, including all the eastern side of the Arabah: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Sihon king of the Amorites, who reigned in Heshbon. He ruled from Aroer on the rim of the Arnon Gorge—from the middle of the gorge—to the Jabbok River, which is the border of the Ammonites. This included half of Gilead. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "He also ruled over the eastern Arabah from the Sea of Galilee to the Sea of the Arabah (that is, the Dead Sea), to Beth Jeshimoth, and then southward below the slopes of Pisgah. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "And the territory of Og king of Bashan, one of the last of the Rephaites, who reigned in Ashtaroth and Edrei. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "He ruled over Mount Hermon, Salekah, all of Bashan to the border of the people of Geshur and Maakah, and half of Gilead to the border of Sihon king of Heshbon. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Moses, the servant of the Lord, and the Israelites conquered them. And Moses the servant of the Lord gave their land to the Reubenites, the Gadites and the half-tribe of Manasseh to be their possession. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "約書亞擊敗的諸王"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Here is a list of the kings of the land that Joshua and the Israelites conquered on the west side of the Jordan, from Baal Gad in the Valley of Lebanon to Mount Halak, which rises toward Seir. Joshua gave their lands as an inheritance to the tribes of Israel according to their tribal divisions. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The lands included the hill country, the western foothills, the Arabah, the mountain slopes, the wilderness and the Negev. These were the lands of the Hittites, Amorites, Canaanites, Perizzites, Hivites and Jebusites. These were the kings: "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "the king of Jericho one the king of Ai (near Bethel) one "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "the king of Jerusalem one the king of Hebron one "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "the king of Jarmuth one the king of Lachish one "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "the king of Eglon one the king of Gezer one "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "the king of Debir one the king of Geder one "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "the king of Hormah one the king of Arad one "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "the king of Libnah one the king of Adullam one "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "the king of Makkedah one the king of Bethel one "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "the king of Tappuah one the king of Hepher one "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "the king of Aphek one the king of Lasharon one "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "the king of Madon one the king of Hazor one "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "the king of Shimron Meron one the king of Akshaph one "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "the king of Taanach one the king of Megiddo one "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "the king of Kedesh one the king of Jokneam in Carmel one "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "the king of Dor (in Naphoth Dor) one the king of Goyim in Gilgal one "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "the king of Tirzah one thirty-one kings in all. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "book": 4,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞倫的兒子們"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This is the family line of Aaron and Moses as it was recorded when the Lord spoke to Moses on Mount Sinai: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "The names of Aaron’s sons were Nadab (the oldest), Abihu, Eleazar, and Ithamar. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "These sons of Aaron were anointed and ordained to minister as priests. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "But Nadab and Abihu died in the Lord’s presence in the wilderness of Sinai when they burned before the Lord the wrong kind of fire, different than he had commanded. Since they had no sons, this left only Eleazar and Ithamar to serve as priests with their father, Aaron. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人被派作祭司"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“Call forward the tribe of Levi, and present them to Aaron the priest to serve as his assistants. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "They will serve Aaron and the whole community, performing their sacred duties in and around the Tabernacle. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "They will also maintain all the furnishings of the sacred tent, serving in the Tabernacle on behalf of all the Israelites. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Assign the Levites to Aaron and his sons. They have been given from among all the people of Israel to serve as their assistants. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Appoint Aaron and his sons to carry out the duties of the priesthood. But any unauthorized person who goes too near the sanctuary must be put to death.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord said to Moses, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Look, I have chosen the Levites from among the Israelites to serve as substitutes for all the firstborn sons of the people of Israel. The Levites belong to me, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "for all the firstborn males are mine. On the day I struck down all the firstborn sons of the Egyptians, I set apart for myself all the firstborn in Israel, both of people and of animals. They are mine; I am the Lord.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人男丁的統計"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "The Lord spoke again to Moses in the wilderness of Sinai. He said, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“Record the names of the members of the tribe of Levi by their families and clans. List every male who is one month old or older.” "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "So Moses listed them, just as the Lord had commanded. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Levi had three sons, whose names were Gershon, Kohath, and Merari. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "The clans descended from Gershon were named after two of his descendants, Libni and Shimei. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "The clans descended from Kohath were named after four of his descendants, Amram, Izhar, Hebron, and Uzziel. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The clans descended from Merari were named after two of his descendants, Mahli and Mushi. These were the Levite clans, listed according to their family groups. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Gershon were composed of the clans descended from Libni and Shimei. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "There were 7,500 males one month old or older among these Gershonite clans. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "They were assigned the area to the west of the Tabernacle for their camp. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "The leader of the Gershonite clans was Eliasaph son of Lael. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "These two clans were responsible to care for the Tabernacle, including the sacred tent with its layers of coverings, the curtain at its entrance, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "the curtains of the courtyard that surrounded the Tabernacle and altar, the curtain at the courtyard entrance, the ropes, and all the equipment related to their use. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Kohath were composed of the clans descended from Amram, Izhar, Hebron, and Uzziel. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "There were 8,600 males one month old or older among these Kohathite clans. They were responsible for the care of the sanctuary, "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "and they were assigned the area south of the Tabernacle for their camp. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "The leader of the Kohathite clans was Elizaphan son of Uzziel. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "These four clans were responsible for the care of the Ark, the table, the lampstand, the altars, the various articles used in the sanctuary, the inner curtain, and all the equipment related to their use. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Eleazar, son of Aaron the priest, was the chief administrator over all the Levites, with special responsibility for the oversight of the sanctuary. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The descendants of Merari were composed of the clans descended from Mahli and Mushi. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "There were 6,200 males one month old or older among these Merarite clans. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "They were assigned the area north of the Tabernacle for their camp. The leader of the Merarite clans was Zuriel son of Abihail. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "These two clans were responsible for the care of the frames supporting the Tabernacle, the crossbars, the pillars, the bases, and all the equipment related to their use. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "They were also responsible for the posts of the courtyard and all their bases, pegs, and ropes. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "The area in front of the Tabernacle, in the east toward the sunrise, was reserved for the tents of Moses and of Aaron and his sons, who had the final responsibility for the sanctuary on behalf of the people of Israel. Anyone other than a priest or Levite who went too near the sanctuary was to be put to death. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "When Moses and Aaron counted the Levite clans at the Lord’s command, the total number was 22,000 males one month old or older. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "利未人代替長子的地位"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, “Now count all the firstborn sons in Israel who are one month old or older, and make a list of their names. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "The Levites must be reserved for me as substitutes for the firstborn sons of Israel; I am the Lord. And the Levites’ livestock must be reserved for me as substitutes for the firstborn livestock of the whole nation of Israel.” "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "So Moses counted the firstborn sons of the people of Israel, just as the Lord had commanded. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "The number of firstborn sons who were one month old or older was 22,273. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses, "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "“Take the Levites as substitutes for the firstborn sons of the people of Israel. And take the livestock of the Levites as substitutes for the firstborn livestock of the people of Israel. The Levites belong to me; I am the Lord. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "There are 273 more firstborn sons of Israel than there are Levites. To redeem these extra firstborn sons, "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "collect five pieces of silver for each of them (each piece weighing the same as the sanctuary shekel, which equals twenty gerahs). "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "Give the silver to Aaron and his sons as the redemption price for the extra firstborn sons.” "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "So Moses collected the silver for redeeming the firstborn sons of Israel who exceeded the number of Levites. "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "He collected 1,365 pieces of silver on behalf of these firstborn sons of Israel (each piece weighing the same as the sanctuary shekel). "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "And Moses gave the silver for the redemption to Aaron and his sons, just as the Lord had commanded. "
+        }
+      ]
+    }
+  ]
+}

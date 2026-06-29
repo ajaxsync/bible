@@ -1,0 +1,440 @@
+{
+  "book": 42,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌在彼拉多面前受審"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太27‧1－2，11－14；可15‧1－5；約18‧28－38）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the whole assembly rose and led him off to Pilate. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "And they began to accuse him, saying, “We have found this man subverting our nation. He opposes payment of taxes to Caesar and claims to be Messiah, a king.” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "So Pilate asked Jesus, “Are you the king of the Jews?” “You have said so,” Jesus replied. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then Pilate announced to the chief priests and the crowd, “I find no basis for a charge against this man.” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "But they insisted, “He stirs up the people all over Judea by his teaching. He started in Galilee and has come all the way here.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "希律藐視耶穌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "On hearing this, Pilate asked if the man was a Galilean. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "When he learned that Jesus was under Herod’s jurisdiction, he sent him to Herod, who was also in Jerusalem at that time. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "When Herod saw Jesus, he was greatly pleased, because for a long time he had been wanting to see him. From what he had heard about him, he hoped to see him perform a sign of some sort. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "He plied him with many questions, but Jesus gave him no answer. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The chief priests and the teachers of the law were standing there, vehemently accusing him. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Then Herod and his soldiers ridiculed and mocked him. Dressing him in an elegant robe, they sent him back to Pilate. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "That day Herod and Pilate became friends—before this they had been enemies. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌被判死刑"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太27‧15－26；可15‧6－15；約18‧39－19‧16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Pilate called together the chief priests, the rulers and the people, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "and said to them, “You brought me this man as one who was inciting the people to rebellion. I have examined him in your presence and have found no basis for your charges against him. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Neither has Herod, for he sent him back to us; as you can see, he has done nothing to deserve death. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Therefore, I will punish him and then release him.” "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "But the whole crowd shouted, “Away with this man! Release Barabbas to us!” "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "(Barabbas had been thrown into prison for an insurrection in the city, and for murder.) "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Wanting to release Jesus, Pilate appealed to them again. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "But they kept shouting, “Crucify him! Crucify him!” "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "For the third time he spoke to them: “Why? What crime has this man committed? I have found in him no grounds for the death penalty. Therefore I will have him punished and then release him.” "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "But with loud shouts they insistently demanded that he be crucified, and their shouts prevailed. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "So Pilate decided to grant their demand. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "He released the man who had been thrown into prison for insurrection and murder, the one they asked for, and surrendered Jesus to their will. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌被釘十字架"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太27‧32－44；可15‧21－32；約19‧17－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "As the soldiers led him away, they seized Simon from Cyrene, who was on his way in from the country, and put the cross on him and made him carry it behind Jesus. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "A large number of people followed him, including women who mourned and wailed for him. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Jesus turned and said to them, “Daughters of Jerusalem, do not weep for me; weep for yourselves and for your children. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "For the time will come when you will say, ‘Blessed are the childless women, the wombs that never bore and the breasts that never nursed!’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Then “ ‘they will say to the mountains, “Fall on us!” and to the hills, “Cover us!” ’ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "Then “ ‘they will say to the mountains, “Fall on us!” and to the hills, “Cover us!” ’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "Then “ ‘they will say to the mountains, “Fall on us!” and to the hills, “Cover us!” ’"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": "Then “ ‘they will say to the mountains, “Fall on us!” and to the hills, “Cover us!” ’"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "For if people do these things when the tree is green, what will happen when it is dry?” "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Two other men, both criminals, were also led out with him to be executed. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "When they came to the place called the Skull, they crucified him there, along with the criminals—one on his right, the other on his left. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Jesus said, “Father, forgive them, for they do not know what they are doing.” And they divided up his clothes by casting lots. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "The people stood watching, and the rulers even sneered at him. They said, “He saved others; let him save himself if he is God’s Messiah, the Chosen One.” "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "The soldiers also came up and mocked him. They offered him wine vinegar "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "and said, “If you are the king of the Jews, save yourself.” "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "There was a written notice above him, which read: this is the king of the jews. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "One of the criminals who hung there hurled insults at him: “Aren’t you the Messiah? Save yourself and us!” "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "But the other criminal rebuked him. “Don’t you fear God,” he said, “since you are under the same sentence? "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "We are punished justly, for we are getting what our deeds deserve. But this man has done nothing wrong.” "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "Then he said, “Jesus, remember me when you come into your kingdom.” "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "Jesus answered him, “Truly I tell you, today you will be with me in paradise.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌的死"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太27‧45－56；可15‧33－41；約19‧28－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "It was now about noon, and darkness came over the whole land until three in the afternoon, "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "for the sun stopped shining. And the curtain of the temple was torn in two. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "Jesus called out with a loud voice, “Father, into your hands I commit my spirit.” When he had said this, he breathed his last. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "The centurion, seeing what had happened, praised God and said, “Surely this was a righteous man.” "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "When all the people who had gathered to witness this sight saw what took place, they beat their breasts and went away. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "But all those who knew him, including the women who had followed him from Galilee, stood at a distance, watching these things. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌的安葬"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太27‧57－61；可15‧42－47；約19‧38－42）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 49,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "Now there was a man named Joseph, a member of the Council, a good and upright man, "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "who had not consented to their decision and action. He came from the Judean town of Arimathea, and he himself was waiting for the kingdom of God. "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "Going to Pilate, he asked for Jesus’ body. "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "Then he took it down, wrapped it in linen cloth and placed it in a tomb cut in the rock, one in which no one had yet been laid. "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "It was Preparation Day, and the Sabbath was about to begin. "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "The women who had come with Jesus from Galilee followed Joseph and saw the tomb and how his body was laid in it. "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "Then they went home and prepared spices and perfumes. But they rested on the Sabbath in obedience to the commandment. "
+        }
+      ]
+    }
+  ]
+}

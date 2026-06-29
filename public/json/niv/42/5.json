@@ -1,0 +1,286 @@
+{
+  "book": 42,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌呼召頭幾個門徒"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太4‧18－22；可1‧16－20）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "One day as Jesus was standing by the Lake of Gennesaret, the people were crowding around him and listening to the word of God. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "He saw at the water’s edge two boats, left there by the fishermen, who were washing their nets. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "He got into one of the boats, the one belonging to Simon, and asked him to put out a little from shore. Then he sat down and taught the people from the boat. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "When he had finished speaking, he said to Simon, “Put out into deep water, and let down the nets for a catch.” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Simon answered, “Master, we’ve worked hard all night and haven’t caught anything. But because you say so, I will let down the nets.” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "When they had done so, they caught such a large number of fish that their nets began to break. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "So they signaled their partners in the other boat to come and help them, and they came and filled both boats so full that they began to sink. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "When Simon Peter saw this, he fell at Jesus’ knees and said, “Go away from me, Lord; I am a sinful man!” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "For he and all his companions were astonished at the catch of fish they had taken, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "and so were James and John, the sons of Zebedee, Simon’s partners. Then Jesus said to Simon, “Don’t be afraid; from now on you will fish for people.” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So they pulled their boats up on shore, left everything and followed him. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "潔淨長大痲瘋的人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太8‧1－4；可1‧40－45）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "While Jesus was in one of the towns, a man came along who was covered with leprosy. When he saw Jesus, he fell with his face to the ground and begged him, “Lord, if you are willing, you can make me clean.” "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Jesus reached out his hand and touched the man. “I am willing,” he said. “Be clean!” And immediately the leprosy left him. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus ordered him, “Don’t tell anyone, but go, show yourself to the priest and offer the sacrifices that Moses commanded for your cleansing, as a testimony to them.” "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Yet the news about him spread all the more, so that crowds of people came to hear him and to be healed of their sicknesses. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "But Jesus often withdrew to lonely places and prayed. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "治好癱瘓病人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太9‧1－8；可2‧1－12）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "One day Jesus was teaching, and Pharisees and teachers of the law were sitting there. They had come from every village of Galilee and from Judea and Jerusalem. And the power of the Lord was with Jesus to heal the sick. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Some men came carrying a paralyzed man on a mat and tried to take him into the house to lay him before Jesus. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "When they could not find a way to do this because of the crowd, they went up on the roof and lowered him on his mat through the tiles into the middle of the crowd, right in front of Jesus. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "When Jesus saw their faith, he said, “Friend, your sins are forgiven.” "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "The Pharisees and the teachers of the law began thinking to themselves, “Who is this fellow who speaks blasphemy? Who can forgive sins but God alone?” "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Jesus knew what they were thinking and asked, “Why are you thinking these things in your hearts? "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Which is easier: to say, ‘Your sins are forgiven,’ or to say, ‘Get up and walk’? "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "But I want you to know that the Son of Man has authority on earth to forgive sins.” So he said to the paralyzed man, “I tell you, get up, take your mat and go home.” "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Immediately he stood up in front of them, took what he had been lying on and went home praising God. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Everyone was amazed and gave praise to God. They were filled with awe and said, “We have seen remarkable things today.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "呼召利未"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太9‧9－13；可2‧13－17）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "After this, Jesus went out and saw a tax collector by the name of Levi sitting at his tax booth. “Follow me,” Jesus said to him, "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "and Levi got up, left everything and followed him. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Then Levi held a great banquet for Jesus at his house, and a large crowd of tax collectors and others were eating with them. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "But the Pharisees and the teachers of the law who belonged to their sect complained to his disciples, “Why do you eat and drink with tax collectors and sinners?” "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Jesus answered them, “It is not the healthy who need a doctor, but the sick. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "I have not come to call the righteous, but sinners to repentance.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "禁食的問題"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（太9‧14－17；可2‧18－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "They said to him, “John’s disciples often fast and pray, and so do the disciples of the Pharisees, but yours go on eating and drinking.” "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "Jesus answered, “Can you make the friends of the bridegroom fast while he is with them? "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "But the time will come when the bridegroom will be taken from them; in those days they will fast.” "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "He told them this parable: “No one tears a piece out of a new garment to patch an old one. Otherwise, they will have torn the new garment, and the patch from the new will not match the old. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "And no one pours new wine into old wineskins. Otherwise, the new wine will burst the skins; the wine will run out and the wineskins will be ruined. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "No, new wine must be poured into new wineskins. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "And no one after drinking old wine wants the new, for they say, ‘The old is better.’ ” "
+        }
+      ]
+    }
+  ]
+}

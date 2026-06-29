@@ -1,0 +1,65 @@
+{
+  "book": 3,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "產婦潔淨禮的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord spoke to Moses, saying, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Speak to the sons of Israel, saying: ‘When a woman gives birth and bears a male child, then she shall be unclean for seven days, as in the days of her menstruation she shall be unclean. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "On the eighth day the flesh of his foreskin shall be circumcised. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then she shall remain in the blood of her purification for thirty-three days; she shall not touch any consecrated thing, nor enter the sanctuary until the days of her purification are completed. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "But if she bears a female child, then she shall be unclean for two weeks, as in her menstruation; and she shall remain in the blood of her purification for sixty-six days. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "‘When the days of her purification are completed, for a son or for a daughter, she shall bring to the priest at the doorway of the tent of meeting a one year old lamb for a burnt offering and a young pigeon or a turtledove for a sin offering. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Then he shall offer it before the Lord and make atonement for her, and she shall be cleansed from the flow of her blood. This is the law for her who bears a child, whether a male or a female. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But if she cannot afford a lamb, then she shall take two turtledoves or two young pigeons, the one for a burnt offering and the other for a sin offering; and the priest shall make atonement for her, and she will be clean.’ ” "
+        }
+      ]
+    }
+  ]
+}

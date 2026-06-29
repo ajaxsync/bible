@@ -1,0 +1,329 @@
+{
+  "book": 5,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "摩西回憶"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "These are the words that Moses spoke to all the people of Israel while they were in the wilderness east of the Jordan River. They were camped in the Jordan Valley near Suph, between Paran on one side and Tophel, Laban, Hazeroth, and Di-zahab on the other. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Normally it takes only eleven days to travel from Mount Sinai to Kadesh-barnea, going by way of Mount Seir. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "But forty years after the Israelites left Egypt, on the first day of the eleventh month, Moses addressed the people of Israel, telling them everything the Lord had commanded him to say. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "This took place after he had defeated King Sihon of the Amorites, who ruled in Heshbon, and at Edrei had defeated King Og of Bashan, who ruled in Ashtaroth. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "While the Israelites were in the land of Moab east of the Jordan River, Moses carefully explained the Lord’s instructions as follows. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“When we were at Mount Sinai, the Lord our God said to us, ‘You have stayed at this mountain long enough. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "It is time to break camp and move on. Go to the hill country of the Amorites and to all the neighboring regions—the Jordan Valley, the hill country, the western foothills, the Negev, and the coastal plain. Go to the land of the Canaanites and to Lebanon, and all the way to the great Euphrates River. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Look, I am giving all this land to you! Go in and occupy it, for it is the land the Lord swore to give to your ancestors Abraham, Isaac, and Jacob, and to all their descendants.’” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "摩西指派審判官"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（出18‧13－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Moses continued, “At that time I told you, ‘You are too great a burden for me to carry all by myself. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "The Lord your God has increased your population, making you as numerous as the stars! "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "And may the Lord, the God of your ancestors, multiply you a thousand times more and bless you as he promised! "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "But you are such a heavy load to carry! How can I deal with all your problems and bickering? "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Choose some well-respected men from each tribe who are known for their wisdom and understanding, and I will appoint them as your leaders.’ "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“Then you responded, ‘Your plan is a good one.’ "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "So I took the wise and respected men you had selected from your tribes and appointed them to serve as judges and officials over you. Some were responsible for a thousand people, some for a hundred, some for fifty, and some for ten. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“At that time I instructed the judges, ‘You must hear the cases of your fellow Israelites and the foreigners living among you. Be perfectly fair in your decisions "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "and impartial in your judgments. Hear the cases of those who are poor as well as those who are rich. Don’t be afraid of anyone’s anger, for the decision you make is God’s decision. Bring me any cases that are too difficult for you, and I will handle them.’ "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“At that time I gave you instructions about everything you were to do. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "從加低斯‧巴尼亞派探子偵察"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民13‧1－33）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“Then, just as the Lord our God commanded us, we left Mount Sinai and traveled through the great and terrifying wilderness, as you yourselves remember, and headed toward the hill country of the Amorites. When we arrived at Kadesh-barnea, "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "I said to you, ‘You have now reached the hill country of the Amorites that the Lord our God is giving us. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Look! He has placed the land in front of you. Go and occupy it as the Lord, the God of your ancestors, has promised you. Don’t be afraid! Don’t be discouraged!’ "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“But you all came to me and said, ‘First, let’s send out scouts to explore the land for us. They will advise us on the best route to take and which towns we should enter.’ "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "“This seemed like a good idea to me, so I chose twelve scouts, one from each of your tribes. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "They headed for the hill country and came to the valley of Eshcol and explored it. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "They picked some of its fruit and brought it back to us. And they reported, ‘The land the Lord our God has given us is indeed a good land.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“But you rebelled against the command of the Lord your God and refused to go in. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "You complained in your tents and said, ‘The Lord must hate us. That’s why he has brought us here from Egypt—to hand us over to the Amorites to be slaughtered. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Where can we go? Our brothers have demoralized us with their report. They tell us, “The people of the land are taller and more powerful than we are, and their towns are large, with walls rising high into the sky! We even saw giants there—the descendants of Anak!”’ "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“But I said to you, ‘Don’t be shocked or afraid of them! "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "The Lord your God is going ahead of you. He will fight for you, just as you saw him do in Egypt. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "And you saw how the Lord your God cared for you all along the way as you traveled through the wilderness, just as a father cares for his child. Now he has brought you to this place.’ "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "“But even after all he did, you refused to trust the Lord your God, "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "who goes before you looking for the best places to camp, guiding you with a pillar of fire by night and a pillar of cloud by day. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶和華刑罰以色列人"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民14‧20－45）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“When the Lord heard your complaining, he became very angry. So he solemnly swore, "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "‘Not one of you from this wicked generation will live to see the good land I swore to give your ancestors, "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "except Caleb son of Jephunneh. He will see this land because he has followed the Lord completely. I will give to him and his descendants some of the very land he explored during his scouting mission.’ "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "“And the Lord was also angry with me because of you. He said to me, ‘Moses, not even you will enter the Promised Land! "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "Instead, your assistant, Joshua son of Nun, will lead the people into the land. Encourage him, for he will lead Israel as they take possession of it. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "I will give the land to your little ones—your innocent children. You were afraid they would be captured, but they will be the ones who occupy it. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "As for you, turn around now and go on back through the wilderness toward the Red Sea.’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "“Then you confessed, ‘We have sinned against the Lord! We will go into the land and fight for it, as the Lord our God has commanded us.’ So your men strapped on their weapons, thinking it would be easy to attack the hill country. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "“But the Lord told me to tell you, ‘Do not attack, for I am not with you. If you go ahead on your own, you will be crushed by your enemies.’ "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "“This is what I told you, but you would not listen. Instead, you again rebelled against the Lord’s command and arrogantly went into the hill country to fight. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "But the Amorites who lived there came out against you like a swarm of bees. They chased and battered you all the way from Seir to Hormah. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "Then you returned and wept before the Lord, but he refused to listen. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "So you stayed there at Kadesh for a long time. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": 26,
+  "chapter": 15,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "葡萄樹的比喻"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对我说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“人子啊，葡萄木比林中其他木材更好吗？ "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "葡萄木有什么用呢？能用它制造挂钩挂东西吗？ "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "它只能用来当柴烧。如果火已经烧了它的两头，中间也烧黑了，它还有什么用呢？ "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "它完好无损的时候，尚且不能用来制造工具，被火烧后岂不更没用了吗？ "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "所以，主耶和华说，我怎样把林中的葡萄树丢在火中当柴烧，也必照样丢弃耶路撒冷的居民。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我必严惩他们。他们纵然火里逃生，仍要被火烧灭。我严惩他们的时候，他们便知道我是耶和华。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "我必使他们的土地荒凉，因为他们对我不忠。这是主耶和华说的。” "
+        }
+      ]
+    }
+  ]
+}

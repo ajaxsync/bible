@@ -1,0 +1,254 @@
+{
+  "book": 2,
+  "chapter": 26,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "会幕"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（出36‧8－38）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "「你要用十幅幔子做帐幕。这些幔子要用撚的细麻和蓝色、紫色、朱红色线制造，并用巧匠的手工绣上基路伯。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "每幅幔子要长二十八肘，宽四肘，幔子都要一样的尺寸。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "这五幅幔子要幅幅相连；那五幅幔子也要幅幅相连。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "在这相连的幔子末幅边上要做蓝色的钮扣；在那相连的幔子末幅边上也要照样做。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "要在这相连的幔子上做五十个钮扣；在那相连的幔子上也做五十个钮扣，都要两两相对。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "又要做五十个金钩，用钩使幔子相连，这才成了一个帐幕。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "「你要用山羊毛织十一幅幔子，作为帐幕以上的罩棚。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "每幅幔子要长三十肘，宽四肘；十一幅幔子都要一样的尺寸。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "要把五幅幔子连成一幅，又把六幅幔子连成一幅，这第六幅幔子要在罩棚的前面折上去。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "在这相连的幔子末幅边上要做五十个钮扣；在那相连的幔子末幅边上也做五十个钮扣。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "又要做五十个铜钩，钩在钮扣中，使罩棚连成一个。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "罩棚的幔子所余那垂下来的半幅幔子，要垂在帐幕的后头。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "罩棚的幔子所余长的，这边一肘，那边一肘，要垂在帐幕的两旁，遮盖帐幕。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "又要用染红的公羊皮做罩棚的盖；再用海狗皮做一层罩棚上的顶盖。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "「你要用皂荚木做帐幕的竖板。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "每块要长十肘，宽一肘半； "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "每块必有两榫相对。帐幕一切的板都要这样做。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "帐幕的南面要做板二十块。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "在这二十块板底下要做四十个带卯的银座，两卯接这块板上的两榫，两卯接那块板上的两榫。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "帐幕第二面，就是北面，也要做板二十块 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "和带卯的银座四十个；这板底下有两卯，那板底下也有两卯。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "帐幕的后面，就是西面，要做板六块。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "帐幕后面的拐角要做板两块。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "板的下半截要双的，上半截要整的，直顶到第一个环子；两块都要这样做两个拐角。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "必有八块板和十六个带卯的银座；这板底下有两卯，那板底下也有两卯。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "「你要用皂荚木做闩：为帐幕这面的板做五闩， "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "为帐幕那面的板做五闩，又为帐幕后面的板做五闩。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "板腰间的中闩要从这一头通到那一头。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "板要用金子包裹，又要做板上的金环套闩；闩也要用金子包裹。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "要照着在山上指示你的样式立起帐幕。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "「你要用蓝色、紫色、朱红色线，和撚的细麻织幔子，以巧匠的手工绣上基路伯。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "要把幔子挂在四根包金的皂荚木柱子上，柱子上当有金钩，柱子安在四个带卯的银座上。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "要使幔子垂在钩子下，把法柜擡进幔子内；这幔子要将圣所和至圣所隔开。 "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "又要把施恩座安在至圣所内的法柜上， "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "把桌子安在幔子外帐幕的北面；把灯台安在帐幕的南面，彼此相对。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "「你要拿蓝色、紫色、朱红色线，和撚的细麻，用绣花的手工织帐幕的门帘。 "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "要用皂荚木为帘子做五根柱子，用金子包裹。柱子上当有金钩；又要为柱子用铜铸造五个带卯的座。」"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "book": 15,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "被擄歸回者的名單"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "巴比伦王尼布甲尼撒从前把犹大省的人掳到巴比伦，这些人的子孙从流亡之地返回耶路撒冷和犹大后，各回本城。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他们是与所罗巴伯、耶书亚、尼希米、西莱雅、利来雅、末底改、必珊、米斯拔、比革瓦伊、利宏和巴拿一同回来的。 以下是返回的以色列人的数目： "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "巴录的子孙两千一百七十二人； "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "示法提雅的子孙三百七十二人； "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "亚拉的子孙七百七十五人； "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "巴哈·摩押的子孙，即耶书亚和约押的子孙两千八百一十二人； "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "以拦的子孙一千二百五十四人； "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "萨土的子孙九百四十五人； "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "萨改的子孙七百六十人； "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "巴尼的子孙六百四十二人； "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "比拜的子孙六百二十三人； "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "押甲的子孙一千二百二十二人； "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "亚多尼干的子孙六百六十六人； "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "比革瓦伊的子孙两千零五十六人； "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "亚丁的子孙四百五十四人； "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "亚特的子孙，即希西迦的子孙九十八人； "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "比赛的子孙三百二十三人； "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "约拉的子孙一百一十二人； "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "哈顺的子孙二百二十三人； "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "吉罢珥的子孙九十五人。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "伯利恒人一百二十三名； "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "尼陀法人五十六名； "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "亚拿突人一百二十八名； "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "亚斯玛弗人四十二名； "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "基列·耶琳人、基非拉人和比录人七百四十三名； "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "拉玛人和迦巴人六百二十一名； "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "默玛人一百二十二名； "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "伯特利人和艾人二百二十三名； "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "尼波人五十二名； "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "末必人一百五十六名； "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "另一个以拦的子孙一千二百五十四人； "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "哈琳人三百二十名； "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "罗德人、哈第人和阿挪人七百二十五名； "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "耶利哥人三百四十五名； "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "西拿人三千六百三十名。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 35,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "祭司有耶大雅的子孙，即耶书亚的子孙九百七十三人； "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "音麦的子孙一千零五十二人； "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "巴施户珥的子孙一千二百四十七人； "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "哈琳的子孙一千零一十七人。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 39,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "利未人有何达威雅的子孙，即耶书亚和甲篾的子孙七十四人； "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "负责歌乐的亚萨的子孙一百二十八人； "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "负责守卫殿门的沙龙的子孙、亚特的子孙、达们的子孙、亚谷的子孙、哈底大的子孙和朔拜的子孙一百三十九人。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "殿役有西哈的子孙、哈苏巴的子孙、答巴俄的子孙、 "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "基绿的子孙、西亚的子孙、巴顿的子孙、 "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "利巴拿的子孙、哈迦巴的子孙、亚谷的子孙、 "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "哈甲的子孙、萨买的子孙、哈难的子孙、 "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "吉德的子孙、迦哈的子孙、利亚雅的子孙、 "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "利汛的子孙、尼哥大的子孙、迦散的子孙、 "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "乌撒的子孙、巴西亚的子孙、比赛的子孙、 "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "押拿的子孙、米乌宁的子孙、尼普心的子孙、 "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "巴卜的子孙、哈古巴的子孙、哈忽的子孙、 "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "巴洗律的子孙、米希大的子孙、哈沙的子孙、 "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "巴柯的子孙、西西拉的子孙、答玛的子孙、 "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "尼细亚的子孙和哈提法的子孙。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 54,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 55,
+          "hasVerseLabel": true,
+          "verseText": "所罗门仆人的子孙有琐太的子孙、琐斐列的子孙、比路大的子孙、 "
+        },
+        {
+          "verseNum": 56,
+          "hasVerseLabel": true,
+          "verseText": "雅拉的子孙、达昆的子孙、吉德的子孙、 "
+        },
+        {
+          "verseNum": 57,
+          "hasVerseLabel": true,
+          "verseText": "示法提雅的子孙、哈替的子孙、玻黑列·哈斯巴音的子孙和亚米的子孙。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 57,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 58,
+          "hasVerseLabel": true,
+          "verseText": "殿役和所罗门仆人的子孙共三百九十二人。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 58,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 59,
+          "hasVerseLabel": true,
+          "verseText": "以下这些人来自特·米拉、特·哈萨、基绿、押但和音麦，但不能证明自己是以色列人的后代： "
+        },
+        {
+          "verseNum": 60,
+          "hasVerseLabel": true,
+          "verseText": "第来雅的子孙、多比雅的子孙和尼哥大的子孙，共六百五十二人。 "
+        },
+        {
+          "verseNum": 61,
+          "hasVerseLabel": true,
+          "verseText": "祭司中，哈巴雅的子孫、哈哥斯的子孫、巴西萊的子孫；因為他們的先祖娶了基列人巴西萊的女兒為妻，所以起名叫巴西萊。 "
+        },
+        {
+          "verseNum": 62,
+          "hasVerseLabel": true,
+          "verseText": "這三家的人在族譜之中尋查自己的譜系，卻尋不着，因此算為不潔，不准供祭司的職任。 "
+        },
+        {
+          "verseNum": 63,
+          "hasVerseLabel": true,
+          "verseText": "省长吩咐他们，要等到用乌陵和土明求问上帝的祭司出现后，才可以吃至圣之物。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 63,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 64,
+          "hasVerseLabel": true,
+          "verseText": "回到犹大的人共四万二千三百六十名。 "
+        },
+        {
+          "verseNum": 65,
+          "hasVerseLabel": true,
+          "verseText": "此外还有他们的七千三百三十七名男女仆婢，二百名男女歌乐手， "
+        },
+        {
+          "verseNum": 66,
+          "hasVerseLabel": true,
+          "verseText": "七百三十六匹马，二百四十五匹骡子， "
+        },
+        {
+          "verseNum": 67,
+          "hasVerseLabel": true,
+          "verseText": "四百三十五头骆驼和六千七百二十头驴。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 67,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 68,
+          "hasVerseLabel": true,
+          "verseText": "有些族长来到耶路撒冷耶和华的殿时，甘愿为上帝的殿献上礼物，用来在旧址上重新建殿。 "
+        },
+        {
+          "verseNum": 69,
+          "hasVerseLabel": true,
+          "verseText": "他们尽自己的能力为这工程捐献了五百公斤金子，三吨银子，以及一百件祭司礼服。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 69,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 70,
+          "hasVerseLabel": true,
+          "verseText": "祭司、利未人、一些百姓、歌乐手、殿门守卫和殿役住在自己的城里，其余的以色列人也都住在自己的城里。 "
+        }
+      ]
+    }
+  ]
+}

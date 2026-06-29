@@ -1,0 +1,105 @@
+{
+  "book": 4,
+  "chapter": 30,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "許願的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Moses said to the heads of the tribes of Israel: “This is what the Lord commands: "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "When a man makes a vow to the Lord or takes an oath to obligate himself by a pledge, he must not break his word but must do everything he said. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“When a young woman still living in her father’s household makes a vow to the Lord or obligates herself by a pledge "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "and her father hears about her vow or pledge but says nothing to her, then all her vows and every pledge by which she obligated herself will stand. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "But if her father forbids her when he hears about it, none of her vows or the pledges by which she obligated herself will stand; the Lord will release her because her father has forbidden her. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“If she marries after she makes a vow or after her lips utter a rash promise by which she obligates herself "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "and her husband hears about it but says nothing to her, then her vows or the pledges by which she obligated herself will stand. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But if her husband forbids her when he hears about it, he nullifies the vow that obligates her or the rash promise by which she obligates herself, and the Lord will release her. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“Any vow or obligation taken by a widow or divorced woman will be binding on her. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“If a woman living with her husband makes a vow or obligates herself by a pledge under oath "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "and her husband hears about it but says nothing to her and does not forbid her, then all her vows or the pledges by which she obligated herself will stand. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "But if her husband nullifies them when he hears about them, then none of the vows or pledges that came from her lips will stand. Her husband has nullified them, and the Lord will release her. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Her husband may confirm or nullify any vow she makes or any sworn pledge to deny herself. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "But if her husband says nothing to her about it from day to day, then he confirms all her vows or the pledges binding on her. He confirms them by saying nothing to her when he hears about them. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "If, however, he nullifies them some time after he hears about them, then he must bear the consequences of her wrongdoing.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "These are the regulations the Lord gave Moses concerning relationships between a man and his wife, and between a father and his young daughter still living at home. "
+        }
+      ]
+    }
+  ]
+}

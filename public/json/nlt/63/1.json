@@ -1,0 +1,108 @@
+{
+  "book": 63,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This letter is from John, the elder. I am writing to the chosen lady and to her children, whom I love in the truth—as does everyone else who knows the truth— "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "because the truth lives in us and will be with us forever. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Grace, mercy, and peace, which come from God the Father and from Jesus Christ—the Son of the Father—will continue to be with us who live in truth and love. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "真理和愛"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "How happy I was to meet some of your children and find them living according to the truth, just as the Father commanded. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "I am writing to remind you, dear friends, that we should love one another. This is not a new commandment, but one we have had from the beginning. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Love means doing what God has commanded us, and he has commanded us to love one another, just as you heard from the beginning. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "I say this because many deceivers have gone out into the world. They deny that Jesus Christ came in a real body. Such a person is a deceiver and an antichrist. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Watch out that you do not lose what we have worked so hard to achieve. Be diligent so that you receive your full reward. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Anyone who wanders away from this teaching has no relationship with God. But anyone who remains in the teaching of Christ has a relationship with both the Father and the Son. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "If anyone comes to your meeting and does not teach the truth about Christ, don’t invite that person into your home or give any kind of encouragement. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Anyone who encourages such people becomes a partner in their evil work. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "問安"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "I have much more to say to you, but I don’t want to do it with paper and ink. For I hope to visit you soon and talk with you face to face. Then our joy will be complete. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Greetings from the children of your sister, chosen by God. "
+        }
+      ]
+    }
+  ]
+}

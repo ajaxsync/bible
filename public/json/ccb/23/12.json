@@ -1,0 +1,225 @@
+{
+  "book": 23,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "感恩的詩歌"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "到那日，你们必歌唱： “耶和华啊，我要赞美你！ 你虽然曾向我发怒， 但你的怒气已经止息， 你还安慰了我。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “耶和华啊，我要赞美你！ 你虽然曾向我发怒， 但你的怒气已经止息， 你还安慰了我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “耶和华啊，我要赞美你！ 你虽然曾向我发怒， 但你的怒气已经止息， 你还安慰了我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “耶和华啊，我要赞美你！ 你虽然曾向我发怒， 但你的怒气已经止息， 你还安慰了我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “耶和华啊，我要赞美你！ 你虽然曾向我发怒， 但你的怒气已经止息， 你还安慰了我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“看啊，上帝是我的拯救， 我要倚靠祂，不会惧怕。 耶和华上帝是我的力量， 是我的诗歌， 祂成了我的拯救者。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“看啊，上帝是我的拯救， 我要倚靠祂，不会惧怕。 耶和华上帝是我的力量， 是我的诗歌， 祂成了我的拯救者。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“看啊，上帝是我的拯救， 我要倚靠祂，不会惧怕。 耶和华上帝是我的力量， 是我的诗歌， 祂成了我的拯救者。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“看啊，上帝是我的拯救， 我要倚靠祂，不会惧怕。 耶和华上帝是我的力量， 是我的诗歌， 祂成了我的拯救者。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "“看啊，上帝是我的拯救， 我要倚靠祂，不会惧怕。 耶和华上帝是我的力量， 是我的诗歌， 祂成了我的拯救者。”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你们必从救恩的泉源欢然取水。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "到那日，你们必歌唱： “要称颂耶和华，求告祂的名； 要在万民中传扬祂的作为， 宣告祂的名配受尊崇。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “要称颂耶和华，求告祂的名； 要在万民中传扬祂的作为， 宣告祂的名配受尊崇。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “要称颂耶和华，求告祂的名； 要在万民中传扬祂的作为， 宣告祂的名配受尊崇。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "到那日，你们必歌唱： “要称颂耶和华，求告祂的名； 要在万民中传扬祂的作为， 宣告祂的名配受尊崇。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“耶和华成就了奇妙的事， 要向祂歌唱， 让歌声传遍世界。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“耶和华成就了奇妙的事， 要向祂歌唱， 让歌声传遍世界。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "“耶和华成就了奇妙的事， 要向祂歌唱， 让歌声传遍世界。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "锡安的居民啊，高声欢呼吧！ 因为住在你们当中的以色列的圣者无比伟大。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "锡安的居民啊，高声欢呼吧！ 因为住在你们当中的以色列的圣者无比伟大。”"
+        }
+      ]
+    }
+  ]
+}

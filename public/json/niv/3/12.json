@@ -1,0 +1,65 @@
+{
+  "book": 3,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "產婦潔淨禮的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Say to the Israelites: ‘A woman who becomes pregnant and gives birth to a son will be ceremonially unclean for seven days, just as she is unclean during her monthly period. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "On the eighth day the boy is to be circumcised. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Then the woman must wait thirty-three days to be purified from her bleeding. She must not touch anything sacred or go to the sanctuary until the days of her purification are over. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "If she gives birth to a daughter, for two weeks the woman will be unclean, as during her period. Then she must wait sixty-six days to be purified from her bleeding. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘When the days of her purification for a son or daughter are over, she is to bring to the priest at the entrance to the tent of meeting a year-old lamb for a burnt offering and a young pigeon or a dove for a sin offering. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "He shall offer them before the Lord to make atonement for her, and then she will be ceremonially clean from her flow of blood. “ ‘These are the regulations for the woman who gives birth to a boy or a girl. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "But if she cannot afford a lamb, she is to bring two doves or two young pigeons, one for a burnt offering and the other for a sin offering. In this way the priest will make atonement for her, and she will be clean.’ ” "
+        }
+      ]
+    }
+  ]
+}

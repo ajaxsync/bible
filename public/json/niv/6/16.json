@@ -1,0 +1,89 @@
+{
+  "book": 6,
+  "chapter": 16,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "分給以法蓮支派和瑪拿西半支派的土地"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The allotment for Joseph began at the Jordan, east of the springs of Jericho, and went up from there through the desert into the hill country of Bethel. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "It went on from Bethel (that is, Luz), crossed over to the territory of the Arkites in Ataroth, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "descended westward to the territory of the Japhletites as far as the region of Lower Beth Horon and on to Gezer, ending at the Mediterranean Sea. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "So Manasseh and Ephraim, the descendants of Joseph, received their inheritance. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以法蓮支派"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "This was the territory of Ephraim, according to its clans: The boundary of their inheritance went from Ataroth Addar in the east to Upper Beth Horon "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "and continued to the Mediterranean Sea. From Mikmethath on the north it curved eastward to Taanath Shiloh, passing by it to Janoah on the east. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Then it went down from Janoah to Ataroth and Naarah, touched Jericho and came out at the Jordan. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "From Tappuah the border went west to the Kanah Ravine and ended at the Mediterranean Sea. This was the inheritance of the tribe of the Ephraimites, according to its clans. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "It also included all the towns and their villages that were set aside for the Ephraimites within the inheritance of the Manassites. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "They did not dislodge the Canaanites living in Gezer; to this day the Canaanites live among the people of Ephraim but are required to do forced labor. "
+        }
+      ]
+    }
+  ]
+}

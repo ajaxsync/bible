@@ -1,0 +1,184 @@
+{
+  "book": 5,
+  "chapter": 6,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "最大的誡命"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“These are the commands, decrees, and regulations that the Lord your God commanded me to teach you. You must obey them in the land you are about to enter and occupy, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "and you and your children and grandchildren must fear the Lord your God as long as you live. If you obey all his decrees and commands, you will enjoy a long life. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Listen closely, Israel, and be careful to obey. Then all will go well with you, and you will have many children in the land flowing with milk and honey, just as the Lord, the God of your ancestors, promised you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“Listen, O Israel! The Lord is our God, the Lord alone. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And you must love the Lord your God with all your heart, all your soul, and all your strength. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "And you must commit yourselves wholeheartedly to these commands that I am giving you today. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Repeat them again and again to your children. Talk about them when you are at home and when you are on the road, when you are going to bed and when you are getting up. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Tie them to your hands and wear them on your forehead as reminders. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Write them on the doorposts of your house and on your gates. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "警告人民不可背逆神"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“The Lord your God will soon bring you into the land he swore to give you when he made a vow to your ancestors Abraham, Isaac, and Jacob. It is a land with large, prosperous cities that you did not build. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "The houses will be richly stocked with goods you did not produce. You will draw water from cisterns you did not dig, and you will eat from vineyards and olive trees you did not plant. When you have eaten your fill in this land, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "be careful not to forget the Lord, who rescued you from slavery in the land of Egypt. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "You must fear the Lord your God and serve him. When you take an oath, you must use only his name. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“You must not worship any of the gods of neighboring nations, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "for the Lord your God, who lives among you, is a jealous God. His anger will flare up against you, and he will wipe you from the face of the earth. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "You must not test the Lord your God as you did when you complained at Massah. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "You must diligently obey the commands of the Lord your God—all the laws and decrees he has given you. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Do what is right and good in the Lord’s sight, so all will go well with you. Then you will enter and occupy the good land that the Lord swore to give your ancestors. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "You will drive out all the enemies living in the land, just as the Lord said you would. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“In the future your children will ask you, ‘What is the meaning of these laws, decrees, and regulations that the Lord our God has commanded us to obey?’ "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "“Then you must tell them, ‘We were Pharaoh’s slaves in Egypt, but the Lord brought us out of Egypt with his strong hand. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The Lord did miraculous signs and wonders before our eyes, dealing terrifying blows against Egypt and Pharaoh and all his people. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "He brought us out of Egypt so he could give us this land he had sworn to give our ancestors. "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "And the Lord our God commanded us to obey all these decrees and to fear him so he can continue to bless us and preserve our lives, as he has done to this day. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "For we will be counted as righteous when we obey all the commands the Lord our God has given us.’ "
+        }
+      ]
+    }
+  ]
+}

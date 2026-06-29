@@ -1,0 +1,109 @@
+{
+  "book": 56,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "我保罗做上帝的奴仆和耶稣基督的使徒，是为了使上帝拣选的人有信心、明白真理，从而过敬虔的生活， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "有永生的盼望。这永生是从不说谎的上帝在亘古以前应许的。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "祂在所定的时候，借着人的传扬将自己的道显明出来。我奉我们救主上帝的命令传扬这道。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "提多啊，我写信给你，就我们共同的信仰来说，你是我真正的儿子。 愿父上帝和我们的救主基督耶稣赐给你恩典和平安！ "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "提多在克里特的工作"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "当初，我把你留在克里特岛，是要你完成未办完的事工，并照我的指示在各城选立长老。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "做长老的必须无可指责，只有一位妻子，儿女都信主、没有放荡不羁的行为。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "身为上帝的管家，做监督的必须无可指责，不傲慢，不暴躁，不酗酒，不好斗，不贪财。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "他必须好客、乐善、自制、正直、圣洁、自律， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "持守所领受的真道，以便能够以纯正的教导劝勉人，驳倒那些反对的人。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "因为有许多悖逆之人喜欢空谈，善于欺骗，尤其是那些奉行割礼的人。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "你一定要堵住他们的口，因为他们为了不义之财教不该教的，误导了别人全家。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "克里特人自己的一位先知说：“克里特人说谎成性，邪恶如兽，好吃懒做。” "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "这话是真的。因此你要严正地斥责他们，使他们有纯正的信仰， "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "不理会犹太人荒诞的传说和那些违背真理之人的诫律。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "对洁净的人而言，一切都是洁净的；对污秽不信的人而言，什么都不洁净，连他们的思想和良心都是污秽的。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "他们自称认识上帝，在行为上却否认祂。他们令人可憎，悖逆成性，一无是处。 "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "book": 17,
+  "chapter": 7,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "哈曼被處死"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "王带着哈曼去赴以斯帖王后的宴席。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "在这第二次宴会中，王在席间又问以斯帖：“以斯帖王后啊，你要什么？我必赐给你。你有何要求？就是半壁江山，也必为你成就。” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "以斯帖回答说：“我若得到王的恩宠，王若愿意，就请王把我的性命和我本族人的性命赐给我——这是我所求的。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "因为我和我本族的人都被卖了，我们将被铲除、杀光、灭尽。如果只是卖我们为奴为婢，我会闭口不语，因为那样的痛苦不值得来打扰王。” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "亚哈随鲁王问以斯帖王后：“谁敢这样做？他在哪里？” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "以斯帖回答说：“敌人和仇家就是这恶人哈曼！”哈曼在王和王后面前十分惊恐。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "以斯帖回答说：“敌人和仇家就是这恶人哈曼！”哈曼在王和王后面前十分惊恐。"
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "王大怒，离席去了御花园。哈曼见王定意要惩罚他，便留下来求以斯帖王后饶命。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "王从御花园回到席上，见哈曼伏在以斯帖所靠的榻上，便说：“他竟敢在宫中当着我的面侮辱王后吗？”王这话一出口，便有人蒙了哈曼的脸。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "服侍王的太监哈波拿说：“哈曼为那救驾有功的末底改做了一个二十三米高的木架，如今正立在哈曼家里。”王说：“把哈曼吊在上面！” "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "于是，哈曼被吊在他为末底改预备的木架上，王的怒气这才平息。 "
+        }
+      ]
+    }
+  ]
+}

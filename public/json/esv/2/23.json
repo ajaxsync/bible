@@ -1,0 +1,326 @@
+{
+  "book": 2,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "正義和公道"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not spread a false report. You shall not join hands with a wicked man to be a malicious witness. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "You shall not fall in with the many to do evil, nor shall you bear witness in a lawsuit, siding with the many, so as to pervert justice, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "nor shall you be partial to a poor man in his lawsuit. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“If you meet your enemy’s ox or his donkey going astray, you shall bring it back to him. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "If you see the donkey of one who hates you lying down under its burden, you shall refrain from leaving him with it; you shall rescue it with him. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not pervert the justice due to your poor in his lawsuit. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Keep far from a false charge, and do not kill the innocent and righteous, for I will not acquit the wicked. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "And you shall take no bribe, for a bribe blinds the clear-sighted and subverts the cause of those who are in the right. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not oppress a sojourner. You know the heart of a sojourner, for you were sojourners in the land of Egypt. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "安息年和安息日"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“For six years you shall sow your land and gather in its yield, "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "but the seventh year you shall let it rest and lie fallow, that the poor of your people may eat; and what they leave the beasts of the field may eat. You shall do likewise with your vineyard, and with your olive orchard. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "“Six days you shall do your work, but on the seventh day you shall rest; that your ox and your donkey may have rest, and the son of your servant woman, and the alien, may be refreshed. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "“Pay attention to all that I have said to you, and make no mention of the names of other gods, nor let it be heard on your lips. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "三大節期"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（出34‧18－26；申16‧1－17）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“Three times in the year you shall keep a feast to me. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "You shall keep the Feast of Unleavened Bread. As I commanded you, you shall eat unleavened bread for seven days at the appointed time in the month of Abib, for in it you came out of Egypt. None shall appear before me empty-handed. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "You shall keep the Feast of Harvest, of the firstfruits of your labor, of what you sow in the field. You shall keep the Feast of Ingathering at the end of the year, when you gather in from the field the fruit of your labor. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "Three times in the year shall all your males appear before the Lord God. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "“You shall not offer the blood of my sacrifice with anything leavened, or let the fat of my feast remain until the morning. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 18,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "“The best of the firstfruits of your ground you shall bring into the house of the Lord your God. “You shall not boil a young goat in its mother’s milk. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": "“The best of the firstfruits of your ground you shall bring into the house of the Lord your God. “You shall not boil a young goat in its mother’s milk."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "應許和指示"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“Behold, I send an angel before you to guard you on the way and to bring you to the place that I have prepared. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Pay careful attention to him and obey his voice; do not rebel against him, for he will not pardon your transgression, for my name is in him. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“But if you carefully obey his voice and do all that I say, then I will be an enemy to your enemies and an adversary to your adversaries. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "“When my angel goes before you and brings you to the Amorites and the Hittites and the Perizzites and the Canaanites, the Hivites and the Jebusites, and I blot them out, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "you shall not bow down to their gods nor serve them, nor do as they do, but you shall utterly overthrow them and break their pillars in pieces. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "You shall serve the Lord your God, and he will bless your bread and your water, and I will take sickness away from among you. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "None shall miscarry or be barren in your land; I will fulfill the number of your days. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "I will send my terror before you and will throw into confusion all the people against whom you shall come, and I will make all your enemies turn their backs to you. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "And I will send hornets before you, which shall drive out the Hivites, the Canaanites, and the Hittites from before you. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "I will not drive them out from before you in one year, lest the land become desolate and the wild beasts multiply against you. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Little by little I will drive them out from before you, until you have increased and possess the land. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "And I will set your border from the Red Sea to the Sea of the Philistines, and from the wilderness to the Euphrates, for I will give the inhabitants of the land into your hand, and you shall drive them out before you. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "You shall make no covenant with them and their gods. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "They shall not dwell in your land, lest they make you sin against me; for if you serve their gods, it will surely be a snare to you.” "
+        }
+      ]
+    }
+  ]
+}

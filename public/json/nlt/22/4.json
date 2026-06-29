@@ -1,0 +1,659 @@
+{
+  "book": 22,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "You are beautiful, my darling, beautiful beyond words. Your eyes are like doves behind your veil. Your hair falls in waves, like a flock of goats winding down the slopes of Gilead. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "You are beautiful, my darling, beautiful beyond words. Your eyes are like doves behind your veil. Your hair falls in waves, like a flock of goats winding down the slopes of Gilead."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "You are beautiful, my darling, beautiful beyond words. Your eyes are like doves behind your veil. Your hair falls in waves, like a flock of goats winding down the slopes of Gilead."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Your teeth are as white as sheep, recently shorn and freshly washed. Your smile is flawless, each tooth matched with its twin. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Your teeth are as white as sheep, recently shorn and freshly washed. Your smile is flawless, each tooth matched with its twin."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "Your teeth are as white as sheep, recently shorn and freshly washed. Your smile is flawless, each tooth matched with its twin."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Your lips are like scarlet ribbon; your mouth is inviting. Your cheeks are like rosy pomegranates behind your veil. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are like scarlet ribbon; your mouth is inviting. Your cheeks are like rosy pomegranates behind your veil."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are like scarlet ribbon; your mouth is inviting. Your cheeks are like rosy pomegranates behind your veil."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are like scarlet ribbon; your mouth is inviting. Your cheeks are like rosy pomegranates behind your veil."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Your neck is as beautiful as the tower of David, jeweled with the shields of a thousand heroes. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Your neck is as beautiful as the tower of David, jeweled with the shields of a thousand heroes."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Your neck is as beautiful as the tower of David, jeweled with the shields of a thousand heroes."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Your breasts are like two fawns, twin fawns of a gazelle grazing among the lilies. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Your breasts are like two fawns, twin fawns of a gazelle grazing among the lilies."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Before the dawn breezes blow and the night shadows flee, I will hurry to the mountain of myrrh and to the hill of frankincense. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Before the dawn breezes blow and the night shadows flee, I will hurry to the mountain of myrrh and to the hill of frankincense."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Before the dawn breezes blow and the night shadows flee, I will hurry to the mountain of myrrh and to the hill of frankincense."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "You are altogether beautiful, my darling, beautiful in every way. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "You are altogether beautiful, my darling, beautiful in every way."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "Come with me from Lebanon, my bride, come with me from Lebanon. Come down from Mount Amana, from the peaks of Senir and Hermon, where the lions have their dens and leopards live among the hills."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "You have captured my heart, my treasure, my bride. You hold it hostage with one glance of your eyes, with a single jewel of your necklace. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "You have captured my heart, my treasure, my bride. You hold it hostage with one glance of your eyes, with a single jewel of your necklace."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "You have captured my heart, my treasure, my bride. You hold it hostage with one glance of your eyes, with a single jewel of your necklace."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "You have captured my heart, my treasure, my bride. You hold it hostage with one glance of your eyes, with a single jewel of your necklace."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "You have captured my heart, my treasure, my bride. You hold it hostage with one glance of your eyes, with a single jewel of your necklace."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Your love delights me, my treasure, my bride. Your love is better than wine, your perfume more fragrant than spices. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "Your love delights me, my treasure, my bride. Your love is better than wine, your perfume more fragrant than spices."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "Your love delights me, my treasure, my bride. Your love is better than wine, your perfume more fragrant than spices."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "Your love delights me, my treasure, my bride. Your love is better than wine, your perfume more fragrant than spices."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Your lips are as sweet as nectar, my bride. Honey and milk are under your tongue. Your clothes are scented like the cedars of Lebanon. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are as sweet as nectar, my bride. Honey and milk are under your tongue. Your clothes are scented like the cedars of Lebanon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are as sweet as nectar, my bride. Honey and milk are under your tongue. Your clothes are scented like the cedars of Lebanon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "Your lips are as sweet as nectar, my bride. Honey and milk are under your tongue. Your clothes are scented like the cedars of Lebanon."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "You are my private garden, my treasure, my bride, a secluded spring, a hidden fountain. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "You are my private garden, my treasure, my bride, a secluded spring, a hidden fountain."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "You are my private garden, my treasure, my bride, a secluded spring, a hidden fountain."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Your thighs shelter a paradise of pomegranates with rare spices— henna with nard, "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your thighs shelter a paradise of pomegranates with rare spices— henna with nard,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Your thighs shelter a paradise of pomegranates with rare spices— henna with nard,"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "nard and saffron, fragrant calamus and cinnamon, with all the trees of frankincense, myrrh, and aloes, and every other lovely spice. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "nard and saffron, fragrant calamus and cinnamon, with all the trees of frankincense, myrrh, and aloes, and every other lovely spice."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "nard and saffron, fragrant calamus and cinnamon, with all the trees of frankincense, myrrh, and aloes, and every other lovely spice."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "nard and saffron, fragrant calamus and cinnamon, with all the trees of frankincense, myrrh, and aloes, and every other lovely spice."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "You are a garden fountain, a well of fresh water streaming down from Lebanon’s mountains. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "You are a garden fountain, a well of fresh water streaming down from Lebanon’s mountains."
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "Awake, north wind! Rise up, south wind! Blow on my garden and spread its fragrance all around. Come into your garden, my love; taste its finest fruits."
+        }
+      ]
+    }
+  ]
+}

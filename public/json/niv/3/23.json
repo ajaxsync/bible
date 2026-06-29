@@ -1,0 +1,375 @@
+{
+  "book": 3,
+  "chapter": 23,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "節期"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Speak to the Israelites and say to them: ‘These are my appointed festivals, the appointed festivals of the Lord, which you are to proclaim as sacred assemblies. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘There are six days when you may work, but the seventh day is a day of sabbath rest, a day of sacred assembly. You are not to do any work; wherever you live, it is a sabbath to the Lord. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘These are the Lord’s appointed festivals, the sacred assemblies you are to proclaim at their appointed times: "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "逾越節和除酵節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民28‧16－25）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The Lord’s Passover begins at twilight on the fourteenth day of the first month. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "On the fifteenth day of that month the Lord’s Festival of Unleavened Bread begins; for seven days you must eat bread made without yeast. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "On the first day hold a sacred assembly and do no regular work. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "For seven days present a food offering to the Lord. And on the seventh day hold a sacred assembly and do no regular work.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "“Speak to the Israelites and say to them: ‘When you enter the land I am going to give you and you reap its harvest, bring to the priest a sheaf of the first grain you harvest. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "He is to wave the sheaf before the Lord so it will be accepted on your behalf; the priest is to wave it on the day after the Sabbath. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "On the day you wave the sheaf, you must sacrifice as a burnt offering to the Lord a lamb a year old without defect, "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "together with its grain offering of two-tenths of an ephah of the finest flour mixed with olive oil—a food offering presented to the Lord, a pleasing aroma—and its drink offering of a quarter of a hin of wine. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "You must not eat any bread, or roasted or new grain, until the very day you bring this offering to your God. This is to be a lasting ordinance for the generations to come, wherever you live. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "五旬收穫節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民28‧26－31）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘From the day after the Sabbath, the day you brought the sheaf of the wave offering, count off seven full weeks. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Count off fifty days up to the day after the seventh Sabbath, and then present an offering of new grain to the Lord. "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "From wherever you live, bring two loaves made of two-tenths of an ephah of the finest flour, baked with yeast, as a wave offering of firstfruits to the Lord. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Present with this bread seven male lambs, each a year old and without defect, one young bull and two rams. They will be a burnt offering to the Lord, together with their grain offerings and drink offerings—a food offering, an aroma pleasing to the Lord. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Then sacrifice one male goat for a sin offering and two lambs, each a year old, for a fellowship offering. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "The priest is to wave the two lambs before the Lord as a wave offering, together with the bread of the firstfruits. They are a sacred offering to the Lord for the priest. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "On that same day you are to proclaim a sacred assembly and do no regular work. This is to be a lasting ordinance for the generations to come, wherever you live. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘When you reap the harvest of your land, do not reap to the very edges of your field or gather the gleanings of your harvest. Leave them for the poor and for the foreigner residing among you. I am the Lord your God.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "新年"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧1－6）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 22,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“Say to the Israelites: ‘On the first day of the seventh month you are to have a day of sabbath rest, a sacred assembly commemorated with trumpet blasts. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Do no regular work, but present a food offering to the Lord.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "贖罪日"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧7－11）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "“The tenth day of this seventh month is the Day of Atonement. Hold a sacred assembly and deny yourselves, and present a food offering to the Lord. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "Do not do any work on that day, because it is the Day of Atonement, when atonement is made for you before the Lord your God. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "Those who do not deny themselves on that day must be cut off from their people. "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "I will destroy from among their people anyone who does any work on that day. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "You shall do no work at all. This is to be a lasting ordinance for the generations to come, wherever you live. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "It is a day of sabbath rest for you, and you must deny yourselves. From the evening of the ninth day of the month until the following evening you are to observe your sabbath.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "住棚節"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（民29‧12－40）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 32,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The Lord said to Moses, "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "“Say to the Israelites: ‘On the fifteenth day of the seventh month the Lord’s Festival of Tabernacles begins, and it lasts for seven days. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "The first day is a sacred assembly; do no regular work. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "For seven days present food offerings to the Lord, and on the eighth day hold a sacred assembly and present a food offering to the Lord. It is the closing special assembly; do no regular work. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 36,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "(“ ‘These are the Lord’s appointed festivals, which you are to proclaim as sacred assemblies for bringing food offerings to the Lord—the burnt offerings and grain offerings, sacrifices and drink offerings required for each day. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "These offerings are in addition to those for the Lord’s Sabbaths and in addition to your gifts and whatever you have vowed and all the freewill offerings you give to the Lord.) "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "“ ‘So beginning with the fifteenth day of the seventh month, after you have gathered the crops of the land, celebrate the festival to the Lord for seven days; the first day is a day of sabbath rest, and the eighth day also is a day of sabbath rest. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "On the first day you are to take branches from luxuriant trees—from palms, willows and other leafy trees—and rejoice before the Lord your God for seven days. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "Celebrate this as a festival to the Lord for seven days each year. This is to be a lasting ordinance for the generations to come; celebrate it in the seventh month. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "Live in temporary shelters for seven days: All native-born Israelites are to live in such shelters "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "so your descendants will know that I had the Israelites live in temporary shelters when I brought them out of Egypt. I am the Lord your God.’ ” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 43,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "So Moses announced to the Israelites the appointed festivals of the Lord. "
+        }
+      ]
+    }
+  ]
+}

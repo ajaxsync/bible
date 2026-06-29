@@ -1,0 +1,129 @@
+{
+  "book": 19,
+  "chapter": 123,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "求主憐憫"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "I lift up my eyes to you, to you who sit enthroned in heaven. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "I lift up my eyes to you, to you who sit enthroned in heaven."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "As the eyes of slaves look to the hand of their master, as the eyes of a female slave look to the hand of her mistress, so our eyes look to the Lord our God, till he shows us his mercy. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "As the eyes of slaves look to the hand of their master, as the eyes of a female slave look to the hand of her mistress, so our eyes look to the Lord our God, till he shows us his mercy."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "As the eyes of slaves look to the hand of their master, as the eyes of a female slave look to the hand of her mistress, so our eyes look to the Lord our God, till he shows us his mercy."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "As the eyes of slaves look to the hand of their master, as the eyes of a female slave look to the hand of her mistress, so our eyes look to the Lord our God, till he shows us his mercy."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Have mercy on us, Lord, have mercy on us, for we have endured no end of contempt. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Have mercy on us, Lord, have mercy on us, for we have endured no end of contempt."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "We have endured no end of ridicule from the arrogant, of contempt from the proud. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "We have endured no end of ridicule from the arrogant, of contempt from the proud."
+        }
+      ]
+    }
+  ]
+}

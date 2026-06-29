@@ -1,0 +1,129 @@
+{
+  "book": 55,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "我保罗奉上帝的旨意，按照在基督耶稣里所应许的生命做基督耶稣的使徒， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "写信给我亲爱的儿子提摩太。 愿父上帝和我们的主基督耶稣的恩典、怜悯和平安临到你！ "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "忠於福音"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我日夜不停地为你祷告，对我效法祖先用清洁的良心事奉的上帝充满了感恩。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "每逢想起你流泪的情形，我就渴望见你，好使我的心充满喜乐。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我记得你那真诚无伪的信心。你外祖母罗以和你母亲友妮基首先有了这信心，我深信你也有。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "因此我提醒你，要把上帝在我把手按在你身上时赐给你的恩赐充分发挥出来。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "因为上帝赐给我们的不是懦弱的心，而是刚强、仁爱、自律的心。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "所以，你不要羞于为我们的主做见证，也不要以我这为主被囚的人为耻，要靠着上帝的能力和我一同为福音受苦。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "上帝拯救了我们，并呼召我们过圣洁的生活，不是因为我们的行为，而是出于祂的旨意和恩典。早在万古以前，祂就在基督耶稣里把这恩典赐给我们了， "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "如今借着我们救主基督耶稣的降世显明了出来。基督已经消灭了死亡，借着福音将不朽的生命彰显了出来。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "我为了这福音受委派做传道人、使徒和教师。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "我因此而遭受这些苦难，但我不以为耻，因为我知道我所信的是谁，也深信祂能保守祂所托付我的，一直到那日。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "你要以在基督耶稣里的信心和爱心，把从我这里听到的正确教导当作典范遵守， "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "要靠着住在我们里面的圣灵牢牢守住交托给你的美善之道。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "你知道几乎所有亚细亚的人都离弃了我，其中包括腓吉路和黑摩其尼。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "愿主怜悯阿尼色弗一家人，他常常鼓励我，不以我被囚禁为耻。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "他在罗马的时候千方百计寻访我的下落，直到找着我为止。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "你很清楚，他从前在以弗所怎样在各个方面服侍我。愿主再来时格外地怜悯他。 "
+        }
+      ]
+    }
+  ]
+}

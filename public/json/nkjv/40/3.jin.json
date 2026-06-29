@@ -1,0 +1,413 @@
+{
+  "book": 40,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "施浸約翰傳道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": [
+        "（",
+        {
+          "href": "/biblebase/41/1/1",
+          "text": "可1:1-8"
+        },
+        "；",
+        {
+          "href": "/biblebase/42/3/1",
+          "text": "路3:1-18"
+        },
+        "；",
+        {
+          "href": "/biblebase/43/1/19",
+          "text": "約1:19-28"
+        },
+        "）"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "In those days John the Baptist came preaching in the wilderness of Judea, "
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "In those days John the Baptist came preaching in the wilderness of Judea,"
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "In those days John the Baptist came preaching in the wilderness of Judea,"
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "In those days John the Baptist came preaching in the wilderness of Judea,"
+        },
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "In those days John the Baptist came preaching in the wilderness of Judea,"
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "and saying, “Repent, for the kingdom of heaven is at hand!” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref",
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref quote",
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "ot_xref quote",
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "classes": "note",
+          "title": "以賽亞書40:3",
+          "href": "/biblebase/23/40/3",
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "For this is he who was spoken of by the prophet Isaiah, saying: “The voice of one crying in the wilderness: ‘Prepare the way of the Lord; Make His paths straight.’ ”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Now John himself was clothed in camel’s hair, with a leather belt around his waist; and his food was locusts and wild honey. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "Now John himself was clothed in camel’s hair, with a leather belt around his waist; and his food was locusts and wild honey."
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "Now John himself was clothed in camel’s hair, with a leather belt around his waist; and his food was locusts and wild honey."
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "Then Jerusalem, all Judea, and all the region around the Jordan went out to him"
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "and were baptized by him in the Jordan, confessing their sins. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "and were baptized by him in the Jordan, confessing their sins."
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "and were baptized by him in the Jordan, confessing their sins."
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, “Brood of vipers! Who warned you to flee from the wrath to come? "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, “Brood of vipers! Who warned you to flee from the wrath to come?"
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Therefore bear fruits worthy of repentance, "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones."
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones."
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones."
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones."
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "And even now the ax is laid to the root of the trees. Therefore every tree which does not bear good fruit is cut down and thrown into the fire. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "I indeed baptize you with water unto repentance, but He who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather His wheat into the barn; but He will burn up the chaff with unquenchable fire.” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌受浸"
+    },
+    {
+      "type": "ref-heading",
+      "heading": [
+        "（",
+        {
+          "href": "/biblebase/41/1/9",
+          "text": "可1:9-11"
+        },
+        "；",
+        {
+          "href": "/biblebase/42/3/21",
+          "text": "路3:21-22"
+        },
+        "）"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "place",
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "Then Jesus came from Galilee to John at the Jordan to be baptized by him."
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "And John tried  to prevent Him, saying, “I need to be baptized by You, and are You coming to me?” "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "And John tried  to prevent Him, saying, “I need to be baptized by You, and are You coming to me?”"
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him."
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "classes": "lord",
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him."
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him."
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "classes": "person",
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him."
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him."
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "classes": "person",
+          "verseText": "When He had been baptized, Jesus came up immediately from the water; and behold, the heavens were opened to Him, and He saw the Spirit of God descending like a dove and alighting upon Him. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "When He had been baptized, Jesus came up immediately from the water; and behold, the heavens were opened to Him, and He saw the Spirit of God descending like a dove and alighting upon Him."
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "And suddenly a voice came from heaven, saying, “This is My beloved Son, in whom I am well pleased.” "
+        }
+      ]
+    }
+  ]
+}

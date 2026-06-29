@@ -1,0 +1,297 @@
+{
+  "book": 1,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "巴别塔"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那时，天下人的口音、言语都是一样。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他们往东边迁移的时候，在示拿地遇见一片平原，就住在那里。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "他们彼此商量说：「来吧！我们要做砖，把砖烧透了。」他们就拿砖当石头，又拿石漆当灰泥。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他们说：「来吧！我们要建造一座城和一座塔，塔顶通天，为要传扬我们的名，免得我们分散在全地上。」 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶和华降临，要看看世人所建造的城和塔。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "耶和华说：「看哪，他们成为一样的人民，都是一样的言语，如今既做起这事来，以后他们所要做的事就没有不成就的了。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我们下去，在那里变乱他们的口音，使他们的言语彼此不通。」 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "于是耶和华使他们从那里分散在全地上；他们就停工，不造那城了。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "因为耶和华在那里变乱天下人的言语，使众人分散在全地上，所以那城名叫巴别。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "闪的后代"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上1‧24－27）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": " 闪的后代记在下面。洪水以后二年，闪一百岁生了亚法撒。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "闪生亚法撒之后又活了五百年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": " 亚法撒活到三十五岁，生了沙拉。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "亚法撒生沙拉之后又活了四百零三年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": " 沙拉活到三十岁，生了希伯。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "沙拉生希伯之后又活了四百零三年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": " 希伯活到三十四岁，生了法勒。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "希伯生法勒之后又活了四百三十年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": " 法勒活到三十岁，生了拉吴。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "法勒生拉吴之后又活了二百零九年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": " 拉吴活到三十二岁，生了西鹿。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "拉吴生西鹿之后又活了二百零七年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 21,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": " 西鹿活到三十岁，生了拿鹤。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "西鹿生拿鹤之后又活了二百年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": " 拿鹤活到二十九岁，生了他拉。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "拿鹤生他拉之后又活了一百一十九年，并且生儿养女。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": " 他拉活到七十岁，生了亚伯兰、拿鹤、哈兰。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "他拉的后代"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 26,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": " 他拉的后代记在下面。他拉生亚伯兰、拿鹤、哈兰；哈兰生罗得。 "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "哈兰死在他的本地迦勒底的吾珥，在他父亲他拉之先。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "亚伯兰、拿鹤各娶了妻：亚伯兰的妻子名叫撒莱；拿鹤的妻子名叫密迦，是哈兰的女儿；哈兰是密迦和亦迦的父亲。 "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "撒莱不生育，没有孩子。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 30,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": " 他拉带着他儿子亚伯兰和他孙子哈兰的儿子罗得，并他儿妇亚伯兰的妻子撒莱，出了迦勒底的吾珥，要往迦南地去；他们走到哈兰，就住在那里。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "他拉共活了二百零五岁，就死在哈兰。"
+        }
+      ]
+    }
+  ]
+}

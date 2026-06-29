@@ -1,0 +1,90 @@
+{
+  "book": 9,
+  "chapter": 29,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "非利士人不要大衛"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The Philistines gathered all their forces at Aphek, and Israel camped by the spring in Jezreel. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "As the Philistine rulers marched with their units of hundreds and thousands, David and his men were marching at the rear with Achish. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "The commanders of the Philistines asked, “What about these Hebrews?” Achish replied, “Is this not David, who was an officer of Saul king of Israel? He has already been with me for over a year, and from the day he left Saul until now, I have found no fault in him.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "But the Philistine commanders were angry with Achish and said, “Send the man back, that he may return to the place you assigned him. He must not go with us into battle, or he will turn against us during the fighting. How better could he regain his master’s favor than by taking the heads of our own men? "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Isn’t this the David they sang about in their dances: “ ‘Saul has slain his thousands, and David his tens of thousands’?” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "So Achish called David and said to him, “As surely as the Lord lives, you have been reliable, and I would be pleased to have you serve with me in the army. From the day you came to me until today, I have found no fault in you, but the rulers don’t approve of you. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Now turn back and go in peace; do nothing to displease the Philistine rulers.” "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "“But what have I done?” asked David. “What have you found against your servant from the day I came to you until now? Why can’t I go and fight against the enemies of my lord the king?” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Achish answered, “I know that you have been as pleasing in my eyes as an angel of God; nevertheless, the Philistine commanders have said, ‘He must not go up with us into battle.’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Now get up early, along with your master’s servants who have come with you, and leave in the morning as soon as it is light.” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "So David and his men got up early in the morning to go back to the land of the Philistines, and the Philistines went up to Jezreel. "
+        }
+      ]
+    }
+  ]
+}

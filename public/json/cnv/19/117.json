@@ -1,0 +1,65 @@
+{
+  "book": 19,
+  "chapter": 117,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "讚美耶和華"
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "萬國啊！你們要讚美耶和華； 萬民哪！你們要頌讚他。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "萬國啊！你們要讚美耶和華； 萬民哪！你們要頌讚他。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "他向我們所施的慈愛極大； 耶和華的信實永遠長存。 你們要讚美耶和華。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "他向我們所施的慈愛極大； 耶和華的信實永遠長存。 你們要讚美耶和華。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "他向我們所施的慈愛極大； 耶和華的信實永遠長存。 你們要讚美耶和華。"
+        }
+      ]
+    }
+  ]
+}

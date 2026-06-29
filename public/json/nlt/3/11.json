@@ -1,0 +1,334 @@
+{
+  "book": 3,
+  "chapter": 11,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "有關食物的條例"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（申14‧3－21）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Then the Lord said to Moses and Aaron, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“Give the following instructions to the people of Israel. “Of all the land animals, these are the ones you may use for food. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "You may eat any animal that has completely split hooves and chews the cud. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "You may not, however, eat the following animals that have split hooves or that chew the cud, but not both. The camel chews the cud but does not have split hooves, so it is ceremonially unclean for you. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The hyrax chews the cud but does not have split hooves, so it is unclean. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The hare chews the cud but does not have split hooves, so it is unclean. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The pig has evenly split hooves but does not chew the cud, so it is unclean. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "You may not eat the meat of these animals or even touch their carcasses. They are ceremonially unclean for you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "“Of all the marine animals, these are ones you may use for food. You may eat anything from the water if it has both fins and scales, whether taken from salt water or from streams. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "But you must never eat animals from the sea or from rivers that do not have both fins and scales. They are detestable to you. This applies both to little creatures that live in shallow water and to all creatures that live in deep water. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "They will always be detestable to you. You must never eat their meat or even touch their dead bodies. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Any marine animal that does not have both fins and scales is detestable to you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "“These are the birds that are detestable to you. You must never eat them: the griffon vulture, the bearded vulture, the black vulture, "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "the kite, falcons of all kinds, "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "ravens of all kinds, "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "the eagle owl, the short-eared owl, the seagull, hawks of all kinds, "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "the little owl, the cormorant, the great owl, "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "the barn owl, the desert owl, the Egyptian vulture, "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "the stork, herons of all kinds, the hoopoe, and the bat. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 19,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "“You must not eat winged insects that walk along the ground; they are detestable to you. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "You may, however, eat winged insects that walk along the ground and have jointed legs so they can jump. "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "The insects you are permitted to eat include all kinds of locusts, bald locusts, crickets, and grasshoppers. "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "All other winged insects that walk along the ground are detestable to you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "“The following creatures will make you ceremonially unclean. If any of you touch their carcasses, you will be defiled until evening. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "If you pick up their carcasses, you must wash your clothes, and you will remain defiled until evening. "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“Any animal that has split hooves that are not evenly divided or that does not chew the cud is unclean for you. If you touch the carcass of such an animal, you will be defiled. "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "Of the animals that walk on all fours, those that have paws are unclean. If you touch the carcass of such an animal, you will be defiled until evening. "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "If you pick up its carcass, you must wash your clothes, and you will remain defiled until evening. These animals are unclean for you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 28,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "“Of the small animals that scurry along the ground, these are unclean for you: the mole rat, the rat, large lizards of all kinds, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "the gecko, the monitor lizard, the common lizard, the sand lizard, and the chameleon. "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "All these small animals are unclean for you. If any of you touch the dead body of such an animal, you will be defiled until evening. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "If such an animal dies and falls on something, that object will be unclean. This is true whether the object is made of wood, cloth, leather, or burlap. Whatever its use, you must dip it in water, and it will remain defiled until evening. After that, it will be ceremonially clean and may be used again. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "“If such an animal falls into a clay pot, everything in the pot will be defiled, and the pot must be smashed. "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "If the water from such a container spills on any food, the food will be defiled. And any beverage in such a container will be defiled. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "Any object on which the carcass of such an animal falls will be defiled. If it is an oven or hearth, it must be destroyed, for it is defiled, and you must treat it accordingly. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "“However, if the carcass of such an animal falls into a spring or a cistern, the water will still be clean. But anyone who touches the carcass will be defiled. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "If the carcass falls on seed grain to be planted in the field, the seed will still be considered clean. "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "But if the seed is wet when the carcass falls on it, the seed will be defiled. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 38,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "“If an animal you are permitted to eat dies and you touch its carcass, you will be defiled until evening. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "If you eat any of its meat or carry away its carcass, you must wash your clothes, and you will remain defiled until evening. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 40,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "“All small animals that scurry along the ground are detestable, and you must never eat them. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "This includes all animals that slither along on their bellies, as well as those with four legs and those with many feet. All such animals that scurry along the ground are detestable, and you must never eat them. "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "Do not defile yourselves by touching them. You must not make yourselves ceremonially unclean because of them. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "For I am the Lord your God. You must consecrate yourselves and be holy, because I am holy. So do not defile yourselves with any of these small animals that scurry along the ground. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "For I, the Lord, am the one who brought you up from the land of Egypt, that I might be your God. Therefore, you must be holy because I am holy. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 45,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "“These are the instructions regarding land animals, birds, marine creatures, and animals that scurry along the ground. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "By these instructions you will know what is unclean and clean, and which animals may be eaten and which may not be eaten.” "
+        }
+      ]
+    }
+  ]
+}

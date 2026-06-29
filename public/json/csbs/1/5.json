@@ -1,0 +1,269 @@
+{
+  "book": 1,
+  "chapter": 5,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞當的後代"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（代上1‧1－4）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "以下是亚当谱系的记录： 在神创造人的日子，神按着自己的样式造人； "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "神创造了男人和女人；在他们被创造的日子，神祝福他们，给他们起名为“人”。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "亚当活到一百三十岁时，生了一个儿子，样式和形像与自己相似；给他起名为塞特。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "亚当生了塞特之后，他的年日又有八百年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "这样亚当一生活了九百三十年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "塞特活到一百零五岁时，生了以挪士。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "塞特生了以挪士之后，又活了八百零七年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "这样塞特一生活了九百一十二年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "以挪士活到九十岁时，生了该南。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "以挪士生了该南之后，又活了八百一十五年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "这样以挪士一生活了九百零五年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "该南活到七十岁时，生了玛勒列。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "该南生了玛勒列之后，又活了八百四十年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "这样该南一生活了九百一十年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "玛勒列活到六十五岁时，生了雅列。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "玛勒列生了雅列之后，又活了八百三十年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "这样玛勒列一生活了八百九十五年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "雅列活到一百六十二岁时，生了以诺。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "雅列生了以诺之后，又活了八百年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "这样雅列一生活了九百六十二年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 20,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "以诺活到六十五岁时，生了玛土撒拉。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "以诺生了玛土撒拉之后，与神同行三百年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "这样以诺一生活了三百六十五年。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "以诺与神同行；后来他不在地上了，因为神把他接去。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 24,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "玛土撒拉活到一百八十七岁时，生了拉麦。 "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "玛土撒拉生了拉麦之后，又活了七百八十二年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "这样玛土撒拉一生活了九百六十九年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "拉麦活到一百八十二岁时，生了一个儿子， "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "给他起名为挪亚，说：“这儿子将安慰我们，使我们脱离我们的苦工和手中的辛苦——这是因为耶和华诅咒了这地。” "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "拉麦生了挪亚之后，又活了五百九十五年，并且生了其他的儿女。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "这样拉麦一生活了七百七十七年，然后他死了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 31,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "挪亚五百岁时，生了闪、含、雅弗。 "
+        }
+      ]
+    }
+  ]
+}

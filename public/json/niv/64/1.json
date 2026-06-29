@@ -1,0 +1,128 @@
+{
+  "book": 64,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The elder, To my dear friend Gaius, whom I love in the truth. "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Dear friend, I pray that you may enjoy good health and that all may go well with you, even as your soul is getting along well. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "It gave me great joy when some believers came and testified about your faithfulness to the truth, telling how you continue to walk in it. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "I have no greater joy than to hear that my children are walking in the truth. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "合作和反對"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Dear friend, you are faithful in what you are doing for the brothers and sisters, even though they are strangers to you. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "They have told the church about your love. Please send them on their way in a manner that honors God. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "It was for the sake of the Name that they went out, receiving no help from the pagans. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "We ought therefore to show hospitality to such people so that we may work together for the truth. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "I wrote to the church, but Diotrephes, who loves to be first, will not welcome us. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "So when I come, I will call attention to what he is doing, spreading malicious nonsense about us. Not satisfied with that, he even refuses to welcome other believers. He also stops those who want to do so and puts them out of the church. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Dear friend, do not imitate what is evil but what is good. Anyone who does what is good is from God. Anyone who does what is evil has not seen God. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Demetrius is well spoken of by everyone—and even by the truth itself. We also speak well of him, and you know that our testimony is true. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "問安"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "I have much to write you, but I do not want to do so with pen and ink. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "I hope to see you soon, and we will talk face to face. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Peace to you. The friends here send their greetings. Greet the friends there by name. "
+        }
+      ]
+    }
+  ]
+}

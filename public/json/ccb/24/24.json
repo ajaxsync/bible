@@ -1,0 +1,85 @@
+{
+  "book": 24,
+  "chapter": 24,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "兩筐無花果"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "巴比伦王尼布甲尼撒从耶路撒冷把犹大王约雅敬的儿子耶哥尼雅、犹大的官员、技工和工匠掳到巴比伦以后，耶和华使我看见两筐无花果放在祂的殿前。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "一筐无花果极好，好像初熟的果子；另一筐则坏得不能吃。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "耶和华问我：“耶利米啊，你看见什么？”我回答说：“无花果。好的好极了，坏的坏得不能吃。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "耶和华便对我说： "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "“以色列的上帝耶和华这样说，‘那些从这里被掳到迦勒底的犹大人在我眼中是好无花果。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "我要眷顾他们，带他们回到这里。我要使他们兴起，不再毁灭他们；我要栽培他们，不再铲除他们； "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "我要赐给他们一颗心，使他们认识我是耶和华。他们要做我的子民，我要做他们的上帝，因为他们必全心全意地归向我。’ "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "至于那些坏得不能吃的无花果，耶和华这样说，‘犹大王西底迦及其官员，以及留在耶路撒冷和埃及的人在我眼中就像坏得不能吃的无花果。我必丢弃他们， "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "使他们的遭遇令天下万国惊惧。在我流放他们去的地方，他们必受凌辱、嘲笑、讥讽和咒诅。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "我要使战争、饥荒和瘟疫临到他们，直到他们在我赐给他们和他们祖先的土地上灭亡。’” "
+        }
+      ]
+    }
+  ]
+}

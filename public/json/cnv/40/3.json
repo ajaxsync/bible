@@ -1,0 +1,152 @@
+{
+  "book": 40,
+  "chapter": 3,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "施洗約翰傳道"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可1‧1－8；路3‧1－18；約1‧19－28）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那時，施洗的約翰出來，在猶太的曠野傳道， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "說：“天國近了，你們應當悔改。” "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "以賽亞先知所說： “在曠野有呼喊者的聲音： ‘預備主的道， 修直他的路！’” 就是指著這約翰說的。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "以賽亞先知所說： “在曠野有呼喊者的聲音： ‘預備主的道， 修直他的路！’” 就是指著這約翰說的。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "以賽亞先知所說： “在曠野有呼喊者的聲音： ‘預備主的道， 修直他的路！’” 就是指著這約翰說的。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "約翰身穿駱駝毛的衣服，腰束皮帶，吃的是蝗蟲和野蜜。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶路撒冷、猶太全地和約旦河一帶的人都出來到他那裡去， "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "承認自己的罪，在約旦河裡受了他的洗。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "約翰看見許多法利賽人和撒都該人來到他施洗的地方，就對他們說：“毒蛇所生的啊，誰指示你們逃避那將要來的忿怒呢？ "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "應當結出果子來，與悔改的心相稱。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "你們心裡不要以為：‘我們有亞伯拉罕作我們的祖宗。’我告訴你們，　神能從這些石頭中給亞伯拉罕興起後裔來。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "現在斧頭已經放在樹根上，所有不結好果子的樹，就砍下來，丟在火裡。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "我用水給你們施洗，表示你們悔改；但在我以後要來的那一位，能力比我更大，我就是替他提鞋也沒有資格。他要用聖靈與火給你們施洗。 "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "他手裡拿著簸箕，要揚淨麥場，把麥子收進倉裡，卻用不滅的火把糠秕燒盡。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌受洗"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（可1‧9－11；路3‧21－22）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "那時，耶穌從加利利來到約旦河約翰那裡，要受他的洗。 "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "約翰想要阻止他，說：“我應該受你的洗，你卻到我這裡來嗎？” "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "耶穌回答：“暫且這樣作吧。我們理當這樣履行全部的義。”於是約翰答應了他。 "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "耶穌受了洗，立刻從水中上來；忽然，天為他開了，他看見　神的靈，好像鴿子降下來，落在他身上； "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "又有聲音從天上來，說：“這是我的愛子，我所喜悅的。” "
+        }
+      ]
+    }
+  ]
+}

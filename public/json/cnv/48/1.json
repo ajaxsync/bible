@@ -1,0 +1,193 @@
+{
+  "book": 48,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "作使徒的保羅， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "和所有與我在一起的弟兄，寫信給加拉太的眾教會。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "願恩惠平安從我們的父　神和主耶穌基督臨到你們。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "基督照著我們父　神的旨意，曾經為我們的罪捨己，為的是要救我們脫離現在這邪惡的世代。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "願榮耀歸給他，直到永永遠遠。阿們。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "沒有別的福音"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "我很驚奇，你們這麼快就離開了藉著基督的恩呼召你們的那一位，去歸向別的福音。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "其實那並不是另一個福音，只是有些攪擾你們的人，想把基督的福音改變。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "但無論是我們，或是從天上來的使者，如果傳給你們的和我們以前傳給你們的福音不同，他就該受咒詛。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "我們已經說過，現在我要再說，如果有人傳給你們的和你們以前所領受的福音不同，他就該受咒詛。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "我現在是要得人的歡心，還是要得　神的歡心呢？難道我想討人歡喜嗎？如果我仍然要討人歡喜，就不是基督的僕人了。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "保羅怎樣成為使徒"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "弟兄們，我要你們知道，我所傳的福音，並不是照著人的意思， "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "因為這福音我不是從人領受的，也不是人教導我的，而是藉著耶穌基督的啟示來的。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "你們聽過我從前在猶太教中所行的：怎樣極力逼迫殘害　神的教會， "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "怎樣在猶太教中比許多本族同輩的人更激進，為我祖先的傳統分外熱心。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "然而，當我在母腹裡就把我分別出來，又用他的恩呼召我的那一位， "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "既然樂意把自己的兒子啟示給我，使我可以在外族人中傳揚他，我就沒有和任何人商量， "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "也沒有上耶路撒冷見那些比我先作使徒的，卻去了阿拉伯，然後再回到大馬士革。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "過了三年，我才上耶路撒冷去見磯法，和他住了十五天。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "至於其餘的使徒，除了主的弟弟雅各以外，我都沒有見過。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "在　神面前我敢說，我寫給你們的都不是謊話。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "後來，我到了敘利亞和基利家一帶的地方。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "那時，在基督裡的猶太眾教會還沒有見過我的面， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "不過聽說“那個從前迫害我們的，現在竟然傳揚他以前所殘害的信仰”， "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "他們就因著我的緣故頌讚　神。 "
+        }
+      ]
+    }
+  ]
+}

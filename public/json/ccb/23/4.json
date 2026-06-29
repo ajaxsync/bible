@@ -1,0 +1,50 @@
+{
+  "book": 23,
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "那时，七个女人将拉着一个男人，说：“我们会负责自己的吃穿，只求你娶我们，让我们归在你名下，好除掉我们嫁不出去的羞辱。” "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶路撒冷的重建"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "到那日，耶和华的苗必长得茂盛华美，这地方的出产必成为以色列幸存者的骄傲和光荣。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "主以公義的靈和焚燒的靈，將錫安女子的污穢洗去，又將耶路撒冷中殺人的血除淨。那時，剩在錫安、留在耶路撒冷的，就是一切住耶路撒冷、在生命冊上記名的，必稱為聖。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "耶和华必在日间用烟云遮蔽整个锡安山和那里的会众，在夜间用火光照亮他们。祂的荣耀必遮盖一切， "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "是白日避暑的亭子，是躲避狂风暴雨的避难所和藏身处。 "
+        }
+      ]
+    }
+  ]
+}

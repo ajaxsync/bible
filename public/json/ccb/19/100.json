@@ -1,0 +1,154 @@
+{
+  "book": 19,
+  "chapter": 100,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "頌讚之詩"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "普世要向耶和华欢呼！ "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "你们要高高兴兴地事奉耶和华， 到祂面前来欢唱。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "你们要高高兴兴地事奉耶和华， 到祂面前来欢唱。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "要知道耶和华是上帝， 祂创造了我们， 我们属于祂，是祂的子民， 是祂草场上的羊。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "要知道耶和华是上帝， 祂创造了我们， 我们属于祂，是祂的子民， 是祂草场上的羊。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "要知道耶和华是上帝， 祂创造了我们， 我们属于祂，是祂的子民， 是祂草场上的羊。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "要怀着感恩的心进入祂的门， 唱着赞美的歌进入祂的院宇； 要感谢祂，称颂祂的名。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "要怀着感恩的心进入祂的门， 唱着赞美的歌进入祂的院宇； 要感谢祂，称颂祂的名。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "要怀着感恩的心进入祂的门， 唱着赞美的歌进入祂的院宇； 要感谢祂，称颂祂的名。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "因为耶和华是美善的， 祂的慈爱千古不变， 祂的信实世代长存。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "因为耶和华是美善的， 祂的慈爱千古不变， 祂的信实世代长存。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "因为耶和华是美善的， 祂的慈爱千古不变， 祂的信实世代长存。"
+        }
+      ]
+    }
+  ]
+}

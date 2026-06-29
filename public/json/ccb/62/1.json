@@ -1,0 +1,79 @@
+{
+  "book": 62,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "生命之道"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "论到从太初就已经存在的生命之道，我们曾经耳闻目睹，亲眼看过，亲手摸过。 "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "这生命曾显现过，我们看见了，现在做见证，向你们传扬这原本与父同在、曾向我们显现的永恒生命。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我们把所见所闻传给你们，使你们可以与我们相交。诚然，我们是与父和祂儿子耶稣基督相交。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "我们将这些话写给你们，是要让大家都充满喜乐。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "神就是光"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "我们从耶稣那里听见、现在传给你们的信息就是：上帝是光，在祂里面毫无黑暗。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "如果我们说与祂相交，却仍过着黑暗的生活，就是撒谎，没有遵行真理。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "如果我们生活在光明之中，像上帝在光明中一样，就能够彼此相交，上帝儿子耶稣的血能洗净我们一切的罪。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "如果我们说自己没有罪，便是自欺，真理就不在我们心中。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "如果我们承认自己的罪，上帝是信实公义的，必赦免我们的罪，洗净我们一切的不义。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "我们如果说自己没有犯过罪，就是把上帝看作说谎的，祂的道也不在我们心中。 "
+        }
+      ]
+    }
+  ]
+}

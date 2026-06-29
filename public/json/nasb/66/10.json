@@ -1,0 +1,80 @@
+{
+  "book": 66,
+  "chapter": 10,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "天使和小書卷"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "I saw another strong angel coming down out of heaven, clothed with a cloud; and the rainbow was upon his head, and his face was like the sun, and his feet like pillars of fire; "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "and he had in his hand a little book which was open. He placed his right foot on the sea and his left on the land; "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "and he cried out with a loud voice, as when a lion roars; and when he had cried out, the seven peals of thunder uttered their voices. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "When the seven peals of thunder had spoken, I was about to write; and I heard a voice from heaven saying, “Seal up the things which the seven peals of thunder have spoken and do not write them.” "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Then the angel whom I saw standing on the sea and on the land lifted up his right hand to heaven, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "and swore by Him who lives forever and ever, who created heaven and the things in it, and the earth and the things in it, and the sea and the things in it, that there will be delay no longer, "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "but in the days of the voice of the seventh angel, when he is about to sound, then the mystery of God is finished, as He preached to His servants the prophets. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Then the voice which I heard from heaven, I heard again speaking with me, and saying, “Go, take the book which is open in the hand of the angel who stands on the sea and on the land.” "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "So I went to the angel, telling him to give me the little book. And he *said to me, “Take it and eat it; it will make your stomach bitter, but in your mouth it will be sweet as honey.” "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "I took the little book out of the angel’s hand and ate it, and in my mouth it was sweet as honey; and when I had eaten it, my stomach was made bitter. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "And they *said to me, “You must prophesy again concerning many peoples and nations and tongues and kings.” "
+        }
+      ]
+    }
+  ]
+}

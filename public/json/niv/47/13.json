@@ -1,0 +1,115 @@
+{
+  "book": 47,
+  "chapter": 13,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "警告和問候"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This will be my third visit to you. “Every matter must be established by the testimony of two or three witnesses.” "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "I already gave you a warning when I was with you the second time. I now repeat it while absent: On my return I will not spare those who sinned earlier or any of the others, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "since you are demanding proof that Christ is speaking through me. He is not weak in dealing with you, but is powerful among you. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "For to be sure, he was crucified in weakness, yet he lives by God’s power. Likewise, we are weak in him, yet by God’s power we will live with him in our dealing with you. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realize that Christ Jesus is in you—unless, of course, you fail the test? "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "And I trust that you will discover that we have not failed the test. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Now we pray to God that you will not do anything wrong—not so that people will see that we have stood the test but so that you will do what is right even though we may seem to have failed. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "For we cannot do anything against the truth, but only for the truth. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "We are glad whenever we are weak but you are strong; and our prayer is that you may be fully restored. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "This is why I write these things when I am absent, that when I come I may not have to be harsh in my use of authority—the authority the Lord gave me for building you up, not for tearing you down. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Finally, brothers and sisters, rejoice! Strive for full restoration, encourage one another, be of one mind, live in peace. And the God of love and peace will be with you. "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Greet one another with a holy kiss. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "All God’s people here send their greetings. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "May the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with you all. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "book": 4,
+  "chapter": 17,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "亞倫的杖"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你叫以色列各支派的首领每人拿一根杖来，共十二根，你要在上面写上他们各人的名字。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你要把亚伦的名字写在利未支派的杖上，每个支派的首领都要有一根杖。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "你要把这些杖放在会幕内的约柜前，就是我跟你会面的地方。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "谁的杖发芽，谁就是我所拣选的人。这样，我必消除以色列人对你们的埋怨。” "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "于是，摩西吩咐以色列每个支派的首领把杖都交给他，包括亚伦的杖在内，共十二根。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "他把杖放在放约柜的圣幕里——耶和华面前。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "第二天，摩西进入约柜所在的圣幕里，看见利未支派亚伦的杖不单发了芽，长了花蕾，还开了花，结出熟杏。 "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "摩西就从耶和华那里拿出所有的杖给以色列人看。他们看后，各位首领便取回自己的杖。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "耶和华对摩西说：“把亚伦的杖放回约柜前，让叛逆之徒引以为戒。这样，你就可以平息他们对我的怨言，使他们不致灭亡。” "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "摩西照耶和华的吩咐行了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "以色列人对摩西说：“完了！我们死定了！我们全死定了！ "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "凡走近耶和华圣幕的都要死，我们岂不是全都要灭亡吗？” "
+        }
+      ]
+    }
+  ]
+}

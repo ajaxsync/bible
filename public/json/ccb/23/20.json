@@ -1,0 +1,55 @@
+{
+  "book": 23,
+  "chapter": 20,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "露身赤腳的先知"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "亚述王撒珥根派元帅攻陷非利士的亚实突城那年， "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "耶和华吩咐亚摩斯的儿子以赛亚脱去身上的麻衣和脚上的鞋。以赛亚便遵命裸身赤足而行。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "耶和华说：“我仆人以赛亚已经裸身赤足行走三年，作为惩罚埃及和古实的标记和预兆。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "亚述王必把埃及和古实的老老少少裸身赤足地掳走，使埃及蒙受羞辱。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "那些仰赖古实、仗着埃及夸口的人必惊恐羞愧。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "那时，沿海一带的居民必说，‘看啊！我们投靠他们，指望他们救我们脱离亚述，他们竟落到这个地步！我们怎能逃脱呢？’” "
+        }
+      ]
+    }
+  ]
+}

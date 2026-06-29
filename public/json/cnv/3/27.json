@@ -1,0 +1,255 @@
+{
+  "book": 3,
+  "chapter": 27,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "許願的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和華對摩西說： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你要告訴以色列人，對他們說：如果人許特別的願，獻身給耶和華，就要依照你的估價獻身價。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "你應該這樣估價：從二十歲到六十歲的男人，你要按著聖所衡量銀子的標準，估價五百五十克銀子。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "如果是女人，你要估價三百四十二克銀子。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "如果是五歲到二十歲，男子的估價是二百二十八克銀子，女子是一百一十四克銀子。 "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "如果是一個月到五歲，男子的估價是五十七克銀子，女子是三十四克銀子。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "如果是六十歲以上，男子的估價是一百七十一克銀子，女子是一百一十四克銀子。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "那人若是貧窮，不能支付你估定的價，就要把他帶到祭司面前，讓祭司估定他的價；祭司就按著許願的人的經濟能力，估定他的價。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "如果所許的是可以獻給耶和華為供物的牲畜，獻給耶和華的任何牲畜，都要分別為聖。 "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "不可更換，也不可代替；無論是好的換壞的，或是壞的換好的，都不可以。如果人一定要以另一隻牲畜代替以前所許的牲畜獻上，那麼以前所許的和用來交換的，都要分別為聖。 "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "所許的若是不潔淨的牲畜，人不能把牠獻給耶和華為供物，就要把牲畜牽到祭司面前； "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "祭司要按牲畜的好壞估價；祭司估價多少，就是多少。 "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "如果他一定要把牲畜贖回，就要按你的估價，多付五分之一。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人把房屋分別為聖獻給耶和華，祭司要按房屋的好壞估價，祭司估價多少，就定它價值多少。 "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "把自己房屋分別為聖的人，如果要贖回房屋，就要按你估定的價銀，多加五分之一，房屋才可以歸他。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "“如果有人把自己產業的一部分，分別為聖獻給耶和華，你的估價要根據那地的撒種量：每撒大麥二十公斤，估價五百七十克銀子。 "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "如果他從禧年起，把自己的田地分別為聖，就要按照你的估價定那田地的價值。 "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "如果他在禧年以後，把自己的田地分別為聖，祭司就要照著到下一個禧年所剩餘的年數，給他計算價銀，然後從你的估價減去這價銀。 "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "把自己田地分別為聖的人，如果一定要贖回田地，就要按你的估價，多付五分之一，田地才可以歸他。 "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "如果他不贖回田地，而賣給別人，他就再也不能贖回田地了。 "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "到了禧年，買主就要交出那地歸耶和華為聖，像永屬耶和華的聖地一樣，歸祭司為產業。 "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "如果人把買來的田地，不是自己承受為業的田地，分別為聖獻給耶和華， "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "祭司就要按照你的估價，給他計算，直到禧年為止；價值多少，他必須當天付給你估定的價銀，表示把那地獻給耶和華為聖。 "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "到了禧年，那地要歸還賣主，就是歸還那承受那地為業的原主。 "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "你的一切估價，都要照著聖所衡量銀子的標準。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 25,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "“唯獨牲畜的頭一胎，無論是牛或是羊，既然頭一胎是屬於耶和華的，人就不能再把牠分別為聖，因為這本是耶和華的。 "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "但如果是不潔淨的牲畜，他就要按照你的估價，加上五分之一把牠贖回；如果不贖回，就要按照你的估價賣掉。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "“一切永屬耶和華的聖物，就是人永獻給耶和華的物，無論是人或是牲畜，或是他承受作產業的田地，都不可以變賣，也不可以贖回；一切永獻之物都是歸耶和華為至聖的。 "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "如果有人永獻牲畜作永屬耶和華的聖物，就不可贖回；必須把牠殺死。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 29,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "“地上的一切，無論是地上的種子或是樹上的果子，十分之一是耶和華的，是歸給耶和華為聖的。 "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "如果人一定要贖回這十分之一，除物價以外，還要加上五分之一。 "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "牛群和羊群的十分之一，就是一切從牧人杖下經過的，每第十隻都是歸耶和華為聖的。 "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "人不可理會是好或是壞，也不可把牠更換；如果一定要更換，本來的與更換的，都要分別為聖，不能贖回。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "以上這些就是耶和華在西奈山，為以色列人吩咐摩西的律例。 "
+        }
+      ]
+    }
+  ]
+}

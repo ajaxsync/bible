@@ -1,0 +1,129 @@
+{
+  "book": 19,
+  "chapter": 123,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "求主憐憫"
+    },
+    {
+      "type": "desc",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "I lift my eyes to you, O God, enthroned in heaven. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "I lift my eyes to you, O God, enthroned in heaven."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "We keep looking to the Lord our God for his mercy, just as servants keep their eyes on their master, as a slave girl watches her mistress for the slightest signal. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "We keep looking to the Lord our God for his mercy, just as servants keep their eyes on their master, as a slave girl watches her mistress for the slightest signal."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "We keep looking to the Lord our God for his mercy, just as servants keep their eyes on their master, as a slave girl watches her mistress for the slightest signal."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "We keep looking to the Lord our God for his mercy, just as servants keep their eyes on their master, as a slave girl watches her mistress for the slightest signal."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Have mercy on us, Lord, have mercy, for we have had our fill of contempt. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "Have mercy on us, Lord, have mercy, for we have had our fill of contempt."
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "We have had more than our fill of the scoffing of the proud and the contempt of the arrogant. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "We have had more than our fill of the scoffing of the proud and the contempt of the arrogant."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "book": 13,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "從亞當到亞伯拉罕"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（創5‧1－32；10‧1－32；11‧10－26）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "Adam, Seth, Enosh, "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Cainan, Mahalalel, Jared, "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Enoch, Methuselah, Lamech, "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Noah, Shem, Ham, and Japheth. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Japheth were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Gomer were Ashkenaz, Diphath, and Togarmah. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Javan were Elishah, Tarshishah, Kittim, and Rodanim. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Ham were Cush, Mizraim, Put, and Canaan. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Cush were Seba, Havilah, Sabta, Raama, and Sabtecha. The sons of Raama were Sheba and Dedan. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Cush begot Nimrod; he began to be a mighty one on the earth. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Mizraim begot Ludim, Anamim, Lehabim, Naphtuhim, "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "Pathrusim, Casluhim (from whom came the Philistines and the Caphtorim). "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Canaan begot Sidon, his firstborn, and Heth; "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "the Jebusite, the Amorite, and the Girgashite; "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "the Hivite, the Arkite, and the Sinite; "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "the Arvadite, the Zemarite, and the Hamathite. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Shem were Elam, Asshur, Arphaxad, Lud, Aram, Uz, Hul, Gether, and Meshech. "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "Arphaxad begot Shelah, and Shelah begot Eber. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "To Eber were born two sons: the name of one was Peleg, for in his days the earth was divided; and his brother’s name was Joktan. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "Joktan begot Almodad, Sheleph, Hazarmaveth, Jerah, "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "Hadoram, Uzal, Diklah, "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "Ebal, Abimael, Sheba, "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "Ophir, Havilah, and Jobab. All these were the sons of Joktan. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "Shem, Arphaxad, Shelah, "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "Eber, Peleg, Reu, "
+        },
+        {
+          "verseNum": 26,
+          "hasVerseLabel": true,
+          "verseText": "Serug, Nahor, Terah, "
+        },
+        {
+          "verseNum": 27,
+          "hasVerseLabel": true,
+          "verseText": "and Abram, who is Abraham. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以實瑪利的後裔"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（創25‧12－16）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 27,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 28,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Abraham were  Isaac and Ishmael. "
+        },
+        {
+          "verseNum": 29,
+          "hasVerseLabel": true,
+          "verseText": "These are their genealogies: The firstborn of Ishmael was Nebajoth; then Kedar, Adbeel, Mibsam, "
+        },
+        {
+          "verseNum": 30,
+          "hasVerseLabel": true,
+          "verseText": "Mishma, Dumah, Massa, Hadad, Tema, "
+        },
+        {
+          "verseNum": 31,
+          "hasVerseLabel": true,
+          "verseText": "Jetur, Naphish, and Kedemah. These were the sons of Ishmael. "
+        },
+        {
+          "verseNum": 32,
+          "hasVerseLabel": true,
+          "verseText": "Now the sons born to Keturah, Abraham’s concubine, were Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. The sons of Jokshan were Sheba and Dedan. "
+        },
+        {
+          "verseNum": 33,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Midian were Ephah, Epher, Hanoch, Abida, and Eldaah. All these were the children of Keturah. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以掃的後裔"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（創36‧1－19）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 33,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 34,
+          "hasVerseLabel": true,
+          "verseText": "And Abraham begot Isaac. The sons of Isaac were Esau and Israel. "
+        },
+        {
+          "verseNum": 35,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Esau were Eliphaz, Reuel, Jeush, Jaalam, and Korah. "
+        },
+        {
+          "verseNum": 36,
+          "hasVerseLabel": true,
+          "verseText": "And the sons of Eliphaz were Teman, Omar, Zephi, Gatam, and Kenaz; and by  Timna, Amalek. "
+        },
+        {
+          "verseNum": 37,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Reuel were Nahath, Zerah, Shammah, and Mizzah. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以東地的原住民"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（創36‧20－30）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 37,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 38,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Seir were Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan. "
+        },
+        {
+          "verseNum": 39,
+          "hasVerseLabel": true,
+          "verseText": "And the sons of Lotan were Hori and Homam; Lotan’s sister was Timna. "
+        },
+        {
+          "verseNum": 40,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Shobal were Alian, Manahath, Ebal, Shephi, and Onam. The sons of Zibeon were Ajah and Anah. "
+        },
+        {
+          "verseNum": 41,
+          "hasVerseLabel": true,
+          "verseText": "The son of Anah was  Dishon. The sons of Dishon were Hamran, Eshban, Ithran, and Cheran. "
+        },
+        {
+          "verseNum": 42,
+          "hasVerseLabel": true,
+          "verseText": "The sons of Ezer were Bilhan, Zaavan, and Jaakan. The sons of Dishan were Uz and Aran. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "以東諸王"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（創36‧31－43）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 42,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 43,
+          "hasVerseLabel": true,
+          "verseText": "Now these were the kings who reigned in the land of Edom before a king reigned over the children of Israel: Bela the son of Beor, and the name of his city was Dinhabah. "
+        },
+        {
+          "verseNum": 44,
+          "hasVerseLabel": true,
+          "verseText": "And when Bela died, Jobab the son of Zerah of Bozrah reigned in his place. "
+        },
+        {
+          "verseNum": 45,
+          "hasVerseLabel": true,
+          "verseText": "When Jobab died, Husham of the land of the Temanites reigned in his place. "
+        },
+        {
+          "verseNum": 46,
+          "hasVerseLabel": true,
+          "verseText": "And when Husham died, Hadad the son of Bedad, who attacked Midian in the field of Moab, reigned in his place. The name of his city was Avith. "
+        },
+        {
+          "verseNum": 47,
+          "hasVerseLabel": true,
+          "verseText": "When Hadad died, Samlah of Masrekah reigned in his place. "
+        },
+        {
+          "verseNum": 48,
+          "hasVerseLabel": true,
+          "verseText": "And when Samlah died, Saul of Rehoboth-by-the-River reigned in his place. "
+        },
+        {
+          "verseNum": 49,
+          "hasVerseLabel": true,
+          "verseText": "When Saul died, Baal-Hanan the son of Achbor reigned in his place. "
+        },
+        {
+          "verseNum": 50,
+          "hasVerseLabel": true,
+          "verseText": "And when Baal-Hanan died, Hadad reigned in his place; and the name of his city was Pai. His wife’s name was Mehetabel the daughter of Matred, the daughter of Mezahab. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 50,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 51,
+          "hasVerseLabel": true,
+          "verseText": "Hadad died also. And the chiefs of Edom were Chief Timnah, Chief Aliah, Chief Jetheth, "
+        },
+        {
+          "verseNum": 52,
+          "hasVerseLabel": true,
+          "verseText": "Chief Aholibamah, Chief Elah, Chief Pinon, "
+        },
+        {
+          "verseNum": 53,
+          "hasVerseLabel": true,
+          "verseText": "Chief Kenaz, Chief Teman, Chief Mibzar, "
+        },
+        {
+          "verseNum": 54,
+          "hasVerseLabel": true,
+          "verseText": "Chief Magdiel, and Chief Iram. These were the chiefs of Edom. "
+        }
+      ]
+    }
+  ]
+}

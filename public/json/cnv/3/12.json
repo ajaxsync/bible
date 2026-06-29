@@ -1,0 +1,65 @@
+{
+  "book": 3,
+  "chapter": 12,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "產婦潔淨禮的條例"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "耶和華對摩西說： "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "“你要告訴以色列人：如果有婦人懷孕，生了男孩，她就不潔淨七天，好像患病污穢的日子不潔淨一樣。 "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "第八天男嬰要受割禮。 "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "婦人潔淨產血的時期要住在家三十三天；得潔淨的日子未滿之前，她不可觸摸任何聖物，也不可進入聖潔的地方。 "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "如果她生了女孩，就不潔淨十四天，像月經污穢的日子一樣；婦人潔淨產血的時期，要住在家裡六十六天。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "“潔淨的日子滿了，不論是為男孩或是為女孩，她都要用一隻一歲的綿羊羔作燔祭，一隻雛鴿，或一隻斑鳩作贖罪祭，帶到會幕門口那裡，交給祭司。 "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "祭司把供物獻在耶和華面前，為她贖罪，她的血就潔淨了。以上是生育男女的律例。 "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "她的經濟能力若是不夠獻一隻羊羔，她可以拿兩隻斑鳩，或是兩隻雛鴿，一隻作燔祭，一隻作贖罪祭；祭司要為她贖罪，她就潔淨了。” "
+        }
+      ]
+    }
+  ]
+}

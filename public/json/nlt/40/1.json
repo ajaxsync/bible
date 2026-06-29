@@ -1,0 +1,232 @@
+{
+  "book": 40,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "耶穌基督的家譜"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路3‧23－38）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "This is a record of the ancestors of Jesus the Messiah, a descendant of David and of Abraham: "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "Abraham was the father of Isaac. Isaac was the father of Jacob. Jacob was the father of Judah and his brothers. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "Judah was the father of Perez and Zerah (whose mother was Tamar). Perez was the father of Hezron. Hezron was the father of Ram. "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "Ram was the father of Amminadab. Amminadab was the father of Nahshon. Nahshon was the father of Salmon. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "Salmon was the father of Boaz (whose mother was Rahab). Boaz was the father of Obed (whose mother was Ruth). Obed was the father of Jesse. "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "Jesse was the father of King David. David was the father of Solomon (whose mother was Bathsheba, the widow of Uriah). "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "Jesse was the father of King David. David was the father of Solomon (whose mother was Bathsheba, the widow of Uriah)."
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "Solomon was the father of Rehoboam. Rehoboam was the father of Abijah. Abijah was the father of Asa. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Asa was the father of Jehoshaphat. Jehoshaphat was the father of Jehoram. Jehoram was the father of Uzziah. "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "Uzziah was the father of Jotham. Jotham was the father of Ahaz. Ahaz was the father of Hezekiah. "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Hezekiah was the father of Manasseh. Manasseh was the father of Amon. Amon was the father of Josiah. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "Josiah was the father of Jehoiachin and his brothers (born at the time of the exile to Babylon). "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "After the Babylonian exile: Jehoiachin was the father of Shealtiel. Shealtiel was the father of Zerubbabel. "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "Zerubbabel was the father of Abiud. Abiud was the father of Eliakim. Eliakim was the father of Azor. "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "Azor was the father of Zadok. Zadok was the father of Akim. Akim was the father of Eliud. "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "Eliud was the father of Eleazar. Eleazar was the father of Matthan. Matthan was the father of Jacob. "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "Jacob was the father of Joseph, the husband of Mary. Mary gave birth to Jesus, who is called the Messiah. "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "All those listed above include fourteen generations from Abraham to David, fourteen from David to the Babylonian exile, and fourteen from the Babylonian exile to the Messiah. "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "耶穌基督降生"
+    },
+    {
+      "type": "ref-heading",
+      "heading": "（路2‧1－7）"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 18,
+          "hasVerseLabel": true,
+          "verseText": "This is how Jesus the Messiah was born. His mother, Mary, was engaged to be married to Joseph. But before the marriage took place, while she was still a virgin, she became pregnant through the power of the Holy Spirit. "
+        },
+        {
+          "verseNum": 19,
+          "hasVerseLabel": true,
+          "verseText": "Joseph, to whom she was engaged, was a righteous man and did not want to disgrace her publicly, so he decided to break the engagement quietly. "
+        },
+        {
+          "verseNum": 20,
+          "hasVerseLabel": true,
+          "verseText": "As he considered this, an angel of the Lord appeared to him in a dream. “Joseph, son of David,” the angel said, “do not be afraid to take Mary as your wife. For the child within her was conceived by the Holy Spirit. "
+        },
+        {
+          "verseNum": 21,
+          "hasVerseLabel": true,
+          "verseText": "And she will have a son, and you are to name him Jesus, for he will save his people from their sins.” "
+        },
+        {
+          "verseNum": 22,
+          "hasVerseLabel": true,
+          "verseText": "All of this occurred to fulfill the Lord’s message through his prophet: "
+        },
+        {
+          "verseNum": 23,
+          "hasVerseLabel": true,
+          "verseText": "“Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ‘God is with us.’” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ‘God is with us.’”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ‘God is with us.’”"
+        }
+      ]
+    },
+    {
+      "type": "paragraph-no-indent",
+      "contents": [
+        {
+          "verseNum": 23,
+          "hasVerseLabel": false,
+          "verseText": "“Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ‘God is with us.’”"
+        },
+        {
+          "verseNum": 24,
+          "hasVerseLabel": true,
+          "verseText": "When Joseph woke up, he did as the angel of the Lord commanded and took Mary as his wife. "
+        },
+        {
+          "verseNum": 25,
+          "hasVerseLabel": true,
+          "verseText": "But he did not have sexual relations with her until her son was born. And Joseph named him Jesus. "
+        }
+      ]
+    }
+  ]
+}

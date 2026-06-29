@@ -1,0 +1,145 @@
+.reader {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+  background: var(--bg);
+  min-height: calc(100vh - var(--header-height));
+}
+
+.reader-loading,
+.reader-error {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-muted);
+}
+
+.reader-error {
+  color: #c0392b;
+}
+
+.reader-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.reader-meta {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-bottom: 32px;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: 28px 0 12px;
+}
+
+.heading a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.heading a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 4px;
+}
+
+.section-content {
+  display: inline;
+}
+
+.verse-num {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-light);
+  min-width: 20px;
+  vertical-align: super;
+  margin-right: 2px;
+}
+
+.verse-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.verse {
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--text);
+}
+
+.verse-link:hover .verse {
+  color: var(--accent);
+}
+
+.reader.lang-en .verse {
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.75;
+}
+
+.verse.selected {
+  background: var(--accent-soft);
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.chapter.jin .heading {
+  font-weight: 800;
+  font-size: 140%;
+}
+
+.chapter.jin .ref-heading {
+  font-weight: 600;
+  font-size: 90%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.chapter.jin .verse {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.chapter.jin .verse.ot_xref {
+  font-family: var(--font);
+  font-size: 110%;
+}
+
+.verse.person {
+  border-bottom: solid;
+}
+
+.verse.place {
+  border-bottom: medium double;
+}
+
+.section.quote .section-content {
+  display: block;
+  margin-left: 24px;
+}
+
+.verse.lord {
+  color: #e03e3e;
+}
+
+.verse.note {
+  vertical-align: super;
+  cursor: pointer;
+  font-size: 80%;
+}
+
+@media (max-width: 640px) {
+  .reader {
+    padding: 24px 16px 60px;
+  }
+
+  .reader-title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "book": 16,
+  "chapter": 1,
+  "sections": [
+    {
+      "type": "heading",
+      "heading": "尼希米關心耶路撒冷"
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "The words of Nehemiah the son of Hachaliah. It came to pass in the month of Chislev, in the twentieth year, as I was in Shushan the citadel, "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "The words of Nehemiah the son of Hachaliah. It came to pass in the month of Chislev, in the twentieth year, as I was in Shushan the citadel,"
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "that Hanani one of my brethren came with men from Judah; and I asked them concerning the Jews who had escaped, who had survived the captivity, and concerning Jerusalem. "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "And they said to me, “The survivors who are left from the captivity in the province are there in great distress and reproach. The wall of Jerusalem is also broken down, and its gates are burned with fire.” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "So it was, when I heard these words, that I sat down and wept, and mourned for  many days; I was fasting and praying before the God of heaven. "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "And I said: “I pray, Lord God of heaven, O great and awesome God, You who keep Your covenant and mercy with those who love You and observe Your commandments, "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "please let Your ear be attentive and Your eyes open, that You may hear the prayer of Your servant which I pray before You now, day and night, for the children of Israel Your servants, and confess the sins of the children of Israel which we have sinned against You. Both my father’s house and I have sinned. "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "We have acted very corruptly against You, and have not kept the commandments, the statutes, nor the ordinances which You commanded Your servant Moses. "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "Remember, I pray, the word that You commanded Your servant Moses, saying, ‘If you are unfaithful, I will scatter you among the nations; "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "but if you return to Me, and keep My commandments and do them, though some of you were cast out to the farthest part of the heavens, yet I will gather them from there, and bring them to the place which I have chosen as a dwelling for My name.’ "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "Now these are Your servants and Your people, whom You have redeemed by Your great power, and by Your strong hand. "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "O Lord, I pray, please let Your ear be attentive to the prayer of Your servant, and to the prayer of Your servants who desire to fear Your name; and let Your servant prosper this day, I pray, and grant him mercy in the sight of this man.” For I was the king’s cupbearer. "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "O Lord, I pray, please let Your ear be attentive to the prayer of Your servant, and to the prayer of Your servants who desire to fear Your name; and let Your servant prosper this day, I pray, and grant him mercy in the sight of this man.” For I was the king’s cupbearer."
+        }
+      ]
+    }
+  ]
+}

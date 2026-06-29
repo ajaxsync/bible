@@ -1,0 +1,640 @@
+{
+  "book": 22,
+  "chapter": 2,
+  "sections": [
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": true,
+          "verseText": "我是沙崙平原的水仙花， 是谷中的百合花。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": "我是沙崙平原的水仙花， 是谷中的百合花。"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 1,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 2,
+          "hasVerseLabel": true,
+          "verseText": "我的佳偶在女子中， 正像荊棘裡的百合花。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": "我的佳偶在女子中， 正像荊棘裡的百合花。"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 2,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 3,
+          "hasVerseLabel": true,
+          "verseText": "我的良人在男子中， 好像樹林裡的一棵蘋果樹； 我歡歡喜喜地坐在它的蔭下， 它的果子香甜合我口味。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "我的良人在男子中， 好像樹林裡的一棵蘋果樹； 我歡歡喜喜地坐在它的蔭下， 它的果子香甜合我口味。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "我的良人在男子中， 好像樹林裡的一棵蘋果樹； 我歡歡喜喜地坐在它的蔭下， 它的果子香甜合我口味。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": "我的良人在男子中， 好像樹林裡的一棵蘋果樹； 我歡歡喜喜地坐在它的蔭下， 它的果子香甜合我口味。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 3,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 4,
+          "hasVerseLabel": true,
+          "verseText": "他帶我進入酒室， 含情脈脈地望著我。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": "他帶我進入酒室， 含情脈脈地望著我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 4,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 5,
+          "hasVerseLabel": true,
+          "verseText": "求你們用葡萄餅增補我力， 用蘋果恢復我的精神， 因為我因愛成病。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "求你們用葡萄餅增補我力， 用蘋果恢復我的精神， 因為我因愛成病。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": "求你們用葡萄餅增補我力， 用蘋果恢復我的精神， 因為我因愛成病。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 5,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 6,
+          "hasVerseLabel": true,
+          "verseText": "他的左手托住我的頭， 他的右手擁抱著我。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": "他的左手托住我的頭， 他的右手擁抱著我。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 6,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "耶路撒冷的眾女子啊！ 我指著田野的羚羊、母鹿懇求你們， 不要激動，不要挑動愛情， 等它自發吧。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "耶路撒冷的眾女子啊！ 我指著田野的羚羊、母鹿懇求你們， 不要激動，不要挑動愛情， 等它自發吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": "耶路撒冷的眾女子啊！ 我指著田野的羚羊、母鹿懇求你們， 不要激動，不要挑動愛情， 等它自發吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": true,
+          "verseText": "耶路撒冷的眾女子啊！ 我指著田野的羚羊、母鹿懇求你們， 不要激動，不要挑動愛情， 等它自發吧。 "
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "heading": "第二首"
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 7,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 8,
+          "hasVerseLabel": true,
+          "verseText": "聽啊！這是我良人的聲音， 他躥山越嶺而來。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": "聽啊！這是我良人的聲音， 他躥山越嶺而來。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 8,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 9,
+          "hasVerseLabel": true,
+          "verseText": "我的良人像羚羊，像小鹿。 看哪！他站在我們的牆後； 從窗口觀看， 從窗格往裡面探視。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "我的良人像羚羊，像小鹿。 看哪！他站在我們的牆後； 從窗口觀看， 從窗格往裡面探視。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "我的良人像羚羊，像小鹿。 看哪！他站在我們的牆後； 從窗口觀看， 從窗格往裡面探視。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": "我的良人像羚羊，像小鹿。 看哪！他站在我們的牆後； 從窗口觀看， 從窗格往裡面探視。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 9,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 10,
+          "hasVerseLabel": true,
+          "verseText": "我的良人對我說： “我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。 "
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "我的良人對我說： “我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": "我的良人對我說： “我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 10,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 11,
+          "hasVerseLabel": true,
+          "verseText": "因為冬天已過， 雨水止息，已經過去了。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": "因為冬天已過， 雨水止息，已經過去了。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 11,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "地上百花齊放， 百鳥齊鳴的時候已經來到； 斑鳩的聲音在我們境內也聽見了。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": true,
+          "verseText": "地上百花齊放， 百鳥齊鳴的時候已經來到； 斑鳩的聲音在我們境內也聽見了。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": "地上百花齊放， 百鳥齊鳴的時候已經來到； 斑鳩的聲音在我們境內也聽見了。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 12,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 13,
+          "hasVerseLabel": true,
+          "verseText": "無花果樹的果子漸漸成熟， 葡萄樹開花發香， 我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "無花果樹的果子漸漸成熟， 葡萄樹開花發香， 我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "無花果樹的果子漸漸成熟， 葡萄樹開花發香， 我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": "無花果樹的果子漸漸成熟， 葡萄樹開花發香， 我的佳偶啊！你起來吧。 我的佳麗啊！你來吧。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 13,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 14,
+          "hasVerseLabel": true,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": "我的鴿子啊！在巖石的穴中， 在懸崖石的隱密處， 讓我看看你的容貌； 讓我聽聽你的聲音； 因為你的聲音甜美， 你的容貌秀麗。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 14,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 15,
+          "hasVerseLabel": true,
+          "verseText": "要為我們捉拿狐狸， 就是毀壞葡萄園的小狐狸， 因為我們的葡萄園正在開花。” "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "要為我們捉拿狐狸， 就是毀壞葡萄園的小狐狸， 因為我們的葡萄園正在開花。”"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": "要為我們捉拿狐狸， 就是毀壞葡萄園的小狐狸， 因為我們的葡萄園正在開花。”"
+        }
+      ]
+    },
+    {
+      "type": "heading-ps",
+      "contents": []
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 15,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 16,
+          "hasVerseLabel": true,
+          "verseText": "我的良人屬我，我也屬他， 他在百合花中細賞。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": "我的良人屬我，我也屬他， 他在百合花中細賞。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 16,
+          "hasVerseLabel": false,
+          "verseText": " "
+        },
+        {
+          "verseNum": 17,
+          "hasVerseLabel": true,
+          "verseText": "我的良人啊！ 等到天起涼風，日影消逝的時候， 願你歸來， 好像崎嶇山上的羚羊或是小鹿。 "
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "我的良人啊！ 等到天起涼風，日影消逝的時候， 願你歸來， 好像崎嶇山上的羚羊或是小鹿。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "我的良人啊！ 等到天起涼風，日影消逝的時候， 願你歸來， 好像崎嶇山上的羚羊或是小鹿。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "我的良人啊！ 等到天起涼風，日影消逝的時候， 願你歸來， 好像崎嶇山上的羚羊或是小鹿。"
+        }
+      ]
+    },
+    {
+      "type": "line-quote",
+      "contents": [
+        {
+          "verseNum": 17,
+          "hasVerseLabel": false,
+          "verseText": "我的良人啊！ 等到天起涼風，日影消逝的時候， 願你歸來， 好像崎嶇山上的羚羊或是小鹿。"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export default function BibleReader() {
   const { book: bookParam, chapter: chapterParam, verse: verseParam } = useParams()
   const { versionId, version } = useVersion()
   const book = parseInt(bookParam, 10)
-  const { chapter, jin } = parseChapterParam(chapterParam)
+  const chapter = parseChapterParam(chapterParam)
   const verse = verseParam ? parseInt(verseParam, 10) : 0
   const [chapterData, setChapterData] = useState(null)
   const [error, setError] = useState(null)
@@ -31,15 +31,15 @@ export default function BibleReader() {
       document.title = appConfig.title
       return
     }
-    setPageTitle(book, chapter, { lang: version.lang, verse, jin, versionLabel: version.label })
-  }, [book, chapter, verse, jin, version.lang, version.label, bookInfo])
+    setPageTitle(book, chapter, { lang: version.lang, verse, versionLabel: version.label })
+  }, [book, chapter, verse, version.lang, version.label, bookInfo])
 
   useEffect(() => {
     let cancelled = false
     setChapterData(null)
     setError(null)
 
-    fetchChapter(versionId, book, chapter, jin)
+    fetchChapter(versionId, book, chapter)
       .then((data) => {
         if (!cancelled) setChapterData(data)
       })
@@ -48,7 +48,7 @@ export default function BibleReader() {
       })
 
     return () => { cancelled = true }
-  }, [book, chapter, jin, versionId])
+  }, [book, chapter, versionId])
 
   if (error) {
     return (
@@ -66,15 +66,15 @@ export default function BibleReader() {
     )
   }
 
-  const chapterPath = `/${book}/${chapterToParam(chapter, jin)}`
+  const chapterPath = `/${book}/${chapterToParam(chapter)}`
   const refLabel = `${getBookTitle(book, version.lang)} ${chapter}:${verse}`
 
   return (
     <article className={`reader lang-${version.lang} ${verse > 0 ? 'has-verse-toolbar' : ''}`}>
       <h1 className="reader-title">{getBookTitle(book, version.lang)} {chapter}</h1>
-      <p className="reader-meta">{version.label}{jin ? (isZh ? ' · 金句版' : ' · Highlights') : ''}</p>
+      <p className="reader-meta">{version.label}</p>
 
-      <div className={`chapter ${jin ? 'jin' : ''}`}>
+      <div className="chapter">
         {chapterData.sections.map((section, index) => (
           <Section
             key={index}

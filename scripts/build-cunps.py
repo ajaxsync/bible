@@ -63,10 +63,10 @@ def main() -> int:
             if src.name == "log.txt":
                 continue
             stem = src.stem
-            if args.chapter is not None:
-                base = str(args.chapter)
-                if stem != base and stem != f"{base}.jin":
-                    continue
+            if ".jin" in stem:
+                continue
+            if args.chapter is not None and stem != str(args.chapter):
+                continue
 
             data = json.loads(src.read_text(encoding="utf-8"))
             converted = convert_value(data)

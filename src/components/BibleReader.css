@@ -90,27 +90,6 @@
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
-.chapter.jin .heading {
-  font-weight: 800;
-  font-size: 140%;
-}
-
-.chapter.jin .ref-heading {
-  font-weight: 600;
-  font-size: 90%;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-.chapter.jin .verse {
-  font-family: "Noto Sans TC", sans-serif;
-}
-
-.chapter.jin .verse.ot_xref {
-  font-family: var(--font);
-  font-size: 110%;
-}
-
 .verse.person {
   border-bottom: solid;
 }

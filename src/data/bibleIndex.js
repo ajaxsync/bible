@@ -77,11 +77,9 @@ export function getBookTitle(bookId, lang) {
 }
 
 export function parseChapterParam(chapterParam) {
-  const jin = chapterParam.endsWith('j')
-  const chapter = parseInt(jin ? chapterParam.slice(0, -1) : chapterParam, 10)
-  return { chapter, jin }
+  return parseInt(chapterParam, 10)
 }
 
-export function chapterToParam(chapter, jin) {
-  return jin ? `${chapter}j` : String(chapter)
+export function chapterToParam(chapter) {
+  return String(chapter)
 }

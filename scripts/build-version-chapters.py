@@ -91,9 +91,10 @@ def iter_cunp_files(cunp_dir: Path, book: int | None, chapter: int | None):
         if book is not None and int(book_dir.name) != book:
             continue
         for f in sorted(book_dir.glob("*.json"), key=lambda p: p.stem):
-            if chapter is not None and f.stem != str(chapter) and not f.stem.endswith(f"{chapter}.jin"):
-                if f.stem.replace(".jin", "") != str(chapter):
-                    continue
+            if ".jin" in f.stem:
+                continue
+            if chapter is not None and f.stem != str(chapter):
+                continue
             yield f
 
 

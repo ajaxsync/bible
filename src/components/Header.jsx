@@ -14,7 +14,7 @@ export default function Header() {
   const navigate = useNavigate()
   const { versionId, version, setVersionId } = useVersion()
   const book = parseInt(bookParam, 10)
-  const { chapter, jin } = parseChapterParam(chapterParam)
+  const chapter = parseChapterParam(chapterParam)
   const [menuOpen, setMenuOpen] = useState(false)
   const [versionMenuOpen, setVersionMenuOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
@@ -31,14 +31,14 @@ export default function Header() {
 
   if (!bookInfo) return null
 
-  const goToChapter = (targetBook, targetChapter, targetJin = jin) => {
-    navigate(`/${targetBook}/${chapterToParam(targetChapter, targetJin)}`)
+  const goToChapter = (targetBook, targetChapter) => {
+    navigate(`/${targetBook}/${chapterToParam(targetChapter)}`)
     setMenuOpen(false)
     setPickerBook(null)
   }
 
-  const prevLink = getPrevChapter(book, chapter, jin)
-  const nextLink = getNextChapter(book, chapter, jin)
+  const prevLink = getPrevChapter(book, chapter)
+  const nextLink = getNextChapter(book, chapter)
 
   return (
     <header className="header">
@@ -67,7 +67,7 @@ export default function Header() {
           }}
           aria-expanded={menuOpen}
         >
-          {getBookTitle(book, version.lang)} {chapter}{jin ? '（金句）' : ''}
+          {getBookTitle(book, version.lang)} {chapter}
           <span className="chevron">▾</span>
         </button>
 
@@ -152,7 +152,7 @@ export default function Header() {
                     <button
                       type="button"
                       className={`dropdown-item chapter-item ${activeBook === book && ch === chapter && !pickerBook ? 'current' : ''}`}
-                      onClick={() => goToChapter(activeBook, ch, false)}
+                      onClick={() => goToChapter(activeBook, ch)}
                     >
                       {ch}
                     </button>
@@ -167,9 +167,8 @@ export default function Header() {
   )
 }
 
-function getPrevChapter(book, chapter, jin) {
-  if (book === 1 && chapter === 1 && !jin) return null
-  if (jin) return `/${book}/${chapter}`
+function getPrevChapter(book, chapter) {
+  if (book === 1 && chapter === 1) return null
   if (chapter === 1) {
     const prevBook = book - 1
     return `/${prevBook}/${bibleIndex[prevBook].chapters}`
@@ -177,9 +176,8 @@ function getPrevChapter(book, chapter, jin) {
   return `/${book}/${chapter - 1}`
 }
 
-function getNextChapter(book, chapter, jin) {
-  if (book === 66 && chapter === bibleIndex[66].chapters && !jin) return null
-  if (jin) return null
+function getNextChapter(book, chapter) {
+  if (book === 66 && chapter === bibleIndex[66].chapters) return null
   if (chapter === bibleIndex[book].chapters) {
     return `/${book + 1}/1`
   }

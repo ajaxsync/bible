@@ -82,17 +82,17 @@ npm run preview
 
 ### 整章 JSON（主阅读）
 
-每个译本一个目录，按 `/{书卷ID}/{章}.json` 组织。仓库已包含上表全部译本，目录约 7 MB/版本：
+主阅读译本各一个目录，按 `/{书卷ID}/{章}.json` 组织。仓库已包含：
 
 | 目录 | 说明 |
 |------|------|
 | `public/json/cunp/` | 和合本繁体，章节结构模板（标题、段落划分） |
 | `public/json/cunps/` | 和合本简体，由 cunp 经 OpenCC 转换 |
-| `public/json/{niv,cnv,ccb,...}/` | 各译本整章数据 |
+| `public/json/niv/` | 新国际版本（NIV） |
 
 ### 逐节 JSON（对照阅读）
 
-对照功能读取 `public/json/verses/{书}/{章}/{节}.json`（约 27 MB），每文件含 `cnv`、`ccb`、`csbs`、`esv`、`nasb` 的经文文本。开发与生产均直接使用仓库内数据。
+对照译本不单独存整章文件，统一放在 `public/json/verses/{书}/{章}/{节}.json`（约 19 MB），每文件含 `cnv`、`ccb`、`csbs`、`esv`、`nasb` 的经文文本。离线对照阅读依赖此目录。
 
 ### 维护脚本（可选）
 

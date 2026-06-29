@@ -1,11 +1,9 @@
 import { getBookTitle } from '../data/bibleIndex.js'
 import { appConfig } from '../config/env.js'
 
-export function getChapterLabel(book, chapter, { lang, verse = 0, jin = false }) {
+export function getChapterLabel(book, chapter, { lang, verse = 0 }) {
   const bookTitle = getBookTitle(book, lang)
-  const ref = verse > 0 ? `${bookTitle} ${chapter}:${verse}` : `${bookTitle} ${chapter}`
-  if (jin) return `${ref}${lang === 'en' ? ' (Highlights)' : '（金句）'}`
-  return ref
+  return verse > 0 ? `${bookTitle} ${chapter}:${verse}` : `${bookTitle} ${chapter}`
 }
 
 export function getPageTitle(book, chapter, { versionLabel, ...options }) {

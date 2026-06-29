@@ -7,7 +7,6 @@
     "dev": "vite --host",
     "build": "vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
     "build:versions": "python scripts/build-version-chapters.py",
-    "build:verses": "python scripts/copy-verses.py",
     "build:cunps": "python scripts/build-cunps.py",
     "preview": "vite preview"
   },

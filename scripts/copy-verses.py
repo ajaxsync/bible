@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-从 biblebase 复制 verses 逐节 JSON，仅保留对照阅读用到的译本。
+从完整 verses 逐节 JSON 精简并复制，仅保留对照阅读用到的译本。
 
 默认保留：cnv, ccb, csbs, esv, nasb（与 src/data/versions.js 中 COMPARE_* 一致）
 
 用法:
-  python scripts/copy-verses.py
-  python scripts/copy-verses.py --versions cnv,ccb,esv
-  python scripts/copy-verses.py --source-dir ../biblebase/public/json/verses
+  python scripts/copy-verses.py --source-dir /path/to/full/verses
+  python scripts/copy-verses.py --source-dir /path/to/full/verses --versions cnv,ccb,esv
 """
 
 from __future__ import annotations
@@ -20,11 +19,9 @@ from pathlib import Path
 DEFAULT_COMPARE_IDS = ("cnv", "ccb", "csbs", "esv", "nasb")
 
 
-def default_paths() -> tuple[Path, Path]:
+def default_output() -> Path:
     root = Path(__file__).resolve().parent.parent
-    source = root.parent / "biblebase" / "public" / "json" / "verses"
-    output = root / "public" / "json" / "verses"
-    return source, output
+    return root / "public" / "json" / "verses"
 
 
 def slim_verse(data: dict, keep: set[str]) -> dict | None:
@@ -49,7 +46,6 @@ def slim_verse(data: dict, keep: set[str]) -> dict | None:
 def copy_verses(source: Path, output: Path, keep: set[str]) -> tuple[int, int, int]:
     if not source.is_dir():
         print(f"错误: 源目录不存在: {source}", file=sys.stderr)
-        print("请确保 biblebase 仓库位于 ../biblebase", file=sys.stderr)
         sys.exit(1)
 
     written = 0
@@ -82,10 +78,9 @@ def copy_verses(source: Path, output: Path, keep: set[str]) -> tuple[int, int, i
 
 
 def main() -> None:
-    default_source, default_output = default_paths()
-    parser = argparse.ArgumentParser(description="复制 verses 并仅保留对照译本")
-    parser.add_argument("--source-dir", type=Path, default=default_source)
-    parser.add_argument("--output-dir", type=Path, default=default_output)
+    parser = argparse.ArgumentParser(description="从完整 verses 精简并复制对照译本")
+    parser.add_argument("--source-dir", type=Path, required=True, help="完整 verses 源目录")
+    parser.add_argument("--output-dir", type=Path, default=default_output())
     parser.add_argument(
         "--versions",
         default=",".join(DEFAULT_COMPARE_IDS),

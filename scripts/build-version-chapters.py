@@ -8,9 +8,9 @@
   python scripts/build-version-chapters.py --book 1 --chapter 1
 
 默认路径（可通过参数覆盖）:
-  --cunp-dir    ../bible/public/json/cunp  或 biblebase/public/json/cunp
-  --verses-dir  biblebase/public/json/verses
-  --output-dir  bible/public/json
+  --cunp-dir    public/json/cunp
+  --verses-dir  public/json/verses
+  --output-dir  public/json
 """
 
 from __future__ import annotations
@@ -37,13 +37,8 @@ DEFAULT_VERSION_IDS = "cnv,ccb,csbs,esv,nasb,niv"
 
 def default_paths() -> tuple[Path, Path, Path]:
     root = Path(__file__).resolve().parent.parent
-    biblebase = root.parent / "biblebase"
-    cunp = root / "public" / "json" / "cunp"
-    if not cunp.exists() and (biblebase / "public" / "json" / "cunp").exists():
-        cunp = biblebase / "public" / "json" / "cunp"
-    verses = biblebase / "public" / "json" / "verses"
-    output = root / "public" / "json"
-    return cunp, verses, output
+    json_root = root / "public" / "json"
+    return json_root / "cunp", json_root / "verses", json_root
 
 
 def load_verse_text(verses_dir: Path, book: int, chapter: int, verse: int, version: str) -> str | None:
@@ -119,7 +114,7 @@ def main() -> int:
         return 1
     if not args.verses_dir.is_dir():
         print(f"错误: verses 目录不存在: {args.verses_dir}", file=sys.stderr)
-        print("请确保 biblebase 仓库的 public/json/verses 可用。", file=sys.stderr)
+        print("请确保 public/json/verses 目录存在且包含逐节数据。", file=sys.stderr)
         return 1
 
     targets = [v.strip() for v in args.versions.split(",") if v.strip()]

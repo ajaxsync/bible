@@ -1,4 +1,5 @@
 import { envDefaults, parseEnvList } from '../../config/defaults.mjs'
+import { assetUrl } from '../lib/assetUrl.js'
 
 function readEnv(key) {
   const value = import.meta.env[key]
@@ -48,6 +49,6 @@ export function applyAppTheme() {
 
   const favicon = document.querySelector('link[rel="icon"]')
   if (favicon && appConfig.favicon) {
-    favicon.href = appConfig.favicon
+    favicon.href = assetUrl(appConfig.favicon)
   }
 }

@@ -32,6 +32,7 @@ export default defineConfig(({ mode }) => {
   const versesDir = path.resolve(__dirname, env.BIBLEBASE_VERSES_DIR || '../biblebase/public/json/verses')
 
   return {
+    base: env.VITE_BASE || '/',
     plugins: [react(), serveVersesPlugin(versesDir)],
     resolve: {
       dedupe: ['react', 'react-dom'],

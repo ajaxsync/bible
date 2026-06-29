@@ -25,7 +25,20 @@ npm run dev
 npm run build
 ```
 
-`dist/` 目录可部署到任意静态托管（根域名）。SPA 回退已配置 `public/_redirects`（Netlify）及构建时生成的 `404.html`（GitHub Pages）。
+`dist/` 目录可部署到任意静态托管。SPA 回退已配置 `public/_redirects`（Netlify）及构建时生成的 `404.html`（GitHub Pages）。
+
+### GitHub Pages（项目站 `/bible/`）
+
+1. 仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**
+2. push 到 `main` 后，`.github/workflows/static.yml` 会自动构建并部署
+3. 访问地址：`https://<username>.github.io/bible/`
+
+本地模拟 GitHub Pages 构建：
+
+```bash
+VITE_BASE=/bible/ npm run build
+npm run preview
+```
 
 ## 阅读与对照
 

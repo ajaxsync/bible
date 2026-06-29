@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { appConfig, isImageIcon } from '../config/env.js'
+import { assetUrl } from '../lib/assetUrl.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import './Header.css'
 
@@ -43,7 +44,7 @@ export default function Header() {
     <header className="header">
       <span className="header-logo">
         {isImageIcon(appConfig.icon) ? (
-          <img src={appConfig.icon} alt="" className="header-logo-icon" />
+          <img src={assetUrl(appConfig.icon)} alt="" className="header-logo-icon" />
         ) : (
           <span className="header-logo-emoji" aria-hidden>{appConfig.icon}</span>
         )}

@@ -45,18 +45,22 @@ npm run preview
 - **主阅读**（顶栏切换）：和合本（简体）、和合本（繁体）、NIV
 - **对照阅读**（点击经节后）：中文主版本对照 新译本 / 当代译本 / 标准译本；英文主版本对照 ESV / NASB
 
-对照数据来自 `verses/` 逐节 JSON。开发时自动读取同目录下的 `biblebase` 仓库；**生产部署**需将 `biblebase/public/json/verses` 复制到 `public/json/verses`（约 965 MB），或仅部署对照功能所需路径。
+对照数据来自 `verses/` 逐节 JSON。开发时自动读取同目录下的 `biblebase` 仓库；**生产部署**需生成精简版 `public/json/verses`（约 27 MB，仅含对照译本）：
 
 ```bash
-# 生产环境可选：复制对照数据
-robocopy ..\biblebase\public\json\verses public\json\verses /E
+npm run build:verses
+# 或
+python scripts/copy-verses.py
 ```
+
+脚本从 `../biblebase/public/json/verses` 复制，仅保留 `cnv`、`ccb`、`csbs`、`esv`、`nasb` 的经文文本。
 
 | 目录 | 大小 | 用途 |
 |------|------|------|
 | `public/json/cunp/` | ~7 MB | 和合本整章（繁体），结构模板 |
 | `public/json/{ccb,cnv,csbs,esv,...}/` | ~7 MB/版本 | 由脚本从 verses 生成 |
-| biblebase `verses/` | ~965 MB | **源数据**（逐节，含多版本文本 + 学习 metadata） |
+| biblebase `verses/`（源） | ~965 MB | 逐节源数据（含 analytics 等） |
+| `public/json/verses/`（精简） | ~27 MB | 对照阅读（5 个译本，由 `npm run build:verses` 生成） |
 
 生成其他译本整章 JSON（需本机有 biblebase 的 `verses/`）：
 

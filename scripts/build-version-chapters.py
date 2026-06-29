@@ -21,7 +21,7 @@ import json
 import sys
 from pathlib import Path
 
-# 与 biblebase src/data/lib/consts.rb 一致
+# 与 src/data/versions.js 中除 cunp/cunps 外的译本一致
 VERSIONS = {
     "cunp": {"label": "和合本", "lang": "cht"},
     "cnv": {"label": "新譯本", "lang": "cht"},
@@ -30,9 +30,9 @@ VERSIONS = {
     "esv": {"label": "ESV", "lang": "en"},
     "nasb": {"label": "NASB", "lang": "en"},
     "niv": {"label": "NIV", "lang": "en"},
-    "nlt": {"label": "NLT", "lang": "en"},
-    "nkjv": {"label": "NKJV", "lang": "en"},
 }
+
+DEFAULT_VERSION_IDS = "cnv,ccb,csbs,esv,nasb,niv"
 
 
 def default_paths() -> tuple[Path, Path, Path]:
@@ -109,7 +109,7 @@ def main() -> int:
     parser.add_argument("--cunp-dir", type=Path, default=default_cunp)
     parser.add_argument("--verses-dir", type=Path, default=default_verses)
     parser.add_argument("--output-dir", type=Path, default=default_out)
-    parser.add_argument("--versions", default=",".join(v for v in VERSIONS if v != "cunp"))
+    parser.add_argument("--versions", default=DEFAULT_VERSION_IDS)
     parser.add_argument("--book", type=int, default=None)
     parser.add_argument("--chapter", type=int, default=None)
     args = parser.parse_args()

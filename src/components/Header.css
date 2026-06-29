@@ -46,6 +46,26 @@
   position: relative;
   flex-shrink: 0;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cache-trigger {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.cache-trigger:hover {
+  background: var(--bg-hover);
+  color: var(--text);
 }
 
 .version-dropdown-button {

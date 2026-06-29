@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "predev": "node scripts/generate-cache-manifest.mjs",
+    "build": "node scripts/generate-cache-manifest.mjs && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "build:manifest": "node scripts/generate-cache-manifest.mjs",
     "build:versions": "python scripts/build-version-chapters.py",
     "build:cunps": "python scripts/build-cunps.py",
     "preview": "vite preview"
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.4",
-    "vite": "^8.1.0"
+    "vite": "^8.1.0",
+    "vite-plugin-pwa": "^1.0.3"
   }
 }

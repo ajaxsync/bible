@@ -5,6 +5,7 @@ import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { appConfig, isImageIcon } from '../config/env.js'
 import { assetUrl } from '../lib/assetUrl.js'
 import { useVersion } from '../context/VersionContext.jsx'
+import CachePanel from './CachePanel.jsx'
 import './Header.css'
 
 const VERSION_LANG_LABEL = { chs: '简体中文', cht: '繁體中文', en: 'English' }
@@ -17,6 +18,7 @@ export default function Header() {
   const chapter = parseChapterParam(chapterParam)
   const [menuOpen, setMenuOpen] = useState(false)
   const [versionMenuOpen, setVersionMenuOpen] = useState(false)
+  const [cacheOpen, setCacheOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
 
   const bookInfo = bibleIndex[book]
@@ -26,6 +28,7 @@ export default function Header() {
   useEffect(() => {
     setMenuOpen(false)
     setVersionMenuOpen(false)
+    setCacheOpen(false)
     setPickerBook(null)
   }, [bookParam, chapterParam])
 
@@ -81,6 +84,19 @@ export default function Header() {
       <div className="header-version">
         <button
           type="button"
+          className="cache-trigger"
+          onClick={() => {
+            setCacheOpen(true)
+            setMenuOpen(false)
+            setVersionMenuOpen(false)
+            setPickerBook(null)
+          }}
+        >
+          {version.lang === 'en' ? 'Offline' : '离线'}
+        </button>
+
+        <button
+          type="button"
           className="version-dropdown-button"
           onClick={() => {
             setVersionMenuOpen((open) => !open)
@@ -122,6 +138,8 @@ export default function Header() {
           </>
         )}
       </div>
+
+      {cacheOpen && <CachePanel onClose={() => setCacheOpen(false)} />}
 
       {menuOpen && (
         <div className="dropdown-overlay" onClick={() => { setMenuOpen(false); setPickerBook(null) }}>

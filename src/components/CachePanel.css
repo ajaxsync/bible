@@ -1,0 +1,246 @@
+.cache-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 15, 15, 0.2);
+  z-index: 200;
+}
+
+.cache-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(400px, calc(100vw - 32px));
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 16px 48px rgba(15, 15, 15, 0.15);
+  z-index: 210;
+  padding: 20px;
+}
+
+.cache-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.cache-panel-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cache-panel-close {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: var(--radius);
+  background: transparent;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.cache-panel-close:hover {
+  background: var(--bg-hover);
+}
+
+.cache-panel-desc {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.cache-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 12px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius);
+}
+
+.cache-stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.cache-stat dt {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.cache-stat dd {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.cache-meta {
+  margin: 0 0 16px;
+  font-size: 12px;
+  color: var(--text-light);
+}
+
+.cache-storage {
+  margin: 0 0 12px;
+  padding: 12px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-storage-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.cache-storage-row strong {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.cache-storage-total {
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--text);
+}
+
+.cache-storage-memory {
+  font-size: 12px;
+}
+
+.cache-progress-block {
+  margin-bottom: 12px;
+}
+
+.cache-progress {
+  position: relative;
+  height: 28px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.cache-progress-bar {
+  height: 100%;
+  background: var(--accent-soft);
+  transition: width 0.2s ease;
+}
+
+.cache-progress-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.cache-progress-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.cache-error {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: #c62828;
+}
+
+.cache-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-btn {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.cache-btn:hover:not(:disabled) {
+  background: var(--bg-hover);
+}
+
+.cache-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cache-btn-primary {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.cache-btn-primary:hover:not(:disabled) {
+  background: var(--accent);
+  color: #fff;
+}
+
+.cache-hint {
+  margin: 16px 0 0;
+  font-size: 12px;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+.cache-installed {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.cache-install-hint,
+.cache-ios-guide {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.cache-ios-guide {
+  padding: 10px 12px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius);
+}

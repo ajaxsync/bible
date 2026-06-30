@@ -411,7 +411,7 @@
 .dropdown-list {
   list-style: none;
   overflow-y: auto;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .dropdown-item {

@@ -150,9 +150,8 @@ export default function CachePanel({ onClose }) {
   return (
     <>
       <div className="cache-backdrop" onClick={requestClose} aria-hidden />
-      <div className="cache-panel" role="dialog" aria-labelledby="cache-panel-title">
+      <div className="cache-panel" role="dialog" aria-label={isZh ? '离线缓存' : 'Offline cache'}>
         <div className="cache-panel-header">
-          <h2 id="cache-panel-title">{isZh ? '离线缓存' : 'Offline cache'}</h2>
           <button type="button" className="cache-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
             ×
           </button>

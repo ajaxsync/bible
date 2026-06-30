@@ -22,14 +22,8 @@
 .cache-panel-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-
-.cache-panel-header h2 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
+  justify-content: flex-end;
+  margin-bottom: 4px;
 }
 
 .cache-panel-close {

@@ -70,7 +70,7 @@
 }
 
 .verse {
-  font-size: var(--reader-font-size, 16px);
+  font-size: var(--reader-font-size, 22px);
   line-height: var(--reader-line-height, 1.85);
   color: var(--text);
 }
@@ -87,6 +87,14 @@
   background: var(--accent-soft);
   border-radius: 3px;
   box-shadow: 0 0 0 3px var(--accent-soft);
+  scroll-margin-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+}
+
+.verse.speaking {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+  scroll-margin-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
 }
 
 .verse.person {

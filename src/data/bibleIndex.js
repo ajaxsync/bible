@@ -76,6 +76,8 @@ export function getBookTitle(bookId, lang) {
   return book.title
 }
 
+export { getBookShortTitle } from './bookShortNames.js'
+
 export function parseChapterParam(chapterParam) {
   return parseInt(chapterParam, 10)
 }

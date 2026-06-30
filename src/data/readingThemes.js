@@ -102,9 +102,11 @@ export const FONT_SIZES = [14, 15, 16, 17, 18, 20, 22, 24]
 export const LINE_HEIGHTS = [1.5, 1.65, 1.85, 2.0, 2.2, 2.5]
 
 const STORAGE_KEY = 'bible-reading-settings'
+const SETTINGS_VERSION = 2
+const LEGACY_DEFAULT_FONT_SIZE = 16
 
 export const DEFAULT_READING_SETTINGS = {
-  fontSize: 16,
+  fontSize: 22,
   lineHeight: 1.85,
   themeId: 'white',
 }
@@ -113,21 +115,36 @@ export function getThemeById(id) {
   return READING_THEMES.find((t) => t.id === id) ?? READING_THEMES[0]
 }
 
+function normalizeReadingSettings(parsed) {
+  let fontSize = FONT_SIZES.includes(parsed.fontSize) ? parsed.fontSize : DEFAULT_READING_SETTINGS.fontSize
+  const lineHeight = LINE_HEIGHTS.includes(parsed.lineHeight) ? parsed.lineHeight : DEFAULT_READING_SETTINGS.lineHeight
+  const themeId = READING_THEMES.some((t) => t.id === parsed.themeId) ? parsed.themeId : DEFAULT_READING_SETTINGS.themeId
+  const version = parsed.version ?? 1
+
+  if (version < SETTINGS_VERSION && fontSize === LEGACY_DEFAULT_FONT_SIZE) {
+    fontSize = DEFAULT_READING_SETTINGS.fontSize
+  }
+
+  return { fontSize, lineHeight, themeId, version }
+}
+
 export function loadReadingSettings() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     if (!raw) return { ...DEFAULT_READING_SETTINGS }
     const parsed = JSON.parse(raw)
-    return {
-      fontSize: FONT_SIZES.includes(parsed.fontSize) ? parsed.fontSize : DEFAULT_READING_SETTINGS.fontSize,
-      lineHeight: LINE_HEIGHTS.includes(parsed.lineHeight) ? parsed.lineHeight : DEFAULT_READING_SETTINGS.lineHeight,
-      themeId: READING_THEMES.some((t) => t.id === parsed.themeId) ? parsed.themeId : DEFAULT_READING_SETTINGS.themeId,
+    const settings = normalizeReadingSettings(parsed)
+    if (settings.version < SETTINGS_VERSION) {
+      storeReadingSettings(settings)
     }
+    const { version: _version, ...readingSettings } = settings
+    return readingSettings
   } catch {
     return { ...DEFAULT_READING_SETTINGS }
   }
 }
 
 export function storeReadingSettings(settings) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(settings))
+  const { version: _version, ...readingSettings } = settings
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...readingSettings, version: SETTINGS_VERSION }))
 }

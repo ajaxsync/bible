@@ -21,6 +21,12 @@
   padding-right: 12px;
   border-right: 1px solid var(--border);
   white-space: nowrap;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.header-logo:hover {
+  color: var(--text);
 }
 
 .header-logo-icon {
@@ -38,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
   min-width: 0;
 }
 
@@ -57,6 +63,8 @@
 .header-actions-mobile {
   display: none;
   position: relative;
+  align-items: center;
+  gap: 6px;
 }
 
 .header-actions-trigger {
@@ -183,6 +191,61 @@
   color: var(--text);
 }
 
+.speech-trigger {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.speech-trigger:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+}
+
+.speech-trigger.is-active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.speech-trigger.is-playing {
+  animation: speech-trigger-pulse 1.4s ease-in-out infinite;
+}
+
+.speech-trigger.is-playing .speaker-wave-1 {
+  animation: speaker-wave 1.2s ease-in-out infinite;
+}
+
+.speech-trigger.is-playing .speaker-wave-2 {
+  animation: speaker-wave 1.2s ease-in-out 0.2s infinite;
+}
+
+@keyframes speech-trigger-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+}
+
+@keyframes speaker-wave {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
 .cache-trigger {
   padding: 8px 10px;
   border: 1px solid var(--border);
@@ -274,39 +337,11 @@
   margin-top: 2px;
 }
 
-.nav-arrow {
-  width: 32px;
-  height: 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--radius);
-  text-decoration: none;
-  color: var(--text-muted);
-  font-size: 20px;
-  line-height: 1;
-}
-
-.nav-arrow:hover {
-  background: var(--bg-hover);
-  color: var(--text);
-}
-
-.nav-arrow-disabled {
-  opacity: 0.3;
-  cursor: default;
-}
-
-.nav-arrow.disabled {
-  pointer-events: none;
-  opacity: 0.4;
-}
-
 .book-dropdown-button {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 14px;
+  gap: 4px;
+  padding: 8px 10px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--bg);
@@ -314,7 +349,8 @@
   font-weight: 500;
   cursor: pointer;
   color: var(--text);
-  min-width: 160px;
+  min-width: 0;
+  max-width: min(160px, 100%);
   justify-content: center;
 }
 
@@ -379,7 +415,9 @@
 }
 
 .dropdown-item {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   width: 100%;
   padding: 8px 14px;
   border: none;
@@ -388,6 +426,27 @@
   font-size: 14px;
   cursor: pointer;
   color: var(--text);
+}
+
+.dropdown-book-short {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 3em;
+  padding: 3px 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.dropdown-book-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dropdown-item:hover {
@@ -400,6 +459,11 @@
   font-weight: 500;
 }
 
+.dropdown-item.current .dropdown-book-short {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  color: var(--accent);
+}
+
 .chapter-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -408,13 +472,24 @@
 }
 
 .chapter-item {
+  justify-content: center;
   text-align: center;
   border-radius: var(--radius);
   padding: 8px 4px;
 }
 
 @media (max-width: 640px) {
+  .header {
+    padding: 0 12px;
+    gap: 8px;
+  }
+
   .header-logo {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .header-logo-name {
     display: none;
   }
 
@@ -423,12 +498,13 @@
   }
 
   .header-actions-mobile {
-    display: block;
+    display: flex;
   }
 
   .book-dropdown-button {
     min-width: 0;
-    padding: 8px 10px;
+    max-width: none;
+    padding: 8px 8px;
     font-size: 13px;
   }
 

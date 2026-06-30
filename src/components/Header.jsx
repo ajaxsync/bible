@@ -1,28 +1,39 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
+import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle, getBookShortTitle } from '../data/bibleIndex.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { appConfig, isImageIcon } from '../config/env.js'
 import { assetUrl } from '../lib/assetUrl.js'
 import { useVersion } from '../context/VersionContext.jsx'
+import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
+import { isSpeechSupported } from '../lib/speechReader.js'
 import CachePanel from './CachePanel.jsx'
 import ReadingSettingsPanel from './ReadingSettingsPanel.jsx'
+import SpeechPanel from './SpeechPanel.jsx'
+import SpeakerIcon from './SpeakerIcon.jsx'
 import './Header.css'
 
 const VERSION_LANG_LABEL = { chs: '简体中文', cht: '繁體中文', en: 'English' }
 
 export default function Header() {
-  const { book: bookParam, chapter: chapterParam } = useParams()
+  const { book: bookParam, chapter: chapterParam, verse: verseParam } = useParams()
   const navigate = useNavigate()
   const { versionId, version, setVersionId } = useVersion()
+  const {
+    isActive,
+    status,
+    location: speechLocation,
+  } = useSpeechReader()
   const book = parseInt(bookParam, 10)
   const chapter = parseChapterParam(chapterParam)
+  const activeVerse = verseParam ? parseInt(verseParam, 10) : 0
   const [menuOpen, setMenuOpen] = useState(false)
   const [versionMenuOpen, setVersionMenuOpen] = useState(false)
   const [actionsMenuOpen, setActionsMenuOpen] = useState(false)
   const [mobileVersionOpen, setMobileVersionOpen] = useState(false)
   const [cacheOpen, setCacheOpen] = useState(false)
   const [readingSettingsOpen, setReadingSettingsOpen] = useState(false)
+  const [speechPanelOpen, setSpeechPanelOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
 
   const bookInfo = bibleIndex[book]
@@ -36,6 +47,7 @@ export default function Header() {
     setMobileVersionOpen(false)
     setCacheOpen(false)
     setReadingSettingsOpen(false)
+    setSpeechPanelOpen(false)
     setPickerBook(null)
   }, [bookParam, chapterParam])
 
@@ -47,9 +59,20 @@ export default function Header() {
     setPickerBook(null)
   }
 
-  const prevLink = getPrevChapter(book, chapter)
-  const nextLink = getNextChapter(book, chapter)
   const isEn = version.lang === 'en'
+  const speechSupported = isSpeechSupported()
+  const isSpeakingHere = isActive
+    && speechLocation?.book === book
+    && speechLocation?.chapter === chapter
+  const isPlaying = isSpeakingHere && status === 'playing'
+
+  const openSpeechPanel = () => {
+    setSpeechPanelOpen(true)
+    setMenuOpen(false)
+    setVersionMenuOpen(false)
+    setActionsMenuOpen(false)
+    setPickerBook(null)
+  }
 
   const versionOptions = PRIMARY_VERSION_IDS.map((id) => {
     const v = VERSIONS[id]
@@ -76,22 +99,16 @@ export default function Header() {
 
   return (
     <header className="header">
-      <span className="header-logo">
+      <Link to="/" className="header-logo" aria-label={appConfig.name}>
         {isImageIcon(appConfig.icon) ? (
           <img src={assetUrl(appConfig.icon)} alt="" className="header-logo-icon" />
         ) : (
           <span className="header-logo-emoji" aria-hidden>{appConfig.icon}</span>
         )}
-        {appConfig.name}
-      </span>
+        <span className="header-logo-name">{appConfig.name}</span>
+      </Link>
 
       <div className="header-nav">
-        {prevLink ? (
-          <Link to={prevLink} className={`nav-arrow ${menuOpen ? 'disabled' : ''}`} aria-label="上一章">‹</Link>
-        ) : (
-          <span className="nav-arrow nav-arrow-disabled" aria-hidden>‹</span>
-        )}
-
         <button
           type="button"
           className="book-dropdown-button"
@@ -104,16 +121,22 @@ export default function Header() {
           {getBookTitle(book, version.lang)} {chapter}
           <span className="chevron">▾</span>
         </button>
-
-        {nextLink ? (
-          <Link to={nextLink} className={`nav-arrow ${menuOpen ? 'disabled' : ''}`} aria-label="下一章">›</Link>
-        ) : (
-          <span className="nav-arrow nav-arrow-disabled" aria-hidden>›</span>
-        )}
       </div>
 
       <div className="header-version">
         <div className="header-actions-desktop">
+          {speechSupported && (
+            <button
+              type="button"
+              className={`speech-trigger${isSpeakingHere ? ' is-active' : ''}${isPlaying ? ' is-playing' : ''}`}
+              onClick={openSpeechPanel}
+              aria-label={isEn ? 'Read aloud' : '朗读'}
+              aria-pressed={isSpeakingHere}
+            >
+              <SpeakerIcon className="speech-trigger-icon" />
+            </button>
+          )}
+
           <button
             type="button"
             className="cache-trigger"
@@ -166,6 +189,18 @@ export default function Header() {
         </div>
 
         <div className="header-actions-mobile">
+          {speechSupported && (
+            <button
+              type="button"
+              className={`speech-trigger speech-trigger-mobile${isSpeakingHere ? ' is-active' : ''}${isPlaying ? ' is-playing' : ''}`}
+              onClick={openSpeechPanel}
+              aria-label={isEn ? 'Read aloud' : '朗读'}
+              aria-pressed={isSpeakingHere}
+            >
+              <SpeakerIcon className="speech-trigger-icon" />
+            </button>
+          )}
+
           <button
             type="button"
             className="header-actions-trigger"
@@ -247,6 +282,9 @@ export default function Header() {
 
       {cacheOpen && <CachePanel onClose={() => setCacheOpen(false)} />}
       {readingSettingsOpen && <ReadingSettingsPanel onClose={() => setReadingSettingsOpen(false)} />}
+      {speechPanelOpen && speechSupported && (
+        <SpeechPanel onClose={() => setSpeechPanelOpen(false)} activeVerse={activeVerse} />
+      )}
 
       {menuOpen && (
         <div className="dropdown-overlay" onClick={() => { setMenuOpen(false); setPickerBook(null) }}>
@@ -254,17 +292,23 @@ export default function Header() {
             <div className="dropdown-column">
               <div className="dropdown-label">{version.lang === 'chs' ? '书卷' : version.lang === 'en' ? 'Books' : '書卷'}</div>
               <ul className="dropdown-list">
-                {Object.values(bibleIndex).map((b) => (
+                {Object.values(bibleIndex).map((b) => {
+                  const shortTitle = getBookShortTitle(b.id, version.lang)
+                  return (
                   <li key={b.id}>
                     <button
                       type="button"
                       className={`dropdown-item ${b.id === activeBook ? 'current' : ''}`}
                       onClick={() => setPickerBook(b.id)}
                     >
-                      {getBookTitle(b.id, version.lang)}
+                      {shortTitle && (
+                        <span className="dropdown-book-short">{shortTitle}</span>
+                      )}
+                      <span className="dropdown-book-title">{getBookTitle(b.id, version.lang)}</span>
                     </button>
                   </li>
-                ))}
+                  )
+                })}
               </ul>
             </div>
             <div className="dropdown-column">
@@ -290,21 +334,4 @@ export default function Header() {
       )}
     </header>
   )
-}
-
-function getPrevChapter(book, chapter) {
-  if (book === 1 && chapter === 1) return null
-  if (chapter === 1) {
-    const prevBook = book - 1
-    return `/${prevBook}/${bibleIndex[prevBook].chapters}`
-  }
-  return `/${book}/${chapter - 1}`
-}
-
-function getNextChapter(book, chapter) {
-  if (book === 66 && chapter === bibleIndex[66].chapters) return null
-  if (chapter === bibleIndex[book].chapters) {
-    return `/${book + 1}/1`
-  }
-  return `/${book}/${chapter + 1}`
 }

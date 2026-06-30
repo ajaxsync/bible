@@ -3,16 +3,16 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { VersionProvider } from './context/VersionContext.jsx'
 import { ReadingSettingsProvider } from './context/ReadingSettingsContext.jsx'
+import { SpeechReaderProvider } from './context/SpeechReaderContext.jsx'
+import { PwaUpdateProvider } from './context/PwaUpdateContext.jsx'
 import { applyAppTheme } from './config/env.js'
 import { initPwaInstall } from './lib/pwaInstall.js'
-import { registerSW } from 'virtual:pwa-register'
 import App from './App.jsx'
 import './index.css'
 
 applyAppTheme()
 
 initPwaInstall()
-registerSW({ immediate: true })
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,7 +25,11 @@ createRoot(document.getElementById('root')).render(
     >
       <VersionProvider>
         <ReadingSettingsProvider>
-          <App />
+          <SpeechReaderProvider>
+            <PwaUpdateProvider>
+              <App />
+            </PwaUpdateProvider>
+          </SpeechReaderProvider>
         </ReadingSettingsProvider>
       </VersionProvider>
     </BrowserRouter>

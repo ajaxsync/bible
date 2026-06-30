@@ -65,7 +65,7 @@ export default function ComparePanel({
   return (
     <>
       <div className="compare-backdrop" onClick={onClose} aria-hidden />
-      <aside className="compare-panel" role="dialog" aria-label="对照阅读">
+      <aside className="compare-panel" role="dialog" aria-label="对照阅读" onClick={(e) => e.stopPropagation()}>
         <BottomSheetHandle onClose={onClose} label="关闭" className="compare-sheet-handle" />
         <header className="compare-header">
           <div>

@@ -1,0 +1,42 @@
+.speech-float {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  z-index: 24;
+  pointer-events: none;
+}
+
+.speech-float-above-toolbar {
+  bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+}
+
+.speech-float-btn {
+  pointer-events: auto;
+  width: 52px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 20px color-mix(in srgb, var(--accent) 45%, transparent);
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.speech-float-btn:hover {
+  filter: brightness(1.05);
+}
+
+.speech-float-btn:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 480px) {
+  .speech-float-above-toolbar {
+    bottom: calc(108px + env(safe-area-inset-bottom, 0px));
+  }
+}

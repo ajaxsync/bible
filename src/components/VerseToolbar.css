@@ -18,6 +18,22 @@
   font-size: 14px;
   font-weight: 600;
   color: var(--text);
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.verse-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.verse-toolbar-copy-hint {
+  font-size: 12px;
+  color: var(--text-light);
 }
 
 .verse-toolbar-btn {
@@ -37,14 +53,97 @@
   color: #fff;
 }
 
-.verse-hint {
-  margin-top: 24px;
-  padding: 12px 14px;
-  font-size: 13px;
-  color: var(--text-light);
-  text-align: center;
-  border-radius: var(--radius);
+.verse-toolbar-btn-muted {
+  border-color: var(--border);
   background: var(--bg-subtle);
+  color: var(--text-muted);
+}
+
+.verse-toolbar-btn-muted:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+}
+
+.chapter-nav {
+  margin-top: 24px;
+  padding: 16px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 4px 16px;
+  align-items: start;
+  border-top: 1px solid var(--border);
+}
+
+.chapter-nav-col {
+  min-width: 0;
+}
+
+.chapter-nav-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chapter-nav-col-prev .chapter-nav-cell {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.chapter-nav-col-center .chapter-nav-cell {
+  align-items: center;
+  text-align: center;
+}
+
+.chapter-nav-col-next .chapter-nav-cell {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.chapter-nav-action,
+.chapter-nav-target {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chapter-nav-action {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.chapter-nav-action-current {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.chapter-nav-target {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.chapter-nav-cell:hover .chapter-nav-action {
+  text-decoration: underline;
+}
+
+.chapter-nav-cell-static:hover .chapter-nav-action {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .chapter-nav-action {
+    font-size: 13px;
+  }
+
+  .chapter-nav-target {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -52,11 +151,41 @@
     position: fixed;
     left: 12px;
     right: 12px;
-    bottom: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     margin: 0;
   }
 
   .reader.has-verse-toolbar {
-    padding-bottom: 72px;
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .reader.has-speech-float {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (max-width: 480px) {
+  .verse-toolbar {
+    flex-wrap: wrap;
+    padding: 10px 12px;
+  }
+
+  .verse-toolbar-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .reader.has-verse-toolbar {
+    padding-bottom: calc(108px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (min-width: 769px) {
+  .reader.has-verse-toolbar {
+    padding-bottom: 96px;
+  }
+
+  .reader.has-speech-float {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
   }
 }

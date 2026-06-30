@@ -14,6 +14,8 @@
   --font: "Inter", "Noto Sans TC", system-ui, sans-serif;
   --header-height: 56px;
   --content-max: 720px;
+  --reader-font-size: 22px;
+  --reader-line-height: 1.85;
 }
 
 * {

@@ -24,11 +24,9 @@ export default function ReadingSettingsPanel({ onClose }) {
   return (
     <>
       <div className="reading-settings-backdrop" onClick={onClose} aria-hidden />
-      <div className="reading-settings-panel" role="dialog" aria-labelledby="reading-settings-title">
+      <div className="reading-settings-panel" role="dialog" aria-label={isEn ? 'Reading settings' : '字体调整'}>
         <BottomSheetHandle onClose={onClose} label={isEn ? 'Close' : '关闭'} />
         <div className="reading-settings-body">
-          <h2 id="reading-settings-title" className="reading-settings-title">{isEn ? 'Reading settings' : '字体调整'}</h2>
-
         <div className="reading-settings-row">
           <span className="reading-settings-label">{isEn ? 'Font size' : '字体大小'}</span>
           <div className="reading-settings-stepper">
@@ -55,7 +53,7 @@ export default function ReadingSettingsPanel({ onClose }) {
           </div>
         </div>
 
-        <div className="reading-settings-section">
+        <div className="reading-settings-row reading-settings-row--themes">
           <span className="reading-settings-label">{isEn ? 'Background' : '背景颜色'}</span>
           <div className="reading-settings-themes" role="radiogroup" aria-label={isEn ? 'Background color' : '背景颜色'}>
             {READING_THEMES.map((theme) => (
@@ -64,14 +62,12 @@ export default function ReadingSettingsPanel({ onClose }) {
                 type="button"
                 role="radio"
                 aria-checked={settings.themeId === theme.id}
+                aria-label={theme.label[lang]}
                 className={`reading-theme-swatch ${settings.themeId === theme.id ? 'current' : ''}`}
                 data-theme={theme.id}
                 style={{ background: theme.swatch }}
-                title={theme.label[lang]}
                 onClick={() => setThemeId(theme.id)}
-              >
-                <span className="reading-theme-swatch-label">{theme.label[lang]}</span>
-              </button>
+              />
             ))}
           </div>
         </div>

@@ -1,7 +1,6 @@
 .cache-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(15, 15, 15, 0.2);
   z-index: 200;
 }
 
@@ -17,6 +16,45 @@
   box-shadow: 0 16px 48px rgba(15, 15, 15, 0.15);
   z-index: 210;
   padding: 20px;
+}
+
+.cache-panel.is-open {
+  animation: cache-panel-in var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+.cache-panel.is-closing {
+  animation: cache-panel-out var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+@keyframes cache-panel-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes cache-panel-out {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cache-panel.is-open,
+  .cache-panel.is-closing {
+    animation: none;
+  }
 }
 
 .cache-panel-header {

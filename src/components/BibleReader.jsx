@@ -32,6 +32,7 @@ export default function BibleReader() {
     playChapter,
     currentVerse: speakingVerse,
     location: speechLocation,
+    status,
     isActive,
   } = useSpeechReader()
 
@@ -47,9 +48,27 @@ export default function BibleReader() {
   }, [book, chapter, verse, bookInfo])
 
   useEffect(() => {
-    setCompareOpen(false)
     setCopyHint('')
-  }, [book, chapter, verse, versionId])
+
+    if (verse <= 0) {
+      setCompareOpen(false)
+      return
+    }
+
+    if (isSpeakingHere && status === 'playing') {
+      setCompareOpen(false)
+    } else if (isSpeakingHere && status === 'paused') {
+      setCompareOpen(true)
+    } else if (!isSpeakingHere) {
+      setCompareOpen(false)
+    }
+  }, [book, chapter, verse, versionId, isSpeakingHere, status])
+
+  useEffect(() => {
+    if (status === 'playing' && isSpeakingHere) {
+      setCompareOpen(false)
+    }
+  }, [status, isSpeakingHere])
 
   useEffect(() => {
     stop()
@@ -68,13 +87,18 @@ export default function BibleReader() {
   }, [book, chapter, chapterData, version.lang, bookInfo, registerChapter])
 
   useEffect(() => {
-    if (!isSpeakingHere || !speakingVerse) return
-    const el = document.querySelector(`[data-verse="${speakingVerse}"]`)
-    el?.scrollIntoView({ behavior: 'smooth', block: 'center' })
-  }, [speakingVerse, isSpeakingHere])
+    if (!isSpeakingHere || !speakingVerse || status !== 'playing') return
+
+    const verseNum = speakingVerse
+    const frame = requestAnimationFrame(() => {
+      const el = document.querySelector(`[data-verse="${verseNum}"]`)
+      el?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [speakingVerse, isSpeakingHere, status])
 
   useEffect(() => {
-    if (!isSpeakingHere || !isActive) {
+    if (!isSpeakingHere || status !== 'playing') {
       prevVerseRef.current = verse
       return
     }
@@ -82,7 +106,7 @@ export default function BibleReader() {
       playChapter({ fromVerse: verse })
     }
     prevVerseRef.current = verse
-  }, [verse, isSpeakingHere, isActive, playChapter])
+  }, [verse, isSpeakingHere, status, playChapter])
 
   useEffect(() => {
     if (!bookInfo) {

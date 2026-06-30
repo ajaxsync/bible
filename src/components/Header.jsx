@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle, getBookShortTitle } from '../data/bibleIndex.js'
+import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { appConfig, isImageIcon } from '../config/env.js'
 import { assetUrl } from '../lib/assetUrl.js'
@@ -10,6 +10,8 @@ import { isSpeechSupported } from '../lib/speechReader.js'
 import CachePanel from './CachePanel.jsx'
 import ReadingSettingsPanel from './ReadingSettingsPanel.jsx'
 import SpeechPanel from './SpeechPanel.jsx'
+import BookChapterPicker from './BookChapterPicker.jsx'
+import { useAnimatedPanel } from '../hooks/useAnimatedPanel.js'
 import SpeakerIcon from './SpeakerIcon.jsx'
 import './Header.css'
 
@@ -39,6 +41,12 @@ export default function Header() {
   const bookInfo = bibleIndex[book]
   const activeBook = pickerBook ?? book
   const activeBookInfo = bibleIndex[activeBook]
+  const chapterPicker = useAnimatedPanel(menuOpen)
+
+  const closeChapterPicker = () => {
+    setMenuOpen(false)
+    setPickerBook(null)
+  }
 
   useEffect(() => {
     setMenuOpen(false)
@@ -55,8 +63,7 @@ export default function Header() {
 
   const goToChapter = (targetBook, targetChapter) => {
     navigate(`/${targetBook}/${chapterToParam(targetChapter)}`)
-    setMenuOpen(false)
-    setPickerBook(null)
+    closeChapterPicker()
   }
 
   const isEn = version.lang === 'en'
@@ -286,49 +293,25 @@ export default function Header() {
         <SpeechPanel onClose={() => setSpeechPanelOpen(false)} activeVerse={activeVerse} />
       )}
 
-      {menuOpen && (
-        <div className="dropdown-overlay" onClick={() => { setMenuOpen(false); setPickerBook(null) }}>
-          <div className="dropdown-panel" onClick={(e) => e.stopPropagation()}>
-            <div className="dropdown-column">
-              <div className="dropdown-label">{version.lang === 'chs' ? '书卷' : version.lang === 'en' ? 'Books' : '書卷'}</div>
-              <ul className="dropdown-list">
-                {Object.values(bibleIndex).map((b) => {
-                  const shortTitle = getBookShortTitle(b.id, version.lang)
-                  return (
-                  <li key={b.id}>
-                    <button
-                      type="button"
-                      className={`dropdown-item ${b.id === activeBook ? 'current' : ''}`}
-                      onClick={() => setPickerBook(b.id)}
-                    >
-                      {shortTitle && (
-                        <span className="dropdown-book-short">{shortTitle}</span>
-                      )}
-                      <span className="dropdown-book-title">{getBookTitle(b.id, version.lang)}</span>
-                    </button>
-                  </li>
-                  )
-                })}
-              </ul>
-            </div>
-            <div className="dropdown-column">
-              <div className="dropdown-label">
-                {getBookTitle(activeBook, version.lang)} · {version.lang === 'en' ? 'Ch' : '章'}
-              </div>
-              <ul className="dropdown-list chapter-grid">
-                {Array.from({ length: activeBookInfo.chapters }, (_, i) => i + 1).map((ch) => (
-                  <li key={ch}>
-                    <button
-                      type="button"
-                      className={`dropdown-item chapter-item ${activeBook === book && ch === chapter && !pickerBook ? 'current' : ''}`}
-                      onClick={() => goToChapter(activeBook, ch)}
-                    >
-                      {ch}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
+      {chapterPicker.render && (
+        <div
+          className={`dropdown-overlay panel-backdrop ${chapterPicker.motionClass}`}
+          onClick={closeChapterPicker}
+        >
+          <div
+            className={`dropdown-panel ${chapterPicker.motionClass}`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <BookChapterPicker
+              lang={version.lang}
+              currentBook={book}
+              currentChapter={chapter}
+              activeBook={activeBook}
+              activeBookInfo={activeBookInfo}
+              pickerBook={pickerBook}
+              onPickBook={setPickerBook}
+              onGoToChapter={goToChapter}
+            />
           </div>
         </div>
       )}

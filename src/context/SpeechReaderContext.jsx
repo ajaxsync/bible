@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
-import { SpeechReader, buildVerseQueue, getChapterVerseTotal, isSpeechSupported } from '../lib/speechReader.js'
+import { SpeechReader, buildVerseQueue, getChapterVerseTotal, isSpeechSupported, loadSpeechRate, loadSpeechVoice, storeSpeechRate, storeSpeechVoice, SPEECH_LANGS } from '../lib/speechReader.js'
 
 const SpeechReaderContext = createContext(null)
 
@@ -8,6 +8,11 @@ export function SpeechReaderProvider({ children }) {
   const [currentVerse, setCurrentVerse] = useState(null)
   const [verseTotal, setVerseTotal] = useState(0)
   const [location, setLocation] = useState(null)
+  const [rate, setRateState] = useState(loadSpeechRate)
+  const [voiceURIs, setVoiceURIs] = useState(() => (
+    Object.fromEntries(SPEECH_LANGS.map((lang) => [lang, loadSpeechVoice(lang)]))
+  ))
+  const [voicesRevision, setVoicesRevision] = useState(0)
   const chapterRef = useRef(null)
   const readerRef = useRef(null)
 
@@ -20,6 +25,7 @@ export function SpeechReaderProvider({ children }) {
         setLocation(null)
         setVerseTotal(0)
       },
+      onVoicesChanged: () => setVoicesRevision((n) => n + 1),
     })
     return () => readerRef.current?.destroy()
   }, [])
@@ -59,6 +65,25 @@ export function SpeechReaderProvider({ children }) {
     readerRef.current?.togglePause()
   }, [])
 
+  const setRate = useCallback((nextRate) => {
+    setRateState((current) => {
+      if (current === nextRate) return current
+      storeSpeechRate(nextRate)
+      readerRef.current?.setRate(nextRate)
+      return nextRate
+    })
+  }, [])
+
+  const setVoice = useCallback((lang, voiceURI) => {
+    const next = voiceURI || ''
+    setVoiceURIs((current) => {
+      if ((current[lang] || '') === next) return current
+      storeSpeechVoice(lang, next)
+      readerRef.current?.setVoice(lang, next)
+      return { ...current, [lang]: next }
+    })
+  }, [])
+
   const value = useMemo(
     () => ({
       supported: isSpeechSupported(),
@@ -66,13 +91,18 @@ export function SpeechReaderProvider({ children }) {
       currentVerse,
       verseTotal,
       location,
+      rate,
+      voiceURIs,
+      voicesRevision,
       registerChapter,
       playChapter,
       togglePause,
+      setRate,
+      setVoice,
       stop,
       isActive: status === 'playing' || status === 'paused',
     }),
-    [status, currentVerse, verseTotal, location, registerChapter, playChapter, togglePause, stop],
+    [status, currentVerse, verseTotal, location, rate, voiceURIs, voicesRevision, registerChapter, playChapter, togglePause, setRate, setVoice, stop],
   )
 
   return (

@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { bibleIndex, parseChapterParam, getBookTitle } from '../data/bibleIndex.js'
 import { useParams } from 'react-router-dom'
 import { useVersion } from '../context/VersionContext.jsx'
 import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
+import { SPEECH_RATES, getVoicesForLang, isSpeechSupported } from '../lib/speechReader.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import { PauseIcon, PlayIcon } from './SpeechIcons.jsx'
 import './SpeechPanel.css'
@@ -24,13 +25,29 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
     verseTotal,
     location,
     isActive,
+    rate,
+    setRate,
+    voiceURIs,
+    voicesRevision,
+    setVoice,
   } = useSpeechReader()
 
   const [startVerse, setStartVerse] = useState(() => (activeVerse > 0 ? activeVerse : 1))
+  const readingLang = version.lang
+  const voices = useMemo(
+    () => getVoicesForLang(readingLang),
+    [readingLang, voicesRevision],
+  )
+  const selectedVoiceURI = voiceURIs[readingLang] || ''
 
   useEffect(() => {
     setStartVerse(activeVerse > 0 ? activeVerse : 1)
   }, [activeVerse])
+
+  useEffect(() => {
+    if (!isSpeechSupported()) return
+    window.speechSynthesis.getVoices()
+  }, [])
 
   if (!bookInfo) return null
 
@@ -81,6 +98,48 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
             >
               {isThisChapter && status === 'playing' ? <PauseIcon /> : <PlayIcon />}
             </button>
+          </div>
+
+          <div className="speech-panel-options">
+            <div className="speech-panel-option-row">
+              <label className="speech-panel-option-label" htmlFor="speech-voice-select">
+                {isEn ? 'Voice' : '音色'}
+              </label>
+              <select
+                id="speech-voice-select"
+                className="speech-panel-select"
+                value={selectedVoiceURI}
+                onChange={(e) => setVoice(readingLang, e.target.value)}
+                disabled={voices.length === 0}
+              >
+                <option value="">{isEn ? 'System default' : '系统默认'}</option>
+                {voices.map((voice) => (
+                  <option key={voice.voiceURI} value={voice.voiceURI}>
+                    {voice.name}
+                    {!voice.localService ? (isEn ? ' (online)' : ' (在线)') : ''}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="speech-panel-option-row">
+              <label className="speech-panel-option-label" htmlFor="speech-rate-select">
+                {isEn ? 'Speed' : '倍速'}
+              </label>
+              <select
+                id="speech-rate-select"
+                className="speech-panel-select"
+                value={rate}
+                onChange={(e) => setRate(parseFloat(e.target.value))}
+                aria-label={isEn ? 'Playback speed' : '播放倍速'}
+              >
+                {SPEECH_RATES.map((option) => (
+                  <option key={option} value={option}>
+                    {option.toFixed(1)}x
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           <p className="speech-panel-hint">

@@ -16,6 +16,46 @@
   --content-max: 720px;
   --reader-font-size: 22px;
   --reader-line-height: 1.85;
+  --panel-backdrop-blur: 16px;
+  --panel-transition-duration: 220ms;
+  --panel-transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.panel-backdrop {
+  background: color-mix(in srgb, var(--text) 14%, transparent);
+  -webkit-backdrop-filter: blur(var(--panel-backdrop-blur)) saturate(1.15);
+  backdrop-filter: blur(var(--panel-backdrop-blur)) saturate(1.15);
+}
+
+.panel-backdrop.is-open {
+  animation: panel-backdrop-in var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+.panel-backdrop.is-closing {
+  animation: panel-backdrop-out var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+@keyframes panel-backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes panel-backdrop-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel-backdrop.is-open,
+  .panel-backdrop.is-closing {
+    animation: none;
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .panel-backdrop {
+    background: rgba(15, 15, 15, 0.28);
+  }
 }
 
 * {

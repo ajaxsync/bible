@@ -12,6 +12,7 @@ import {
 } from '../lib/bibleCache.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import { usePwaInstall } from '../hooks/usePwaInstall.js'
+import { PANEL_TRANSITION_MS } from '../hooks/useAnimatedPanel.js'
 import './CachePanel.css'
 
 export default function CachePanel({ onClose }) {
@@ -33,8 +34,10 @@ export default function CachePanel({ onClose }) {
   const [error, setError] = useState(null)
   const [clearing, setClearing] = useState(false)
   const [showIosGuide, setShowIosGuide] = useState(false)
+  const [closing, setClosing] = useState(false)
   const refreshTimerRef = useRef(null)
   const abortRef = useRef(null)
+  const closeTimerRef = useRef(null)
   const { installState, promptInstall } = usePwaInstall()
 
   const fullyCached = isFullyCached(stats, manifestInfo)
@@ -51,6 +54,7 @@ export default function CachePanel({ onClose }) {
     getManifestInfo().then(setManifestInfo).catch(() => {})
     return () => {
       if (refreshTimerRef.current) clearInterval(refreshTimerRef.current)
+      if (closeTimerRef.current) clearTimeout(closeTimerRef.current)
       abortRef.current?.abort()
     }
   }, [refreshStats])
@@ -74,8 +78,15 @@ export default function CachePanel({ onClose }) {
       if (!window.confirm(msg)) return
       abortRef.current?.abort()
     }
-    onClose()
+    if (closing) return
+    setClosing(true)
+    closeTimerRef.current = window.setTimeout(() => {
+      closeTimerRef.current = null
+      onClose()
+    }, PANEL_TRANSITION_MS)
   }
+
+  const motionClass = closing ? 'is-closing' : 'is-open'
 
   const handlePauseDownload = () => {
     abortRef.current?.abort()
@@ -149,8 +160,8 @@ export default function CachePanel({ onClose }) {
 
   return (
     <>
-      <div className="cache-backdrop" onClick={requestClose} aria-hidden />
-      <div className="cache-panel" role="dialog" aria-label={isZh ? '离线缓存' : 'Offline cache'}>
+      <div className={`cache-backdrop panel-backdrop ${motionClass}`} onClick={requestClose} aria-hidden />
+      <div className={`cache-panel ${motionClass}`} role="dialog" aria-label={isZh ? '离线缓存' : 'Offline cache'}>
         <div className="cache-panel-header">
           <button type="button" className="cache-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
             ×

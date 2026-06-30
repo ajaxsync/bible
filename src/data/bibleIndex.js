@@ -76,7 +76,26 @@ export function getBookTitle(bookId, lang) {
   return book.title
 }
 
-export { getBookShortTitle } from './bookShortNames.js'
+import { getBookShortTitle } from './bookShortNames.js'
+
+export { getBookShortTitle }
+
+function capitalizeAbbr(abbr) {
+  return abbr.replace(/^(\d*)([a-z])/, (_, digits, first) => (
+    `${digits}${first.toUpperCase()}${abbr.slice(digits.length + 1)}`
+  ))
+}
+
+/** 章节选择器用书卷简写（含英文） */
+export function getBookPickerShort(bookId, lang) {
+  const short = getBookShortTitle(bookId, lang)
+  if (short) return short
+  if (lang === 'en') {
+    const abbr = bibleIndex[bookId]?.abbr
+    return abbr ? capitalizeAbbr(abbr) : ''
+  }
+  return ''
+}
 
 export function parseChapterParam(chapterParam) {
   return parseInt(chapterParam, 10)

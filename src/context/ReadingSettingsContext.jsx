@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import {
   FONT_SIZES,
   LINE_HEIGHTS,
+  UI_STYLE_THEME_IDS,
   getThemeById,
   loadReadingSettings,
   storeReadingSettings,
@@ -18,6 +19,7 @@ function applyReadingTheme(settings) {
   root.style.setProperty('--reader-font-size', `${settings.fontSize}px`)
   root.style.setProperty('--reader-line-height', String(settings.lineHeight))
   root.dataset.readingTheme = settings.themeId
+  root.dataset.uiStyle = settings.uiStyle ?? 'notion'
 }
 
 export function ReadingSettingsProvider({ children }) {
@@ -38,6 +40,10 @@ export function ReadingSettingsProvider({ children }) {
   const setFontSize = (fontSize) => setSettings({ fontSize })
   const setLineHeight = (lineHeight) => setSettings({ lineHeight })
   const setThemeId = (themeId) => setSettings({ themeId })
+  const setUiStyle = (uiStyle) => {
+    const themeId = UI_STYLE_THEME_IDS[uiStyle]
+    setSettings(themeId ? { uiStyle, themeId } : { uiStyle })
+  }
 
   const adjustFontSize = (delta) => {
     setSettingsState((prev) => {
@@ -70,6 +76,7 @@ export function ReadingSettingsProvider({ children }) {
       setFontSize,
       setLineHeight,
       setThemeId,
+      setUiStyle,
       adjustFontSize,
       adjustLineHeight,
     }),

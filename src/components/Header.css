@@ -769,3 +769,43 @@
     width: 50%;
   }
 }
+
+/* Kindle 顶栏：更扁平、少装饰 */
+[data-ui-style="kindle"] .header {
+  border-bottom-color: color-mix(in srgb, var(--border) 70%, transparent);
+}
+
+[data-ui-style="kindle"] .header-logo {
+  border-right-color: transparent;
+}
+
+[data-ui-style="kindle"] .book-dropdown-button {
+  border-color: transparent;
+  background: transparent;
+}
+
+[data-ui-style="kindle"] .book-dropdown-button:hover {
+  background: var(--bg-hover);
+}
+
+[data-ui-style="kindle"] .speech-trigger,
+[data-ui-style="kindle"] .header-actions-desktop .cache-trigger,
+[data-ui-style="kindle"] .header-actions-desktop .version-dropdown-button,
+[data-ui-style="kindle"] .header-actions-desktop .reading-trigger,
+[data-ui-style="kindle"] .header-actions-trigger {
+  border-color: transparent;
+  background: transparent;
+}
+
+[data-ui-style="kindle"] .speech-trigger.is-active {
+  border-color: transparent;
+  background: var(--accent-soft);
+}
+
+[data-ui-style="kindle"] .speech-trigger:hover,
+[data-ui-style="kindle"] .header-actions-desktop .cache-trigger:hover,
+[data-ui-style="kindle"] .header-actions-desktop .version-dropdown-button:hover,
+[data-ui-style="kindle"] .header-actions-desktop .reading-trigger:hover,
+[data-ui-style="kindle"] .header-actions-trigger:hover {
+  background: var(--bg-hover);
+}

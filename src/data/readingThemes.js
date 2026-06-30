@@ -98,17 +98,28 @@ export const READING_THEMES = [
   },
 ]
 
+export const UI_STYLES = [
+  { id: 'notion', label: { chs: 'Notion', cht: 'Notion', en: 'Notion' } },
+  { id: 'kindle', label: { chs: 'Kindle', cht: 'Kindle', en: 'Kindle' } },
+]
+
+export const UI_STYLE_THEME_IDS = {
+  notion: 'white',
+  kindle: 'beige',
+}
+
 export const FONT_SIZES = [14, 15, 16, 17, 18, 20, 22, 24]
 export const LINE_HEIGHTS = [1.5, 1.65, 1.85, 2.0, 2.2, 2.5]
 
 const STORAGE_KEY = 'bible-reading-settings'
-const SETTINGS_VERSION = 2
+const SETTINGS_VERSION = 3
 const LEGACY_DEFAULT_FONT_SIZE = 16
 
 export const DEFAULT_READING_SETTINGS = {
   fontSize: 22,
   lineHeight: 1.85,
   themeId: 'white',
+  uiStyle: 'notion',
 }
 
 export function getThemeById(id) {
@@ -119,13 +130,14 @@ function normalizeReadingSettings(parsed) {
   let fontSize = FONT_SIZES.includes(parsed.fontSize) ? parsed.fontSize : DEFAULT_READING_SETTINGS.fontSize
   const lineHeight = LINE_HEIGHTS.includes(parsed.lineHeight) ? parsed.lineHeight : DEFAULT_READING_SETTINGS.lineHeight
   const themeId = READING_THEMES.some((t) => t.id === parsed.themeId) ? parsed.themeId : DEFAULT_READING_SETTINGS.themeId
+  const uiStyle = UI_STYLES.some((s) => s.id === parsed.uiStyle) ? parsed.uiStyle : DEFAULT_READING_SETTINGS.uiStyle
   const version = parsed.version ?? 1
 
   if (version < SETTINGS_VERSION && fontSize === LEGACY_DEFAULT_FONT_SIZE) {
     fontSize = DEFAULT_READING_SETTINGS.fontSize
   }
 
-  return { fontSize, lineHeight, themeId, version }
+  return { fontSize, lineHeight, themeId, uiStyle, version }
 }
 
 export function loadReadingSettings() {

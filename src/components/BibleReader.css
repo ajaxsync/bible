@@ -129,3 +129,70 @@
     font-size: 1.5rem;
   }
 }
+
+/* Kindle 阅读风格 */
+[data-ui-style="kindle"] .reader {
+  padding: 48px 32px 96px;
+}
+
+[data-ui-style="kindle"] .reader-title {
+  text-align: center;
+  font-weight: 400;
+  font-family: var(--font-reader);
+  letter-spacing: 0.02em;
+}
+
+[data-ui-style="kindle"] .reader-meta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+[data-ui-style="kindle"] .verse {
+  font-family: var(--font-reader);
+}
+
+[data-ui-style="kindle"] .reader.lang-en .verse {
+  text-align: justify;
+  hyphens: auto;
+}
+
+[data-ui-style="kindle"] .verse-num {
+  font-size: 9px;
+  font-weight: 400;
+  opacity: 0.65;
+  min-width: 16px;
+}
+
+[data-ui-style="kindle"] .verse-link:hover .verse {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--text-muted) 50%, transparent);
+  text-underline-offset: 3px;
+}
+
+[data-ui-style="kindle"] .verse.selected {
+  background: color-mix(in srgb, var(--text) 7%, transparent);
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+[data-ui-style="kindle"] .verse.speaking {
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+[data-ui-style="kindle"] .heading {
+  font-family: var(--font-reader);
+  font-weight: 500;
+  text-align: center;
+  margin-top: 36px;
+}
+
+@media (max-width: 640px) {
+  [data-ui-style="kindle"] .reader {
+    padding: 28px 20px 72px;
+  }
+}

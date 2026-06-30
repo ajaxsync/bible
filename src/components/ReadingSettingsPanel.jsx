@@ -1,6 +1,6 @@
 import { useVersion } from '../context/VersionContext.jsx'
 import { useReadingSettings } from '../context/ReadingSettingsContext.jsx'
-import { FONT_SIZES, LINE_HEIGHTS, READING_THEMES } from '../data/readingThemes.js'
+import { FONT_SIZES, LINE_HEIGHTS, READING_THEMES, UI_STYLES } from '../data/readingThemes.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './ReadingSettingsPanel.css'
 
@@ -14,6 +14,7 @@ export default function ReadingSettingsPanel({ onClose }) {
     adjustFontSize,
     adjustLineHeight,
     setThemeId,
+    setUiStyle,
   } = useReadingSettings()
 
   const fontAtMin = settings.fontSize === FONT_SIZES[0]
@@ -27,6 +28,24 @@ export default function ReadingSettingsPanel({ onClose }) {
       <div className="reading-settings-panel" role="dialog" aria-label={isEn ? 'Reading settings' : '字体调整'}>
         <BottomSheetHandle onClose={onClose} label={isEn ? 'Close' : '关闭'} />
         <div className="reading-settings-body">
+        <div className="reading-settings-row">
+          <span className="reading-settings-label">{isEn ? 'Style' : '界面风格'}</span>
+          <div className="reading-settings-segmented" role="radiogroup" aria-label={isEn ? 'Interface style' : '界面风格'}>
+            {UI_STYLES.map((style) => (
+              <button
+                key={style.id}
+                type="button"
+                role="radio"
+                aria-checked={settings.uiStyle === style.id}
+                className={settings.uiStyle === style.id ? 'current' : ''}
+                onClick={() => setUiStyle(style.id)}
+              >
+                {style.label[lang]}
+              </button>
+            ))}
+          </div>
+        </div>
+
         <div className="reading-settings-row">
           <span className="reading-settings-label">{isEn ? 'Font size' : '字体大小'}</span>
           <div className="reading-settings-stepper">

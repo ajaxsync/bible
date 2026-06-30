@@ -6,6 +6,7 @@ import { appConfig, isImageIcon } from '../config/env.js'
 import { assetUrl } from '../lib/assetUrl.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import CachePanel from './CachePanel.jsx'
+import ReadingSettingsPanel from './ReadingSettingsPanel.jsx'
 import './Header.css'
 
 const VERSION_LANG_LABEL = { chs: '简体中文', cht: '繁體中文', en: 'English' }
@@ -18,7 +19,10 @@ export default function Header() {
   const chapter = parseChapterParam(chapterParam)
   const [menuOpen, setMenuOpen] = useState(false)
   const [versionMenuOpen, setVersionMenuOpen] = useState(false)
+  const [actionsMenuOpen, setActionsMenuOpen] = useState(false)
+  const [mobileVersionOpen, setMobileVersionOpen] = useState(false)
   const [cacheOpen, setCacheOpen] = useState(false)
+  const [readingSettingsOpen, setReadingSettingsOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
 
   const bookInfo = bibleIndex[book]
@@ -28,7 +32,10 @@ export default function Header() {
   useEffect(() => {
     setMenuOpen(false)
     setVersionMenuOpen(false)
+    setActionsMenuOpen(false)
+    setMobileVersionOpen(false)
     setCacheOpen(false)
+    setReadingSettingsOpen(false)
     setPickerBook(null)
   }, [bookParam, chapterParam])
 
@@ -42,6 +49,30 @@ export default function Header() {
 
   const prevLink = getPrevChapter(book, chapter)
   const nextLink = getNextChapter(book, chapter)
+  const isEn = version.lang === 'en'
+
+  const versionOptions = PRIMARY_VERSION_IDS.map((id) => {
+    const v = VERSIONS[id]
+    return (
+      <li key={id}>
+        <button
+          type="button"
+          role="option"
+          aria-selected={versionId === id}
+          className={`version-item ${versionId === id ? 'current' : ''}`}
+          onClick={() => {
+            setVersionId(id)
+            setVersionMenuOpen(false)
+            setActionsMenuOpen(false)
+            setMobileVersionOpen(false)
+          }}
+        >
+          <span className="version-item-label">{v.label}</span>
+          <span className="version-item-group">{VERSION_LANG_LABEL[v.lang]}</span>
+        </button>
+      </li>
+    )
+  })
 
   return (
     <header className="header">
@@ -82,64 +113,140 @@ export default function Header() {
       </div>
 
       <div className="header-version">
-        <button
-          type="button"
-          className="cache-trigger"
-          onClick={() => {
-            setCacheOpen(true)
-            setMenuOpen(false)
-            setVersionMenuOpen(false)
-            setPickerBook(null)
-          }}
-        >
-          {version.lang === 'en' ? 'Offline' : '离线'}
-        </button>
+        <div className="header-actions-desktop">
+          <button
+            type="button"
+            className="cache-trigger"
+            onClick={() => {
+              setCacheOpen(true)
+              setMenuOpen(false)
+              setVersionMenuOpen(false)
+              setPickerBook(null)
+            }}
+          >
+            {isEn ? 'Offline cache' : '离线缓存'}
+          </button>
 
-        <button
-          type="button"
-          className="version-dropdown-button"
-          onClick={() => {
-            setVersionMenuOpen((open) => !open)
-            setMenuOpen(false)
-            setPickerBook(null)
-          }}
-          aria-expanded={versionMenuOpen}
-          aria-haspopup="listbox"
-        >
-          {version.label}
-          <span className="chevron">▾</span>
-        </button>
+          <button
+            type="button"
+            className="version-dropdown-button"
+            onClick={() => {
+              setVersionMenuOpen((open) => !open)
+              setMenuOpen(false)
+              setPickerBook(null)
+            }}
+            aria-expanded={versionMenuOpen}
+            aria-haspopup="listbox"
+          >
+            {version.label}
+            <span className="chevron">▾</span>
+          </button>
 
-        {versionMenuOpen && (
-          <>
-            <div className="version-backdrop" onClick={() => setVersionMenuOpen(false)} aria-hidden />
-            <ul className="version-menu" role="listbox" aria-label="主阅读版本">
-              {PRIMARY_VERSION_IDS.map((id) => {
-                const v = VERSIONS[id]
-                return (
-                  <li key={id}>
-                    <button
-                      type="button"
-                      role="option"
-                      aria-selected={versionId === id}
-                      className={`version-item ${versionId === id ? 'current' : ''}`}
-                      onClick={() => {
-                        setVersionId(id)
-                        setVersionMenuOpen(false)
-                      }}
-                    >
-                      <span className="version-item-label">{v.label}</span>
-                      <span className="version-item-group">{VERSION_LANG_LABEL[v.lang]}</span>
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          </>
-        )}
+          {versionMenuOpen && (
+            <>
+              <div className="version-backdrop" onClick={() => setVersionMenuOpen(false)} aria-hidden />
+              <ul className="version-menu" role="listbox" aria-label={isEn ? 'Bible version' : '主阅读版本'}>
+                {versionOptions}
+              </ul>
+            </>
+          )}
+
+          <button
+            type="button"
+            className="reading-trigger"
+            onClick={() => {
+              setReadingSettingsOpen(true)
+              setMenuOpen(false)
+              setVersionMenuOpen(false)
+              setPickerBook(null)
+            }}
+          >
+            {isEn ? 'Font' : '字体调整'}
+          </button>
+        </div>
+
+        <div className="header-actions-mobile">
+          <button
+            type="button"
+            className="header-actions-trigger"
+            onClick={() => {
+              setActionsMenuOpen((open) => !open)
+              setMenuOpen(false)
+              setVersionMenuOpen(false)
+              setPickerBook(null)
+            }}
+            aria-expanded={actionsMenuOpen}
+            aria-haspopup="menu"
+            aria-label={isEn ? 'More options' : '更多选项'}
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+              <circle cx="10" cy="4" r="1.5" />
+              <circle cx="10" cy="10" r="1.5" />
+              <circle cx="10" cy="16" r="1.5" />
+            </svg>
+          </button>
+
+          {actionsMenuOpen && (
+            <>
+              <div className="version-backdrop" onClick={() => { setActionsMenuOpen(false); setMobileVersionOpen(false) }} aria-hidden />
+              <div className="header-actions-menu" role="menu">
+                <button
+                  type="button"
+                  role="menuitem"
+                  className="header-actions-item"
+                  onClick={() => {
+                    setCacheOpen(true)
+                    setActionsMenuOpen(false)
+                    setMobileVersionOpen(false)
+                    setMenuOpen(false)
+                    setPickerBook(null)
+                  }}
+                >
+                  {isEn ? 'Offline cache' : '离线缓存'}
+                </button>
+
+                <button
+                  type="button"
+                  role="menuitem"
+                  className="header-actions-item header-actions-item--version"
+                  onClick={() => setMobileVersionOpen((open) => !open)}
+                  aria-expanded={mobileVersionOpen}
+                >
+                  <span className="header-actions-item-main">{isEn ? 'Version' : '经文版本'}</span>
+                  <span className="header-actions-item-value">
+                    {version.label}
+                    <span className="chevron">{mobileVersionOpen ? '▴' : '▾'}</span>
+                  </span>
+                </button>
+
+                {mobileVersionOpen && (
+                  <ul className="header-actions-version-list" role="listbox" aria-label={isEn ? 'Bible version' : '主阅读版本'}>
+                    {versionOptions}
+                  </ul>
+                )}
+
+                <button
+                  type="button"
+                  role="menuitem"
+                  className="header-actions-item"
+                  onClick={() => {
+                    setReadingSettingsOpen(true)
+                    setActionsMenuOpen(false)
+                    setMobileVersionOpen(false)
+                    setMenuOpen(false)
+                    setPickerBook(null)
+                  }}
+                >
+                  {isEn ? 'Reading settings' : '字体调整'}
+                </button>
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
       {cacheOpen && <CachePanel onClose={() => setCacheOpen(false)} />}
+      {readingSettingsOpen && <ReadingSettingsPanel onClose={() => setReadingSettingsOpen(false)} />}
 
       {menuOpen && (
         <div className="dropdown-overlay" onClick={() => { setMenuOpen(false); setPickerBook(null) }}>

@@ -8,6 +8,7 @@ import {
 } from '../data/versions.js'
 import { fetchVerseVersions } from '../lib/fetchVerse.js'
 import './ComparePanel.css'
+import BottomSheetHandle from './BottomSheetHandle.jsx'
 
 export default function ComparePanel({
   book,
@@ -65,6 +66,7 @@ export default function ComparePanel({
     <>
       <div className="compare-backdrop" onClick={onClose} aria-hidden />
       <aside className="compare-panel" role="dialog" aria-label="对照阅读">
+        <BottomSheetHandle onClose={onClose} label="关闭" className="compare-sheet-handle" />
         <header className="compare-header">
           <div>
             <div className="compare-title">{refLabel} · 对照</div>

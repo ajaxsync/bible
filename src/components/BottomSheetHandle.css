@@ -1,0 +1,23 @@
+.bottom-sheet-handle {
+  display: block;
+  width: 100%;
+  padding: 6px 0 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.bottom-sheet-handle:hover .bottom-sheet-handle-bar {
+  background: var(--text-light);
+}
+
+.bottom-sheet-handle-bar {
+  display: block;
+  width: 36px;
+  height: 4px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: var(--border);
+  transition: background 0.15s;
+}

@@ -77,6 +77,10 @@ export default function CachePanel({ onClose }) {
     onClose()
   }
 
+  const handlePauseDownload = () => {
+    abortRef.current?.abort()
+  }
+
   const handleDownloadAll = async () => {
     abortRef.current?.abort()
     const controller = new AbortController()
@@ -84,16 +88,19 @@ export default function CachePanel({ onClose }) {
 
     setDownloading(true)
     setError(null)
-    setProgress({ done: 0, total: 0, bytesDownloaded: 0, totalBytes: 0, etaMs: null })
+    setProgress((prev) => prev ?? { done: 0, total: 0, bytesDownloaded: 0, totalBytes: 0, etaMs: null })
     try {
       await downloadAllScripture((p) => setProgress(p), { signal: controller.signal })
       refreshStats()
+      setProgress(null)
     } catch (err) {
       if (err instanceof DownloadAbortedError) return
       setError(err.message)
     } finally {
-      if (abortRef.current === controller) abortRef.current = null
-      setDownloading(false)
+      if (abortRef.current === controller) {
+        abortRef.current = null
+        setDownloading(false)
+      }
     }
   }
 
@@ -136,6 +143,9 @@ export default function CachePanel({ onClose }) {
   const bytesPct = progress?.totalBytes
     ? Math.min(100, Math.round((progress.bytesDownloaded / progress.totalBytes) * 100))
     : progressPct
+
+  const showProgressSlot = !fullyCached
+  const hasProgressData = Boolean(progress?.total)
 
   return (
     <>
@@ -205,20 +215,30 @@ export default function CachePanel({ onClose }) {
           {formatDate(stats.fullDownloadAt)}
         </p>
 
-        {downloading && progress && (
-          <div className="cache-progress-block">
+        {showProgressSlot && (
+          <div className="cache-progress-block" aria-live="polite">
             <div className="cache-progress">
-              <div className="cache-progress-bar" style={{ width: `${bytesPct}%` }} />
+              <div className="cache-progress-bar" style={{ width: `${hasProgressData ? bytesPct : 0}%` }} />
               <span className="cache-progress-label">
-                {progress.done} / {progress.total} ({progressPct}%)
+                {hasProgressData
+                  ? `${progress.done} / ${progress.total} (${progressPct}%)`
+                  : (downloading
+                    ? (isZh ? '准备中…' : 'Preparing…')
+                    : (isZh ? '尚未开始' : 'Not started'))}
               </span>
             </div>
             <div className="cache-progress-meta">
               <span>
-                {formatBytes(progress.bytesDownloaded, lang)}
-                {progress.totalBytes ? ` / ${formatBytes(progress.totalBytes, lang)}` : ''}
+                {hasProgressData
+                  ? (
+                    <>
+                      {formatBytes(progress.bytesDownloaded, lang)}
+                      {progress.totalBytes ? ` / ${formatBytes(progress.totalBytes, lang)}` : ''}
+                    </>
+                  )
+                  : '\u00A0'}
               </span>
-              <span>{formatEta(progress.etaMs, lang)}</span>
+              <span>{hasProgressData ? formatEta(progress.etaMs, lang) : '\u00A0'}</span>
             </div>
           </div>
         )}
@@ -227,18 +247,27 @@ export default function CachePanel({ onClose }) {
 
         <div className="cache-actions">
           {!fullyCached && (
-            <button
-              type="button"
-              className="cache-btn cache-btn-primary"
-              onClick={handleDownloadAll}
-              disabled={downloading || clearing}
-            >
-              {downloading
-                ? (isZh ? '下载中…' : 'Downloading…')
-                : (partialCache
+            downloading ? (
+              <button
+                type="button"
+                className="cache-btn cache-btn-primary"
+                onClick={handlePauseDownload}
+                disabled={clearing}
+              >
+                {isZh ? '暂停下载' : 'Pause download'}
+              </button>
+            ) : (
+              <button
+                type="button"
+                className="cache-btn cache-btn-primary"
+                onClick={handleDownloadAll}
+                disabled={clearing}
+              >
+                {partialCache
                   ? (isZh ? '继续下载' : 'Resume download')
-                  : (isZh ? '下载全部' : 'Download all'))}
-            </button>
+                  : (isZh ? '下载全部' : 'Download all')}
+              </button>
+            )
           )}
           <button
             type="button"

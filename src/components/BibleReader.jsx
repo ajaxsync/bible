@@ -5,6 +5,7 @@ import { useVersion } from '../context/VersionContext.jsx'
 import { appConfig } from '../config/env.js'
 import { fetchChapter } from '../lib/fetchChapter.js'
 import { setPageTitle } from '../lib/pageTitle.js'
+import { storeLastReadingPosition } from '../lib/lastReadingPosition.js'
 import ComparePanel from './ComparePanel.jsx'
 import './BibleReader.css'
 import './VerseToolbar.css'
@@ -21,6 +22,11 @@ export default function BibleReader() {
 
   const bookInfo = bibleIndex[book]
   const isZh = version.lang !== 'en'
+
+  useEffect(() => {
+    if (!bookInfo) return
+    storeLastReadingPosition({ book, chapter, verse })
+  }, [book, chapter, verse, bookInfo])
 
   useEffect(() => {
     setCompareOpen(false)

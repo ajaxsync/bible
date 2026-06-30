@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { VersionProvider } from './context/VersionContext.jsx'
+import { ReadingSettingsProvider } from './context/ReadingSettingsContext.jsx'
 import { applyAppTheme } from './config/env.js'
 import { initPwaInstall } from './lib/pwaInstall.js'
 import { registerSW } from 'virtual:pwa-register'
@@ -23,7 +24,9 @@ createRoot(document.getElementById('root')).render(
       }}
     >
       <VersionProvider>
-        <App />
+        <ReadingSettingsProvider>
+          <App />
+        </ReadingSettingsProvider>
       </VersionProvider>
     </BrowserRouter>
   </StrictMode>,

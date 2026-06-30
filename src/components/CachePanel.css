@@ -132,6 +132,7 @@
 }
 
 .cache-progress-block {
+  min-height: 52px;
   margin-bottom: 12px;
 }
 

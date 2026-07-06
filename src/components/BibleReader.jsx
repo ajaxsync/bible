@@ -163,7 +163,8 @@ export default function BibleReader() {
   const nextChapterLabel = nextChapterInfo
     ? formatChapterLabel(nextChapterInfo.book, nextChapterInfo.chapter, version.lang)
     : null
-  const selectedHasHighlight = selectedVerses.some((num) => highlightedVerses.has(num))
+  const allSelectedHighlighted = selectedVerses.length > 0
+    && selectedVerses.every((num) => highlightedVerses.has(num))
 
   const syncUrl = (verses) => {
     if (verses.length === 1) {
@@ -297,19 +298,12 @@ export default function BibleReader() {
               <button
                 type="button"
                 className="verse-toolbar-btn"
-                onClick={handleHighlight}
+                onClick={allSelectedHighlighted ? handleUnhighlight : handleHighlight}
               >
-                {isZh ? '高亮' : 'Highlight'}
+                {allSelectedHighlighted
+                  ? (isZh ? '取消高亮' : 'Unhighlight')
+                  : (isZh ? '高亮' : 'Highlight')}
               </button>
-              {selectedHasHighlight && (
-                <button
-                  type="button"
-                  className="verse-toolbar-btn verse-toolbar-btn-muted"
-                  onClick={handleUnhighlight}
-                >
-                  {isZh ? '取消高亮' : 'Unhighlight'}
-                </button>
-              )}
             </div>
           </div>
         )}

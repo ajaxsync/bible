@@ -1,0 +1,241 @@
+.marks-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+}
+
+.marks-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: min(400px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  max-height: min(90dvh, calc(100vh - 32px));
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 16px 48px rgba(15, 15, 15, 0.15);
+  z-index: 210;
+  overflow: hidden;
+}
+
+.marks-panel.is-open {
+  animation: marks-panel-in var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+.marks-panel.is-closing {
+  animation: marks-panel-out var(--panel-transition-duration) var(--panel-transition-ease) both;
+}
+
+@keyframes marks-panel-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes marks-panel-out {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marks-panel.is-open,
+  .marks-panel.is-closing {
+    animation: none;
+  }
+}
+
+.marks-panel-sheet-handle {
+  display: none;
+  flex-shrink: 0;
+}
+
+.marks-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-shrink: 0;
+  padding: 16px 16px 0;
+}
+
+.marks-panel-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.marks-panel-close {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: var(--radius);
+  background: transparent;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.marks-panel-close:hover {
+  background: var(--bg-hover);
+}
+
+.marks-panel-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding: 12px 16px 20px;
+}
+
+.marks-panel-desc {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.marks-section + .marks-section {
+  margin-top: 20px;
+}
+
+.marks-section-title {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.marks-empty {
+  margin: 0;
+  padding: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border-radius: var(--radius);
+}
+
+.marks-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.marks-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  cursor: pointer;
+  text-align: left;
+}
+
+.marks-item:hover {
+  background: var(--bg-hover);
+}
+
+.marks-item-ref {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  min-width: 0;
+}
+
+.marks-item-meta {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 640px) {
+  .marks-panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+    width: 100%;
+    max-height: calc(100vh - 12px);
+    max-height: min(88dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    border-bottom: none;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .marks-panel.is-open {
+    animation: marks-panel-slide-up var(--panel-transition-duration) var(--panel-transition-ease) both;
+  }
+
+  .marks-panel.is-closing {
+    animation: marks-panel-slide-down var(--panel-transition-duration) var(--panel-transition-ease) both;
+  }
+
+  .marks-panel-sheet-handle {
+    display: block;
+  }
+
+  .marks-panel-header {
+    padding: 0 16px;
+  }
+
+  .marks-panel-title {
+    display: none;
+  }
+
+  .marks-panel-close {
+    display: none;
+  }
+
+  .marks-panel-scroll {
+    padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@keyframes marks-panel-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes marks-panel-slide-down {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}

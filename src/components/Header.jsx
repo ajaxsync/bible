@@ -8,6 +8,7 @@ import { useVersion } from '../context/VersionContext.jsx'
 import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
 import { isSpeechSupported } from '../lib/speechReader.js'
 import CachePanel from './CachePanel.jsx'
+import MarksPanel from './MarksPanel.jsx'
 import ReadingSettingsPanel from './ReadingSettingsPanel.jsx'
 import SpeechPanel from './SpeechPanel.jsx'
 import BookChapterPicker from './BookChapterPicker.jsx'
@@ -34,6 +35,7 @@ export default function Header() {
   const [actionsMenuOpen, setActionsMenuOpen] = useState(false)
   const [mobileVersionOpen, setMobileVersionOpen] = useState(false)
   const [cacheOpen, setCacheOpen] = useState(false)
+  const [marksOpen, setMarksOpen] = useState(false)
   const [readingSettingsOpen, setReadingSettingsOpen] = useState(false)
   const [speechPanelOpen, setSpeechPanelOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
@@ -54,6 +56,7 @@ export default function Header() {
     setActionsMenuOpen(false)
     setMobileVersionOpen(false)
     setCacheOpen(false)
+    setMarksOpen(false)
     setReadingSettingsOpen(false)
     setSpeechPanelOpen(false)
     setPickerBook(null)
@@ -148,6 +151,19 @@ export default function Header() {
             type="button"
             className="cache-trigger"
             onClick={() => {
+              setMarksOpen(true)
+              setMenuOpen(false)
+              setVersionMenuOpen(false)
+              setPickerBook(null)
+            }}
+          >
+            {isEn ? 'Highlights' : '高亮'}
+          </button>
+
+          <button
+            type="button"
+            className="cache-trigger"
+            onClick={() => {
               setCacheOpen(true)
               setMenuOpen(false)
               setVersionMenuOpen(false)
@@ -237,6 +253,21 @@ export default function Header() {
                   role="menuitem"
                   className="header-actions-item"
                   onClick={() => {
+                    setMarksOpen(true)
+                    setActionsMenuOpen(false)
+                    setMobileVersionOpen(false)
+                    setMenuOpen(false)
+                    setPickerBook(null)
+                  }}
+                >
+                  {isEn ? 'Highlights' : '高亮'}
+                </button>
+
+                <button
+                  type="button"
+                  role="menuitem"
+                  className="header-actions-item"
+                  onClick={() => {
                     setCacheOpen(true)
                     setActionsMenuOpen(false)
                     setMobileVersionOpen(false)
@@ -288,6 +319,7 @@ export default function Header() {
       </div>
 
       {cacheOpen && <CachePanel onClose={() => setCacheOpen(false)} />}
+      {marksOpen && <MarksPanel onClose={() => setMarksOpen(false)} />}
       {readingSettingsOpen && <ReadingSettingsPanel onClose={() => setReadingSettingsOpen(false)} />}
       {speechPanelOpen && speechSupported && (
         <SpeechPanel onClose={() => setSpeechPanelOpen(false)} activeVerse={activeVerse} />

@@ -3,13 +3,23 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
-import { getVerseText } from '../lib/speechReader.js'
 import { appConfig } from '../config/env.js'
 import { fetchChapter } from '../lib/fetchChapter.js'
 import { setPageTitle } from '../lib/pageTitle.js'
 import { storeLastReadingPosition } from '../lib/lastReadingPosition.js'
 import { getPrevChapterRoute, getNextChapterRoute, getPrevChapterInfo, getNextChapterInfo, formatChapterLabel } from '../lib/chapterNav.js'
-import ComparePanel from './ComparePanel.jsx'
+import {
+  buildVersesCopyText,
+  formatVerseRef,
+  mergeVerses,
+  selectVerseRange,
+  toggleVerse,
+} from '../lib/verseSelection.js'
+import {
+  addHighlights,
+  loadChapterHighlights,
+  removeHighlights,
+} from '../lib/verseHighlights.js'
 import SpeechFloatingControl from './SpeechFloatingControl.jsx'
 import './BibleReader.css'
 import './VerseToolbar.css'
@@ -23,7 +33,9 @@ export default function BibleReader() {
   const verse = verseParam ? parseInt(verseParam, 10) : 0
   const [chapterData, setChapterData] = useState(null)
   const [error, setError] = useState(null)
-  const [compareOpen, setCompareOpen] = useState(false)
+  const [selectedVerses, setSelectedVerses] = useState(() => (verse > 0 ? [verse] : []))
+  const [selectionAnchor, setSelectionAnchor] = useState(() => (verse > 0 ? verse : null))
+  const [highlightedVerses, setHighlightedVerses] = useState(() => new Set())
   const [copyHint, setCopyHint] = useState('')
   const prevVerseRef = useRef(verse)
   const {
@@ -41,34 +53,23 @@ export default function BibleReader() {
   const isSpeakingHere = isActive
     && speechLocation?.book === book
     && speechLocation?.chapter === chapter
+  const hasSelection = selectedVerses.length > 0
 
   useEffect(() => {
     if (!bookInfo) return
-    storeLastReadingPosition({ book, chapter, verse })
-  }, [book, chapter, verse, bookInfo])
+    const anchorVerse = selectedVerses.length === 1 ? selectedVerses[0] : 0
+    storeLastReadingPosition({ book, chapter, verse: anchorVerse })
+  }, [book, chapter, selectedVerses, bookInfo])
 
   useEffect(() => {
+    setSelectedVerses(verse > 0 ? [verse] : [])
+    setSelectionAnchor(verse > 0 ? verse : null)
     setCopyHint('')
-
-    if (verse <= 0) {
-      setCompareOpen(false)
-      return
-    }
-
-    if (isSpeakingHere && status === 'playing') {
-      setCompareOpen(false)
-    } else if (isSpeakingHere && status === 'paused') {
-      setCompareOpen(true)
-    } else if (!isSpeakingHere) {
-      setCompareOpen(false)
-    }
-  }, [book, chapter, verse, versionId, isSpeakingHere, status])
+  }, [book, chapter, versionId])
 
   useEffect(() => {
-    if (status === 'playing' && isSpeakingHere) {
-      setCompareOpen(false)
-    }
-  }, [status, isSpeakingHere])
+    setHighlightedVerses(loadChapterHighlights(versionId, book, chapter))
+  }, [versionId, book, chapter])
 
   useEffect(() => {
     stop()
@@ -113,8 +114,9 @@ export default function BibleReader() {
       document.title = appConfig.title
       return
     }
-    setPageTitle(book, chapter, { lang: version.lang, verse, versionLabel: version.label })
-  }, [book, chapter, verse, version.lang, version.label, bookInfo])
+    const titleVerse = selectedVerses.length === 1 ? selectedVerses[0] : 0
+    setPageTitle(book, chapter, { lang: version.lang, verse: titleVerse, versionLabel: version.label })
+  }, [book, chapter, selectedVerses, version.lang, version.label, bookInfo])
 
   useEffect(() => {
     let cancelled = false
@@ -149,7 +151,7 @@ export default function BibleReader() {
   }
 
   const chapterPath = `/${book}/${chapterToParam(chapter)}`
-  const refLabel = `${getBookTitle(book, version.lang)} ${chapter}:${verse}`
+  const refLabel = formatVerseRef(book, chapter, selectedVerses, version.lang)
   const prevChapterLink = getPrevChapterRoute(book, chapter)
   const nextChapterLink = getNextChapterRoute(book, chapter)
   const prevChapterInfo = getPrevChapterInfo(book, chapter)
@@ -161,16 +163,40 @@ export default function BibleReader() {
   const nextChapterLabel = nextChapterInfo
     ? formatChapterLabel(nextChapterInfo.book, nextChapterInfo.chapter, version.lang)
     : null
+  const selectedHasHighlight = selectedVerses.some((num) => highlightedVerses.has(num))
 
-  const clearVerseSelection = () => {
-    if (verse <= 0) return
-    setCompareOpen(false)
-    navigate(chapterPath)
+  const syncUrl = (verses) => {
+    if (verses.length === 1) {
+      navigate(`${chapterPath}/${verses[0]}`, { replace: true })
+    } else if (verses.length === 0 && verse > 0) {
+      navigate(chapterPath, { replace: true })
+    }
+  }
+
+  const clearSelection = () => {
+    setSelectedVerses([])
+    setSelectionAnchor(null)
+    if (verse > 0) navigate(chapterPath, { replace: true })
+  }
+
+  const handleVerseClick = (verseNum, event) => {
+    event.preventDefault()
+    event.stopPropagation()
+
+    let next
+    if (event.shiftKey && selectionAnchor != null) {
+      next = mergeVerses(selectedVerses, selectVerseRange(selectionAnchor, verseNum))
+    } else {
+      next = toggleVerse(selectedVerses, verseNum)
+      setSelectionAnchor(verseNum)
+    }
+
+    setSelectedVerses(next)
+    syncUrl(next)
   }
 
   const handleCopy = async () => {
-    const text = getVerseText(chapterData, verse)
-    const copyText = `${text} ${refLabel} ${version.label}`
+    const copyText = buildVersesCopyText(chapterData, selectedVerses, book, chapter, version)
     try {
       await navigator.clipboard.writeText(copyText)
       setCopyHint(isZh ? '已复制' : 'Copied')
@@ -181,17 +207,29 @@ export default function BibleReader() {
     }
   }
 
+  const handleHighlight = () => {
+    setHighlightedVerses(addHighlights(versionId, book, chapter, selectedVerses, highlightedVerses))
+    setCopyHint(isZh ? '已高亮' : 'Highlighted')
+    window.setTimeout(() => setCopyHint(''), 1500)
+  }
+
+  const handleUnhighlight = () => {
+    setHighlightedVerses(removeHighlights(versionId, book, chapter, selectedVerses, highlightedVerses))
+    setCopyHint(isZh ? '已取消高亮' : 'Unhighlighted')
+    window.setTimeout(() => setCopyHint(''), 1500)
+  }
+
   const readerClass = [
     'reader',
     `lang-${version.lang}`,
-    verse > 0 ? 'has-verse-toolbar' : '',
+    hasSelection ? 'has-verse-toolbar' : '',
     isSpeakingHere ? 'is-speaking' : '',
-    isSpeakingHere && verse === 0 ? 'has-speech-float' : '',
+    isSpeakingHere && !hasSelection ? 'has-speech-float' : '',
   ].filter(Boolean).join(' ')
 
   return (
     <>
-      <article className={readerClass} onClick={clearVerseSelection}>
+      <article className={readerClass} onClick={clearSelection}>
         <h1 className="reader-title">{getBookTitle(book, version.lang)} {chapter}</h1>
         <p className="reader-meta">{version.label}</p>
 
@@ -200,14 +238,15 @@ export default function BibleReader() {
             <Section
               key={index}
               section={section}
-              chapterPath={chapterPath}
-              verse={verse}
+              selectedVerses={selectedVerses}
+              highlightedVerses={highlightedVerses}
               speakingVerse={isSpeakingHere ? speakingVerse : null}
+              onVerseClick={handleVerseClick}
             />
           ))}
         </div>
 
-        {verse === 0 && (
+        {!hasSelection && (
           <nav className="chapter-nav" aria-label={isZh ? '章节导航' : 'Chapter navigation'}>
             <div className="chapter-nav-col chapter-nav-col-prev">
               {prevChapterLink && (
@@ -236,11 +275,18 @@ export default function BibleReader() {
           </nav>
         )}
 
-        {verse > 0 && (
+        {hasSelection && (
           <div className="verse-toolbar" onClick={(e) => e.stopPropagation()}>
             <span className="verse-toolbar-ref">{refLabel}</span>
             <div className="verse-toolbar-actions">
               {copyHint && <span className="verse-toolbar-copy-hint">{copyHint}</span>}
+              <button
+                type="button"
+                className="verse-toolbar-btn verse-toolbar-btn-muted"
+                onClick={clearSelection}
+              >
+                {isZh ? '取消' : 'Clear'}
+              </button>
               <button
                 type="button"
                 className="verse-toolbar-btn verse-toolbar-btn-muted"
@@ -251,32 +297,30 @@ export default function BibleReader() {
               <button
                 type="button"
                 className="verse-toolbar-btn"
-                onClick={() => setCompareOpen(true)}
+                onClick={handleHighlight}
               >
-                {isZh ? '对照阅读' : 'Compare'}
+                {isZh ? '高亮' : 'Highlight'}
               </button>
+              {selectedHasHighlight && (
+                <button
+                  type="button"
+                  className="verse-toolbar-btn verse-toolbar-btn-muted"
+                  onClick={handleUnhighlight}
+                >
+                  {isZh ? '取消高亮' : 'Unhighlight'}
+                </button>
+              )}
             </div>
           </div>
         )}
-
-        {verse > 0 && compareOpen && (
-          <ComparePanel
-            book={book}
-            chapter={chapter}
-            verse={verse}
-            primaryVersionId={versionId}
-            primaryLang={version.lang}
-            onClose={() => setCompareOpen(false)}
-          />
-        )}
       </article>
 
-      <SpeechFloatingControl verseSelected={verse > 0} />
+      <SpeechFloatingControl verseSelected={hasSelection} />
     </>
   )
 }
 
-function Section({ section, chapterPath, verse, speakingVerse }) {
+function Section({ section, selectedVerses, highlightedVerses, speakingVerse, onVerseClick }) {
   if ('heading' in section) {
     if (Array.isArray(section.heading)) {
       return (
@@ -301,19 +345,31 @@ function Section({ section, chapterPath, verse, speakingVerse }) {
     <div className={`section ${section.type}`}>
       {section.contents.map((content, index) => {
         const { hasVerseLabel, verseNum, verseText, classes, title } = content
-        const link = verseNum === verse ? chapterPath : `${chapterPath}/${verseNum}`
+        const isSelected = selectedVerses.includes(verseNum)
+        const isHighlighted = highlightedVerses.has(verseNum)
 
         return (
           <span className="section-content" key={index}>
             {hasVerseLabel ? <span className="verse-num">{verseNum}</span> : null}
-            <Link to={link} title={title} className="verse-link" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              title={title}
+              className="verse-button"
+              onClick={(e) => onVerseClick(verseNum, e)}
+            >
               <span
                 data-verse={verseNum}
-                className={['verse', ...(classes || []), verseNum === verse ? 'selected' : '', verseNum === speakingVerse ? 'speaking' : ''].filter(Boolean).join(' ')}
+                className={[
+                  'verse',
+                  ...(classes || []),
+                  isSelected ? 'selected' : '',
+                  isHighlighted ? 'highlighted' : '',
+                  verseNum === speakingVerse ? 'speaking' : '',
+                ].filter(Boolean).join(' ')}
               >
                 {verseText}
               </span>
-            </Link>
+            </button>
           </span>
         )
       })}

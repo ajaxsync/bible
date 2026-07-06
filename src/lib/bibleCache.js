@@ -225,22 +225,23 @@ export async function putCachedVerse(key, data) {
 }
 
 export async function getCacheStats() {
-  const [chapterCount, verseCount, fullDownloadAt] = await Promise.all([
+  const [chapterCount, fullDownloadAt] = await Promise.all([
     idbCount('chapters'),
-    idbCount('verses'),
     idbGet('meta', 'fullDownloadAt'),
   ])
-  const { chapterBytes, verseBytes } = await ensureByteStats(chapterCount, verseCount)
-  const memory = getMemoryUsage()
+  const { chapterBytes } = await ensureByteStats(chapterCount, 0)
+  const mem = getMemoryUsage()
 
   return {
     chapterCount,
-    verseCount,
     chapterBytes,
-    verseBytes,
-    storageBytes: chapterBytes + verseBytes,
+    storageBytes: chapterBytes,
     fullDownloadAt: fullDownloadAt ?? null,
-    memory,
+    memory: {
+      chapterCount: mem.chapterCount,
+      chapterBytes: mem.chapterBytes,
+      totalBytes: mem.chapterBytes,
+    },
   }
 }
 
@@ -266,15 +267,6 @@ function parseChapterPath(relativePath) {
   return { versionId, book: parseInt(book, 10), chapter }
 }
 
-function parseVersePath(relativePath) {
-  const match = relativePath.match(/^json\/verses\/(\d+)\/(\d+)\/(\d+)\.json$/)
-  if (!match) return null
-  return {
-    book: parseInt(match[1], 10),
-    chapter: parseInt(match[2], 10),
-    verse: parseInt(match[3], 10),
-  }
-}
 
 async function loadManifest() {
   const url = assetUrl('json/cache-manifest.json')
@@ -286,38 +278,25 @@ async function loadManifest() {
 export async function getManifestInfo() {
   const manifest = await loadManifest()
   return {
-    chapterTotal: manifest.chapters.length,
-    verseTotal: manifest.verses.length,
-    totalBytes: manifest.totalBytes ?? 0,
+    chapterTotal: manifest.chapters?.length ?? 0,
+    totalBytes: manifest.totalBytes ?? manifest.chapterBytes ?? 0,
   }
 }
 
 export function isFullyCached(stats, manifestInfo) {
   if (!stats?.fullDownloadAt || !manifestInfo) return false
   return stats.chapterCount >= manifestInfo.chapterTotal
-    && stats.verseCount >= manifestInfo.verseTotal
 }
 
 export function hasPartialCache(stats, manifestInfo) {
   if (!manifestInfo || isFullyCached(stats, manifestInfo)) return false
-  return stats.chapterCount > 0 || stats.verseCount > 0
+  return stats.chapterCount > 0
 }
 
-function itemCacheKey(item) {
-  if (item.kind === 'chapter') {
-    const parsed = parseChapterPath(item.path)
-    if (!parsed) return null
-    return { store: 'chapter', key: chapterCacheKey(parsed.versionId, parsed.book, parsed.chapter) }
-  }
-  const parsed = parseVersePath(item.path)
+function chapterItemCacheKey(path) {
+  const parsed = parseChapterPath(path)
   if (!parsed) return null
-  return { store: 'verse', key: verseCacheKey(parsed.book, parsed.chapter, parsed.verse) }
-}
-
-function isItemCached(item, chapterKeySet, verseKeySet) {
-  const ref = itemCacheKey(item)
-  if (!ref) return true
-  return ref.store === 'chapter' ? chapterKeySet.has(ref.key) : verseKeySet.has(ref.key)
+  return chapterCacheKey(parsed.versionId, parsed.book, parsed.chapter)
 }
 
 export class DownloadAbortedError extends Error {
@@ -336,28 +315,24 @@ export async function downloadAllScripture(onProgress, options = {}) {
   throwIfAborted(signal)
 
   const manifest = await loadManifest()
-  const items = [
-    ...manifest.chapters.map((path) => ({ kind: 'chapter', path })),
-    ...manifest.verses.map((path) => ({ kind: 'verse', path })),
-  ]
-  const total = items.length
-  const totalBytes = manifest.totalBytes ?? 0
+  const paths = manifest.chapters ?? []
+  const total = paths.length
+  const totalBytes = manifest.totalBytes ?? manifest.chapterBytes ?? 0
 
-  const [chapterKeys, verseKeys, initialStats] = await Promise.all([
+  const [chapterKeys, initialStats] = await Promise.all([
     idbGetAllKeys('chapters'),
-    idbGetAllKeys('verses'),
     getCacheStats(),
   ])
   const chapterKeySet = new Set(chapterKeys)
-  const verseKeySet = new Set(verseKeys)
 
   const pending = []
   let initialDone = 0
-  for (const item of items) {
-    if (isItemCached(item, chapterKeySet, verseKeySet)) {
+  for (const path of paths) {
+    const key = chapterItemCacheKey(path)
+    if (!key || chapterKeySet.has(key)) {
       initialDone += 1
     } else {
-      pending.push(item)
+      pending.push(path)
     }
   }
 
@@ -400,9 +375,9 @@ export async function downloadAllScripture(onProgress, options = {}) {
   for (let i = 0; i < pending.length; i += batchSize) {
     throwIfAborted(signal)
     const batch = pending.slice(i, i + batchSize)
-    await Promise.all(batch.map(async (item) => {
+    await Promise.all(batch.map(async (path) => {
       throwIfAborted(signal)
-      const url = assetUrl(item.path)
+      const url = assetUrl(path)
       const res = await fetch(url)
       if (!res.ok) throw new Error(`下载失败: ${url}`)
       const buffer = await res.arrayBuffer()
@@ -410,17 +385,11 @@ export async function downloadAllScripture(onProgress, options = {}) {
       sessionBytes += buffer.byteLength
       const data = JSON.parse(new TextDecoder().decode(buffer))
 
-      const ref = itemCacheKey(item)
-      if (!ref) return
+      const key = chapterItemCacheKey(path)
+      if (!key) return
 
-      if (ref.store === 'chapter') {
-        await putCachedChapter(ref.key, data)
-        chapterKeySet.add(ref.key)
-      } else {
-        const entry = Object.values(data)[0]
-        await putCachedVerse(ref.key, entry?.versions || {})
-        verseKeySet.add(ref.key)
-      }
+      await putCachedChapter(key, data)
+      chapterKeySet.add(key)
     }))
     done += batch.length
     sessionDone += batch.length

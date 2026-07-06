@@ -168,11 +168,22 @@
   .verse-toolbar {
     flex-wrap: wrap;
     padding: 10px 12px;
+    gap: 8px;
+  }
+
+  .verse-toolbar-ref {
+    width: 100%;
   }
 
   .verse-toolbar-actions {
     width: 100%;
     justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .verse-toolbar-btn {
+    padding: 7px 10px;
+    font-size: 12px;
   }
 
   .reader.has-verse-toolbar {

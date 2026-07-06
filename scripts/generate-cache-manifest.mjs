@@ -37,30 +37,23 @@ async function main() {
     }
   }
 
-  const versesDir = path.join(jsonRoot, 'verses')
-  const verseFiles = await listJsonFiles(versesDir, '/verses')
-
   chapterFiles.sort((a, b) => a.path.localeCompare(b.path))
-  verseFiles.sort((a, b) => a.path.localeCompare(b.path))
 
   const chapterBytes = chapterFiles.reduce((sum, f) => sum + f.bytes, 0)
-  const verseBytes = verseFiles.reduce((sum, f) => sum + f.bytes, 0)
 
   const manifest = {
-    version: 1,
+    version: 2,
     generatedAt: new Date().toISOString(),
     chapters: chapterFiles.map((f) => f.path),
-    verses: verseFiles.map((f) => f.path),
     chapterBytes,
-    verseBytes,
-    totalBytes: chapterBytes + verseBytes,
+    totalBytes: chapterBytes,
   }
 
   const outPath = path.join(jsonRoot, 'cache-manifest.json')
   await writeFile(outPath, JSON.stringify(manifest), 'utf-8')
   const mb = (manifest.totalBytes / 1024 / 1024).toFixed(1)
   console.log(`写入 ${outPath}`)
-  console.log(`  整章: ${chapterFiles.length}，经节: ${verseFiles.length}，合计约 ${mb} MB`)
+  console.log(`  整章: ${chapterFiles.length}，合计约 ${mb} MB`)
 }
 
 main().catch((err) => {

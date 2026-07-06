@@ -22,12 +22,10 @@ export default function CachePanel({ onClose }) {
   const lang = isZh ? 'chs' : 'en'
   const [stats, setStats] = useState({
     chapterCount: 0,
-    verseCount: 0,
     chapterBytes: 0,
-    verseBytes: 0,
     storageBytes: 0,
     fullDownloadAt: null,
-    memory: { chapterCount: 0, verseCount: 0, chapterBytes: 0, verseBytes: 0, totalBytes: 0 },
+    memory: { chapterCount: 0, chapterBytes: 0, totalBytes: 0 },
   })
   const [manifestInfo, setManifestInfo] = useState(null)
   const [downloading, setDownloading] = useState(false)
@@ -188,8 +186,8 @@ export default function CachePanel({ onClose }) {
               ? '全部经文已缓存，可离线阅读。阅读时仍会按需更新内存热缓存。'
               : 'All scripture is cached for offline reading.')
             : (isZh
-              ? '阅读过的章节与对照经节会自动缓存。也可手动下载全部经文以供离线使用。'
-              : 'Read chapters and compared verses are cached automatically. Download all for full offline use.')}
+              ? '阅读过的章节会自动缓存。也可手动下载全部经文以供离线使用。'
+              : 'Read chapters are cached automatically. Download all for full offline use.')}
         </p>
 
         <dl className="cache-stats">
@@ -201,27 +199,11 @@ export default function CachePanel({ onClose }) {
                 : stats.chapterCount}
             </dd>
           </div>
-          <div className="cache-stat">
-            <dt>{isZh ? '已缓存经节' : 'Verses'}</dt>
-            <dd>
-              {manifestInfo
-                ? `${stats.verseCount} / ${manifestInfo.verseTotal}`
-                : stats.verseCount}
-            </dd>
-          </div>
         </dl>
 
         <div className="cache-storage">
-          <div className="cache-storage-row">
-            <span>{isZh ? '章节占用' : 'Chapter storage'}</span>
-            <strong>{formatBytes(stats.chapterBytes, lang)}</strong>
-          </div>
-          <div className="cache-storage-row">
-            <span>{isZh ? '经节占用' : 'Verse storage'}</span>
-            <strong>{formatBytes(stats.verseBytes, lang)}</strong>
-          </div>
           <div className="cache-storage-row cache-storage-total">
-            <span>{isZh ? '本地合计' : 'Total stored'}</span>
+            <span>{isZh ? '本地占用' : 'Stored'}</span>
             <strong>{formatBytes(stats.storageBytes, lang)}</strong>
           </div>
           <div className="cache-storage-row cache-storage-memory">

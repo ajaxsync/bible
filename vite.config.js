@@ -13,8 +13,16 @@ export default defineConfig(({ mode }) => {
       VitePWA({
         registerType: 'prompt',
         devOptions: { enabled: true },
-        includeAssets: ['favicon.svg'],
+        includeAssets: [
+          'favicon.svg',
+          'icon-192.png',
+          'icon-512.png',
+          'icon-192-maskable.png',
+          'icon-512-maskable.png',
+          'apple-touch-icon.png',
+        ],
         manifest: {
+          id: base === '/' ? '/' : base.replace(/\/$/, ''),
           name: env.VITE_APP_TITLE || 'Bible · Reader',
           short_name: env.VITE_APP_NAME || 'Bible',
           description: '圣经阅读器',
@@ -25,21 +33,33 @@ export default defineConfig(({ mode }) => {
           scope: base,
           icons: [
             {
-              src: `${base}favicon.svg`.replace(/\/+/g, '/'),
+              src: `${base}icon-192.png`.replace(/\/+/g, '/'),
               sizes: '192x192',
-              type: 'image/svg+xml',
+              type: 'image/png',
               purpose: 'any',
             },
             {
-              src: `${base}favicon.svg`.replace(/\/+/g, '/'),
+              src: `${base}icon-512.png`.replace(/\/+/g, '/'),
               sizes: '512x512',
-              type: 'image/svg+xml',
+              type: 'image/png',
               purpose: 'any',
+            },
+            {
+              src: `${base}icon-192-maskable.png`.replace(/\/+/g, '/'),
+              sizes: '192x192',
+              type: 'image/png',
+              purpose: 'maskable',
+            },
+            {
+              src: `${base}icon-512-maskable.png`.replace(/\/+/g, '/'),
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'maskable',
             },
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,svg,woff2}'],
+          globPatterns: ['**/*.{js,css,html,ico,svg,png,woff2}'],
           globIgnores: ['**/json/**', '**/cache-manifest.json'],
           navigateFallback: 'index.html',
           navigateFallbackDenylist: [/^\/json\//],

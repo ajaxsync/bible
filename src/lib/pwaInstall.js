@@ -10,10 +10,15 @@ export function isIosDevice() {
   return /iPad|iPhone|iPod/.test(window.navigator.userAgent)
 }
 
+export function isAndroidDevice() {
+  return /Android/i.test(window.navigator.userAgent)
+}
+
 function getInstallState() {
   if (isAppInstalled()) return 'installed'
   if (deferredPrompt) return 'ready'
   if (isIosDevice()) return 'ios'
+  if (isAndroidDevice()) return 'android'
   return 'unavailable'
 }
 

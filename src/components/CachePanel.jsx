@@ -13,6 +13,7 @@ import {
 import { useVersion } from '../context/VersionContext.jsx'
 import { usePwaInstall } from '../hooks/usePwaInstall.js'
 import { PANEL_TRANSITION_MS } from '../hooks/useAnimatedPanel.js'
+import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './CachePanel.css'
 
 export default function CachePanel({ onClose }) {
@@ -34,6 +35,7 @@ export default function CachePanel({ onClose }) {
   const [error, setError] = useState(null)
   const [clearing, setClearing] = useState(false)
   const [showIosGuide, setShowIosGuide] = useState(false)
+  const [showAndroidGuide, setShowAndroidGuide] = useState(false)
   const [closing, setClosing] = useState(false)
   const refreshTimerRef = useRef(null)
   const abortRef = useRef(null)
@@ -118,6 +120,12 @@ export default function CachePanel({ onClose }) {
   const handleInstall = async () => {
     if (installState === 'ios') {
       setShowIosGuide(true)
+      setShowAndroidGuide(false)
+      return
+    }
+    if (installState === 'android') {
+      setShowAndroidGuide(true)
+      setShowIosGuide(false)
       return
     }
     if (installState !== 'ready') return
@@ -162,12 +170,18 @@ export default function CachePanel({ onClose }) {
     <>
       <div className={`cache-backdrop panel-backdrop ${motionClass}`} onClick={requestClose} aria-hidden />
       <div className={`cache-panel ${motionClass}`} role="dialog" aria-label={isZh ? '离线缓存' : 'Offline cache'}>
+        <BottomSheetHandle
+          onClose={requestClose}
+          label={isZh ? '关闭' : 'Close'}
+          className="cache-panel-sheet-handle"
+        />
         <div className="cache-panel-header">
           <button type="button" className="cache-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
             ×
           </button>
         </div>
 
+        <div className="cache-panel-scroll">
         <p className="cache-panel-desc">
           {fullyCached
             ? (isZh
@@ -295,19 +309,26 @@ export default function CachePanel({ onClose }) {
                 type="button"
                 className="cache-btn"
                 onClick={handleInstall}
-                disabled={installState === 'unavailable' || downloading || clearing}
+                disabled={(installState === 'unavailable') || downloading || clearing}
               >
                 {isZh ? '添加到主屏幕' : 'Add to Home Screen'}
               </button>
               {installState === 'unavailable' && (
                 <p className="cache-install-hint">
                   {isZh
-                    ? '若按钮不可用，请使用浏览器菜单中的「安装应用」或「添加到主屏幕」。需通过 HTTPS 访问。'
-                    : 'If unavailable, use the browser menu to install. HTTPS is required.'}
+                    ? '当前浏览器不支持一键安装，请换用 Chrome 后通过菜单添加。'
+                    : 'This browser cannot install directly. Try Chrome and use its menu.'}
+                </p>
+              )}
+              {installState === 'android' && !showAndroidGuide && (
+                <p className="cache-install-hint">
+                  {isZh
+                    ? '点击上方按钮查看安装步骤；推荐使用 Chrome 以获得最佳体验。'
+                    : 'Tap the button above for steps. Chrome is recommended.'}
                 </p>
               )}
               {showIosGuide && installState === 'ios' && (
-                <p className="cache-ios-guide">
+                <p className="cache-install-guide">
                   {isZh ? (
                     <>
                       1. 点击 Safari 底部的<strong>分享</strong>按钮<br />
@@ -321,6 +342,31 @@ export default function CachePanel({ onClose }) {
                   )}
                 </p>
               )}
+              {showAndroidGuide && installState === 'android' && (
+                <p className="cache-install-guide">
+                  {isZh ? (
+                    <>
+                      <strong>Chrome（推荐）</strong><br />
+                      1. 点击右上角 <strong>⋮</strong> 菜单<br />
+                      2. 选择<strong>添加到主屏幕</strong>或<strong>安装应用</strong><br />
+                      <br />
+                      <strong>小米 / Via 等浏览器</strong><br />
+                      1. 打开浏览器<strong>菜单</strong>（通常在右上角或底部）<br />
+                      2. 查找<strong>添加到主屏幕</strong>、<strong>添加快捷方式</strong>或<strong>桌面书签</strong>
+                    </>
+                  ) : (
+                    <>
+                      <strong>Chrome (recommended)</strong><br />
+                      1. Tap the <strong>⋮</strong> menu (top right)<br />
+                      2. Choose <strong>Add to Home screen</strong> or <strong>Install app</strong><br />
+                      <br />
+                      <strong>Other browsers (Mi, Via, etc.)</strong><br />
+                      1. Open the browser <strong>menu</strong><br />
+                      2. Look for <strong>Add to Home screen</strong> or <strong>Add shortcut</strong>
+                    </>
+                  )}
+                </p>
+              )}
             </>
           )}
         </div>
@@ -330,6 +376,7 @@ export default function CachePanel({ onClose }) {
             ? '安装后可从主屏幕打开；离线阅读需先缓存经文。'
             : 'Install for Home Screen access; cache scripture for offline reading.'}
         </p>
+        </div>
       </div>
     </>
   )

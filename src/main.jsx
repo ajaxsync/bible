@@ -5,6 +5,7 @@ import { VersionProvider } from './context/VersionContext.jsx'
 import { ReadingSettingsProvider } from './context/ReadingSettingsContext.jsx'
 import { SpeechReaderProvider } from './context/SpeechReaderContext.jsx'
 import { PwaUpdateProvider } from './context/PwaUpdateContext.jsx'
+import { ReadingStaminaProvider } from './context/ReadingStaminaContext.jsx'
 import { applyAppTheme } from './config/env.js'
 import { initPwaInstall } from './lib/pwaInstall.js'
 import App from './App.jsx'
@@ -27,7 +28,9 @@ createRoot(document.getElementById('root')).render(
         <ReadingSettingsProvider>
           <SpeechReaderProvider>
             <PwaUpdateProvider>
-              <App />
+              <ReadingStaminaProvider>
+                <App />
+              </ReadingStaminaProvider>
             </PwaUpdateProvider>
           </SpeechReaderProvider>
         </ReadingSettingsProvider>

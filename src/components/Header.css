@@ -12,6 +12,17 @@
   z-index: 100;
 }
 
+.header-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding-right: 12px;
+  border-right: 1px solid var(--border);
+  justify-self: start;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
 .header-logo {
   display: inline-flex;
   align-items: center;
@@ -19,13 +30,12 @@
   font-weight: 600;
   font-size: 14px;
   color: var(--text-muted);
-  padding-right: 12px;
-  border-right: 1px solid var(--border);
   white-space: nowrap;
   text-decoration: none;
   flex-shrink: 0;
-  justify-self: start;
   min-width: 0;
+  padding-right: 0;
+  border-right: none;
 }
 
 .header-logo:hover {
@@ -40,6 +50,30 @@
 
 .header-logo-emoji {
   line-height: 1;
+}
+
+.stamina-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: none;
+  background: transparent;
+  color: var(--text-light);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.stamina-trigger:hover {
+  color: var(--text-muted);
+}
+
+.stamina-trigger.is-completed {
+  color: var(--stamina-green-3);
+}
+
+.stamina-trigger.is-completed .lightning-bolt {
+  fill: color-mix(in srgb, var(--stamina-green-3) 30%, transparent);
 }
 
 .header-nav {
@@ -455,7 +489,6 @@
   gap: 8px;
   padding: 6px 10px;
   border-bottom: 1px solid var(--border);
-  background: var(--bg-subtle);
   font-size: 13px;
 }
 
@@ -966,6 +999,11 @@
     gap: 8px;
   }
 
+  .header-brand {
+    padding-right: 0;
+    border-right: none;
+  }
+
   .header-logo {
     padding-right: 0;
     border-right: none;
@@ -996,6 +1034,7 @@
   border-bottom-color: color-mix(in srgb, var(--border) 70%, transparent);
 }
 
+[data-ui-style="kindle"] .header-brand,
 [data-ui-style="kindle"] .header-logo {
   border-right-color: transparent;
 }

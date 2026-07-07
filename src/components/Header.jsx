@@ -14,7 +14,10 @@ import SpeechPanel from './SpeechPanel.jsx'
 import BookChapterPicker from './BookChapterPicker.jsx'
 import { useAnimatedPanel } from '../hooks/useAnimatedPanel.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
+import { useReadingStamina } from '../context/ReadingStaminaContext.jsx'
 import SpeakerIcon from './SpeakerIcon.jsx'
+import LightningIcon from './LightningIcon.jsx'
+import StaminaPanel from './StaminaPanel.jsx'
 import './Header.css'
 
 const VERSION_LANG_LABEL = { chs: '简体中文', cht: '繁體中文', en: 'English' }
@@ -40,6 +43,7 @@ export default function Header() {
   const [readingSettingsOpen, setReadingSettingsOpen] = useState(false)
   const [speechPanelOpen, setSpeechPanelOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
+  const { todayCompleted, panelOpen, openPanel, closePanel } = useReadingStamina()
 
   const bookInfo = bibleIndex[book]
   const activeBook = pickerBook ?? book
@@ -63,7 +67,8 @@ export default function Header() {
     setReadingSettingsOpen(false)
     setSpeechPanelOpen(false)
     setPickerBook(null)
-  }, [bookParam, chapterParam])
+    closePanel()
+  }, [bookParam, chapterParam, closePanel])
 
   if (!bookInfo) return null
 
@@ -113,14 +118,25 @@ export default function Header() {
 
   return (
     <header className="header">
-      <Link to="/" className="header-logo" aria-label={appConfig.name}>
-        {isImageIcon(appConfig.icon) ? (
-          <img src={assetUrl(appConfig.icon)} alt="" className="header-logo-icon" />
-        ) : (
-          <span className="header-logo-emoji" aria-hidden>{appConfig.icon}</span>
-        )}
-        <span className="header-logo-name">{appConfig.name}</span>
-      </Link>
+      <div className="header-brand">
+        <Link to="/" className="header-logo" aria-label={appConfig.name}>
+          {isImageIcon(appConfig.icon) ? (
+            <img src={assetUrl(appConfig.icon)} alt="" className="header-logo-icon" />
+          ) : (
+            <span className="header-logo-emoji" aria-hidden>{appConfig.icon}</span>
+          )}
+          <span className="header-logo-name">{appConfig.name}</span>
+        </Link>
+        <button
+          type="button"
+          className={`stamina-trigger${todayCompleted ? ' is-completed' : ''}`}
+          onClick={openPanel}
+          aria-label={isEn ? 'Reading stamina' : '阅读续航'}
+          aria-pressed={todayCompleted}
+        >
+          <LightningIcon className="stamina-trigger-icon" />
+        </button>
+      </div>
 
       <div className="header-nav">
         <button
@@ -328,6 +344,7 @@ export default function Header() {
       {speechPanelOpen && speechSupported && (
         <SpeechPanel onClose={() => setSpeechPanelOpen(false)} activeVerse={activeVerse} />
       )}
+      {panelOpen && <StaminaPanel onClose={closePanel} />}
 
       {chapterPicker.render && (
         <>

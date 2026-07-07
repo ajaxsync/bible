@@ -21,6 +21,7 @@ import {
   removeHighlights,
 } from '../lib/verseHighlights.js'
 import SpeechFloatingControl from './SpeechFloatingControl.jsx'
+import { useReadingDwellTimer } from '../hooks/useReadingDwellTimer.js'
 import './BibleReader.css'
 import './VerseToolbar.css'
 
@@ -49,6 +50,7 @@ export default function BibleReader() {
   } = useSpeechReader()
 
   const bookInfo = bibleIndex[book]
+  useReadingDwellTimer({ book, chapter, enabled: Boolean(bookInfo) })
   const isZh = version.lang !== 'en'
   const isSpeakingHere = isActive
     && speechLocation?.book === book

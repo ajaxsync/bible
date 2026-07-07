@@ -3,6 +3,7 @@ import { getLastReadingRoute } from './lib/lastReadingPosition.js'
 import Header from './components/Header.jsx'
 import BibleReader from './components/BibleReader.jsx'
 import PwaUpdatePrompt from './components/PwaUpdatePrompt.jsx'
+import StaminaPrompt from './components/StaminaPrompt.jsx'
 import './App.css'
 
 function LastReadingRedirect() {
@@ -28,6 +29,7 @@ function ReaderPage() {
       <main className="app-main">
         <BibleReader />
       </main>
+      <StaminaPrompt />
     </>
   )
 }

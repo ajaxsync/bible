@@ -29,12 +29,130 @@
   --stamina-green-3: #30a14e;
   --stamina-green-4: #216e39;
   --stamina-green-soft: #dcffe4;
+  --scrollbar-size: 6px;
+  --scrollbar-thumb: color-mix(in srgb, var(--text-light) 50%, transparent);
+  --scrollbar-thumb-hover: color-mix(in srgb, var(--text-muted) 68%, transparent);
 }
 
 html.scroll-locked,
 .app-main.scroll-locked {
-  overflow: hidden;
   overscroll-behavior: none;
+}
+
+.app-main.scroll-locked {
+  pointer-events: none;
+}
+
+/* 内部滚动区：预留槽位 + 简约滚动条 */
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+) {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+)::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+)::-webkit-scrollbar-track,
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+)::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+)::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border: 1.5px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+:is(
+  .app-main,
+  .cache-panel-scroll,
+  .marks-panel-scroll,
+  .stamina-panel-scroll,
+  .stamina-help-scroll,
+  .stamina-poster-scroll,
+  .header-actions-menu,
+  .version-menu,
+  .dropdown-panel-body--numbers,
+  .dropdown-panel-body--step .picker-grid-books,
+  .dropdown-panel-body--step .picker-step-list,
+  .picker-grid-books-panel,
+  .dropdown-list
+)::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
 }
 
 .panel-backdrop {
@@ -65,6 +183,21 @@ html.scroll-locked,
   .panel-backdrop.is-closing {
     animation: none;
   }
+}
+
+/* 底部弹窗满屏，内容区与阅读区域同宽居中 */
+.panel-sheet-body,
+.reading-settings-body,
+.cache-panel-scroll,
+.marks-panel-scroll,
+.stamina-panel-scroll,
+.stamina-prompt-body,
+.stamina-help-scroll,
+.speech-panel-body,
+.chapter-picker-panel .picker-shell {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
 }
 
 * {

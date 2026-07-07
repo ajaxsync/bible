@@ -1,12 +1,19 @@
 import { useVersion } from '../context/VersionContext.jsx'
 import { useReadingSettings } from '../context/ReadingSettingsContext.jsx'
+import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { FONT_SIZES, LINE_HEIGHTS, READING_THEMES, UI_STYLES } from '../data/readingThemes.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './ReadingSettingsPanel.css'
 
+const VERSION_PICKER_LABEL = {
+  cunps: { chs: '简体', cht: '簡體', en: 'CUV-S' },
+  cunp: { chs: '繁体', cht: '繁體', en: 'CUV-T' },
+  niv: { chs: 'NIV', cht: 'NIV', en: 'NIV' },
+}
+
 export default function ReadingSettingsPanel({ onClose }) {
-  const { version } = useVersion()
+  const { versionId, version, setVersionId } = useVersion()
   const isEn = version.lang === 'en'
   const isCht = version.lang === 'cht'
   const lang = isEn ? 'en' : isCht ? 'cht' : 'chs'
@@ -28,9 +35,35 @@ export default function ReadingSettingsPanel({ onClose }) {
   return (
     <>
       <div className="reading-settings-backdrop panel-backdrop" onClick={onClose} aria-hidden />
-      <div className="reading-settings-panel" role="dialog" aria-label={isEn ? 'Reading settings' : '字体调整'}>
+      <div className="reading-settings-panel" role="dialog" aria-label={isEn ? 'Reading settings' : '阅读设置'}>
         <BottomSheetHandle onClose={onClose} label={isEn ? 'Close' : '关闭'} />
         <div className="reading-settings-body">
+        <div className="reading-settings-row">
+          <span className="reading-settings-label">{isEn ? 'Version' : '经文版本'}</span>
+          <div
+            className="reading-settings-segmented reading-settings-segmented--versions"
+            role="radiogroup"
+            aria-label={isEn ? 'Bible version' : '经文版本'}
+          >
+            {PRIMARY_VERSION_IDS.map((id) => {
+              const v = VERSIONS[id]
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  role="radio"
+                  aria-checked={versionId === id}
+                  aria-label={v.label}
+                  className={versionId === id ? 'current' : ''}
+                  onClick={() => setVersionId(id)}
+                >
+                  {VERSION_PICKER_LABEL[id]?.[lang] ?? v.shortLabel}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+
         <div className="reading-settings-row">
           <span className="reading-settings-label">{isEn ? 'Style' : '界面风格'}</span>
           <div className="reading-settings-segmented" role="radiogroup" aria-label={isEn ? 'Interface style' : '界面风格'}>

@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
-import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { appConfig, isImageIcon } from '../config/env.js'
 import { assetUrl } from '../lib/assetUrl.js'
 import { useVersion } from '../context/VersionContext.jsx'
@@ -15,17 +14,22 @@ import BookChapterPicker from './BookChapterPicker.jsx'
 import { useAnimatedPanel } from '../hooks/useAnimatedPanel.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
 import { useReadingStamina } from '../context/ReadingStaminaContext.jsx'
+import { usePwaUpdate } from '../context/PwaUpdateContext.jsx'
 import SpeakerIcon from './SpeakerIcon.jsx'
 import LightningIcon from './LightningIcon.jsx'
 import StaminaPanel from './StaminaPanel.jsx'
 import './Header.css'
 
-const VERSION_LANG_LABEL = { chs: '简体中文', cht: '繁體中文', en: 'English' }
+const MENU_SECTIONS = {
+  chs: { reading: '阅读', library: '我的', app: '应用' },
+  cht: { reading: '閱讀', library: '我的', app: '應用' },
+  en: { reading: 'Reading', library: 'Library', app: 'App' },
+}
 
 export default function Header() {
   const { book: bookParam, chapter: chapterParam, verse: verseParam } = useParams()
   const navigate = useNavigate()
-  const { versionId, version, setVersionId } = useVersion()
+  const { versionId, version } = useVersion()
   const {
     isActive,
     status,
@@ -35,15 +39,14 @@ export default function Header() {
   const chapter = parseChapterParam(chapterParam)
   const activeVerse = verseParam ? parseInt(verseParam, 10) : 0
   const [menuOpen, setMenuOpen] = useState(false)
-  const [versionMenuOpen, setVersionMenuOpen] = useState(false)
   const [actionsMenuOpen, setActionsMenuOpen] = useState(false)
-  const [mobileVersionOpen, setMobileVersionOpen] = useState(false)
   const [cacheOpen, setCacheOpen] = useState(false)
   const [marksOpen, setMarksOpen] = useState(false)
   const [readingSettingsOpen, setReadingSettingsOpen] = useState(false)
   const [speechPanelOpen, setSpeechPanelOpen] = useState(false)
   const [pickerBook, setPickerBook] = useState(null)
   const { todayCompleted, panelOpen, openPanel, closePanel } = useReadingStamina()
+  const { needRefresh, updating, applyUpdate } = usePwaUpdate()
 
   const bookInfo = bibleIndex[book]
   const activeBook = pickerBook ?? book
@@ -59,9 +62,7 @@ export default function Header() {
 
   useEffect(() => {
     setMenuOpen(false)
-    setVersionMenuOpen(false)
     setActionsMenuOpen(false)
-    setMobileVersionOpen(false)
     setCacheOpen(false)
     setMarksOpen(false)
     setReadingSettingsOpen(false)
@@ -79,42 +80,33 @@ export default function Header() {
   }
 
   const isEn = version.lang === 'en'
+  const menuLang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
+  const menuSections = MENU_SECTIONS[menuLang]
   const speechSupported = isSpeechSupported()
   const isSpeakingHere = isActive
     && speechLocation?.book === book
     && speechLocation?.chapter === chapter
   const isPlaying = isSpeakingHere && status === 'playing'
 
-  const openSpeechPanel = () => {
-    setSpeechPanelOpen(true)
+  const closeHeaderMenus = () => {
     setMenuOpen(false)
-    setVersionMenuOpen(false)
     setActionsMenuOpen(false)
     setPickerBook(null)
   }
 
-  const versionOptions = PRIMARY_VERSION_IDS.map((id) => {
-    const v = VERSIONS[id]
-    return (
-      <li key={id}>
-        <button
-          type="button"
-          role="option"
-          aria-selected={versionId === id}
-          className={`version-item ${versionId === id ? 'current' : ''}`}
-          onClick={() => {
-            setVersionId(id)
-            setVersionMenuOpen(false)
-            setActionsMenuOpen(false)
-            setMobileVersionOpen(false)
-          }}
-        >
-          <span className="version-item-label">{v.label}</span>
-          <span className="version-item-group">{VERSION_LANG_LABEL[v.lang]}</span>
-        </button>
-      </li>
-    )
-  })
+  const openSpeechPanel = () => {
+    setSpeechPanelOpen(true)
+    closeHeaderMenus()
+  }
+
+  const handleAppUpdate = () => {
+    closeHeaderMenus()
+    applyUpdate()
+  }
+
+  const updateLabel = updating
+    ? (isEn ? 'Updating…' : '更新中…')
+    : (isEn ? 'Update app' : '版本更新')
 
   return (
     <header className="header">
@@ -144,7 +136,6 @@ export default function Header() {
           className="book-dropdown-button"
           onClick={() => {
             setMenuOpen((open) => !open)
-            setVersionMenuOpen(false)
           }}
           aria-expanded={menuOpen}
         >
@@ -154,7 +145,7 @@ export default function Header() {
       </div>
 
       <div className="header-version">
-        <div className="header-actions-desktop">
+        <div className="header-actions">
           {speechSupported && (
             <button
               type="button"
@@ -169,115 +160,61 @@ export default function Header() {
 
           <button
             type="button"
-            className="cache-trigger"
-            onClick={() => {
-              setMarksOpen(true)
-              setMenuOpen(false)
-              setVersionMenuOpen(false)
-              setPickerBook(null)
-            }}
-          >
-            {isEn ? 'Highlights' : '高亮'}
-          </button>
-
-          <button
-            type="button"
-            className="cache-trigger"
-            onClick={() => {
-              setCacheOpen(true)
-              setMenuOpen(false)
-              setVersionMenuOpen(false)
-              setPickerBook(null)
-            }}
-          >
-            {isEn ? 'Offline cache' : '离线缓存'}
-          </button>
-
-          <button
-            type="button"
-            className="version-dropdown-button"
-            onClick={() => {
-              setVersionMenuOpen((open) => !open)
-              setMenuOpen(false)
-              setPickerBook(null)
-            }}
-            aria-expanded={versionMenuOpen}
-            aria-haspopup="listbox"
-          >
-            {version.label}
-            <span className="chevron">▾</span>
-          </button>
-
-          {versionMenuOpen && (
-            <>
-              <div className="version-backdrop" onClick={() => setVersionMenuOpen(false)} aria-hidden />
-              <ul className="version-menu" role="listbox" aria-label={isEn ? 'Bible version' : '主阅读版本'}>
-                {versionOptions}
-              </ul>
-            </>
-          )}
-
-          <button
-            type="button"
-            className="reading-trigger"
-            onClick={() => {
-              setReadingSettingsOpen(true)
-              setMenuOpen(false)
-              setVersionMenuOpen(false)
-              setPickerBook(null)
-            }}
-          >
-            {isEn ? 'Font' : '字体调整'}
-          </button>
-        </div>
-
-        <div className="header-actions-mobile">
-          {speechSupported && (
-            <button
-              type="button"
-              className={`speech-trigger speech-trigger-mobile${isSpeakingHere ? ' is-active' : ''}${isPlaying ? ' is-playing' : ''}`}
-              onClick={openSpeechPanel}
-              aria-label={isEn ? 'Read aloud' : '朗读'}
-              aria-pressed={isSpeakingHere}
-            >
-              <SpeakerIcon className="speech-trigger-icon" />
-            </button>
-          )}
-
-          <button
-            type="button"
-            className="header-actions-trigger"
+            className={`header-actions-trigger${needRefresh ? ' has-update' : ''}`}
             onClick={() => {
               setActionsMenuOpen((open) => !open)
               setMenuOpen(false)
-              setVersionMenuOpen(false)
               setPickerBook(null)
             }}
             aria-expanded={actionsMenuOpen}
             aria-haspopup="menu"
-            aria-label={isEn ? 'More options' : '更多选项'}
+            aria-label={
+              needRefresh
+                ? (isEn ? 'More options, update available' : '更多选项，有新版本可更新')
+                : (isEn ? 'More options' : '更多选项')
+            }
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
               <circle cx="10" cy="4" r="1.5" />
               <circle cx="10" cy="10" r="1.5" />
               <circle cx="10" cy="16" r="1.5" />
             </svg>
+            {needRefresh && <span className="header-actions-update-dot" aria-hidden />}
           </button>
 
           {actionsMenuOpen && (
             <>
-              <div className="version-backdrop" onClick={() => { setActionsMenuOpen(false); setMobileVersionOpen(false) }} aria-hidden />
+              <div className="version-backdrop" onClick={closeHeaderMenus} aria-hidden />
               <div className="header-actions-menu" role="menu">
+                <p className="header-actions-section-label" id="header-menu-reading">
+                  {menuSections.reading}
+                </p>
+
+                <button
+                  type="button"
+                  role="menuitem"
+                  className="header-actions-item"
+                  onClick={() => {
+                    setReadingSettingsOpen(true)
+                    closeHeaderMenus()
+                  }}
+                >
+                  {isEn ? 'Reading settings' : '阅读设置'}
+                </button>
+
+                <div className="header-actions-divider" role="separator" />
+
+                <p className="header-actions-section-label" id="header-menu-library">
+                  {menuSections.library}
+                </p>
+
                 <button
                   type="button"
                   role="menuitem"
                   className="header-actions-item"
                   onClick={() => {
                     setMarksOpen(true)
-                    setActionsMenuOpen(false)
-                    setMobileVersionOpen(false)
-                    setMenuOpen(false)
-                    setPickerBook(null)
+                    closeHeaderMenus()
                   }}
                 >
                   {isEn ? 'Highlights' : '高亮'}
@@ -289,49 +226,29 @@ export default function Header() {
                   className="header-actions-item"
                   onClick={() => {
                     setCacheOpen(true)
-                    setActionsMenuOpen(false)
-                    setMobileVersionOpen(false)
-                    setMenuOpen(false)
-                    setPickerBook(null)
+                    closeHeaderMenus()
                   }}
                 >
                   {isEn ? 'Offline cache' : '离线缓存'}
                 </button>
 
-                <button
-                  type="button"
-                  role="menuitem"
-                  className="header-actions-item header-actions-item--version"
-                  onClick={() => setMobileVersionOpen((open) => !open)}
-                  aria-expanded={mobileVersionOpen}
-                >
-                  <span className="header-actions-item-main">{isEn ? 'Version' : '经文版本'}</span>
-                  <span className="header-actions-item-value">
-                    {version.label}
-                    <span className="chevron">{mobileVersionOpen ? '▴' : '▾'}</span>
-                  </span>
-                </button>
-
-                {mobileVersionOpen && (
-                  <ul className="header-actions-version-list" role="listbox" aria-label={isEn ? 'Bible version' : '主阅读版本'}>
-                    {versionOptions}
-                  </ul>
+                {needRefresh && (
+                  <>
+                    <div className="header-actions-divider" role="separator" />
+                    <p className="header-actions-section-label" id="header-menu-app">
+                      {menuSections.app}
+                    </p>
+                    <button
+                      type="button"
+                      role="menuitem"
+                      className="header-actions-item header-actions-item--update is-available"
+                      onClick={handleAppUpdate}
+                      disabled={updating}
+                    >
+                      {updateLabel}
+                    </button>
+                  </>
                 )}
-
-                <button
-                  type="button"
-                  role="menuitem"
-                  className="header-actions-item"
-                  onClick={() => {
-                    setReadingSettingsOpen(true)
-                    setActionsMenuOpen(false)
-                    setMobileVersionOpen(false)
-                    setMenuOpen(false)
-                    setPickerBook(null)
-                  }}
-                >
-                  {isEn ? 'Reading settings' : '字体调整'}
-                </button>
               </div>
             </>
           )}

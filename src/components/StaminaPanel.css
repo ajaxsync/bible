@@ -6,21 +6,25 @@
 
 .stamina-panel {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: none;
   display: flex;
   flex-direction: column;
-  width: min(400px, calc(100vw - 32px));
-  max-height: calc(100vh - 32px);
-  max-height: min(90dvh, calc(100vh - 32px));
+  width: 100%;
+  max-height: calc(100vh - 12px);
+  max-height: min(88dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
   min-height: var(--panel-min-height);
   background: var(--bg);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 16px 48px rgba(15, 15, 15, 0.15);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-bottom: none;
+  box-shadow: 0 -8px 32px rgba(15, 15, 15, 0.12);
   z-index: 210;
   overflow: hidden;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
 }
 
 .stamina-panel-toolbar {
@@ -86,39 +90,15 @@
 }
 
 .stamina-panel.is-open {
-  animation: stamina-panel-in var(--panel-transition-duration) var(--panel-transition-ease) both;
+  animation: stamina-panel-slide-up var(--panel-transition-duration) var(--panel-transition-ease) both;
 }
 
 .stamina-panel.is-closing {
-  animation: stamina-panel-out var(--panel-transition-duration) var(--panel-transition-ease) both;
-}
-
-@keyframes stamina-panel-in {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.96);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-@keyframes stamina-panel-out {
-  from {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-
-  to {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.96);
-  }
+  animation: stamina-panel-slide-down var(--panel-transition-duration) var(--panel-transition-ease) both;
 }
 
 .stamina-panel-sheet-handle {
-  display: none;
+  display: block;
   flex-shrink: 0;
 }
 
@@ -128,7 +108,7 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding: 16px 16px 20px;
+  padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
 }
 
 .stamina-panel-headline {
@@ -356,38 +336,6 @@
 
 .stamina-cell.level-2 .stamina-cell-day {
   color: color-mix(in srgb, #fff 85%, var(--stamina-green-4));
-}
-
-@media (max-width: 640px) {
-  .stamina-panel {
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transform: none;
-    width: 100%;
-    max-height: calc(100vh - 12px);
-    max-height: min(88dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-    border-bottom: none;
-    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
-  }
-
-  .stamina-panel.is-open {
-    animation: stamina-panel-slide-up var(--panel-transition-duration) var(--panel-transition-ease) both;
-  }
-
-  .stamina-panel.is-closing {
-    animation: stamina-panel-slide-down var(--panel-transition-duration) var(--panel-transition-ease) both;
-  }
-
-  .stamina-panel-sheet-handle {
-    display: block;
-  }
-
-  .stamina-panel-scroll {
-    padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
-  }
 }
 
 @keyframes stamina-panel-slide-up {

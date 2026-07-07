@@ -3,6 +3,7 @@ import { useVersion } from '../context/VersionContext.jsx'
 import { useReadingStamina } from '../context/ReadingStaminaContext.jsx'
 import { useScrollLock } from '../hooks/useScrollLock.js'
 import { PANEL_TRANSITION_MS } from '../hooks/useAnimatedPanel.js'
+import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './StaminaPrompt.css'
 
 const COPY = {
@@ -65,24 +66,27 @@ export default function StaminaPrompt() {
         aria-labelledby="stamina-prompt-title"
         aria-describedby="stamina-prompt-desc"
       >
-        <h2 id="stamina-prompt-title" className="stamina-prompt-title">{copy.title}</h2>
-        <p id="stamina-prompt-desc" className="stamina-prompt-desc">
-          {copy.desc(completionStreak)}
-        </p>
-        <div className="stamina-prompt-actions">
-          <button type="button" className="stamina-prompt-btn" onClick={requestClose}>
-            {copy.continue}
-          </button>
-          <button
-            type="button"
-            className="stamina-prompt-btn stamina-prompt-btn-primary"
-            onClick={() => {
-              setClosing(true)
-              window.setTimeout(() => openPanelFromPrompt(), PANEL_TRANSITION_MS)
-            }}
-          >
-            {copy.calendar}
-          </button>
+        <BottomSheetHandle onClose={requestClose} label={lang === 'en' ? 'Close' : '关闭'} className="stamina-prompt-sheet-handle" />
+        <div className="stamina-prompt-body">
+          <h2 id="stamina-prompt-title" className="stamina-prompt-title">{copy.title}</h2>
+          <p id="stamina-prompt-desc" className="stamina-prompt-desc">
+            {copy.desc(completionStreak)}
+          </p>
+          <div className="stamina-prompt-actions">
+            <button type="button" className="stamina-prompt-btn" onClick={requestClose}>
+              {copy.continue}
+            </button>
+            <button
+              type="button"
+              className="stamina-prompt-btn stamina-prompt-btn-primary"
+              onClick={() => {
+                setClosing(true)
+                window.setTimeout(() => openPanelFromPrompt(), PANEL_TRANSITION_MS)
+              }}
+            >
+              {copy.calendar}
+            </button>
+          </div>
         </div>
       </div>
     </div>

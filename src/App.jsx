@@ -2,7 +2,6 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { getLastReadingRoute } from './lib/lastReadingPosition.js'
 import Header from './components/Header.jsx'
 import BibleReader from './components/BibleReader.jsx'
-import PwaUpdatePrompt from './components/PwaUpdatePrompt.jsx'
 import StaminaPrompt from './components/StaminaPrompt.jsx'
 import './App.css'
 
@@ -13,7 +12,6 @@ function LastReadingRedirect() {
 export default function App() {
   return (
     <div className="app">
-      <PwaUpdatePrompt />
       <Routes>
         <Route path="/" element={<LastReadingRedirect />} />
         <Route path="/:book/:chapter/:verse?" element={<ReaderPage />} />

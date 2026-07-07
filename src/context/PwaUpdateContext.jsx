@@ -23,13 +23,13 @@ export function PwaUpdateProvider({ children }) {
     })
     updateSWRef.current = updateSW
 
-    const checkForUpdate = () => {
+    const checkForUpdateOnVisible = () => {
       registrationRef.current?.update().catch(() => {})
     }
 
     const onVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
-        checkForUpdate()
+        checkForUpdateOnVisible()
       }
     }
 

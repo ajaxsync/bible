@@ -136,15 +136,17 @@ export default function CacheVersionRow({
         onTouchCancel={handleTouchEnd}
       >
         <span className="cache-version-label">{label}</span>
-        <span className="cache-version-count">
-          {chapterCount}/{chapterTotal}
-        </span>
-        <div className="cache-version-actions">
-          {canSwipe && (
-            <button type="button" className="cache-version-delete cache-version-delete--hover" onClick={handleDelete}>
-              {deleteLabel}
-            </button>
-          )}
+        <div className="cache-version-end">
+          <div className="cache-version-meta">
+            {canSwipe && (
+              <button type="button" className="cache-version-delete cache-version-delete--inline" onClick={handleDelete}>
+                {deleteLabel}
+              </button>
+            )}
+            <span className="cache-version-count">
+              {chapterCount}/{chapterTotal}
+            </span>
+          </div>
           <CacheDownloadButton
             state={downloadState}
             progress={progressPct}

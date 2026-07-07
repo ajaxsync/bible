@@ -91,61 +91,15 @@
   min-width: 0;
 }
 
-.header-actions-desktop {
+.header-actions {
   display: flex;
+  position: relative;
   align-items: center;
   gap: 8px;
 }
 
-.header-actions-desktop .speech-trigger,
-.header-actions-desktop .cache-trigger,
-.header-actions-desktop .version-dropdown-button,
-.header-actions-desktop .reading-trigger {
-  box-sizing: border-box;
-  height: 36px;
-  min-height: 36px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--bg);
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1;
-  cursor: pointer;
-  color: var(--text-muted);
-  white-space: nowrap;
-}
-
-.header-actions-desktop .speech-trigger {
-  width: 36px;
-  min-width: 36px;
-  padding: 0;
-}
-
-.header-actions-desktop .version-dropdown-button {
-  gap: 4px;
-  color: var(--text);
-}
-
-.header-actions-desktop .cache-trigger:hover,
-.header-actions-desktop .reading-trigger:hover,
-.header-actions-desktop .version-dropdown-button:hover,
-.header-actions-desktop .speech-trigger:hover {
-  background: var(--bg-hover);
-  color: var(--text);
-}
-
-.header-actions-mobile {
-  display: none;
-  position: relative;
-  align-items: center;
-  gap: 6px;
-}
-
 .header-actions-trigger {
+  position: relative;
   width: 36px;
   height: 36px;
   display: inline-flex;
@@ -163,13 +117,29 @@
   color: var(--text);
 }
 
+.header-actions-trigger.has-update {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.header-actions-update-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+
 .header-actions-menu {
   position: absolute;
   top: calc(100% + 6px);
   right: 0;
   width: max-content;
-  min-width: 9.5em;
-  max-width: min(168px, calc(100vw - 32px));
+  min-width: 8em;
+  max-width: min(9.5em, calc(100vw - 32px));
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -183,7 +153,7 @@
 .header-actions-item {
   display: block;
   width: 100%;
-  padding: 10px 12px;
+  padding: 10px 10px;
   border: none;
   border-radius: var(--radius);
   background: transparent;
@@ -198,33 +168,13 @@
   background: var(--bg-hover);
 }
 
-.header-actions-item--version {
-  flex-direction: column;
-  align-items: stretch;
-  gap: 4px;
+.header-actions-item--update.is-available {
+  color: var(--accent);
 }
 
-.header-actions-item-main {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text);
-}
-
-.header-actions-item-value {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 13px;
-  font-weight: 400;
-  color: var(--text-muted);
-}
-
-.header-actions-item-value .chevron {
-  font-size: 18px;
-  line-height: 1;
-  color: var(--text-muted);
-  flex-shrink: 0;
-  margin-left: 8px;
+.header-actions-item--update:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .header-actions-divider {
@@ -234,7 +184,8 @@
 }
 
 .header-actions-section-label {
-  padding: 6px 12px 4px;
+  margin: 0;
+  padding: 6px 10px 4px;
   font-size: 11px;
   font-weight: 600;
   color: var(--text-light);
@@ -242,14 +193,8 @@
   letter-spacing: 0.04em;
 }
 
-.header-actions-version-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 2px;
-}
-
-.header-actions-version-list .version-item {
-  padding: 8px 12px;
+.header-actions-section-label:first-child {
+  padding-top: 4px;
 }
 
 .reading-trigger:hover {
@@ -1013,12 +958,8 @@
     display: none;
   }
 
-  .header-actions-desktop {
-    display: none;
-  }
-
-  .header-actions-mobile {
-    display: flex;
+  .header-actions {
+    gap: 6px;
   }
 
   .book-dropdown-button {
@@ -1049,9 +990,6 @@
 }
 
 [data-ui-style="kindle"] .speech-trigger,
-[data-ui-style="kindle"] .header-actions-desktop .cache-trigger,
-[data-ui-style="kindle"] .header-actions-desktop .version-dropdown-button,
-[data-ui-style="kindle"] .header-actions-desktop .reading-trigger,
 [data-ui-style="kindle"] .header-actions-trigger {
   border-color: transparent;
   background: transparent;
@@ -1063,9 +1001,6 @@
 }
 
 [data-ui-style="kindle"] .speech-trigger:hover,
-[data-ui-style="kindle"] .header-actions-desktop .cache-trigger:hover,
-[data-ui-style="kindle"] .header-actions-desktop .version-dropdown-button:hover,
-[data-ui-style="kindle"] .header-actions-desktop .reading-trigger:hover,
 [data-ui-style="kindle"] .header-actions-trigger:hover {
   background: var(--bg-hover);
 }

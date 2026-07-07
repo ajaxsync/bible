@@ -17,15 +17,23 @@
   --reader-font-size: 22px;
   --reader-line-height: 1.85;
   --font-reader: var(--font);
-  --panel-backdrop-blur: 16px;
   --panel-transition-duration: 220ms;
   --panel-transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --panel-min-height: 220px;
+  --panel-sheet-height: min(77dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
+  --panel-bottom-gap: 10px;
+  --panel-backdrop-bg: rgba(15, 15, 15, 0.35);
+}
+
+html.scroll-locked,
+.app-main.scroll-locked {
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 .panel-backdrop {
-  background: color-mix(in srgb, var(--text) 14%, transparent);
-  -webkit-backdrop-filter: blur(var(--panel-backdrop-blur)) saturate(1.15);
-  backdrop-filter: blur(var(--panel-backdrop-blur)) saturate(1.15);
+  background: var(--panel-backdrop-bg);
+  touch-action: none;
 }
 
 .panel-backdrop.is-open {
@@ -50,12 +58,6 @@
   .panel-backdrop.is-open,
   .panel-backdrop.is-closing {
     animation: none;
-  }
-}
-
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .panel-backdrop {
-    background: rgba(15, 15, 15, 0.28);
   }
 }
 

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import { useVersion } from '../context/VersionContext.jsx'
 import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
 import { SPEECH_RATES, getVoicesForLang, isSpeechSupported } from '../lib/speechReader.js'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import { PauseIcon, PlayIcon } from './SpeechIcons.jsx'
 import './SpeechPanel.css'
@@ -61,9 +62,11 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
 
   const handlePlay = () => playChapter({ fromVerse: startVerse })
 
+  useScrollLock(true)
+
   return (
     <>
-      <div className="speech-panel-backdrop" onClick={onClose} aria-hidden />
+      <div className="speech-panel-backdrop panel-backdrop" onClick={onClose} aria-hidden />
       <div className="speech-panel" role="dialog" aria-label={isEn ? 'Read aloud' : '朗读'}>
         <BottomSheetHandle onClose={onClose} label={isEn ? 'Close' : '关闭'} />
         <div className="speech-panel-body">

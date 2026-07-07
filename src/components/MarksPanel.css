@@ -14,6 +14,7 @@
   width: min(400px, calc(100vw - 32px));
   max-height: calc(100vh - 32px);
   max-height: min(90dvh, calc(100vh - 32px));
+  min-height: var(--panel-min-height);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -184,11 +185,11 @@
     right: 0;
     transform: none;
     width: 100%;
-    max-height: calc(100vh - 12px);
-    max-height: min(88dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
+    height: var(--panel-sheet-height);
+    max-height: var(--panel-sheet-height);
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     border-bottom: none;
-    padding-bottom: env(safe-area-inset-bottom, 0px);
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
   }
 
   .marks-panel.is-open {
@@ -216,7 +217,7 @@
   }
 
   .marks-panel-scroll {
-    padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px));
+    padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
   }
 }
 

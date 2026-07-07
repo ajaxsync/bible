@@ -342,28 +342,35 @@ function Section({ section, selectedVerses, highlightedVerses, speakingVerse, on
         const isSelected = selectedVerses.includes(verseNum)
         const isHighlighted = highlightedVerses.has(verseNum)
 
+        const verseClassName = [
+          'verse',
+          ...(classes || []),
+          isSelected ? 'selected' : '',
+          isHighlighted ? 'highlighted' : '',
+          verseNum === speakingVerse ? 'speaking' : '',
+        ].filter(Boolean).join(' ')
+
         return (
           <span className="section-content" key={index}>
             {hasVerseLabel ? <span className="verse-num">{verseNum}</span> : null}
-            <button
-              type="button"
-              title={title}
-              className="verse-button"
-              onClick={(e) => onVerseClick(verseNum, e)}
-            >
+            <span className="verse-button">
               <span
+                role="button"
+                tabIndex={0}
+                title={title}
                 data-verse={verseNum}
-                className={[
-                  'verse',
-                  ...(classes || []),
-                  isSelected ? 'selected' : '',
-                  isHighlighted ? 'highlighted' : '',
-                  verseNum === speakingVerse ? 'speaking' : '',
-                ].filter(Boolean).join(' ')}
+                className={verseClassName}
+                onClick={(e) => onVerseClick(verseNum, e)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    onVerseClick(verseNum, e)
+                  }
+                }}
               >
                 {verseText}
               </span>
-            </button>
+            </span>
           </span>
         )
       })}

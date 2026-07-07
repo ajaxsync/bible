@@ -13,6 +13,7 @@ import ReadingSettingsPanel from './ReadingSettingsPanel.jsx'
 import SpeechPanel from './SpeechPanel.jsx'
 import BookChapterPicker from './BookChapterPicker.jsx'
 import { useAnimatedPanel } from '../hooks/useAnimatedPanel.js'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import SpeakerIcon from './SpeakerIcon.jsx'
 import './Header.css'
 
@@ -45,6 +46,8 @@ export default function Header() {
   const activeBookInfo = bibleIndex[activeBook]
   const chapterPicker = useAnimatedPanel(menuOpen)
 
+  useScrollLock(chapterPicker.render)
+
   const closeChapterPicker = () => {
     setMenuOpen(false)
     setPickerBook(null)
@@ -64,8 +67,9 @@ export default function Header() {
 
   if (!bookInfo) return null
 
-  const goToChapter = (targetBook, targetChapter) => {
-    navigate(`/${targetBook}/${chapterToParam(targetChapter)}`)
+  const goToChapter = (targetBook, targetChapter, targetVerse = 0) => {
+    const base = `/${targetBook}/${chapterToParam(targetChapter)}`
+    navigate(targetVerse > 0 ? `${base}/${targetVerse}` : base)
     closeChapterPicker()
   }
 
@@ -326,26 +330,31 @@ export default function Header() {
       )}
 
       {chapterPicker.render && (
-        <div
-          className={`dropdown-overlay panel-backdrop ${chapterPicker.motionClass}`}
-          onClick={closeChapterPicker}
-        >
+        <>
           <div
-            className={`dropdown-panel ${chapterPicker.motionClass}`}
-            onClick={(e) => e.stopPropagation()}
+            className={`chapter-picker-backdrop panel-backdrop ${chapterPicker.motionClass}`}
+            onClick={closeChapterPicker}
+            aria-hidden
+          />
+          <div
+            className={`chapter-picker-panel ${chapterPicker.motionClass}`}
+            role="dialog"
+            aria-label={isEn ? 'Book and chapter' : '书卷章节'}
           >
             <BookChapterPicker
               lang={version.lang}
+              versionId={versionId}
               currentBook={book}
               currentChapter={chapter}
+              currentVerse={activeVerse}
               activeBook={activeBook}
               activeBookInfo={activeBookInfo}
-              pickerBook={pickerBook}
               onPickBook={setPickerBook}
               onGoToChapter={goToChapter}
+              onClose={closeChapterPicker}
             />
           </div>
-        </div>
+        </>
       )}
     </header>
   )

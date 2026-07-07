@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { usePwaUpdate } from '../context/PwaUpdateContext.jsx'
 import { useVersion } from '../context/VersionContext.jsx'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import './PwaUpdatePrompt.css'
 
 const COPY = {
@@ -48,11 +49,13 @@ export default function PwaUpdatePrompt() {
     return () => document.removeEventListener('visibilitychange', onVisible)
   }, [needRefresh])
 
+  useScrollLock(needRefresh && open)
+
   if (!needRefresh || !open) return null
 
   return (
     <div className="pwa-update-root" role="presentation">
-      <div className="pwa-update-backdrop" aria-hidden />
+      <div className="pwa-update-backdrop panel-backdrop" aria-hidden />
       <div
         className="pwa-update-dialog"
         role="alertdialog"

@@ -1,6 +1,7 @@
 import { useVersion } from '../context/VersionContext.jsx'
 import { useReadingSettings } from '../context/ReadingSettingsContext.jsx'
 import { FONT_SIZES, LINE_HEIGHTS, READING_THEMES, UI_STYLES } from '../data/readingThemes.js'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './ReadingSettingsPanel.css'
 
@@ -22,9 +23,11 @@ export default function ReadingSettingsPanel({ onClose }) {
   const lineAtMin = settings.lineHeight === LINE_HEIGHTS[0]
   const lineAtMax = settings.lineHeight === LINE_HEIGHTS[LINE_HEIGHTS.length - 1]
 
+  useScrollLock(true)
+
   return (
     <>
-      <div className="reading-settings-backdrop" onClick={onClose} aria-hidden />
+      <div className="reading-settings-backdrop panel-backdrop" onClick={onClose} aria-hidden />
       <div className="reading-settings-panel" role="dialog" aria-label={isEn ? 'Reading settings' : '字体调整'}>
         <BottomSheetHandle onClose={onClose} label={isEn ? 'Close' : '关闭'} />
         <div className="reading-settings-body">

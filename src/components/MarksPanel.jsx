@@ -6,6 +6,7 @@ import { useVersion } from '../context/VersionContext.jsx'
 import { formatVerseRef } from '../lib/verseSelection.js'
 import { listAllHighlights } from '../lib/verseHighlights.js'
 import { PANEL_TRANSITION_MS } from '../hooks/useAnimatedPanel.js'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './MarksPanel.css'
 
@@ -26,6 +27,8 @@ export default function MarksPanel({ onClose }) {
   const { version } = useVersion()
   const isZh = version.lang !== 'en'
   const [closing, setClosing] = useState(false)
+
+  useScrollLock(true)
 
   const highlights = useMemo(() => listAllHighlights(), [])
 

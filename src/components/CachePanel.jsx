@@ -1,82 +1,90 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import {
-  clearScriptureCache,
-  downloadAllScripture,
+  clearVersionCache,
+  downloadVersionScripture,
   DownloadAbortedError,
-  formatBytes,
-  formatEta,
-  getCacheStats,
-  getManifestInfo,
-  hasPartialCache,
-  isFullyCached,
+  getAllVersionsCacheStats,
 } from '../lib/bibleCache.js'
+import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import { usePwaInstall } from '../hooks/usePwaInstall.js'
 import { PANEL_TRANSITION_MS } from '../hooks/useAnimatedPanel.js'
+import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
+import CacheVersionRow from './CacheVersionRow.jsx'
 import './CachePanel.css'
+
+const VERSION_LABELS = {
+  cunps: { chs: '和合本 简体中文', cht: '和合本 簡體中文', en: 'Chinese Union Version (Simplified)' },
+  cunp: { chs: '和合本 繁体中文', cht: '和合本 繁體中文', en: 'Chinese Union Version (Traditional)' },
+  niv: { chs: 'NIV English', cht: 'NIV English', en: 'NIV English' },
+}
+
+function getDownloadState(versionId, stats, downloads) {
+  const active = downloads[versionId]
+  if (active?.status === 'downloading') return 'downloading'
+  if (active?.status === 'paused') return 'paused'
+  if (stats?.isComplete) return 'complete'
+  return 'idle'
+}
+
+function getProgressPct(versionId, stats, downloads) {
+  const active = downloads[versionId]
+  if (active?.progress?.total) {
+    return Math.round((active.progress.done / active.progress.total) * 100)
+  }
+  if (!stats?.chapterTotal) return 0
+  return Math.round((stats.chapterCount / stats.chapterTotal) * 100)
+}
 
 export default function CachePanel({ onClose }) {
   const { version } = useVersion()
   const isZh = version.lang !== 'en'
-  const lang = isZh ? 'chs' : 'en'
-  const [stats, setStats] = useState({
-    chapterCount: 0,
-    chapterBytes: 0,
-    storageBytes: 0,
-    fullDownloadAt: null,
-    memory: { chapterCount: 0, chapterBytes: 0, totalBytes: 0 },
-  })
-  const [manifestInfo, setManifestInfo] = useState(null)
-  const [downloading, setDownloading] = useState(false)
-  const [progress, setProgress] = useState(null)
+  const lang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
+
+  const [versionStats, setVersionStats] = useState([])
+  const [downloads, setDownloads] = useState({})
   const [error, setError] = useState(null)
-  const [clearing, setClearing] = useState(false)
+  const [closing, setClosing] = useState(false)
   const [showIosGuide, setShowIosGuide] = useState(false)
   const [showAndroidGuide, setShowAndroidGuide] = useState(false)
-  const [closing, setClosing] = useState(false)
-  const refreshTimerRef = useRef(null)
-  const abortRef = useRef(null)
+
+  useScrollLock(true)
+
+  const abortRefs = useRef({})
   const closeTimerRef = useRef(null)
   const { installState, promptInstall } = usePwaInstall()
 
-  const fullyCached = isFullyCached(stats, manifestInfo)
-  const partialCache = hasPartialCache(stats, manifestInfo)
+  const statsMap = Object.fromEntries(versionStats.map((item) => [item.versionId, item]))
+  const anyDownloading = Object.values(downloads).some((item) => item.status === 'downloading')
 
   const refreshStats = useCallback(() => {
-    getCacheStats()
-      .then(setStats)
+    getAllVersionsCacheStats()
+      .then(setVersionStats)
       .catch(() => {})
   }, [])
 
   useEffect(() => {
     refreshStats()
-    getManifestInfo().then(setManifestInfo).catch(() => {})
     return () => {
-      if (refreshTimerRef.current) clearInterval(refreshTimerRef.current)
       if (closeTimerRef.current) clearTimeout(closeTimerRef.current)
-      abortRef.current?.abort()
+      Object.values(abortRefs.current).forEach((controller) => controller?.abort())
     }
   }, [refreshStats])
 
   useEffect(() => {
-    if (downloading) {
-      refreshTimerRef.current = setInterval(refreshStats, 1500)
-      return () => clearInterval(refreshTimerRef.current)
-    }
-    if (refreshTimerRef.current) {
-      clearInterval(refreshTimerRef.current)
-      refreshTimerRef.current = null
-    }
-  }, [downloading, refreshStats])
+    if (!anyDownloading) return undefined
+    const id = window.setInterval(refreshStats, 1500)
+    return () => window.clearInterval(id)
+  }, [anyDownloading, refreshStats])
 
   const requestClose = () => {
-    if (downloading) {
+    if (anyDownloading) {
       const msg = isZh
         ? '下载进行中，关闭将停止下载。确定关闭吗？'
         : 'Download in progress. Closing will stop it. Continue?'
       if (!window.confirm(msg)) return
-      abortRef.current?.abort()
+      Object.values(abortRefs.current).forEach((controller) => controller?.abort())
     }
     if (closing) return
     setClosing(true)
@@ -88,30 +96,88 @@ export default function CachePanel({ onClose }) {
 
   const motionClass = closing ? 'is-closing' : 'is-open'
 
-  const handlePauseDownload = () => {
-    abortRef.current?.abort()
+  const setDownloadState = (versionId, patch) => {
+    setDownloads((prev) => ({
+      ...prev,
+      [versionId]: { ...prev[versionId], ...patch },
+    }))
   }
 
-  const handleDownloadAll = async () => {
-    abortRef.current?.abort()
-    const controller = new AbortController()
-    abortRef.current = controller
+  const clearDownloadState = (versionId) => {
+    setDownloads((prev) => {
+      const next = { ...prev }
+      delete next[versionId]
+      return next
+    })
+  }
 
-    setDownloading(true)
+  const pauseDownload = (versionId) => {
+    abortRefs.current[versionId]?.abort()
+  }
+
+  const startDownload = async (versionId) => {
+    abortRefs.current[versionId]?.abort()
+    const controller = new AbortController()
+    abortRefs.current[versionId] = controller
+
     setError(null)
-    setProgress((prev) => prev ?? { done: 0, total: 0, bytesDownloaded: 0, totalBytes: 0, etaMs: null })
+    setDownloadState(versionId, {
+      status: 'downloading',
+      progress: statsMap[versionId]
+        ? {
+          done: statsMap[versionId].chapterCount,
+          total: statsMap[versionId].chapterTotal,
+        }
+        : null,
+    })
+
     try {
-      await downloadAllScripture((p) => setProgress(p), { signal: controller.signal })
+      await downloadVersionScripture(
+        versionId,
+        (progress) => setDownloadState(versionId, { status: 'downloading', progress }),
+        { signal: controller.signal },
+      )
       refreshStats()
-      setProgress(null)
+      clearDownloadState(versionId)
     } catch (err) {
-      if (err instanceof DownloadAbortedError) return
-      setError(err.message)
-    } finally {
-      if (abortRef.current === controller) {
-        abortRef.current = null
-        setDownloading(false)
+      if (err instanceof DownloadAbortedError) {
+        setDownloadState(versionId, { status: 'paused' })
+        return
       }
+      setError(err.message)
+      clearDownloadState(versionId)
+    } finally {
+      if (abortRefs.current[versionId] === controller) {
+        delete abortRefs.current[versionId]
+      }
+    }
+  }
+
+  const handleDownloadAction = (versionId) => {
+    const state = getDownloadState(versionId, statsMap[versionId], downloads)
+    if (state === 'complete') return
+    if (state === 'downloading') {
+      pauseDownload(versionId)
+      return
+    }
+    startDownload(versionId)
+  }
+
+  const handleDelete = async (versionId) => {
+    const label = VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId
+    const msg = isZh
+      ? `确定删除「${label}」的离线缓存？`
+      : `Delete offline cache for ${label}?`
+    if (!window.confirm(msg)) return
+
+    pauseDownload(versionId)
+    setError(null)
+    try {
+      await clearVersionCache(versionId)
+      clearDownloadState(versionId)
+      refreshStats()
+    } catch (err) {
+      setError(err.message)
     }
   }
 
@@ -130,39 +196,12 @@ export default function CachePanel({ onClose }) {
     await promptInstall()
   }
 
-  const handleClear = async () => {
-    const msg = isZh
-      ? '确定清除所有已缓存的经文？离线时将无法阅读未重新下载的内容。'
-      : 'Clear all cached scripture? Offline reading will require re-download.'
-    if (!window.confirm(msg)) return
-
-    setClearing(true)
-    setError(null)
-    try {
-      await clearScriptureCache()
-      refreshStats()
-    } catch (err) {
-      setError(err.message)
-    } finally {
-      setClearing(false)
-    }
+  const actionLabels = {
+    idle: isZh ? '下载' : 'Download',
+    downloading: isZh ? '暂停' : 'Pause',
+    paused: isZh ? '继续' : 'Resume',
+    complete: isZh ? '已完成' : 'Downloaded',
   }
-
-  const formatDate = (ts) => {
-    if (!ts) return isZh ? '尚未全量下载' : 'Not fully downloaded'
-    return new Date(ts).toLocaleString(isZh ? 'zh-CN' : 'en-US')
-  }
-
-  const progressPct = progress?.total
-    ? Math.round((progress.done / progress.total) * 100)
-    : 0
-
-  const bytesPct = progress?.totalBytes
-    ? Math.min(100, Math.round((progress.bytesDownloaded / progress.totalBytes) * 100))
-    : progressPct
-
-  const showProgressSlot = !fullyCached
-  const hasProgressData = Boolean(progress?.total)
 
   return (
     <>
@@ -174,134 +213,52 @@ export default function CachePanel({ onClose }) {
           className="cache-panel-sheet-handle"
         />
         <div className="cache-panel-header">
+          <h2 className="cache-panel-title">{isZh ? '离线缓存' : 'Offline cache'}</h2>
           <button type="button" className="cache-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
             ×
           </button>
         </div>
 
         <div className="cache-panel-scroll">
-        <p className="cache-panel-desc">
-          {fullyCached
-            ? (isZh
-              ? '全部经文已缓存，可离线阅读。阅读时仍会按需更新内存热缓存。'
-              : 'All scripture is cached for offline reading.')
-            : (isZh
-              ? '阅读过的章节会自动缓存。也可手动下载全部经文以供离线使用。'
-              : 'Read chapters are cached automatically. Download all for full offline use.')}
-        </p>
+          <p className="cache-panel-desc">
+            {isZh
+              ? '按版本下载经文以供离线阅读。阅读过的章节也会自动缓存。'
+              : 'Download scripture by version for offline reading. Chapters you read are also cached automatically.'}
+          </p>
 
-        <dl className="cache-stats">
-          <div className="cache-stat">
-            <dt>{isZh ? '已缓存章节' : 'Chapters'}</dt>
-            <dd>
-              {manifestInfo
-                ? `${stats.chapterCount} / ${manifestInfo.chapterTotal}`
-                : stats.chapterCount}
-            </dd>
+          <div className="cache-version-list">
+            {PRIMARY_VERSION_IDS.map((versionId) => {
+              const stats = statsMap[versionId]
+              const downloadState = getDownloadState(versionId, stats, downloads)
+              return (
+                <CacheVersionRow
+                  key={versionId}
+                  label={VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId}
+                  chapterCount={stats?.chapterCount ?? 0}
+                  chapterTotal={stats?.chapterTotal ?? 0}
+                  downloadState={downloadState}
+                  progressPct={getProgressPct(versionId, stats, downloads)}
+                  onDownloadAction={() => handleDownloadAction(versionId)}
+                  onDelete={() => handleDelete(versionId)}
+                  deleteLabel={isZh ? '删除' : 'Delete'}
+                  actionLabels={actionLabels}
+                />
+              )
+            })}
           </div>
-        </dl>
 
-        <div className="cache-storage">
-          <div className="cache-storage-row cache-storage-total">
-            <span>{isZh ? '本地占用' : 'Stored'}</span>
-            <strong>{formatBytes(stats.storageBytes, lang)}</strong>
-          </div>
-          <div className="cache-storage-row cache-storage-memory">
-            <span>{isZh ? '内存热缓存' : 'In-memory'}</span>
-            <strong>
-              {isZh
-                ? `${stats.memory.chapterCount} 章 · ${formatBytes(stats.memory.totalBytes, lang)}`
-                : `${stats.memory.chapterCount} ch · ${formatBytes(stats.memory.totalBytes, lang)}`}
-            </strong>
-          </div>
-        </div>
+          {error && <p className="cache-error">{error}</p>}
 
-        <p className="cache-meta">
-          {isZh ? '上次全量下载：' : 'Last full download: '}
-          {formatDate(stats.fullDownloadAt)}
-        </p>
-
-        {showProgressSlot && (
-          <div className="cache-progress-block" aria-live="polite">
-            <div className="cache-progress">
-              <div className="cache-progress-bar" style={{ width: `${hasProgressData ? bytesPct : 0}%` }} />
-              <span className="cache-progress-label">
-                {hasProgressData
-                  ? `${progress.done} / ${progress.total} (${progressPct}%)`
-                  : (downloading
-                    ? (isZh ? '准备中…' : 'Preparing…')
-                    : (isZh ? '尚未开始' : 'Not started'))}
-              </span>
-            </div>
-            <div className="cache-progress-meta">
-              <span>
-                {hasProgressData
-                  ? (
-                    <>
-                      {formatBytes(progress.bytesDownloaded, lang)}
-                      {progress.totalBytes ? ` / ${formatBytes(progress.totalBytes, lang)}` : ''}
-                    </>
-                  )
-                  : '\u00A0'}
-              </span>
-              <span>{hasProgressData ? formatEta(progress.etaMs, lang) : '\u00A0'}</span>
-            </div>
-          </div>
-        )}
-
-        {error && <p className="cache-error">{error}</p>}
-
-        <div className="cache-actions">
-          {!fullyCached && (
-            downloading ? (
-              <button
-                type="button"
-                className="cache-btn cache-btn-primary"
-                onClick={handlePauseDownload}
-                disabled={clearing}
-              >
-                {isZh ? '暂停下载' : 'Pause download'}
-              </button>
-            ) : (
-              <button
-                type="button"
-                className="cache-btn cache-btn-primary"
-                onClick={handleDownloadAll}
-                disabled={clearing}
-              >
-                {partialCache
-                  ? (isZh ? '继续下载' : 'Resume download')
-                  : (isZh ? '下载全部' : 'Download all')}
-              </button>
-            )
-          )}
-          <button
-            type="button"
-            className="cache-btn"
-            onClick={handleClear}
-            disabled={downloading || clearing}
-          >
-            {clearing ? (isZh ? '清除中…' : 'Clearing…') : (isZh ? '清除缓存' : 'Clear cache')}
-          </button>
-          {installState === 'installed' ? (
-            <p className="cache-installed">{isZh ? '已添加到主屏幕' : 'Installed on Home Screen'}</p>
-          ) : (
-            <>
+          {installState !== 'unavailable' && installState !== 'installed' && (
+            <div className="cache-install-section">
               <button
                 type="button"
                 className="cache-btn"
                 onClick={handleInstall}
-                disabled={(installState === 'unavailable') || downloading || clearing}
+                disabled={anyDownloading}
               >
                 {isZh ? '添加到主屏幕' : 'Add to Home Screen'}
               </button>
-              {installState === 'unavailable' && (
-                <p className="cache-install-hint">
-                  {isZh
-                    ? '当前浏览器不支持一键安装，请换用 Chrome 后通过菜单添加。'
-                    : 'This browser cannot install directly. Try Chrome and use its menu.'}
-                </p>
-              )}
               {installState === 'android' && !showAndroidGuide && (
                 <p className="cache-install-hint">
                   {isZh
@@ -328,36 +285,23 @@ export default function CachePanel({ onClose }) {
                 <p className="cache-install-guide">
                   {isZh ? (
                     <>
-                      <strong>Chrome（推荐）</strong><br />
-                      1. 点击右上角 <strong>⋮</strong> 菜单<br />
-                      2. 选择<strong>添加到主屏幕</strong>或<strong>安装应用</strong><br />
-                      <br />
-                      <strong>小米 / Via 等浏览器</strong><br />
-                      1. 打开浏览器<strong>菜单</strong>（通常在右上角或底部）<br />
-                      2. 查找<strong>添加到主屏幕</strong>、<strong>添加快捷方式</strong>或<strong>桌面书签</strong>
+                      1. 点击浏览器<strong>菜单</strong><br />
+                      2. 选择<strong>添加到主屏幕</strong>或<strong>安装应用</strong>
                     </>
                   ) : (
                     <>
-                      <strong>Chrome (recommended)</strong><br />
-                      1. Tap the <strong>⋮</strong> menu (top right)<br />
-                      2. Choose <strong>Add to Home screen</strong> or <strong>Install app</strong><br />
-                      <br />
-                      <strong>Other browsers (Mi, Via, etc.)</strong><br />
                       1. Open the browser <strong>menu</strong><br />
-                      2. Look for <strong>Add to Home screen</strong> or <strong>Add shortcut</strong>
+                      2. Choose <strong>Add to Home screen</strong> or <strong>Install app</strong>
                     </>
                   )}
                 </p>
               )}
-            </>
+            </div>
           )}
-        </div>
 
-        <p className="cache-hint">
-          {isZh
-            ? '安装后可从主屏幕打开；离线阅读需先缓存经文。'
-            : 'Install for Home Screen access; cache scripture for offline reading.'}
-        </p>
+          {installState === 'installed' && (
+            <p className="cache-installed">{isZh ? '已添加到主屏幕' : 'Installed on Home Screen'}</p>
+          )}
         </div>
       </div>
     </>

@@ -107,6 +107,16 @@ async function idbCount(storeName) {
   return idbRequest(tx.objectStore(storeName).count())
 }
 
+async function idbDelete(storeName, key) {
+  const db = await openDb()
+  const tx = db.transaction(storeName, 'readwrite')
+  tx.objectStore(storeName).delete(key)
+  return new Promise((resolve, reject) => {
+    tx.oncomplete = () => resolve()
+    tx.onerror = () => reject(tx.error)
+  })
+}
+
 async function idbGetAllKeys(storeName) {
   const db = await openDb()
   const tx = db.transaction(storeName, 'readonly')
@@ -245,18 +255,6 @@ export async function getCacheStats() {
   }
 }
 
-export async function clearScriptureCache() {
-  memory.chapters.clear()
-  memory.verses.clear()
-  await Promise.all([
-    idbClear('chapters'),
-    idbClear('verses'),
-    idbPut('meta', 'fullDownloadAt', null),
-    idbPut('meta', 'chapterBytes', 0),
-    idbPut('meta', 'verseBytes', 0),
-  ])
-}
-
 function parseChapterPath(relativePath) {
   const match = relativePath.match(/^json\/([^/]+)\/(\d+)\/([^/]+)\.json$/)
   if (!match) return null
@@ -267,6 +265,22 @@ function parseChapterPath(relativePath) {
   return { versionId, book: parseInt(book, 10), chapter }
 }
 
+function versionFullDownloadMetaKey(versionId) {
+  return `fullDownloadAt:${versionId}`
+}
+
+export async function clearScriptureCache() {
+  memory.chapters.clear()
+  memory.verses.clear()
+  await Promise.all([
+    idbClear('chapters'),
+    idbClear('verses'),
+    idbPut('meta', 'fullDownloadAt', null),
+    idbPut('meta', 'chapterBytes', 0),
+    idbPut('meta', 'verseBytes', 0),
+    ...PRIMARY_VERSION_IDS.map((id) => idbPut('meta', versionFullDownloadMetaKey(id), null)),
+  ])
+}
 
 async function loadManifest() {
   const url = assetUrl('json/cache-manifest.json')
@@ -310,27 +324,103 @@ function throwIfAborted(signal) {
   if (signal?.aborted) throw new DownloadAbortedError()
 }
 
-export async function downloadAllScripture(onProgress, options = {}) {
+function countManifestChaptersByVersion(manifest) {
+  const totals = {}
+  for (const path of manifest.chapters ?? []) {
+    const parsed = parseChapterPath(path)
+    if (parsed) totals[parsed.versionId] = (totals[parsed.versionId] ?? 0) + 1
+  }
+  return totals
+}
+
+export async function getVersionManifestInfo(versionId) {
+  const manifest = await loadManifest()
+  const totals = countManifestChaptersByVersion(manifest)
+  const chapterTotal = totals[versionId] ?? 0
+  const allTotal = manifest.chapters?.length ?? 0
+  const allBytes = manifest.totalBytes ?? manifest.chapterBytes ?? 0
+  const totalBytes = allTotal > 0 ? Math.round((allBytes * chapterTotal) / allTotal) : 0
+  return { chapterTotal, totalBytes }
+}
+
+export async function getAllVersionsCacheStats() {
+  const manifest = await loadManifest()
+  const totals = countManifestChaptersByVersion(manifest)
+  const keys = await idbGetAllKeys('chapters')
+  const counts = Object.fromEntries(PRIMARY_VERSION_IDS.map((id) => [id, 0]))
+
+  for (const key of keys) {
+    const versionId = String(key).split(':')[0]
+    if (counts[versionId] != null) counts[versionId] += 1
+  }
+
+  const fullDownloadAts = await Promise.all(
+    PRIMARY_VERSION_IDS.map((id) => idbGet('meta', versionFullDownloadMetaKey(id))),
+  )
+
+  return PRIMARY_VERSION_IDS.map((versionId, index) => {
+    const chapterCount = counts[versionId] ?? 0
+    const chapterTotal = totals[versionId] ?? 0
+    return {
+      versionId,
+      chapterCount,
+      chapterTotal,
+      fullDownloadAt: fullDownloadAts[index] ?? null,
+      isComplete: chapterTotal > 0 && chapterCount >= chapterTotal,
+    }
+  })
+}
+
+export async function clearVersionCache(versionId) {
+  const keys = await idbGetAllKeys('chapters')
+  const prefix = `${versionId}:`
+  let bytesRemoved = 0
+
+  for (const key of keys) {
+    if (!String(key).startsWith(prefix)) continue
+    const data = memory.chapters.get(key) ?? await idbGet('chapters', key)
+    if (data) bytesRemoved += estimateValueBytes(data)
+    memory.chapters.delete(key)
+    await idbDelete('chapters', key)
+  }
+
+  if (bytesRemoved > 0) {
+    const chapterBytes = await idbGet('meta', 'chapterBytes')
+    await idbPut('meta', 'chapterBytes', Math.max(0, (chapterBytes ?? 0) - bytesRemoved))
+  }
+
+  await idbPut('meta', versionFullDownloadMetaKey(versionId), null)
+
+  const remainingKeys = (await idbGetAllKeys('chapters')).length
+  if (remainingKeys === 0) {
+    await idbPut('meta', 'fullDownloadAt', null)
+  }
+}
+
+export async function downloadVersionScripture(versionId, onProgress, options = {}) {
   const { signal } = options
   throwIfAborted(signal)
 
   const manifest = await loadManifest()
-  const paths = manifest.chapters ?? []
+  const paths = (manifest.chapters ?? []).filter((path) => path.startsWith(`json/${versionId}/`))
   const total = paths.length
-  const totalBytes = manifest.totalBytes ?? manifest.chapterBytes ?? 0
+  const { totalBytes } = await getVersionManifestInfo(versionId)
 
-  const [chapterKeys, initialStats] = await Promise.all([
-    idbGetAllKeys('chapters'),
-    getCacheStats(),
-  ])
+  const chapterKeys = await idbGetAllKeys('chapters')
   const chapterKeySet = new Set(chapterKeys)
 
   const pending = []
   let initialDone = 0
+  let initialBytes = 0
+
   for (const path of paths) {
     const key = chapterItemCacheKey(path)
     if (!key || chapterKeySet.has(key)) {
       initialDone += 1
+      if (key && String(key).startsWith(`${versionId}:`)) {
+        const data = memory.chapters.get(key) ?? await idbGet('chapters', key)
+        if (data) initialBytes += estimateValueBytes(data)
+      }
     } else {
       pending.push(path)
     }
@@ -339,7 +429,6 @@ export async function downloadAllScripture(onProgress, options = {}) {
   let done = initialDone
   let sessionDone = 0
   let sessionBytes = 0
-  const initialBytes = initialStats.storageBytes
   const startedAt = Date.now()
 
   const reportProgress = () => {
@@ -367,7 +456,7 @@ export async function downloadAllScripture(onProgress, options = {}) {
 
   if (pending.length === 0) {
     throwIfAborted(signal)
-    await idbPut('meta', 'fullDownloadAt', Date.now())
+    await idbPut('meta', versionFullDownloadMetaKey(versionId), Date.now())
     return { total, totalBytes }
   }
 
@@ -397,6 +486,32 @@ export async function downloadAllScripture(onProgress, options = {}) {
   }
 
   throwIfAborted(signal)
-  await idbPut('meta', 'fullDownloadAt', Date.now())
+  await idbPut('meta', versionFullDownloadMetaKey(versionId), Date.now())
   return { total, totalBytes }
+}
+
+export async function downloadAllScripture(onProgress, options = {}) {
+  const versionTotals = await Promise.all(
+    PRIMARY_VERSION_IDS.map((id) => getVersionManifestInfo(id)),
+  )
+  const combinedTotal = versionTotals.reduce((sum, info) => sum + info.chapterTotal, 0)
+
+  for (let i = 0; i < PRIMARY_VERSION_IDS.length; i += 1) {
+    const versionId = PRIMARY_VERSION_IDS[i]
+    await downloadVersionScripture(versionId, (progress) => {
+      const versionOffset = versionTotals.slice(0, i).reduce((sum, info) => sum + info.chapterTotal, 0)
+      onProgress?.({
+        ...progress,
+        done: versionOffset + progress.done,
+        total: combinedTotal,
+      })
+    }, options)
+  }
+
+  await idbPut('meta', 'fullDownloadAt', Date.now())
+  const manifest = await loadManifest()
+  return {
+    total: manifest.chapters?.length ?? combinedTotal,
+    totalBytes: manifest.totalBytes ?? manifest.chapterBytes ?? 0,
+  }
 }

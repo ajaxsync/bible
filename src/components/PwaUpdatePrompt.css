@@ -11,12 +11,13 @@
 .pwa-update-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(15, 15, 15, 0.35);
+  background: var(--panel-backdrop-bg);
 }
 
 .pwa-update-dialog {
   position: relative;
   width: min(360px, 100%);
+  min-height: var(--panel-min-height);
   padding: 20px;
   background: var(--bg);
   border: 1px solid var(--border);

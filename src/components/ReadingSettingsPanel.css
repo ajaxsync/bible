@@ -89,6 +89,11 @@
   font-size: 12px;
 }
 
+.reading-settings-segmented--fonts button {
+  min-width: 72px;
+  padding: 0 12px;
+}
+
 .reading-settings-themes {
   display: flex;
   align-items: center;

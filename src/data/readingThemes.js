@@ -111,8 +111,13 @@ export const UI_STYLE_THEME_IDS = {
 export const FONT_SIZES = [14, 15, 16, 17, 18, 20, 22, 24]
 export const LINE_HEIGHTS = [1.5, 1.65, 1.85, 2.0, 2.2, 2.5]
 
+export const READER_FONT_FAMILIES = [
+  { id: 'system', label: { chs: '系统黑体', cht: '系統黑體', en: 'System' } },
+  { id: 'serif', label: { chs: '宋体', cht: '宋體', en: 'Serif' } },
+]
+
 const STORAGE_KEY = 'bible-reading-settings'
-const SETTINGS_VERSION = 3
+const SETTINGS_VERSION = 4
 const LEGACY_DEFAULT_FONT_SIZE = 16
 
 export const DEFAULT_READING_SETTINGS = {
@@ -120,6 +125,7 @@ export const DEFAULT_READING_SETTINGS = {
   lineHeight: 1.85,
   themeId: 'white',
   uiStyle: 'notion',
+  readerFontFamily: 'system',
 }
 
 export function getThemeById(id) {
@@ -131,13 +137,16 @@ function normalizeReadingSettings(parsed) {
   const lineHeight = LINE_HEIGHTS.includes(parsed.lineHeight) ? parsed.lineHeight : DEFAULT_READING_SETTINGS.lineHeight
   const themeId = READING_THEMES.some((t) => t.id === parsed.themeId) ? parsed.themeId : DEFAULT_READING_SETTINGS.themeId
   const uiStyle = UI_STYLES.some((s) => s.id === parsed.uiStyle) ? parsed.uiStyle : DEFAULT_READING_SETTINGS.uiStyle
+  const readerFontFamily = READER_FONT_FAMILIES.some((f) => f.id === parsed.readerFontFamily)
+    ? parsed.readerFontFamily
+    : DEFAULT_READING_SETTINGS.readerFontFamily
   const version = parsed.version ?? 1
 
   if (version < SETTINGS_VERSION && fontSize === LEGACY_DEFAULT_FONT_SIZE) {
     fontSize = DEFAULT_READING_SETTINGS.fontSize
   }
 
-  return { fontSize, lineHeight, themeId, uiStyle, version }
+  return { fontSize, lineHeight, themeId, uiStyle, readerFontFamily, version }
 }
 
 export function loadReadingSettings() {

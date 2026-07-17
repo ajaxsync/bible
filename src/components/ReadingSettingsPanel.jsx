@@ -1,7 +1,7 @@
 import { useVersion } from '../context/VersionContext.jsx'
 import { useReadingSettings } from '../context/ReadingSettingsContext.jsx'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
-import { FONT_SIZES, LINE_HEIGHTS, READING_THEMES, UI_STYLES } from '../data/readingThemes.js'
+import { FONT_SIZES, LINE_HEIGHTS, READER_FONT_FAMILIES, READING_THEMES, UI_STYLES } from '../data/readingThemes.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './ReadingSettingsPanel.css'
@@ -23,6 +23,7 @@ export default function ReadingSettingsPanel({ onClose }) {
     adjustLineHeight,
     setThemeId,
     setUiStyle,
+    setReaderFontFamily,
   } = useReadingSettings()
 
   const fontAtMin = settings.fontSize === FONT_SIZES[0]
@@ -92,6 +93,28 @@ export default function ReadingSettingsPanel({ onClose }) {
             <button type="button" onClick={() => adjustFontSize(1)} disabled={fontAtMax} aria-label={isEn ? 'Increase font size' : '增大字体'}>
               +
             </button>
+          </div>
+        </div>
+
+        <div className="reading-settings-row">
+          <span className="reading-settings-label">{isEn ? 'Reading font' : isCht ? '閱讀字體' : '阅读字体'}</span>
+          <div
+            className="reading-settings-segmented reading-settings-segmented--fonts"
+            role="radiogroup"
+            aria-label={isEn ? 'Reading font' : isCht ? '閱讀字體' : '阅读字体'}
+          >
+            {READER_FONT_FAMILIES.map((font) => (
+              <button
+                key={font.id}
+                type="button"
+                role="radio"
+                aria-checked={settings.readerFontFamily === font.id}
+                className={settings.readerFontFamily === font.id ? 'current' : ''}
+                onClick={() => setReaderFontFamily(font.id)}
+              >
+                {font.label[lang]}
+              </button>
+            ))}
           </div>
         </div>
 

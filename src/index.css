@@ -11,12 +11,21 @@
   --shadow: 0 1px 3px rgba(15, 15, 15, 0.06), 0 1px 2px rgba(15, 15, 15, 0.04);
   --radius: 6px;
   --radius-lg: 8px;
-  --font: "Inter", "Noto Sans TC", system-ui, sans-serif;
+  --font-ui-en: "Inter", system-ui, sans-serif;
+  --font-ui-sc: system-ui, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-ui-tc: system-ui, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  --font-reader-sc-sans: var(--font-ui-sc);
+  --font-reader-sc-serif: system-ui, "Songti SC", "Noto Serif SC", "STSong", "SimSun", serif;
+  --font-reader-tc-sans: var(--font-ui-tc);
+  --font-reader-tc-serif: system-ui, "Songti TC", "Noto Serif TC", "PMingLiU", serif;
+  --font-reader-en-sans: var(--font-ui-en);
+  --font-reader-en-serif: "Georgia", "Noto Serif", "Times New Roman", serif;
+  --font: var(--font-ui-en);
+  --font-reader: var(--font-reader-sc-sans);
   --header-height: 56px;
   --content-max: 720px;
   --reader-font-size: 22px;
   --reader-line-height: 1.85;
-  --font-reader: var(--font);
   --panel-transition-duration: 220ms;
   --panel-transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
   --panel-min-height: 220px;
@@ -229,9 +238,44 @@ button {
   font-family: inherit;
 }
 
+html[data-bible-lang="chs"] {
+  --font: var(--font-ui-sc);
+}
+
+html[data-bible-lang="cht"] {
+  --font: var(--font-ui-tc);
+}
+
+html[data-bible-lang="en"] {
+  --font: var(--font-ui-en);
+}
+
+html[data-reader-font="system"][data-bible-lang="chs"] {
+  --font-reader: var(--font-reader-sc-sans);
+}
+
+html[data-reader-font="serif"][data-bible-lang="chs"] {
+  --font-reader: var(--font-reader-sc-serif);
+}
+
+html[data-reader-font="system"][data-bible-lang="cht"] {
+  --font-reader: var(--font-reader-tc-sans);
+}
+
+html[data-reader-font="serif"][data-bible-lang="cht"] {
+  --font-reader: var(--font-reader-tc-serif);
+}
+
+html[data-reader-font="system"][data-bible-lang="en"] {
+  --font-reader: var(--font-reader-en-sans);
+}
+
+html[data-reader-font="serif"][data-bible-lang="en"] {
+  --font-reader: var(--font-reader-en-serif);
+}
+
 [data-ui-style="kindle"] {
   --content-max: 640px;
-  --font-reader: "Georgia", "Noto Serif TC", "Noto Serif", serif;
   --radius: 4px;
   --radius-lg: 6px;
 }

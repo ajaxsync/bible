@@ -20,6 +20,7 @@ function applyReadingTheme(settings) {
   root.style.setProperty('--reader-line-height', String(settings.lineHeight))
   root.dataset.readingTheme = settings.themeId
   root.dataset.uiStyle = settings.uiStyle ?? 'notion'
+  root.dataset.readerFont = settings.readerFontFamily ?? 'system'
 }
 
 export function ReadingSettingsProvider({ children }) {
@@ -44,6 +45,7 @@ export function ReadingSettingsProvider({ children }) {
     const themeId = UI_STYLE_THEME_IDS[uiStyle]
     setSettings(themeId ? { uiStyle, themeId } : { uiStyle })
   }
+  const setReaderFontFamily = (readerFontFamily) => setSettings({ readerFontFamily })
 
   const adjustFontSize = (delta) => {
     setSettingsState((prev) => {
@@ -77,6 +79,7 @@ export function ReadingSettingsProvider({ children }) {
       setLineHeight,
       setThemeId,
       setUiStyle,
+      setReaderFontFamily,
       adjustFontSize,
       adjustLineHeight,
     }),

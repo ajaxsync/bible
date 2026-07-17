@@ -1,10 +1,18 @@
-import { createContext, useContext, useMemo, useState } from 'react'
-import { DEFAULT_VERSION, getVersion, loadStoredVersion, storeVersion } from '../data/versions.js'
+import { createContext, useContext, useLayoutEffect, useMemo, useState } from 'react'
+import { getVersion, loadStoredVersion, storeVersion } from '../data/versions.js'
 
 const VersionContext = createContext(null)
 
 export function VersionProvider({ children }) {
-  const [versionId, setVersionIdState] = useState(loadStoredVersion)
+  const [versionId, setVersionIdState] = useState(() => {
+    const id = loadStoredVersion()
+    document.documentElement.dataset.bibleLang = getVersion(id).lang
+    return id
+  })
+
+  useLayoutEffect(() => {
+    document.documentElement.dataset.bibleLang = getVersion(versionId).lang
+  }, [versionId])
 
   const setVersionId = (id) => {
     setVersionIdState(id)

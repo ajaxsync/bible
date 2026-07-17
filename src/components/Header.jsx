@@ -13,6 +13,7 @@ import SpeechPanel from './SpeechPanel.jsx'
 import BookChapterPicker from './BookChapterPicker.jsx'
 import { useAnimatedPanel } from '../hooks/useAnimatedPanel.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
+import { useReadingProgress } from '../hooks/useReadingProgress.js'
 import { useReadingStamina } from '../context/ReadingStaminaContext.jsx'
 import { usePwaUpdate } from '../context/PwaUpdateContext.jsx'
 import SpeakerIcon from './SpeakerIcon.jsx'
@@ -47,6 +48,8 @@ export default function Header() {
   const [pickerBook, setPickerBook] = useState(null)
   const { todayCompleted, panelOpen, openPanel, closePanel } = useReadingStamina()
   const { needRefresh, updating, applyUpdate } = usePwaUpdate()
+
+  const readingProgress = useReadingProgress([book, chapter, versionId])
 
   const bookInfo = bibleIndex[book]
   const activeBook = pickerBook ?? book
@@ -253,6 +256,13 @@ export default function Header() {
             </>
           )}
         </div>
+      </div>
+
+      <div className="reading-progress" aria-hidden>
+        <div
+          className="reading-progress-fill"
+          style={{ transform: `scaleX(${readingProgress})` }}
+        />
       </div>
 
       {cacheOpen && <CachePanel onClose={() => setCacheOpen(false)} />}

@@ -30,6 +30,8 @@ const COPY = {
     dayUnit: '天',
     legendLess: '少',
     legendMore: '多',
+    currentWeekDuration: '本周续航时间',
+    pastWeekDuration: '该周续航时间',
     recordTitle: '续航记录',
     prevWeek: '上一周',
     nextWeek: '下一周',
@@ -49,6 +51,8 @@ const COPY = {
     dayUnit: '天',
     legendLess: '少',
     legendMore: '多',
+    currentWeekDuration: '本週續航時間',
+    pastWeekDuration: '該週續航時間',
     recordTitle: '續航記錄',
     prevWeek: '上一週',
     nextWeek: '下一週',
@@ -68,6 +72,8 @@ const COPY = {
     dayUnit: 'days',
     legendLess: 'Less',
     legendMore: 'More',
+    currentWeekDuration: 'This week',
+    pastWeekDuration: 'Week total',
     recordTitle: 'Stamina log',
     prevWeek: 'Previous week',
     nextWeek: 'Next week',
@@ -94,6 +100,12 @@ function buildCellLabel(cell, lang, copy) {
   return copy.notStarted
 }
 
+function formatCompactDuration(seconds) {
+  if (seconds <= 0) return '0min'
+  const minutes = Math.floor(seconds / 60)
+  return minutes < 1 ? '<1min' : `${minutes}min`
+}
+
 function StaminaCell({ cell, lang, copy }) {
   const levelClass = cell.isFuture
     ? 'is-future'
@@ -109,6 +121,9 @@ function StaminaCell({ cell, lang, copy }) {
       aria-label={`${formatDateLabel(cell.date, lang)}，${buildCellLabel(cell, lang, copy)}`}
     >
       <span className="stamina-cell-day" aria-hidden>{cell.date.getDate()}</span>
+      <span className="stamina-cell-duration" aria-hidden>
+        {cell.isFuture ? '—' : formatCompactDuration(cell.seconds)}
+      </span>
     </button>
   )
 }
@@ -130,6 +145,10 @@ export default function StaminaPanel({ onClose }) {
   useScrollLock(true)
 
   const week = useMemo(() => buildWeek(weekOffset), [weekOffset])
+  const weekSeconds = useMemo(
+    () => week.days.reduce((total, day) => total + day.seconds, 0),
+    [week],
+  )
 
   const requestClose = () => {
     if (closing) return
@@ -240,14 +259,22 @@ export default function StaminaPanel({ onClose }) {
                   {copy.nextWeek}
                 </button>
               </div>
-              <div className="stamina-panel-legend" aria-hidden>
-                <span>{copy.legendLess}</span>
-                <span className="stamina-legend-cell level-0" />
-                <span className="stamina-legend-cell level-1" />
-                <span className="stamina-legend-cell level-2" />
-                <span className="stamina-legend-cell level-3" />
-                <span className="stamina-legend-cell level-4" />
-                <span>{copy.legendMore}</span>
+              <div className="stamina-record-meta">
+                <div className="stamina-panel-legend" aria-hidden>
+                  <span>{copy.legendLess}</span>
+                  <span className="stamina-legend-bar">
+                    <span className="stamina-legend-cell level-0" />
+                    <span className="stamina-legend-cell level-1" />
+                    <span className="stamina-legend-cell level-2" />
+                    <span className="stamina-legend-cell level-3" />
+                    <span className="stamina-legend-cell level-4" />
+                  </span>
+                  <span>{copy.legendMore}</span>
+                </div>
+                <p className="stamina-week-total">
+                  {weekOffset === 0 ? copy.currentWeekDuration : copy.pastWeekDuration}
+                  <strong>{formatCompactDuration(weekSeconds)}</strong>
+                </p>
               </div>
             </div>
 

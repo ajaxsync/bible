@@ -1,4 +1,7 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   height: var(--header-height);
   background: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -7,9 +10,28 @@
   align-items: center;
   padding: 0 16px;
   gap: 12px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+}
+
+.reading-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: color-mix(in srgb, var(--border) 70%, transparent);
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reading-progress-fill {
+  height: 100%;
+  width: 100%;
+  transform-origin: left center;
+  transform: scaleX(0);
+  background: var(--accent);
+  will-change: transform;
+  transition: transform 80ms linear;
 }
 
 .header-brand {

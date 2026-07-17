@@ -17,11 +17,22 @@
   color: #c0392b;
 }
 
+.reader-header {
+  margin-bottom: 4px;
+}
+
 .reader-title {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.reader-estimate {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-muted);
 }
 
 .reader-meta {

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { bibleIndex, parseChapterParam, chapterToParam, getBookTitle } from '../data/bibleIndex.js'
 import { useVersion } from '../context/VersionContext.jsx'
@@ -22,6 +22,7 @@ import {
 } from '../lib/verseHighlights.js'
 import SpeechFloatingControl from './SpeechFloatingControl.jsx'
 import { useReadingDwellTimer } from '../hooks/useReadingDwellTimer.js'
+import { formatReadingEstimate } from '../lib/readingEstimate.js'
 import './BibleReader.css'
 import './VerseToolbar.css'
 
@@ -52,6 +53,10 @@ export default function BibleReader() {
   const bookInfo = bibleIndex[book]
   useReadingDwellTimer({ book, chapter, enabled: Boolean(bookInfo) })
   const isZh = version.lang !== 'en'
+  const readingEstimate = useMemo(
+    () => formatReadingEstimate(chapterData, version.lang),
+    [chapterData, version.lang],
+  )
   const isSpeakingHere = isActive
     && speechLocation?.book === book
     && speechLocation?.chapter === chapter
@@ -233,7 +238,10 @@ export default function BibleReader() {
   return (
     <>
       <article className={readerClass} onClick={clearSelection}>
-        <h1 className="reader-title">{getBookTitle(book, version.lang)} {chapter}</h1>
+        <div className="reader-header">
+          <h1 className="reader-title">{getBookTitle(book, version.lang)} {chapter}</h1>
+          <p className="reader-estimate">{readingEstimate}</p>
+        </div>
         <p className="reader-meta">{version.label}</p>
 
         <div className="chapter">

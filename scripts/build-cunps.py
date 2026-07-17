@@ -27,10 +27,23 @@ except ImportError:
 
 cc = OpenCC("t2s")
 
+# OpenCC t2s 未覆盖的异体字 / 短语补正（和合本简体常用写法）
+EXTRA_REPLACEMENTS = (
+    ("餽送", "馈赠"),
+    ("餽", "馈"),
+)
+
+
+def convert_text(text: str) -> str:
+    text = cc.convert(text)
+    for src, dst in EXTRA_REPLACEMENTS:
+        text = text.replace(src, dst)
+    return text
+
 
 def convert_value(obj):
     if isinstance(obj, str):
-        return cc.convert(obj)
+        return convert_text(obj)
     if isinstance(obj, list):
         return [convert_value(item) for item in obj]
     if isinstance(obj, dict):

@@ -3,6 +3,10 @@ import { useRef, useState } from 'react'
 const SWIPE_REVEAL = 72
 const SWIPE_THRESHOLD = 36
 
+function formatCacheSize(bytes) {
+  return `${(Math.max(0, bytes) / 1024 / 1024).toFixed(2)} MB`
+}
+
 function CacheDownloadButton({ state, progress, onClick, ariaLabel }) {
   const size = 32
   const stroke = 2.5
@@ -76,6 +80,7 @@ export default function CacheVersionRow({
   label,
   chapterCount,
   chapterTotal,
+  storageBytes,
   downloadState,
   progressPct,
   onDownloadAction,
@@ -143,8 +148,11 @@ export default function CacheVersionRow({
                 {deleteLabel}
               </button>
             )}
-            <span className="cache-version-count">
-              {chapterCount}/{chapterTotal}
+            <span className="cache-version-progress">
+              <span className="cache-version-count">
+                {chapterCount}/{chapterTotal}
+              </span>
+              <span className="cache-version-size">{formatCacheSize(storageBytes)}</span>
             </span>
           </div>
           <CacheDownloadButton

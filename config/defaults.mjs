@@ -13,7 +13,8 @@ export const envDefaults = {
   VITE_CONTENT_MAX: '720px',
   VITE_HEADER_HEIGHT: '56px',
   VITE_ACCENT_COLOR: '#2383e2',
-  VITE_FONT_FAMILY: '"Inter", "Noto Sans TC", system-ui, sans-serif',
+  /* 留空：界面字体由 index.css 按语言切换（中文黑体 + 英文 Inter）；勿再写死 Inter 覆盖整栈 */
+  VITE_FONT_FAMILY: '',
 }
 
 export function parseEnvList(raw) {

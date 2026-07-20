@@ -1,16 +1,11 @@
-.stamina-prompt-root {
+.chapter-share-backdrop {
   position: fixed;
   inset: 0;
-  z-index: 280;
+  z-index: 220;
 }
 
-.stamina-prompt-backdrop {
-  position: absolute;
-  inset: 0;
-}
-
-.stamina-prompt-dialog {
-  position: absolute;
+.chapter-share-panel {
+  position: fixed;
   top: auto;
   bottom: 0;
   left: 0;
@@ -24,47 +19,58 @@
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   border-bottom: none;
   box-shadow: 0 -8px 32px rgba(15, 15, 15, 0.18);
+  z-index: 230;
+  overflow: hidden;
   padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
   font-family: var(--font);
 }
 
-.stamina-prompt-dialog.is-open {
-  animation: stamina-prompt-slide-up var(--panel-transition-duration) var(--panel-transition-ease) both;
+.chapter-share-panel.is-open {
+  animation: chapter-share-slide-up var(--panel-transition-duration) var(--panel-transition-ease) both;
 }
 
-.stamina-prompt-dialog.is-closing {
-  animation: stamina-prompt-slide-down var(--panel-transition-duration) var(--panel-transition-ease) both;
+.chapter-share-panel.is-closing {
+  animation: chapter-share-slide-down var(--panel-transition-duration) var(--panel-transition-ease) both;
 }
 
-.stamina-prompt-sheet-handle {
+.chapter-share-sheet-handle {
   flex-shrink: 0;
 }
 
-.stamina-prompt-body {
+.chapter-share-body {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
   padding: 0 20px calc(20px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
 }
 
-.stamina-prompt-title {
-  margin: 0 0 8px;
+.chapter-share-title {
+  margin: 0 0 12px;
   font-size: 18px;
   font-weight: 600;
   color: var(--text);
 }
 
-.stamina-prompt-desc {
+.chapter-share-message {
   margin: 0 0 20px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
   font-size: 14px;
-  line-height: 1.55;
-  color: var(--text-muted);
+  line-height: 1.65;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
-.stamina-prompt-actions {
+.chapter-share-actions {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 8px;
 }
 
-.stamina-prompt-btn {
+.chapter-share-btn {
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -76,22 +82,32 @@
   color: var(--text);
 }
 
-.stamina-prompt-btn:hover {
+.chapter-share-btn:hover {
   background: var(--bg-hover);
 }
 
-.stamina-prompt-btn-primary {
+.chapter-share-btn--primary {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
 }
 
-.stamina-prompt-btn-primary:hover {
+.chapter-share-btn--primary:hover {
   background: var(--accent);
   color: #fff;
 }
 
-@keyframes stamina-prompt-slide-up {
+.chapter-share-btn.is-copied {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.chapter-share-btn.is-failed {
+  border-color: #c62828;
+  color: #c62828;
+}
+
+@keyframes chapter-share-slide-up {
   from {
     transform: translateY(100%);
   }
@@ -101,7 +117,7 @@
   }
 }
 
-@keyframes stamina-prompt-slide-down {
+@keyframes chapter-share-slide-down {
   from {
     transform: translateY(0);
   }
@@ -112,8 +128,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .stamina-prompt-dialog.is-open,
-  .stamina-prompt-dialog.is-closing {
+  .chapter-share-panel.is-open,
+  .chapter-share-panel.is-closing {
     animation: none;
   }
 }

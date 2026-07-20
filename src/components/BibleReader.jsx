@@ -21,6 +21,7 @@ import {
   removeHighlights,
 } from '../lib/verseHighlights.js'
 import SpeechFloatingControl from './SpeechFloatingControl.jsx'
+import ChapterShareDialog from './ChapterShareDialog.jsx'
 import { useReadingDwellTimer } from '../hooks/useReadingDwellTimer.js'
 import { formatReadingEstimate } from '../lib/readingEstimate.js'
 import './BibleReader.css'
@@ -39,6 +40,7 @@ export default function BibleReader() {
   const [selectionAnchor, setSelectionAnchor] = useState(() => (verse > 0 ? verse : null))
   const [highlightedVerses, setHighlightedVerses] = useState(() => new Set())
   const [copyHint, setCopyHint] = useState('')
+  const [shareOpen, setShareOpen] = useState(false)
   const prevVerseRef = useRef(verse)
   const {
     registerChapter,
@@ -217,15 +219,21 @@ export default function BibleReader() {
 
   const handleHighlight = () => {
     setHighlightedVerses(addHighlights(versionId, book, chapter, selectedVerses, highlightedVerses))
-    setCopyHint(isZh ? '已高亮' : 'Highlighted')
+    setCopyHint(isZh ? '已收藏' : 'Saved')
     window.setTimeout(() => setCopyHint(''), 1500)
   }
 
   const handleUnhighlight = () => {
     setHighlightedVerses(removeHighlights(versionId, book, chapter, selectedVerses, highlightedVerses))
-    setCopyHint(isZh ? '已取消高亮' : 'Unhighlighted')
+    setCopyHint(isZh ? '已取消收藏' : 'Removed')
     window.setTimeout(() => setCopyHint(''), 1500)
   }
+
+  const shareLang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
+  const shareUrl = new URL(
+    `${import.meta.env.BASE_URL}${chapterPath.slice(1)}`,
+    window.location.origin,
+  ).toString()
 
   const readerClass = [
     'reader',
@@ -268,12 +276,16 @@ export default function BibleReader() {
               )}
             </div>
             <div className="chapter-nav-col chapter-nav-col-center">
-              <div className="chapter-nav-cell chapter-nav-cell-static">
+              <button
+                type="button"
+                className="chapter-nav-cell chapter-nav-cell-static"
+                onClick={() => setShareOpen(true)}
+              >
                 <span className="chapter-nav-action chapter-nav-action-current">
-                  {isZh ? '已读完' : 'Finished'}
+                  {isZh ? '分享' : 'Share'}
                 </span>
                 <span className="chapter-nav-target">{currentChapterLabel}</span>
-              </div>
+              </button>
             </div>
             <div className="chapter-nav-col chapter-nav-col-next">
               {nextChapterLink && (
@@ -311,8 +323,8 @@ export default function BibleReader() {
                 onClick={allSelectedHighlighted ? handleUnhighlight : handleHighlight}
               >
                 {allSelectedHighlighted
-                  ? (isZh ? '取消高亮' : 'Unhighlight')
-                  : (isZh ? '高亮' : 'Highlight')}
+                  ? (isZh ? '取消收藏' : 'Unsave')
+                  : (isZh ? '收藏' : 'Save')}
               </button>
             </div>
           </div>
@@ -320,6 +332,15 @@ export default function BibleReader() {
       </article>
 
       <SpeechFloatingControl verseSelected={hasSelection} />
+
+      {shareOpen && (
+        <ChapterShareDialog
+          lang={shareLang}
+          chapterLabel={currentChapterLabel}
+          shareUrl={shareUrl}
+          onClose={() => setShareOpen(false)}
+        />
+      )}
     </>
   )
 }

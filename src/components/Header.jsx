@@ -21,12 +21,6 @@ import LightningIcon from './LightningIcon.jsx'
 import StaminaPanel from './StaminaPanel.jsx'
 import './Header.css'
 
-const MENU_SECTIONS = {
-  chs: { reading: '阅读', library: '我的', app: '应用' },
-  cht: { reading: '閱讀', library: '我的', app: '應用' },
-  en: { reading: 'Reading', library: 'Library', app: 'App' },
-}
-
 export default function Header() {
   const { book: bookParam, chapter: chapterParam, verse: verseParam } = useParams()
   const navigate = useNavigate()
@@ -83,8 +77,7 @@ export default function Header() {
   }
 
   const isEn = version.lang === 'en'
-  const menuLang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
-  const menuSections = MENU_SECTIONS[menuLang]
+  const isCht = version.lang === 'cht'
   const speechSupported = isSpeechSupported()
   const isSpeakingHere = isActive
     && speechLocation?.book === book
@@ -189,10 +182,6 @@ export default function Header() {
             <>
               <div className="version-backdrop" onClick={closeHeaderMenus} aria-hidden />
               <div className="header-actions-menu" role="menu">
-                <p className="header-actions-section-label" id="header-menu-reading">
-                  {menuSections.reading}
-                </p>
-
                 <button
                   type="button"
                   role="menuitem"
@@ -202,14 +191,8 @@ export default function Header() {
                     closeHeaderMenus()
                   }}
                 >
-                  {isEn ? 'Reading settings' : '阅读设置'}
+                  {isEn ? 'Reading settings' : isCht ? '閱讀設定' : '阅读设置'}
                 </button>
-
-                <div className="header-actions-divider" role="separator" />
-
-                <p className="header-actions-section-label" id="header-menu-library">
-                  {menuSections.library}
-                </p>
 
                 <button
                   type="button"
@@ -220,7 +203,7 @@ export default function Header() {
                     closeHeaderMenus()
                   }}
                 >
-                  {isEn ? 'Highlights' : '高亮'}
+                  {isEn ? 'Saved verses' : isCht ? '經文收藏' : '经文收藏'}
                 </button>
 
                 <button
@@ -232,15 +215,12 @@ export default function Header() {
                     closeHeaderMenus()
                   }}
                 >
-                  {isEn ? 'Offline cache' : '离线缓存'}
+                  {isEn ? 'Offline cache' : isCht ? '離線快取' : '离线缓存'}
                 </button>
 
                 {needRefresh && (
                   <>
                     <div className="header-actions-divider" role="separator" />
-                    <p className="header-actions-section-label" id="header-menu-app">
-                      {menuSections.app}
-                    </p>
                     <button
                       type="button"
                       role="menuitem"

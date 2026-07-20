@@ -10,6 +10,27 @@ import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import './MarksPanel.css'
 
+const COPY = {
+  chs: {
+    title: '经文收藏',
+    close: '关闭',
+    desc: '点击条目可跳转阅读对应经节。',
+    empty: '暂无收藏经节',
+  },
+  cht: {
+    title: '經文收藏',
+    close: '關閉',
+    desc: '點擊條目可跳轉閱讀對應經節。',
+    empty: '暫無收藏經節',
+  },
+  en: {
+    title: 'Saved verses',
+    close: 'Close',
+    desc: 'Tap an item to open the saved verse.',
+    empty: 'No saved verses yet',
+  },
+}
+
 function buildEntryLabel(entry, lang) {
   const bookInfo = bibleIndex[entry.book]
   if (!bookInfo) return null
@@ -25,7 +46,8 @@ function buildEntryRoute(entry) {
 export default function MarksPanel({ onClose }) {
   const navigate = useNavigate()
   const { version } = useVersion()
-  const isZh = version.lang !== 'en'
+  const lang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
+  const copy = COPY[lang]
   const [closing, setClosing] = useState(false)
 
   useScrollLock(true)
@@ -48,24 +70,20 @@ export default function MarksPanel({ onClose }) {
   return (
     <>
       <div className={`marks-backdrop panel-backdrop ${motionClass}`} onClick={requestClose} aria-hidden />
-      <div className={`marks-panel ${motionClass}`} role="dialog" aria-label={isZh ? '高亮经节' : 'Highlighted verses'}>
-        <BottomSheetHandle onClose={requestClose} label={isZh ? '关闭' : 'Close'} className="marks-panel-sheet-handle" />
+      <div className={`marks-panel ${motionClass}`} role="dialog" aria-label={copy.title}>
+        <BottomSheetHandle onClose={requestClose} label={copy.close} className="marks-panel-sheet-handle" />
         <div className="marks-panel-header">
-          <h2 className="marks-panel-title">{isZh ? '高亮经节' : 'Highlighted verses'}</h2>
-          <button type="button" className="marks-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
+          <h2 className="marks-panel-title">{copy.title}</h2>
+          <button type="button" className="marks-panel-close" onClick={requestClose} aria-label={copy.close}>
             ×
           </button>
         </div>
 
         <div className="marks-panel-scroll">
-          <p className="marks-panel-desc">
-            {isZh
-              ? '点击条目可跳转阅读对应经节。'
-              : 'Tap an item to open the highlighted verse.'}
-          </p>
+          <p className="marks-panel-desc">{copy.desc}</p>
 
           {highlights.length === 0 ? (
-            <p className="marks-empty">{isZh ? '暂无高亮经节' : 'No highlighted verses yet'}</p>
+            <p className="marks-empty">{copy.empty}</p>
           ) : (
             <ul className="marks-list">
               {highlights.map((entry) => {

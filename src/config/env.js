@@ -41,7 +41,12 @@ export function applyAppTheme() {
   root.style.setProperty('--content-max', appConfig.contentMax)
   root.style.setProperty('--header-height', appConfig.headerHeight)
   root.style.setProperty('--accent', appConfig.accentColor)
-  root.style.setProperty('--font', appConfig.fontFamily)
+  // 仅显式配置时覆盖；默认交给 index.css（AppUI 中文 + Inter 英文）
+  if (appConfig.fontFamily) {
+    root.style.setProperty('--font', appConfig.fontFamily)
+  } else {
+    root.style.removeProperty('--font')
+  }
 
   const favicon = document.querySelector('link[rel="icon"]')
   if (favicon && appConfig.favicon) {

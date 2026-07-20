@@ -236,6 +236,7 @@ export default function CachePanel({ onClose }) {
                   label={VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId}
                   chapterCount={stats?.chapterCount ?? 0}
                   chapterTotal={stats?.chapterTotal ?? 0}
+                  storageBytes={downloads[versionId]?.progress?.bytesDownloaded ?? stats?.storageBytes ?? 0}
                   downloadState={downloadState}
                   progressPct={getProgressPct(versionId, stats, downloads)}
                   onDownloadAction={() => handleDownloadAction(versionId)}

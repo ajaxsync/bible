@@ -992,37 +992,37 @@
   }
 }
 
-/* Kindle 顶栏：更扁平、少装饰 */
-[data-ui-style="kindle"] .header {
+/* 顶栏统一采用扁平、弱边框样式 */
+.header {
   border-bottom-color: color-mix(in srgb, var(--border) 70%, transparent);
 }
 
-[data-ui-style="kindle"] .header-brand,
-[data-ui-style="kindle"] .header-logo {
+.header-brand,
+.header-logo {
   border-right-color: transparent;
 }
 
-[data-ui-style="kindle"] .book-dropdown-button {
+.book-dropdown-button {
   border-color: transparent;
   background: transparent;
 }
 
-[data-ui-style="kindle"] .book-dropdown-button:hover {
+.book-dropdown-button:hover {
   background: var(--bg-hover);
 }
 
-[data-ui-style="kindle"] .speech-trigger,
-[data-ui-style="kindle"] .header-actions-trigger {
+.speech-trigger,
+.header-actions-trigger {
   border-color: transparent;
   background: transparent;
 }
 
-[data-ui-style="kindle"] .speech-trigger.is-active {
+.speech-trigger.is-active {
   border-color: transparent;
   background: var(--accent-soft);
 }
 
-[data-ui-style="kindle"] .speech-trigger:hover,
-[data-ui-style="kindle"] .header-actions-trigger:hover {
+.speech-trigger:hover,
+.header-actions-trigger:hover {
   background: var(--bg-hover);
 }

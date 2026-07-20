@@ -1,30 +1,31 @@
 # Bible · 和合本阅读器
 
-精简版圣经阅读应用，Notion 风格 UI，支持多译本阅读与经节对照。所有经文数据均包含在仓库内，克隆后即可本地开发与部署。
+精简版圣经阅读应用，Notion / Kindle 风格 UI，支持和合本（简繁）与 NIV 三译本。经文数据与 PWA 能力均包含在仓库内，克隆后即可本地开发与部署。
 
 ## 功能
 
 | 能力 | 说明 |
 |------|------|
-| 主阅读 | 顶栏切换：和合本（简体）、和合本（繁体）、NIV |
-| 对照阅读 | 点击经节后展开对照面板 |
-| 路由 | `/{书卷ID}/{章}` 或 `/{书卷ID}/{章}/{节}` |
-| 配置 | 通过 `.env` 自定义标题、默认版本、主题等 |
+| 主阅读 | 设置中切换：和合本（简体）、和合本（繁体）、NIV |
+| 经节操作 | 点击多选经节，工具栏支持复制、高亮、分享本章 |
+| 高亮标记 | 本地保存高亮，可在标记面板中查看与跳转 |
+| 阅读设置 | 字号、行距、阅读字体（系统黑体 / 宋体）、背景主题、Notion / Kindle UI |
+| 朗读 | 浏览器语音合成朗读当前章（支持时显示入口） |
+| 阅读续航 | 停留计时打卡、连续天数与周统计，可生成分享海报 |
+| 阅读进度 | 顶栏显示本章滚动进度与预估阅读量 |
+| 离线缓存 | 按译本下载章节；读过的章节也会自动缓存 |
+| PWA | 可安装到主屏幕，支持更新提示 |
+| 路由 | `/{书卷ID}/{章}` 或 `/{书卷ID}/{章}/{节}`；`/` 回到上次阅读位置 |
 
 ## 译本
 
-| ID | 名称 | 语言 | 用途 |
-|----|------|------|------|
-| `cunps` | 和合本（简体） | 中文 | 主阅读 |
-| `cunp` | 和合本（繁体） | 中文 | 主阅读 |
-| `niv` | 新国际版本（NIV） | 英文 | 主阅读 |
-| `cnv` | 新译本 | 中文 | 对照（中文主版本时） |
-| `ccb` | 当代译本 | 中文 | 对照（中文主版本时） |
-| `csbs` | 标准译本 | 中文 | 对照（中文主版本时） |
-| `esv` | 英文标准版（ESV） | 英文 | 对照（英文主版本时） |
-| `nasb` | 新美国标准圣经（NASB） | 英文 | 对照（英文主版本时） |
+| ID | 名称 | 语言 |
+|----|------|------|
+| `cunps` | 和合本（简体） | 中文 |
+| `cunp` | 和合本（繁体） | 中文 |
+| `niv` | 新国际版本（NIV） | 英文 |
 
-顶栏切换主阅读译本；点击经节后，对照面板按主版本语言自动展示对应译本（中文 → 新译本 / 当代译本 / 标准译本，英文 → ESV / NASB）。
+译本列表可通过 `.env` 中的 `VITE_PRIMARY_VERSIONS` 配置，ID 须与 `src/data/versions.js` 一致。
 
 ## 快速开始
 
@@ -67,22 +68,25 @@ npm run preview
 | 变量 | 说明 | 默认值 |
 |------|------|--------|
 | `VITE_APP_TITLE` | 页面标题 | `Bible · Reader` |
-| `VITE_DEFAULT_VERSION` | 默认主译本 | `cunps` |
-| `VITE_PRIMARY_VERSIONS` | 可选主译本（逗号分隔） | `cunps,cunp,niv` |
-| `VITE_COMPARE_ZH_VERSIONS` | 中文对照译本 | `cnv,ccb,csbs` |
-| `VITE_COMPARE_EN_VERSIONS` | 英文对照译本 | `esv,nasb` |
+| `VITE_APP_NAME` | 短名称（PWA） | `Bible` |
+| `VITE_APP_ICON` | 顶栏图标（emoji 或路径） | `/favicon.svg` |
+| `VITE_APP_FAVICON` | Favicon | `/favicon.svg` |
+| `VITE_APP_LANG` | `html lang` | `zh-Hant` |
+| `VITE_DEFAULT_ROUTE` | 无上次位置时的默认路由 | `/1/1` |
+| `VITE_JSON_BASE` | 经文 JSON 根路径 | `/json` |
+| `VITE_DEFAULT_VERSION` | 默认译本 | `cunps` |
+| `VITE_PRIMARY_VERSIONS` | 可选译本（逗号分隔） | `cunps,cunp,niv` |
+| `VITE_STORAGE_KEY_VERSION` | 译本偏好 localStorage 键 | `bible-version-v2` |
+| `VITE_CONTENT_MAX` | 正文最大宽度 | `720px` |
+| `VITE_HEADER_HEIGHT` | 顶栏高度 | `56px` |
+| `VITE_ACCENT_COLOR` | 主题色 | `#2383e2` |
+| `VITE_FONT_FAMILY` | 覆盖界面字体（可选） | 空（中文黑体 + 英文 Inter） |
 | `VITE_BASE` | 部署子路径（CI 自动设置） | `/` |
 | `DEV_PORT` | 开发服务器端口 | `3650` |
 
-译本 ID 须与 `src/data/versions.js` 一致。
-
 ## 数据说明
 
-经文以静态 JSON 存放在 `public/json/`，分两类：
-
-### 整章 JSON（主阅读）
-
-主阅读译本各一个目录，按 `/{书卷ID}/{章}.json` 组织。仓库已包含：
+经文以静态 JSON 存放在 `public/json/`，主阅读译本各一个目录，按 `/{书卷ID}/{章}.json` 组织：
 
 | 目录 | 说明 |
 |------|------|
@@ -90,24 +94,23 @@ npm run preview
 | `public/json/cunps/` | 和合本简体，由 cunp 经 OpenCC 转换 |
 | `public/json/niv/` | 新国际版本（NIV） |
 
-### 逐节 JSON（对照阅读）
-
-对照译本不单独存整章文件，统一放在 `public/json/verses/{书}/{章}/{节}.json`（约 19 MB），每文件含 `cnv`、`ccb`、`csbs`、`esv`、`nasb` 的经文文本。离线对照阅读依赖此目录。
+`public/json/verses/` 为逐节源数据（维护脚本用），运行时主阅读不依赖该目录。
 
 ### 维护脚本（可选）
 
-如需从外部完整 verses 数据重新生成，可使用：
-
 ```bash
-npm run build:cunps     # 繁体 cunp → 简体 cunps（OpenCC）
-npm run build:versions  # 从 public/json/verses 生成各译本整章 JSON
-python scripts/copy-verses.py --source-dir /path/to/full/verses  # 精简对照用 verses
+npm run build:cunps      # 繁体 cunp → 简体 cunps（OpenCC）
+npm run build:versions   # 从 public/json/verses 生成各译本整章 JSON
+npm run build:manifest   # 生成离线缓存清单
+npm run build:icons      # 生成 PWA 图标
+python scripts/copy-verses.py --source-dir /path/to/full/verses  # 精简 verses 源数据
 ```
 
-`build:versions` 保留 `cunp` 的章节结构，从逐节数据的 `versions` 字段填入对应译本正文。
+`build:versions` 保留 `cunp` 的章节结构，从逐节数据的 `versions` 字段填入对应译本正文。`dev` / `build` 会自动跑 manifest 与图标生成。
 
 ## 技术栈
 
 - Vite 8 + React 18
 - React Router 6
-- 静态 JSON，无后端
+- vite-plugin-pwa（可安装、离线壳）
+- 静态 JSON，无后端；阅读偏好与高亮存 localStorage

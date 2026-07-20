@@ -123,6 +123,32 @@ async function idbGetAllKeys(storeName) {
   return idbRequest(tx.objectStore(storeName).getAllKeys())
 }
 
+async function getCachedChapterStatsByVersion() {
+  const db = await openDb()
+  const tx = db.transaction('chapters', 'readonly')
+  const request = tx.objectStore('chapters').openCursor()
+  const stats = Object.fromEntries(
+    PRIMARY_VERSION_IDS.map((id) => [id, { chapterCount: 0, storageBytes: 0 }]),
+  )
+
+  return new Promise((resolve, reject) => {
+    request.onsuccess = () => {
+      const cursor = request.result
+      if (!cursor) {
+        resolve(stats)
+        return
+      }
+      const versionId = String(cursor.key).split(':')[0]
+      if (stats[versionId]) {
+        stats[versionId].chapterCount += 1
+        stats[versionId].storageBytes += estimateValueBytes(cursor.value)
+      }
+      cursor.continue()
+    }
+    request.onerror = () => reject(request.error)
+  })
+}
+
 async function idbClear(storeName) {
   const db = await openDb()
   const tx = db.transaction(storeName, 'readwrite')
@@ -346,25 +372,20 @@ export async function getVersionManifestInfo(versionId) {
 export async function getAllVersionsCacheStats() {
   const manifest = await loadManifest()
   const totals = countManifestChaptersByVersion(manifest)
-  const keys = await idbGetAllKeys('chapters')
-  const counts = Object.fromEntries(PRIMARY_VERSION_IDS.map((id) => [id, 0]))
-
-  for (const key of keys) {
-    const versionId = String(key).split(':')[0]
-    if (counts[versionId] != null) counts[versionId] += 1
-  }
+  const cachedStats = await getCachedChapterStatsByVersion()
 
   const fullDownloadAts = await Promise.all(
     PRIMARY_VERSION_IDS.map((id) => idbGet('meta', versionFullDownloadMetaKey(id))),
   )
 
   return PRIMARY_VERSION_IDS.map((versionId, index) => {
-    const chapterCount = counts[versionId] ?? 0
+    const chapterCount = cachedStats[versionId]?.chapterCount ?? 0
     const chapterTotal = totals[versionId] ?? 0
     return {
       versionId,
       chapterCount,
       chapterTotal,
+      storageBytes: cachedStats[versionId]?.storageBytes ?? 0,
       fullDownloadAt: fullDownloadAts[index] ?? null,
       isComplete: chapterTotal > 0 && chapterCount >= chapterTotal,
     }

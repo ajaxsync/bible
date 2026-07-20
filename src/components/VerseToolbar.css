@@ -84,8 +84,13 @@
   gap: 4px;
   width: 100%;
   min-width: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font: inherit;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .chapter-nav-col-prev .chapter-nav-cell {
@@ -119,7 +124,7 @@
 }
 
 .chapter-nav-action-current {
-  color: var(--text);
+  color: var(--accent);
   font-weight: 600;
 }
 
@@ -133,7 +138,7 @@
 }
 
 .chapter-nav-cell-static:hover .chapter-nav-action {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media (max-width: 480px) {

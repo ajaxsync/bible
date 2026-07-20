@@ -11,16 +11,18 @@
   --shadow: 0 1px 3px rgba(15, 15, 15, 0.06), 0 1px 2px rgba(15, 15, 15, 0.04);
   --radius: 6px;
   --radius-lg: 8px;
-  --font-ui-en: "Inter", system-ui, sans-serif;
-  --font-ui-sc: system-ui, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-  --font-ui-tc: system-ui, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
-  --font-reader-sc-sans: var(--font-ui-sc);
-  --font-reader-sc-serif: system-ui, "Songti SC", "Noto Serif SC", "STSong", "SimSun", serif;
-  --font-reader-tc-sans: var(--font-ui-tc);
-  --font-reader-tc-serif: system-ui, "Songti TC", "Noto Serif TC", "PMingLiU", serif;
-  --font-reader-en-sans: var(--font-ui-en);
-  --font-reader-en-serif: "Georgia", "Noto Serif", "Times New Roman", serif;
-  --font: var(--font-ui-en);
+  /* 界面：汉字→黑体/雅黑（AppUI unicode-range）；拉丁→Inter；正文另用 --font-reader */
+  --font-ui-sc: "AppUI SC", "Inter", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-ui-tc: "AppUI TC", "Inter", "Microsoft JhengHei UI", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  --font-ui-en: "AppUI SC", "Inter", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  /* 正文阅读字体（不含 Inter） */
+  --font-reader-sc-sans: "Microsoft YaHei UI", "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+  --font-reader-sc-serif: "Songti SC", "STSong", "Noto Serif SC", "SimSun", serif;
+  --font-reader-tc-sans: "Microsoft JhengHei UI", "Microsoft JhengHei", "微軟正黑體", "PingFang TC", "Noto Sans TC", sans-serif;
+  --font-reader-tc-serif: "Songti TC", "PMingLiU", "Noto Serif TC", "MingLiU", serif;
+  --font-reader-en-sans: "Inter", system-ui, "Segoe UI", Arial, sans-serif;
+  --font-reader-en-serif: Georgia, "Times New Roman", "Noto Serif", serif;
+  --font: var(--font-ui-sc);
   --font-reader: var(--font-reader-sc-sans);
   --header-height: 56px;
   --content-max: 720px;
@@ -41,6 +43,25 @@
   --scrollbar-size: 6px;
   --scrollbar-thumb: color-mix(in srgb, var(--text-light) 50%, transparent);
   --scrollbar-thumb-hover: color-mix(in srgb, var(--text-muted) 68%, transparent);
+}
+
+/* 汉字专用黑体：按 unicode-range 生效，拉丁字母继续走后面的 Inter */
+@font-face {
+  font-family: "AppUI SC";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local("Microsoft YaHei UI"), local("Microsoft YaHei"), local("微软雅黑"), local("PingFang SC"), local("Hiragino Sans GB");
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F, U+2E80-2EFF, U+2F00-2FDF, U+3000-303F, U+31C0-31EF, U+3200-32FF, U+3300-33FF, U+FE30-FE4F, U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: "AppUI TC";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local("Microsoft JhengHei UI"), local("Microsoft JhengHei"), local("微軟正黑體"), local("PingFang TC"), local("Hiragino Sans TC");
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F, U+2E80-2EFF, U+2F00-2FDF, U+3000-303F, U+31C0-31EF, U+3200-32FF, U+3300-33FF, U+FE30-FE4F, U+FF00-FFEF;
 }
 
 html.scroll-locked,
@@ -221,6 +242,10 @@ body,
   height: 100%;
 }
 
+html {
+  font-family: var(--font);
+}
+
 body {
   font-family: var(--font);
   background: var(--bg-subtle);
@@ -234,8 +259,20 @@ a {
   color: inherit;
 }
 
-button {
-  font-family: inherit;
+button,
+input,
+select,
+textarea,
+[role="dialog"],
+[role="menu"],
+[role="menuitem"] {
+  font-family: var(--font);
+}
+
+/* 中文系统字体通常无 500 Medium，假粗体会让「关闭」等字发糊发挤 */
+html[data-bible-lang="chs"] button,
+html[data-bible-lang="cht"] button {
+  font-synthesis: none;
 }
 
 html[data-bible-lang="chs"] {

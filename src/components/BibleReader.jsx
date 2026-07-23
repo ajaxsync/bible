@@ -20,9 +20,10 @@ import {
   loadChapterHighlights,
   removeHighlights,
 } from '../lib/verseHighlights.js'
+import { isNativeApp } from '../lib/platform.js'
 import SpeechFloatingControl from './SpeechFloatingControl.jsx'
-import ChapterShareDialog from './ChapterShareDialog.jsx'
 import { useReadingDwellTimer } from '../hooks/useReadingDwellTimer.js'
+import { useVersePressHandlers } from '../hooks/useVersePressHandlers.js'
 import { formatReadingEstimate } from '../lib/readingEstimate.js'
 import './BibleReader.css'
 import './VerseToolbar.css'
@@ -40,7 +41,6 @@ export default function BibleReader() {
   const [selectionAnchor, setSelectionAnchor] = useState(() => (verse > 0 ? verse : null))
   const [highlightedVerses, setHighlightedVerses] = useState(() => new Set())
   const [copyHint, setCopyHint] = useState('')
-  const [shareOpen, setShareOpen] = useState(false)
   const prevVerseRef = useRef(verse)
   const {
     registerChapter,
@@ -165,7 +165,6 @@ export default function BibleReader() {
   const nextChapterLink = getNextChapterRoute(book, chapter)
   const prevChapterInfo = getPrevChapterInfo(book, chapter)
   const nextChapterInfo = getNextChapterInfo(book, chapter)
-  const currentChapterLabel = formatChapterLabel(book, chapter, version.lang)
   const prevChapterLabel = prevChapterInfo
     ? formatChapterLabel(prevChapterInfo.book, prevChapterInfo.chapter, version.lang)
     : null
@@ -205,6 +204,16 @@ export default function BibleReader() {
     syncUrl(next)
   }
 
+  /** App 长按：以该节进入选中并打开工具条 */
+  const handleVerseLongPress = (verseNum, event) => {
+    event.preventDefault?.()
+    event.stopPropagation?.()
+    const next = [verseNum]
+    setSelectedVerses(next)
+    setSelectionAnchor(verseNum)
+    syncUrl(next)
+  }
+
   const handleCopy = async () => {
     const copyText = buildVersesCopyText(chapterData, selectedVerses, book, chapter, version)
     try {
@@ -229,15 +238,12 @@ export default function BibleReader() {
     window.setTimeout(() => setCopyHint(''), 1500)
   }
 
-  const shareLang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
-  const shareUrl = new URL(
-    `${import.meta.env.BASE_URL}${chapterPath.slice(1)}`,
-    window.location.origin,
-  ).toString()
+  const nativeApp = isNativeApp()
 
   const readerClass = [
     'reader',
     `lang-${version.lang}`,
+    nativeApp ? 'is-native-app' : '',
     hasSelection ? 'has-verse-toolbar' : '',
     isSpeakingHere ? 'is-speaking' : '',
     isSpeakingHere && !hasSelection ? 'has-speech-float' : '',
@@ -260,7 +266,10 @@ export default function BibleReader() {
               selectedVerses={selectedVerses}
               highlightedVerses={highlightedVerses}
               speakingVerse={isSpeakingHere ? speakingVerse : null}
+              hasSelection={hasSelection}
+              isNativeApp={nativeApp}
               onVerseClick={handleVerseClick}
+              onVerseLongPress={handleVerseLongPress}
             />
           ))}
         </div>
@@ -274,18 +283,6 @@ export default function BibleReader() {
                   <span className="chapter-nav-target">{prevChapterLabel}</span>
                 </Link>
               )}
-            </div>
-            <div className="chapter-nav-col chapter-nav-col-center">
-              <button
-                type="button"
-                className="chapter-nav-cell chapter-nav-cell-static"
-                onClick={() => setShareOpen(true)}
-              >
-                <span className="chapter-nav-action chapter-nav-action-current">
-                  {isZh ? '分享' : 'Share'}
-                </span>
-                <span className="chapter-nav-target">{currentChapterLabel}</span>
-              </button>
             </div>
             <div className="chapter-nav-col chapter-nav-col-next">
               {nextChapterLink && (
@@ -332,20 +329,20 @@ export default function BibleReader() {
       </article>
 
       <SpeechFloatingControl verseSelected={hasSelection} />
-
-      {shareOpen && (
-        <ChapterShareDialog
-          lang={shareLang}
-          chapterLabel={currentChapterLabel}
-          shareUrl={shareUrl}
-          onClose={() => setShareOpen(false)}
-        />
-      )}
     </>
   )
 }
 
-function Section({ section, selectedVerses, highlightedVerses, speakingVerse, onVerseClick }) {
+function Section({
+  section,
+  selectedVerses,
+  highlightedVerses,
+  speakingVerse,
+  hasSelection,
+  isNativeApp,
+  onVerseClick,
+  onVerseLongPress,
+}) {
   if ('heading' in section) {
     if (Array.isArray(section.heading)) {
       return (
@@ -385,26 +382,53 @@ function Section({ section, selectedVerses, highlightedVerses, speakingVerse, on
           <span className="section-content" key={index}>
             {hasVerseLabel ? <span className="verse-num">{verseNum}</span> : null}
             <span className="verse-button">
-              <span
-                role="button"
-                tabIndex={0}
+              <VerseText
+                verseNum={verseNum}
                 title={title}
-                data-verse={verseNum}
                 className={verseClassName}
-                onClick={(e) => onVerseClick(verseNum, e)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    onVerseClick(verseNum, e)
-                  }
-                }}
+                hasSelection={hasSelection}
+                isNativeApp={isNativeApp}
+                onVerseClick={onVerseClick}
+                onVerseLongPress={onVerseLongPress}
               >
                 {verseText}
-              </span>
+              </VerseText>
             </span>
           </span>
         )
       })}
     </div>
+  )
+}
+
+function VerseText({
+  verseNum,
+  title,
+  className,
+  hasSelection,
+  isNativeApp,
+  onVerseClick,
+  onVerseLongPress,
+  children,
+}) {
+  const pressHandlers = useVersePressHandlers({
+    verseNum,
+    isNativeApp,
+    hasSelection,
+    onVerseClick,
+    onVerseLongPress,
+  })
+
+  return (
+    <span
+      role="button"
+      tabIndex={0}
+      title={title}
+      data-verse={verseNum}
+      className={className}
+      {...pressHandlers}
+    >
+      {children}
+    </span>
   )
 }

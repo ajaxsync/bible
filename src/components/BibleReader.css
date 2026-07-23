@@ -115,19 +115,26 @@
   display: inline;
 }
 
+/* App：长按选经文时避免系统文字选择 / 呼出菜单抢手势 */
+.reader.is-native-app .verse {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
 .verse.selected {
   background: var(--accent-soft);
   border-radius: 3px;
   box-shadow: 0 0 0 3px var(--accent-soft);
   color: var(--text);
-  scroll-margin-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  scroll-margin-bottom: calc(100px + var(--safe-area-inset-bottom));
 }
 
 .verse.speaking {
   background: color-mix(in srgb, var(--accent) 18%, transparent);
   border-radius: 3px;
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
-  scroll-margin-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  scroll-margin-bottom: calc(100px + var(--safe-area-inset-bottom));
 }
 
 .verse.person {

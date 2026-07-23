@@ -1,14 +1,14 @@
 .speech-float {
   position: fixed;
   left: 50%;
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(16px + var(--safe-area-inset-bottom));
   transform: translateX(-50%);
   z-index: 24;
   pointer-events: none;
 }
 
 .speech-float-above-toolbar {
-  bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(100px + var(--safe-area-inset-bottom));
 }
 
 .speech-float-btn {
@@ -37,6 +37,6 @@
 
 @media (max-width: 480px) {
   .speech-float-above-toolbar {
-    bottom: calc(108px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(120px + var(--safe-area-inset-bottom));
   }
 }

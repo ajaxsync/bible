@@ -31,7 +31,9 @@
   --panel-transition-duration: 220ms;
   --panel-transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
   --panel-min-height: 220px;
-  --panel-sheet-height: min(77dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
+  --safe-area-inset-top: 0px;
+  --safe-area-inset-bottom: 0px;
+  --panel-sheet-height: min(77vh, calc(100vh - var(--safe-area-inset-top) - var(--header-height) - 12px));
   --panel-bottom-gap: 10px;
   --panel-backdrop-bg: rgba(15, 15, 15, 0.35);
   --stamina-green-0: #ebedf0;
@@ -43,6 +45,18 @@
   --scrollbar-size: 6px;
   --scrollbar-thumb: color-mix(in srgb, var(--text-light) 50%, transparent);
   --scrollbar-thumb-hover: color-mix(in srgb, var(--text-muted) 68%, transparent);
+}
+
+@supports (padding-top: env(safe-area-inset-top)) {
+  :root {
+    --safe-area-inset-top: env(safe-area-inset-top);
+  }
+}
+
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  :root {
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  }
 }
 
 /* 汉字专用黑体：按 unicode-range 生效，拉丁字母继续走后面的 Inter */
@@ -80,7 +94,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -100,7 +113,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -119,7 +131,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -134,7 +145,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -152,7 +162,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -173,7 +182,6 @@ html.scroll-locked,
   .marks-panel-scroll,
   .stamina-panel-scroll,
   .stamina-help-scroll,
-  .stamina-poster-scroll,
   .header-actions-menu,
   .version-menu,
   .dropdown-panel-body--numbers,
@@ -224,6 +232,7 @@ html.scroll-locked,
 .stamina-prompt-body,
 .stamina-help-scroll,
 .speech-panel-body,
+.reading-settings-body,
 .chapter-picker-panel .picker-shell {
   width: 100%;
   max-width: var(--content-max);

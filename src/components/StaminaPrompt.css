@@ -18,13 +18,16 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-height: calc(100vh - var(--header-height) - 12px);
+  max-height: var(--panel-sheet-height);
   min-height: var(--panel-min-height);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   border-bottom: none;
   box-shadow: 0 -8px 32px rgba(15, 15, 15, 0.18);
-  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
+  overflow: hidden;
+  padding-bottom: calc(var(--safe-area-inset-bottom) + var(--panel-bottom-gap));
   font-family: var(--font);
 }
 
@@ -41,7 +44,11 @@
 }
 
 .stamina-prompt-body {
-  padding: 0 20px calc(20px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 20px calc(20px + var(--safe-area-inset-bottom) + var(--panel-bottom-gap));
 }
 
 .stamina-prompt-title {
@@ -60,11 +67,15 @@
 
 .stamina-prompt-actions {
   display: flex;
-  justify-content: flex-end;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: stretch;
 }
 
 .stamina-prompt-btn {
+  /* 横向均分宽度；basis 用 auto，避免窄屏改 column 时 160px 被当成高度 */
+  flex: 1 1 auto;
+  min-width: 160px;
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -74,6 +85,7 @@
   font-weight: 400;
   cursor: pointer;
   color: var(--text);
+  text-align: center;
 }
 
 .stamina-prompt-btn:hover {
@@ -89,6 +101,22 @@
 .stamina-prompt-btn-primary:hover {
   background: var(--accent);
   color: #fff;
+}
+
+@media (max-width: 420px) {
+  .stamina-prompt-body {
+    padding-inline: 16px;
+  }
+
+  .stamina-prompt-actions {
+    flex-direction: column;
+  }
+
+  .stamina-prompt-btn {
+    width: 100%;
+    flex: 0 0 auto;
+    min-width: 0;
+  }
 }
 
 @keyframes stamina-prompt-slide-up {

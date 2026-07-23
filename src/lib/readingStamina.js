@@ -129,7 +129,7 @@ export function recordChapterVisit(book, chapter) {
   }
 }
 
-function buildDayCell(date, data, today) {
+function buildDayCell(date, data, today, { isOutsideMonth = false } = {}) {
   const key = getTodayKey(date)
   const record = data.records[key]
   const seconds = record?.seconds ?? 0
@@ -139,6 +139,7 @@ function buildDayCell(date, data, today) {
     date,
     key,
     isFuture: date > today,
+    isOutsideMonth,
     seconds,
     completed,
     chapters: record?.chapters ?? [],
@@ -155,23 +156,52 @@ function getMondayOfWeek(date) {
   return d
 }
 
-export function buildWeek(weekOffset = 0) {
+/**
+ * 按月生成日历格（周一到周日，含月初月末补齐的相邻月日期）。
+ * monthOffset: 0 本月，1 上月，以此类推。
+ */
+export function buildMonth(monthOffset = 0) {
   const data = loadStaminaData()
   const today = new Date()
   today.setHours(0, 0, 0, 0)
 
-  const currentWeekMonday = getMondayOfWeek(today)
-  const weekMonday = new Date(currentWeekMonday)
-  weekMonday.setDate(weekMonday.getDate() - weekOffset * 7)
+  const monthStart = new Date(today.getFullYear(), today.getMonth() - monthOffset, 1)
+  monthStart.setHours(0, 0, 0, 0)
+  const year = monthStart.getFullYear()
+  const month = monthStart.getMonth()
 
-  const days = []
-  for (let i = 0; i < 7; i++) {
-    const date = new Date(weekMonday)
-    date.setDate(date.getDate() + i)
-    days.push(buildDayCell(date, data, today))
+  const monthEnd = new Date(year, month + 1, 0)
+  monthEnd.setHours(0, 0, 0, 0)
+
+  const gridStart = getMondayOfWeek(monthStart)
+  const gridEnd = new Date(monthEnd)
+  const endWeekday = gridEnd.getDay()
+  if (endWeekday !== 0) {
+    gridEnd.setDate(gridEnd.getDate() + (7 - endWeekday))
   }
 
-  return { days, weekStart: weekMonday }
+  const days = []
+  const cursor = new Date(gridStart)
+  while (cursor <= gridEnd) {
+    const date = new Date(cursor)
+    days.push(buildDayCell(date, data, today, {
+      isOutsideMonth: date.getMonth() !== month,
+    }))
+    cursor.setDate(cursor.getDate() + 1)
+  }
+
+  return { days, year, month, monthStart }
+}
+
+export function formatMonthLabel(year, month, lang) {
+  const date = new Date(year, month, 1)
+  if (lang === 'en') {
+    return new Intl.DateTimeFormat('en', { month: 'long', year: 'numeric' }).format(date)
+  }
+  if (lang === 'cht') {
+    return new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long' }).format(date)
+  }
+  return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: 'long' }).format(date)
 }
 
 export function formatDuration(seconds, lang) {

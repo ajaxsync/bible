@@ -14,8 +14,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-height: calc(100vh - 12px);
-  max-height: min(88dvh, calc(100vh - env(safe-area-inset-top, 0px) - 12px));
+  max-height: calc(100vh - var(--header-height) - 12px);
+  max-height: var(--panel-sheet-height);
   min-height: var(--panel-min-height);
   background: var(--bg);
   border: 1px solid var(--border);
@@ -24,69 +24,12 @@
   box-shadow: 0 -8px 32px rgba(15, 15, 15, 0.12);
   z-index: 210;
   overflow: hidden;
-  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
+  padding-bottom: calc(var(--safe-area-inset-bottom) + var(--panel-bottom-gap));
 }
 
-.stamina-panel-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-
-.stamina-panel-toolbar-spacer {
-  flex: 1;
-}
-
-.stamina-panel-toolbar-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.stamina-panel-icon-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: var(--bg);
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1;
-  color: var(--text-muted);
-  cursor: pointer;
-}
-
-.stamina-panel-icon-btn:hover {
-  background: var(--bg-hover);
-  color: var(--text);
-}
-
-.stamina-panel-icon-btn--share {
-  font-weight: 400;
-}
-
-.stamina-panel-icon-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.stamina-panel-share-target {
+.stamina-panel-body {
   padding: 8px 4px 12px;
   background: var(--bg);
-}
-
-.stamina-share-watermark {
-  margin: 16px 0 0;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.4;
-  color: var(--text-muted);
 }
 
 .stamina-panel.is-open {
@@ -108,16 +51,27 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px) + var(--panel-bottom-gap));
+  padding: 0 16px calc(16px + var(--safe-area-inset-bottom) + var(--panel-bottom-gap));
 }
 
 .stamina-panel-headline {
+  display: block;
+  width: 100%;
   margin: 0 0 16px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-family: inherit;
   font-size: 30px;
   font-weight: 600;
   line-height: 1.45;
   text-align: center;
   color: var(--text);
+  cursor: pointer;
+}
+
+.stamina-panel-headline:hover {
+  color: var(--accent);
 }
 
 .stamina-panel-summary {
@@ -253,6 +207,29 @@
   color: var(--text);
 }
 
+.stamina-month-total {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.stamina-month-total strong {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.stamina-record-month {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
 .stamina-record-toolbar {
   display: flex;
   align-items: flex-start;
@@ -289,10 +266,15 @@
 }
 
 .stamina-week-headers,
-.stamina-week-row {
+.stamina-week-row,
+.stamina-month-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 6px;
+}
+
+.stamina-month-grid {
+  gap: 5px;
 }
 
 .stamina-week-day-label {
@@ -343,6 +325,14 @@
 }
 
 .stamina-cell.is-future .stamina-cell-day {
+  color: var(--text-light);
+}
+
+.stamina-cell.is-outside {
+  opacity: 0.38;
+}
+
+.stamina-cell.is-outside .stamina-cell-day {
   color: var(--text-light);
 }
 

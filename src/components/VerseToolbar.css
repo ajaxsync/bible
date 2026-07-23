@@ -68,7 +68,7 @@
   margin-top: 24px;
   padding: 16px 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 4px 16px;
   align-items: start;
   border-top: 1px solid var(--border);
@@ -98,11 +98,6 @@
   text-align: left;
 }
 
-.chapter-nav-col-center .chapter-nav-cell {
-  align-items: center;
-  text-align: center;
-}
-
 .chapter-nav-col-next .chapter-nav-cell {
   align-items: flex-end;
   text-align: right;
@@ -123,21 +118,12 @@
   color: var(--accent);
 }
 
-.chapter-nav-action-current {
-  color: var(--accent);
-  font-weight: 600;
-}
-
 .chapter-nav-target {
   font-size: 13px;
   color: var(--text-muted);
 }
 
 .chapter-nav-cell:hover .chapter-nav-action {
-  text-decoration: underline;
-}
-
-.chapter-nav-cell-static:hover .chapter-nav-action {
   text-decoration: underline;
 }
 
@@ -156,16 +142,16 @@
     position: fixed;
     left: 12px;
     right: 12px;
-    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(24px + var(--safe-area-inset-bottom));
     margin: 0;
   }
 
   .reader.has-verse-toolbar {
-    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(96px + var(--safe-area-inset-bottom));
   }
 
   .reader.has-speech-float {
-    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(100px + var(--safe-area-inset-bottom));
   }
 }
 
@@ -192,7 +178,7 @@
   }
 
   .reader.has-verse-toolbar {
-    padding-bottom: calc(108px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(120px + var(--safe-area-inset-bottom));
   }
 }
 
@@ -202,6 +188,6 @@
   }
 
   .reader.has-speech-float {
-    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(88px + var(--safe-area-inset-bottom));
   }
 }

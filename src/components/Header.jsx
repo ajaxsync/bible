@@ -215,7 +215,7 @@ export default function Header() {
                     closeHeaderMenus()
                   }}
                 >
-                  {isEn ? 'Offline cache' : isCht ? '離線快取' : '离线缓存'}
+                  {isEn ? 'Cache management' : isCht ? '快取管理' : '缓存管理'}
                 </button>
 
                 {needRefresh && (

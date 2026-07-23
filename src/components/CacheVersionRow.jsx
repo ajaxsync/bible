@@ -87,13 +87,14 @@ export default function CacheVersionRow({
   onDelete,
   deleteLabel,
   actionLabels,
+  canDelete = true,
 }) {
   const [offsetX, setOffsetX] = useState(0)
   const [dragging, setDragging] = useState(false)
   const touchStartX = useRef(0)
   const touchStartY = useRef(0)
   const startOffset = useRef(0)
-  const canSwipe = chapterCount > 0
+  const canSwipe = canDelete && chapterCount > 0
 
   const closeSwipe = () => setOffsetX(0)
 

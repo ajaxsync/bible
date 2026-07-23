@@ -1,10 +1,19 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   clearVersionCache,
   downloadVersionScripture,
   DownloadAbortedError,
+  formatBytes,
   getAllVersionsCacheStats,
+  isNativeBundledScripture,
 } from '../lib/bibleCache.js'
+import {
+  clearLocalDataItems,
+  clearPageCache,
+  getLocalDataItemStats,
+  getPageCacheStats,
+} from '../lib/appDataCache.js'
+import { isNativeApp } from '../lib/platform.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { useVersion } from '../context/VersionContext.jsx'
 import { usePwaInstall } from '../hooks/usePwaInstall.js'
@@ -37,8 +46,52 @@ function getProgressPct(versionId, stats, downloads) {
   return Math.round((stats.chapterCount / stats.chapterTotal) * 100)
 }
 
+function UsageBar({ scriptureBytes, clearableBytes, otherBytes, isZh, showClearable }) {
+  const total = Math.max(scriptureBytes + clearableBytes + otherBytes, 1)
+  const segments = [
+    { key: 'scripture', bytes: scriptureBytes, className: 'is-scripture', label: isZh ? '经文' : 'Scripture' },
+    showClearable
+      ? { key: 'clearable', bytes: clearableBytes, className: 'is-clearable', label: isZh ? '可清理' : 'Clearable' }
+      : null,
+    { key: 'other', bytes: otherBytes, className: 'is-other', label: isZh ? '其他' : 'Other' },
+  ].filter(Boolean)
+
+  return (
+    <div className="cache-usage">
+      <div className="cache-usage-total">
+        <span>{isZh ? '已用空间' : 'Used storage'}</span>
+        <strong>{formatBytes(scriptureBytes + clearableBytes + otherBytes)}</strong>
+      </div>
+      <div className="cache-usage-bar" role="img" aria-label={isZh ? '存储占用分布' : 'Storage breakdown'}>
+        {segments.map((seg) => {
+          const pct = Math.max((seg.bytes / total) * 100, seg.bytes > 0 ? 2 : 0)
+          return (
+            <span
+              key={seg.key}
+              className={`cache-usage-seg ${seg.className}`}
+              style={{ width: `${pct}%` }}
+              title={`${seg.label}: ${formatBytes(seg.bytes)}`}
+            />
+          )
+        })}
+      </div>
+      <ul className="cache-usage-legend">
+        {segments.map((seg) => (
+          <li key={seg.key}>
+            <span className={`cache-usage-dot ${seg.className}`} />
+            <span>{seg.label}</span>
+            <span className="cache-usage-legend-size">{formatBytes(seg.bytes)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 export default function CachePanel({ onClose }) {
   const { version } = useVersion()
+  const nativeApp = isNativeApp()
+  const isBundledApp = isNativeBundledScripture()
   const isZh = version.lang !== 'en'
   const lang = version.lang === 'en' ? 'en' : version.lang === 'cht' ? 'cht' : 'chs'
 
@@ -48,6 +101,10 @@ export default function CachePanel({ onClose }) {
   const [closing, setClosing] = useState(false)
   const [showIosGuide, setShowIosGuide] = useState(false)
   const [showAndroidGuide, setShowAndroidGuide] = useState(false)
+  const [pageCache, setPageCache] = useState({ available: false, bytes: 0 })
+  const [localItems, setLocalItems] = useState([])
+  const [selectedManual, setSelectedManual] = useState(() => new Set())
+  const [busy, setBusy] = useState(false)
 
   useScrollLock(true)
 
@@ -57,6 +114,17 @@ export default function CachePanel({ onClose }) {
 
   const statsMap = Object.fromEntries(versionStats.map((item) => [item.versionId, item]))
   const anyDownloading = Object.values(downloads).some((item) => item.status === 'downloading')
+  const showPageCacheCard = !nativeApp && pageCache.available
+
+  const scriptureBytes = useMemo(
+    () => versionStats.reduce((sum, item) => sum + (item.storageBytes || 0), 0),
+    [versionStats],
+  )
+  const clearableBytes = showPageCacheCard ? pageCache.bytes : 0
+  const otherBytes = useMemo(
+    () => localItems.reduce((sum, item) => sum + (item.bytes || 0), 0),
+    [localItems],
+  )
 
   const refreshStats = useCallback(() => {
     getAllVersionsCacheStats()
@@ -64,19 +132,41 @@ export default function CachePanel({ onClose }) {
       .catch(() => {})
   }, [])
 
+  const refreshDataCache = useCallback(() => {
+    setLocalItems(getLocalDataItemStats())
+    if (nativeApp) {
+      setPageCache({ available: false, bytes: 0 })
+      return
+    }
+    getPageCacheStats()
+      .then(setPageCache)
+      .catch(() => setPageCache({ available: false, bytes: 0 }))
+  }, [nativeApp])
+
   useEffect(() => {
     refreshStats()
+    refreshDataCache()
     return () => {
       if (closeTimerRef.current) clearTimeout(closeTimerRef.current)
       Object.values(abortRefs.current).forEach((controller) => controller?.abort())
     }
-  }, [refreshStats])
+  }, [refreshStats, refreshDataCache])
 
   useEffect(() => {
     if (!anyDownloading) return undefined
     const id = window.setInterval(refreshStats, 1500)
     return () => window.clearInterval(id)
   }, [anyDownloading, refreshStats])
+
+  const closeThenReload = () => {
+    if (closing) return
+    setClosing(true)
+    closeTimerRef.current = window.setTimeout(() => {
+      closeTimerRef.current = null
+      onClose()
+      window.location.reload()
+    }, PANEL_TRANSITION_MS)
+  }
 
   const requestClose = () => {
     if (anyDownloading) {
@@ -154,6 +244,7 @@ export default function CachePanel({ onClose }) {
   }
 
   const handleDownloadAction = (versionId) => {
+    if (isBundledApp) return
     const state = getDownloadState(versionId, statsMap[versionId], downloads)
     if (state === 'complete') return
     if (state === 'downloading') {
@@ -181,6 +272,48 @@ export default function CachePanel({ onClose }) {
     }
   }
 
+  const handleClearPageCache = async () => {
+    const msg = isZh
+      ? '确定清理页面缓存？清理后将刷新页面。'
+      : 'Clear page cache? The page will reload afterward.'
+    if (!window.confirm(msg)) return
+    setBusy(true)
+    setError(null)
+    try {
+      await clearPageCache()
+      closeThenReload()
+    } catch (err) {
+      setError(err.message)
+      setBusy(false)
+    }
+  }
+
+  const toggleManualItem = (id) => {
+    setSelectedManual((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
+  }
+
+  const handleClearManual = () => {
+    if (selectedManual.size === 0) return
+    const msg = isZh
+      ? `确定清理所选 ${selectedManual.size} 项数据？清理后将刷新页面。`
+      : `Clear ${selectedManual.size} selected item(s)? The page will reload afterward.`
+    if (!window.confirm(msg)) return
+    setBusy(true)
+    setError(null)
+    try {
+      clearLocalDataItems([...selectedManual])
+      closeThenReload()
+    } catch (err) {
+      setError(err.message)
+      setBusy(false)
+    }
+  }
+
   const handleInstall = async () => {
     if (installState === 'ios') {
       setShowIosGuide(true)
@@ -200,63 +333,174 @@ export default function CachePanel({ onClose }) {
     idle: isZh ? '下载' : 'Download',
     downloading: isZh ? '暂停' : 'Pause',
     paused: isZh ? '继续' : 'Resume',
-    complete: isZh ? '已完成' : 'Downloaded',
+    complete: isBundledApp ? (isZh ? '已内置' : 'Built-in') : (isZh ? '已完成' : 'Downloaded'),
   }
+
+  const clearableManualItems = localItems.filter((item) => item.clearable)
+  const readonlyManualItems = localItems.filter((item) => !item.clearable)
+  const hasManualSelection = selectedManual.size > 0
 
   return (
     <>
       <div className={`cache-backdrop panel-backdrop ${motionClass}`} onClick={requestClose} aria-hidden />
-      <div className={`cache-panel ${motionClass}`} role="dialog" aria-label={isZh ? '离线缓存' : 'Offline cache'}>
+      <div className={`cache-panel ${motionClass}`} role="dialog" aria-label={isZh ? '缓存管理' : 'Cache management'}>
         <BottomSheetHandle
           onClose={requestClose}
           label={isZh ? '关闭' : 'Close'}
           className="cache-panel-sheet-handle"
         />
         <div className="cache-panel-header">
-          <h2 className="cache-panel-title">{isZh ? '离线缓存' : 'Offline cache'}</h2>
+          <h2 className="cache-panel-title">{isZh ? '缓存管理' : 'Cache management'}</h2>
           <button type="button" className="cache-panel-close" onClick={requestClose} aria-label={isZh ? '关闭' : 'Close'}>
             ×
           </button>
         </div>
 
         <div className="cache-panel-scroll">
-          <p className="cache-panel-desc">
-            {isZh
-              ? '按版本下载经文以供离线阅读。阅读过的章节也会自动缓存。'
-              : 'Download scripture by version for offline reading. Chapters you read are also cached automatically.'}
-          </p>
+          <UsageBar
+            scriptureBytes={scriptureBytes}
+            clearableBytes={clearableBytes}
+            otherBytes={otherBytes}
+            isZh={isZh}
+            showClearable={showPageCacheCard}
+          />
 
-          <div className="cache-version-list">
-            {PRIMARY_VERSION_IDS.map((versionId) => {
-              const stats = statsMap[versionId]
-              const downloadState = getDownloadState(versionId, stats, downloads)
-              return (
-                <CacheVersionRow
-                  key={versionId}
-                  label={VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId}
-                  chapterCount={stats?.chapterCount ?? 0}
-                  chapterTotal={stats?.chapterTotal ?? 0}
-                  storageBytes={downloads[versionId]?.progress?.bytesDownloaded ?? stats?.storageBytes ?? 0}
-                  downloadState={downloadState}
-                  progressPct={getProgressPct(versionId, stats, downloads)}
-                  onDownloadAction={() => handleDownloadAction(versionId)}
-                  onDelete={() => handleDelete(versionId)}
-                  deleteLabel={isZh ? '删除' : 'Delete'}
-                  actionLabels={actionLabels}
-                />
-              )
-            })}
-          </div>
+          <section className="cache-card">
+            <div className="cache-card-head">
+              <div>
+                <h3 className="cache-card-title">{isZh ? '经文缓存' : 'Scripture cache'}</h3>
+                <p className="cache-card-desc">
+                  {isBundledApp
+                    ? (isZh
+                      ? '应用已内置全部译本经文，安装后即可离线阅读。'
+                      : 'All translations are bundled for offline reading.')
+                    : (isZh
+                      ? '按版本下载经文；阅读过的章节也会自动缓存。'
+                      : 'Download by version; read chapters are also cached.')}
+                </p>
+              </div>
+              <span className="cache-card-size">{formatBytes(scriptureBytes)}</span>
+            </div>
+            <div className="cache-version-list">
+              {PRIMARY_VERSION_IDS.map((versionId) => {
+                const stats = statsMap[versionId]
+                const downloadState = getDownloadState(versionId, stats, downloads)
+                return (
+                  <CacheVersionRow
+                    key={versionId}
+                    label={VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId}
+                    chapterCount={stats?.chapterCount ?? 0}
+                    chapterTotal={stats?.chapterTotal ?? 0}
+                    storageBytes={downloads[versionId]?.progress?.bytesDownloaded ?? stats?.storageBytes ?? 0}
+                    downloadState={downloadState}
+                    progressPct={getProgressPct(versionId, stats, downloads)}
+                    onDownloadAction={() => handleDownloadAction(versionId)}
+                    onDelete={() => handleDelete(versionId)}
+                    deleteLabel={isZh ? '删除' : 'Delete'}
+                    actionLabels={actionLabels}
+                    canDelete={!isBundledApp}
+                  />
+                )
+              })}
+            </div>
+          </section>
+
+          {showPageCacheCard && (
+            <section className="cache-card">
+              <div className="cache-card-head">
+                <div>
+                  <h3 className="cache-card-title">{isZh ? '可清理缓存' : 'Clearable cache'}</h3>
+                  <p className="cache-card-desc">
+                    {isZh
+                      ? '页面缓存（应用壳资源）。清理后将自动刷新。'
+                      : 'Page cache (app shell assets). Clearing will reload the page.'}
+                  </p>
+                </div>
+                <span className="cache-card-size">{formatBytes(pageCache.bytes)}</span>
+              </div>
+              <div className="cache-card-row">
+                <div className="cache-card-row-main">
+                  <span className="cache-card-row-label">{isZh ? '页面缓存' : 'Page cache'}</span>
+                  <span className="cache-card-row-meta">{formatBytes(pageCache.bytes)}</span>
+                </div>
+                <button
+                  type="button"
+                  className="cache-card-action"
+                  onClick={handleClearPageCache}
+                  disabled={busy || pageCache.bytes <= 0}
+                >
+                  {isZh ? '清理' : 'Clear'}
+                </button>
+              </div>
+            </section>
+          )}
+
+          <section className="cache-card">
+            <div className="cache-card-head">
+              <div>
+                <h3 className="cache-card-title">{isZh ? '手动清理' : 'Manual cleanup'}</h3>
+                <p className="cache-card-desc">
+                  {isZh
+                    ? '勾选后清理；收藏与续航仅展示占用，不可清理。'
+                    : 'Select items to clear. Highlights and stamina are view-only.'}
+                </p>
+              </div>
+              <span className="cache-card-size">{formatBytes(otherBytes)}</span>
+            </div>
+
+            <ul className="cache-manual-list">
+              {clearableManualItems.map((item) => {
+                const checked = selectedManual.has(item.id)
+                return (
+                  <li key={item.id}>
+                    <label className="cache-manual-item">
+                      <input
+                        type="checkbox"
+                        checked={checked}
+                        onChange={() => toggleManualItem(item.id)}
+                        disabled={busy}
+                      />
+                      <span className="cache-manual-label">{item.label[lang] ?? item.label.chs}</span>
+                      <span className="cache-manual-size">{formatBytes(item.bytes)}</span>
+                    </label>
+                  </li>
+                )
+              })}
+            </ul>
+
+            {readonlyManualItems.length > 0 && (
+              <>
+                <p className="cache-manual-readonly-title">{isZh ? '仅展示' : 'View only'}</p>
+                <ul className="cache-manual-list cache-manual-list--readonly">
+                  {readonlyManualItems.map((item) => (
+                    <li key={item.id} className="cache-manual-item is-readonly">
+                      <span className="cache-manual-label">{item.label[lang] ?? item.label.chs}</span>
+                      <span className="cache-manual-size">{formatBytes(item.bytes)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            <button
+              type="button"
+              className="cache-card-action cache-card-action--block"
+              onClick={handleClearManual}
+              disabled={busy || !hasManualSelection}
+            >
+              {isZh ? '清理所选' : 'Clear selected'}
+            </button>
+          </section>
 
           {error && <p className="cache-error">{error}</p>}
 
-          {installState !== 'unavailable' && installState !== 'installed' && (
+          {!nativeApp && installState !== 'unavailable' && installState !== 'installed' && (
             <div className="cache-install-section">
               <button
                 type="button"
                 className="cache-btn"
                 onClick={handleInstall}
-                disabled={anyDownloading}
+                disabled={anyDownloading || busy}
               >
                 {isZh ? '添加到主屏幕' : 'Add to Home Screen'}
               </button>

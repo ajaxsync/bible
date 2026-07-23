@@ -1,5 +1,6 @@
 import { assetUrl } from './assetUrl.js'
 import { PRIMARY_VERSION_IDS } from '../data/versions.js'
+import { Capacitor } from '@capacitor/core'
 
 const DB_NAME = 'bible-reader'
 const DB_VERSION = 1
@@ -369,9 +370,32 @@ export async function getVersionManifestInfo(versionId) {
   return { chapterTotal, totalBytes }
 }
 
+export function isNativeBundledScripture() {
+  return typeof window !== 'undefined' && Capacitor.isNativePlatform()
+}
+
 export async function getAllVersionsCacheStats() {
   const manifest = await loadManifest()
   const totals = countManifestChaptersByVersion(manifest)
+  const allTotal = manifest.chapters?.length ?? 0
+  const allBytes = manifest.totalBytes ?? manifest.chapterBytes ?? 0
+
+  if (isNativeBundledScripture()) {
+    return PRIMARY_VERSION_IDS.map((versionId) => {
+      const chapterTotal = totals[versionId] ?? 0
+      const storageBytes = allTotal > 0 ? Math.round((allBytes * chapterTotal) / allTotal) : 0
+      return {
+        versionId,
+        chapterCount: chapterTotal,
+        chapterTotal,
+        storageBytes,
+        fullDownloadAt: 'bundled',
+        isComplete: chapterTotal > 0,
+        isBundled: true,
+      }
+    })
+  }
+
   const cachedStats = await getCachedChapterStatsByVersion()
 
   const fullDownloadAts = await Promise.all(

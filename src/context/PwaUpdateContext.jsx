@@ -1,5 +1,5 @@
+import { Capacitor } from '@capacitor/core'
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
-import { registerSW } from 'virtual:pwa-register'
 
 const PwaUpdateContext = createContext(null)
 
@@ -10,31 +10,48 @@ export function PwaUpdateProvider({ children }) {
   const registrationRef = useRef(null)
 
   useEffect(() => {
+    // Capacitor / 无 PWA 构建：不注册 Service Worker
+    if (import.meta.env.VITE_CAPACITOR === 'true') return undefined
+    if (Capacitor.isNativePlatform()) return undefined
     if (!('serviceWorker' in navigator)) return undefined
 
-    const updateSW = registerSW({
-      immediate: true,
-      onNeedRefresh() {
-        setNeedRefresh(true)
-      },
-      onRegistered(registration) {
-        registrationRef.current = registration ?? null
-      },
-    })
-    updateSWRef.current = updateSW
+    let cancelled = false
+    let cleanup = () => {}
 
-    const checkForUpdateOnVisible = () => {
-      registrationRef.current?.update().catch(() => {})
+    import('virtual:pwa-register')
+      .then(({ registerSW }) => {
+        if (cancelled) return
+
+        const updateSW = registerSW({
+          immediate: true,
+          onNeedRefresh() {
+            setNeedRefresh(true)
+          },
+          onRegistered(registration) {
+            registrationRef.current = registration ?? null
+          },
+        })
+        updateSWRef.current = updateSW
+
+        const checkForUpdateOnVisible = () => {
+          registrationRef.current?.update().catch(() => {})
+        }
+
+        const onVisibilityChange = () => {
+          if (document.visibilityState === 'visible') {
+            checkForUpdateOnVisible()
+          }
+        }
+
+        document.addEventListener('visibilitychange', onVisibilityChange)
+        cleanup = () => document.removeEventListener('visibilitychange', onVisibilityChange)
+      })
+      .catch(() => {})
+
+    return () => {
+      cancelled = true
+      cleanup()
     }
-
-    const onVisibilityChange = () => {
-      if (document.visibilityState === 'visible') {
-        checkForUpdateOnVisible()
-      }
-    }
-
-    document.addEventListener('visibilitychange', onVisibilityChange)
-    return () => document.removeEventListener('visibilitychange', onVisibilityChange)
   }, [])
 
   const applyUpdate = useCallback(async () => {

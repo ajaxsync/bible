@@ -1,0 +1,174 @@
+/**
+ * 旧版 Android WebView（Chrome < 84）不支持 flex/grid 的 gap。
+ * 用 margin 兜底，避免弹窗按钮、列表项、续航格子贴在一起。
+ */
+@supports not (gap: 1px) {
+  /* 按钮组：可换行，8px */
+  :is(
+    .stamina-prompt-actions,
+    .reading-settings-actions,
+    .speech-panel-actions,
+    .marks-panel-actions,
+    .cache-install-section
+  ) {
+    gap: 0 !important;
+    margin: -4px;
+  }
+
+  :is(
+    .stamina-prompt-actions,
+    .reading-settings-actions,
+    .speech-panel-actions,
+    .marks-panel-actions,
+    .cache-install-section
+  ) > * {
+    margin: 4px;
+  }
+
+  /* 续航完成弹窗：覆盖默认 -4px 兜底，避免背景色块与文字错位 */
+  .stamina-prompt-actions {
+    margin: -6px !important;
+  }
+
+  .stamina-prompt-actions > * {
+    margin: 6px !important;
+  }
+
+  /* 纵向列表：8px；缓存管理改用分割线，不加 margin */
+  :is(
+    .stamina-record,
+    .marks-panel-list
+  ) {
+    gap: 0 !important;
+  }
+
+  :is(
+    .stamina-record,
+    .marks-panel-list
+  ) > * + * {
+    margin-top: 8px;
+  }
+
+  :is(
+    .cache-version-list,
+    .cache-manual-list
+  ) {
+    gap: 0 !important;
+  }
+
+  /* 横向工具条：不换行 */
+  :is(
+    .cache-version-row,
+    .cache-version-end,
+    .cache-version-meta,
+    .stamina-record-nav,
+    .stamina-record-toolbar,
+    .stamina-week-total,
+    .stamina-month-total,
+    .stamina-panel-summary,
+    .stamina-panel-legend,
+    .verse-toolbar,
+    .verse-toolbar-actions,
+    .header-inner,
+    .header-actions,
+    .reading-settings-row,
+    .speech-panel-row
+  ) {
+    gap: 0 !important;
+  }
+
+  .cache-version-row > * + * {
+    margin-left: 12px;
+  }
+
+  .cache-version-end > * + * {
+    margin-left: 10px;
+  }
+
+  .cache-version-meta > * + * {
+    margin-left: 6px;
+  }
+
+  .stamina-record-nav > * + * {
+    margin-left: 8px;
+  }
+
+  .stamina-record-toolbar > * + * {
+    margin-left: 12px;
+  }
+
+  .stamina-week-total > * + *,
+  .stamina-month-total > * + * {
+    margin-left: 5px;
+  }
+
+  .stamina-panel-summary > * + * {
+    margin-left: 20px;
+  }
+
+  .stamina-panel-legend > * + * {
+    margin-left: 8px;
+  }
+
+  .verse-toolbar-actions > * + * {
+    margin-left: 8px;
+  }
+
+  .header-actions > * + * {
+    margin-left: 8px;
+  }
+
+  .reading-settings-row > * + * {
+    margin-left: 12px;
+  }
+
+  .reading-settings-themes {
+    gap: 0 !important;
+    margin: -4px -4px -4px 0;
+  }
+
+  .reading-settings-themes > * {
+    margin: 4px;
+  }
+
+  .reading-settings-stepper {
+    gap: 0 !important;
+  }
+
+  .reading-settings-stepper > * + * {
+    margin-left: 4px;
+  }
+
+  /* Grid 格子：6px */
+  :is(
+    .stamina-week-headers,
+    .stamina-week-row,
+    .stamina-month-grid
+  ) {
+    gap: 0 !important;
+  }
+
+  :is(
+    .stamina-week-headers,
+    .stamina-week-row,
+    .stamina-month-grid
+  ) > * {
+    margin: 3px;
+  }
+
+  .stamina-cell {
+    gap: 0 !important;
+  }
+
+  .stamina-cell > * + * {
+    margin-top: 7px;
+  }
+
+  .stamina-record-meta {
+    gap: 0 !important;
+  }
+
+  .stamina-record-meta > * + * {
+    margin-top: 4px;
+  }
+}

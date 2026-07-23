@@ -1,0 +1,23 @@
+{
+  "appId": "app.bible.reader",
+  "appName": "Bible",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http"
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#f7f6f3",
+      "launchShowDuration": 0,
+      "launchAutoHide": false,
+      "launchFadeOutDuration": 0,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK"
+    }
+  }
+}

@@ -7,11 +7,11 @@
 | 能力 | 说明 |
 |------|------|
 | 主阅读 | 设置中切换：和合本（简体）、和合本（繁体）、NIV |
-| 经节操作 | 点击多选经节，工具栏支持复制、高亮、分享本章 |
+| 经节操作 | 点击多选经节，工具栏支持复制、高亮 |
 | 高亮标记 | 本地保存高亮，可在标记面板中查看与跳转 |
 | 阅读设置 | 字号、行距、阅读字体（系统黑体 / 宋体）、背景主题、Notion / Kindle UI |
 | 朗读 | 浏览器语音合成朗读当前章（支持时显示入口） |
-| 阅读续航 | 停留计时打卡、连续天数与周统计，可生成分享海报 |
+| 阅读续航 | 停留计时打卡、连续天数与周统计 |
 | 阅读进度 | 顶栏显示本章滚动进度与预估阅读量 |
 | 离线缓存 | 按译本下载章节；读过的章节也会自动缓存 |
 | PWA | 可安装到主屏幕，支持更新提示 |
@@ -108,9 +108,46 @@ python scripts/copy-verses.py --source-dir /path/to/full/verses  # 精简 verses
 
 `build:versions` 保留 `cunp` 的章节结构，从逐节数据的 `versions` 字段填入对应译本正文。`dev` / `build` 会自动跑 manifest 与图标生成。
 
+## Android（Capacitor）
+
+用 Capacitor 将 Web 应用打包为 Android APK。
+
+### 环境
+
+- Node.js、JDK 17、Android Studio（含 Android SDK）
+- 本机已配置 `ANDROID_HOME`（Windows 常见：`%LOCALAPPDATA%\\Android\\Sdk`）
+
+### 构建与打开 Android Studio
+
+```bash
+npm install
+npm run build:android   # 构建 dist（base=/）、去掉 verses、同步到 android/
+npm run open:android    # 打开 Android Studio
+```
+
+在 Android Studio 中：
+
+1. 等待 Gradle 同步完成
+2. 连接真机或启动模拟器
+3. **Run** 调试；发布用 **Build → Generate Signed Bundle / APK → APK**
+
+### 说明
+
+| 项 | 说明 |
+|----|------|
+| 包名 | `app.bible.reader`（见 `capacitor.config.json`） |
+| 经文数据 | APK 内含 `cunp` / `cunps` / `niv`；**不含** `verses`（维护用，约省 18MB） |
+| 图标 / 启动页 | 由 `public/favicon.svg` 生成；改图标后执行 `npm run build:android:assets` |
+| Web 更新 | 原生壳内不注册 Service Worker；改功能后重新 `build:android` 再打 APK |
+| 仅同步 | 已有 `dist/` 时可用 `npm run sync:android` |
+| 白屏排查 | 务必用 `npm run build:android`（`--mode capacitor`）；勿用普通 `npm run build` 后 sync |
+
+首次签名需在 Android Studio 创建 keystore，并自行备份；丢失则无法覆盖更新同一应用。
+
 ## 技术栈
 
 - Vite 8 + React 18
 - React Router 6
 - vite-plugin-pwa（可安装、离线壳）
+- Capacitor 8（Android APK）
 - 静态 JSON，无后端；阅读偏好与高亮存 localStorage

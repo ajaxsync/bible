@@ -6,6 +6,22 @@ dist
 dev-dist
 public/json/cache-manifest.json
 
+# Android / Capacitor
+android/
+android/**
+android/.gradle
+android/app/build
+android/build
+android/captures
+android/local.properties
+android/.idea
+*.apk
+*.aab
+*.ap_
+*.dex
+*.keystore
+!debug.keystore
+
 # Logs
 *.log
 npm-debug.log*

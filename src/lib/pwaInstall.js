@@ -1,7 +1,10 @@
+import { Capacitor } from '@capacitor/core'
+
 let deferredPrompt = null
 const listeners = new Set()
 
 export function isAppInstalled() {
+  if (Capacitor.isNativePlatform()) return true
   return window.matchMedia('(display-mode: standalone)').matches
     || window.navigator.standalone === true
 }
@@ -29,6 +32,10 @@ function notifyListeners() {
 
 export function initPwaInstall() {
   if (typeof window === 'undefined') return
+  if (Capacitor.isNativePlatform()) {
+    notifyListeners()
+    return
+  }
 
   window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault()

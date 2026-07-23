@@ -11,18 +11,31 @@
     "build:manifest": "node scripts/generate-cache-manifest.mjs",
     "build:versions": "python scripts/build-version-chapters.py",
     "build:cunps": "python scripts/build-cunps.py",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:android": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && node scripts/generate-android-assets.mjs && node scripts/clean-dist.mjs && vite build --mode capacitor --base / && node scripts/prepare-android-dist.mjs && npx cap sync android",
+    "build:android:assets": "node scripts/generate-android-assets.mjs",
+    "open:android": "npx cap open android",
+    "sync:android": "npx cap sync android",
+    "add:android": "npx cap add android"
   },
   "dependencies": {
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.4.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.3",
     "html-to-image": "^1.11.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.2"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.4.2",
+    "@capacitor/cli": "^8.4.2",
+    "@vitejs/plugin-legacy": "^8.2.1",
     "@vitejs/plugin-react": "^5.1.4",
     "sharp": "^0.35.3",
-    "vite": "^8.1.0",
+    "terser": "^5.49.0",
+    "vite": "^8.1.5",
     "vite-plugin-pwa": "^1.0.3"
   }
 }

@@ -1,9 +1,26 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
-import { SpeechReader, buildVerseQueue, getChapterVerseTotal, isSpeechSupported, loadSpeechRate, loadSpeechVoice, storeSpeechRate, storeSpeechVoice, SPEECH_LANGS } from '../lib/speechReader.js'
+import {
+  SpeechReader,
+  buildVerseQueue,
+  getChapterVerseTotal,
+  isNativeSpeechEngine,
+  isNativeTtsReady,
+  isSpeechSupported,
+  loadSpeechRate,
+  loadSpeechVoice,
+  refreshSpeechVoices,
+  storeSpeechRate,
+  storeSpeechVoice,
+  SPEECH_LANGS,
+} from '../lib/speechReader.js'
 
 const SpeechReaderContext = createContext(null)
 
 export function SpeechReaderProvider({ children }) {
+  const [supported, setSupported] = useState(() => isSpeechSupported())
+  const [supportReady, setSupportReady] = useState(false)
+  const [nativeEngine, setNativeEngine] = useState(false)
+  const [ttsReady, setTtsReady] = useState(false)
   const [status, setStatus] = useState('idle')
   const [currentVerse, setCurrentVerse] = useState(null)
   const [verseTotal, setVerseTotal] = useState(0)
@@ -17,7 +34,8 @@ export function SpeechReaderProvider({ children }) {
   const readerRef = useRef(null)
 
   useEffect(() => {
-    readerRef.current = new SpeechReader({
+    let cancelled = false
+    const reader = new SpeechReader({
       onVerseChange: setCurrentVerse,
       onStatusChange: setStatus,
       onComplete: () => {
@@ -27,7 +45,24 @@ export function SpeechReaderProvider({ children }) {
       },
       onVoicesChanged: () => setVoicesRevision((n) => n + 1),
     })
-    return () => readerRef.current?.destroy()
+    readerRef.current = reader
+
+    ;(async () => {
+      const ok = await reader.whenReady()
+      if (cancelled) return
+      setSupported(ok)
+      setNativeEngine(isNativeSpeechEngine())
+      setTtsReady(isNativeTtsReady())
+      setSupportReady(true)
+      await refreshSpeechVoices()
+      if (!cancelled) setVoicesRevision((n) => n + 1)
+    })()
+
+    return () => {
+      cancelled = true
+      reader.destroy()
+      readerRef.current = null
+    }
   }, [])
 
   const registerChapter = useCallback((payload) => {
@@ -86,7 +121,10 @@ export function SpeechReaderProvider({ children }) {
 
   const value = useMemo(
     () => ({
-      supported: isSpeechSupported(),
+      supported,
+      supportReady,
+      nativeEngine,
+      ttsReady,
       status,
       currentVerse,
       verseTotal,
@@ -102,7 +140,25 @@ export function SpeechReaderProvider({ children }) {
       stop,
       isActive: status === 'playing' || status === 'paused',
     }),
-    [status, currentVerse, verseTotal, location, rate, voiceURIs, voicesRevision, registerChapter, playChapter, togglePause, setRate, setVoice, stop],
+    [
+      supported,
+      supportReady,
+      nativeEngine,
+      ttsReady,
+      status,
+      currentVerse,
+      verseTotal,
+      location,
+      rate,
+      voiceURIs,
+      voicesRevision,
+      registerChapter,
+      playChapter,
+      togglePause,
+      setRate,
+      setVoice,
+      stop,
+    ],
   )
 
   return (

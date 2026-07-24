@@ -107,17 +107,15 @@ function StaminaCell({ cell, lang, copy }) {
       : `level-${cell.level}`
 
   return (
-    <button
-      type="button"
+    <div
       className={`stamina-cell ${levelClass}${cell.isOutsideMonth ? ' is-outside' : ''}`}
-      disabled={cell.isFuture}
       aria-label={`${formatDateLabel(cell.date, lang)}，${buildCellLabel(cell, lang, copy)}`}
     >
       <span className="stamina-cell-day" aria-hidden>{cell.date.getDate()}</span>
       <span className="stamina-cell-duration" aria-hidden>
         {cell.isFuture || cell.isOutsideMonth ? '—' : formatCompactDuration(cell.seconds)}
       </span>
-    </button>
+    </div>
   )
 }
 

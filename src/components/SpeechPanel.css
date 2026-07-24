@@ -194,6 +194,15 @@
   line-height: 1.5;
 }
 
+.speech-panel-hint--warn {
+  min-height: 0;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, #c62828 10%, var(--bg-subtle));
+  color: var(--text-muted);
+}
+
 .speech-panel-hint-sep {
   color: var(--text-light);
 }

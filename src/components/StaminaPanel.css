@@ -296,7 +296,7 @@
   border: 1px solid transparent;
   border-radius: 4px;
   background: var(--stamina-green-0, #ebedf0);
-  cursor: pointer;
+  pointer-events: none;
 }
 
 .stamina-cell-day {
@@ -315,13 +315,8 @@
   color: var(--text-light);
 }
 
-.stamina-cell:hover:not(:disabled) {
-  border-color: var(--text-light);
-}
-
 .stamina-cell.is-future {
   background: var(--bg-subtle);
-  cursor: default;
 }
 
 .stamina-cell.is-future .stamina-cell-day {

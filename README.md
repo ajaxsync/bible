@@ -4,26 +4,26 @@
 
 ## 功能
 
-| 能力 | 说明 |
-|------|------|
-| 主阅读 | 设置中切换：和合本（简体）、和合本（繁体）、NIV |
-| 经节操作 | 点击多选经节，工具栏支持复制、高亮 |
-| 高亮标记 | 本地保存高亮，可在标记面板中查看与跳转 |
-| 阅读设置 | 字号、行距、阅读字体（系统黑体 / 宋体）、背景主题、Notion / Kindle UI |
-| 朗读 | 浏览器语音合成朗读当前章（支持时显示入口） |
-| 阅读续航 | 停留计时打卡、连续天数与周统计 |
-| 阅读进度 | 顶栏显示本章滚动进度与预估阅读量 |
-| 离线缓存 | 按译本下载章节；读过的章节也会自动缓存 |
-| PWA | 可安装到主屏幕，支持更新提示 |
-| 路由 | `/{书卷ID}/{章}` 或 `/{书卷ID}/{章}/{节}`；`/` 回到上次阅读位置 |
+| 能力     | 说明                                                                         |
+| -------- | ---------------------------------------------------------------------------- |
+| 主阅读   | 设置中切换：和合本（简体）、和合本（繁体）、NIV                              |
+| 经节操作 | 点击多选经节，工具栏支持复制、高亮                                           |
+| 高亮标记 | 本地保存高亮，可在标记面板中查看与跳转                                       |
+| 阅读设置 | 字号、行距、阅读字体（系统黑体 / 宋体）、背景主题、Notion / Kindle UI        |
+| 朗读     | 浏览器用 Web Speech；Android App 用系统 TTS 离线朗读（需安装系统中文语音包） |
+| 阅读续航 | 停留计时打卡、连续天数与周统计                                               |
+| 阅读进度 | 顶栏显示本章滚动进度与预估阅读量                                             |
+| 离线缓存 | 按译本下载章节；读过的章节也会自动缓存                                       |
+| PWA      | 可安装到主屏幕，支持更新提示                                                 |
+| 路由     | `/{书卷ID}/{章}` 或 `/{书卷ID}/{章}/{节}`；`/` 回到上次阅读位置              |
 
 ## 译本
 
-| ID | 名称 | 语言 |
-|----|------|------|
-| `cunps` | 和合本（简体） | 中文 |
-| `cunp` | 和合本（繁体） | 中文 |
-| `niv` | 新国际版本（NIV） | 英文 |
+| ID      | 名称              | 语言 |
+| ------- | ----------------- | ---- |
+| `cunps` | 和合本（简体）    | 中文 |
+| `cunp`  | 和合本（繁体）    | 中文 |
+| `niv`   | 新国际版本（NIV） | 英文 |
 
 译本列表可通过 `.env` 中的 `VITE_PRIMARY_VERSIONS` 配置，ID 须与 `src/data/versions.js` 一致。
 
@@ -65,34 +65,34 @@ npm run preview
 
 复制 `.env.example` 为 `.env` 后按需修改。常用项：
 
-| 变量 | 说明 | 默认值 |
-|------|------|--------|
-| `VITE_APP_TITLE` | 页面标题 | `Bible · Reader` |
-| `VITE_APP_NAME` | 短名称（PWA） | `Bible` |
-| `VITE_APP_ICON` | 顶栏图标（emoji 或路径） | `/favicon.svg` |
-| `VITE_APP_FAVICON` | Favicon | `/favicon.svg` |
-| `VITE_APP_LANG` | `html lang` | `zh-Hant` |
-| `VITE_DEFAULT_ROUTE` | 无上次位置时的默认路由 | `/1/1` |
-| `VITE_JSON_BASE` | 经文 JSON 根路径 | `/json` |
-| `VITE_DEFAULT_VERSION` | 默认译本 | `cunps` |
-| `VITE_PRIMARY_VERSIONS` | 可选译本（逗号分隔） | `cunps,cunp,niv` |
-| `VITE_STORAGE_KEY_VERSION` | 译本偏好 localStorage 键 | `bible-version-v2` |
-| `VITE_CONTENT_MAX` | 正文最大宽度 | `720px` |
-| `VITE_HEADER_HEIGHT` | 顶栏高度 | `56px` |
-| `VITE_ACCENT_COLOR` | 主题色 | `#2383e2` |
-| `VITE_FONT_FAMILY` | 覆盖界面字体（可选） | 空（中文黑体 + 英文 Inter） |
-| `VITE_BASE` | 部署子路径（CI 自动设置） | `/` |
-| `DEV_PORT` | 开发服务器端口 | `3650` |
+| 变量                       | 说明                      | 默认值                      |
+| -------------------------- | ------------------------- | --------------------------- |
+| `VITE_APP_TITLE`           | 页面标题                  | `Bible · Reader`            |
+| `VITE_APP_NAME`            | 短名称（PWA）             | `Bible`                     |
+| `VITE_APP_ICON`            | 顶栏图标（emoji 或路径）  | `/favicon.svg`              |
+| `VITE_APP_FAVICON`         | Favicon                   | `/favicon.svg`              |
+| `VITE_APP_LANG`            | `html lang`               | `zh-Hant`                   |
+| `VITE_DEFAULT_ROUTE`       | 无上次位置时的默认路由    | `/1/1`                      |
+| `VITE_JSON_BASE`           | 经文 JSON 根路径          | `/json`                     |
+| `VITE_DEFAULT_VERSION`     | 默认译本                  | `cunps`                     |
+| `VITE_PRIMARY_VERSIONS`    | 可选译本（逗号分隔）      | `cunps,cunp,niv`            |
+| `VITE_STORAGE_KEY_VERSION` | 译本偏好 localStorage 键  | `bible-version-v2`          |
+| `VITE_CONTENT_MAX`         | 正文最大宽度              | `720px`                     |
+| `VITE_HEADER_HEIGHT`       | 顶栏高度                  | `56px`                      |
+| `VITE_ACCENT_COLOR`        | 主题色                    | `#2383e2`                   |
+| `VITE_FONT_FAMILY`         | 覆盖界面字体（可选）      | 空（中文黑体 + 英文 Inter） |
+| `VITE_BASE`                | 部署子路径（CI 自动设置） | `/`                         |
+| `DEV_PORT`                 | 开发服务器端口            | `3650`                      |
 
 ## 数据说明
 
 经文以静态 JSON 存放在 `public/json/`，主阅读译本各一个目录，按 `/{书卷ID}/{章}.json` 组织：
 
-| 目录 | 说明 |
-|------|------|
-| `public/json/cunp/` | 和合本繁体，章节结构模板（标题、段落划分） |
-| `public/json/cunps/` | 和合本简体，由 cunp 经 OpenCC 转换 |
-| `public/json/niv/` | 新国际版本（NIV） |
+| 目录                 | 说明                                       |
+| -------------------- | ------------------------------------------ |
+| `public/json/cunp/`  | 和合本繁体，章节结构模板（标题、段落划分） |
+| `public/json/cunps/` | 和合本简体，由 cunp 经 OpenCC 转换         |
+| `public/json/niv/`   | 新国际版本（NIV）                          |
 
 `public/json/verses/` 为逐节源数据（维护脚本用），运行时主阅读不依赖该目录。
 
@@ -119,30 +119,81 @@ python scripts/copy-verses.py --source-dir /path/to/full/verses  # 精简 verses
 
 ### 构建与打开 Android Studio
 
+推荐日常流程：
+
 ```bash
-npm install
-npm run build:android   # 构建 dist（base=/）、去掉 verses、同步到 android/
-npm run open:android    # 打开 Android Studio
+npm run version           # 终端选择升版本（可选）
+npm run preview:android   # 全量构建 + 同步（含版本）+ 打开 Android Studio
+```
+
+`preview:android` = `build:android` → `open:android`，保证 App 内是当前最新代码与 `package.json` 版本。
+
+分步命令（按执行顺序排列，一般不必单独跑）：
+
+```bash
+npm run add:android              # 仅首次：创建 android/ 工程
+npm run build:android:assets     # 生成图标 / Splash
+npm run sync:android:version     # package.json → Gradle 版本
+npm run sync:android             # cap sync + 写版本
+npm run build:android            # 全量 Web 构建并 sync
+npm run open:android             # 只打开 Android Studio
+npm run preview:android          # 全量构建并打开（推荐）
 ```
 
 在 Android Studio 中：
 
 1. 等待 Gradle 同步完成
 2. 连接真机或启动模拟器
-3. **Run** 调试；发布用 **Build → Generate Signed Bundle / APK → APK**
+3. 测试包：**Run** / **Generate APKs** → `bible_reader_x.x.x-debug.apk`
+4. 正式包：**Build → Generate Signed Bundle / APK → APK** → `bible_reader_x.x.x.apk`
+
+输出目录一般在 `android/app/release/` 或 `android/app/build/outputs/apk/`（以 Android Studio 提示为准）。
+
+### 版本号（跟 package.json）
+
+只维护根目录 `package.json` 的 `version`（`x.y.z`）。  
+`build:android` / `sync:android` / `preview:android` 结束时会写入 `android/app/build.gradle`：
+
+| 字段 | 来源 |
+|------|------|
+| `versionName` | 与 `package.json` 的 `version` 相同 |
+| `versionCode` | `major×10000 + minor×100 + patch`（例：`1.0.1` → `10001`） |
+| APK 文件名 | release：`bible_reader_{version}.apk`；debug：`bible_reader_{version}-debug.apk` |
+
+```bash
+npm run version              # 交互选择 patch / minor / major / 自定义
+npm run version -- patch     # 非交互（可选）
+```
+
+升完版本后执行 `npm run preview:android` 即可，无需再担心代码或版本未同步。
+
+注意：`minor` / `patch` 勿超过 99；新 `versionCode` 须大于已安装版本。
+
+| 规则 | 说明 |
+|------|------|
+| 覆盖安装 | 同包名 + **同一签名** + 新 `versionCode` 更大 |
+| 文件名 | APK 叫什么无关（如 `bible-1.0.2.apk`） |
+| debug ↔ release | 签名不同，**不能**互相覆盖，需先卸载 |
+| App / 网页显示 | 缓存管理底部显示当前版本；App 读安装包，网页读 `package.json` |
+
+`android/` 已 gitignore；重建后只要再跑 `build:android` / `sync:android:version`，版本会从 `package.json` 写回去。
+
+### 签名与密钥
+
+- 首次正式包在 Android Studio 创建 keystore（如 `bible-release.jks`），**勿提交到仓库**，自行备份
+- 密码与 `.jks` 丢失则无法用同一签名覆盖更新
 
 ### 说明
 
-| 项 | 说明 |
-|----|------|
-| 包名 | `app.bible.reader`（见 `capacitor.config.json`） |
-| 经文数据 | APK 内含 `cunp` / `cunps` / `niv`；**不含** `verses`（维护用，约省 18MB） |
-| 图标 / 启动页 | 由 `public/favicon.svg` 生成；改图标后执行 `npm run build:android:assets` |
-| Web 更新 | 原生壳内不注册 Service Worker；改功能后重新 `build:android` 再打 APK |
-| 仅同步 | 已有 `dist/` 时可用 `npm run sync:android` |
-| 白屏排查 | 务必用 `npm run build:android`（`--mode capacitor`）；勿用普通 `npm run build` 后 sync |
-
-首次签名需在 Android Studio 创建 keystore，并自行备份；丢失则无法覆盖更新同一应用。
+| 项            | 说明                                                                                                          |
+| ------------- | ------------------------------------------------------------------------------------------------------------- |
+| 包名          | `app.bible.reader`（见 `capacitor.config.json`）                                                              |
+| 经文数据      | APK 内含 `cunp` / `cunps` / `niv`；**不含** `verses`（维护用，约省 18MB）                                     |
+| 朗读          | App 内调用系统 TTS（`@capgo/capacitor-speech-synthesis`）；若无声，请在系统设置中安装中文「文字转语音」语音包 |
+| 图标 / 启动页 | 由 `public/favicon.svg` 生成；改图标后执行 `npm run build:android:assets`                                     |
+| Web 更新      | 改功能后执行 `npm run preview:android`（或 `build:android`）再打 APK                                         |
+| 仅同步        | 已有最新 `dist/` 时可用 `npm run sync:android`                                                                |
+| 白屏排查      | 务必用 `npm run build:android`（`--mode capacitor`）；勿用普通 `npm run build` 后 sync                        |
 
 ## 技术栈
 

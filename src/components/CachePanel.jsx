@@ -13,6 +13,7 @@ import {
   getLocalDataItemStats,
   getPageCacheStats,
 } from '../lib/appDataCache.js'
+import { formatAppVersionLabel, getAppVersionInfo } from '../lib/appVersion.js'
 import { isNativeApp } from '../lib/platform.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { useVersion } from '../context/VersionContext.jsx'
@@ -105,8 +106,19 @@ export default function CachePanel({ onClose }) {
   const [localItems, setLocalItems] = useState([])
   const [selectedManual, setSelectedManual] = useState(() => new Set())
   const [busy, setBusy] = useState(false)
+  const [appVersionLabel, setAppVersionLabel] = useState('')
 
   useScrollLock(true)
+
+  useEffect(() => {
+    let cancelled = false
+    getAppVersionInfo()
+      .then((info) => {
+        if (!cancelled) setAppVersionLabel(formatAppVersionLabel(info, isZh))
+      })
+      .catch(() => {})
+    return () => { cancelled = true }
+  }, [isZh])
 
   const abortRefs = useRef({})
   const closeTimerRef = useRef(null)
@@ -546,6 +558,12 @@ export default function CachePanel({ onClose }) {
 
           {installState === 'installed' && (
             <p className="cache-installed">{isZh ? '已添加到主屏幕' : 'Installed on Home Screen'}</p>
+          )}
+
+          {appVersionLabel && (
+            <p className="cache-app-version">
+              {isZh ? '版本' : 'Version'} {appVersionLabel}
+            </p>
           )}
         </div>
       </div>

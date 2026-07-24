@@ -18,7 +18,6 @@ export function ReadingStaminaProvider({ children }) {
   }, [])
 
   const tickReading = useCallback((seconds) => {
-    if (getTodaySnapshot().completed) return
     const result = addReadingSeconds(seconds)
     setSnapshot(getTodaySnapshot())
     if (result.justCompleted) {

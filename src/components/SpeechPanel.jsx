@@ -3,7 +3,7 @@ import { bibleIndex, parseChapterParam, getBookTitle } from '../data/bibleIndex.
 import { useParams } from 'react-router-dom'
 import { useVersion } from '../context/VersionContext.jsx'
 import { useSpeechReader } from '../context/SpeechReaderContext.jsx'
-import { SPEECH_RATES, getVoicesForLang, isSpeechSupported } from '../lib/speechReader.js'
+import { SPEECH_RATES, getVoicesForLang, refreshSpeechVoices } from '../lib/speechReader.js'
 import { useScrollLock } from '../hooks/useScrollLock.js'
 import BottomSheetHandle from './BottomSheetHandle.jsx'
 import { PauseIcon, PlayIcon } from './SpeechIcons.jsx'
@@ -31,23 +31,35 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
     voiceURIs,
     voicesRevision,
     setVoice,
+    nativeEngine,
+    ttsReady,
   } = useSpeechReader()
 
   const [startVerse, setStartVerse] = useState(() => (activeVerse > 0 ? activeVerse : 1))
+  const [voicesTick, setVoicesTick] = useState(0)
+  const [playError, setPlayError] = useState('')
   const readingLang = version.lang
   const voices = useMemo(
     () => getVoicesForLang(readingLang),
-    [readingLang, voicesRevision],
+    [readingLang, voicesRevision, voicesTick],
   )
   const selectedVoiceURI = voiceURIs[readingLang] || ''
+  const missingLangVoice = voices.length === 0
+    && (readingLang === 'chs' || readingLang === 'cht')
+  const showTtsHint = nativeEngine && (!ttsReady || missingLangVoice || playError)
 
   useEffect(() => {
     setStartVerse(activeVerse > 0 ? activeVerse : 1)
   }, [activeVerse])
 
   useEffect(() => {
-    if (!isSpeechSupported()) return
-    window.speechSynthesis.getVoices()
+    let cancelled = false
+    refreshSpeechVoices().then(() => {
+      if (!cancelled) setVoicesTick((n) => n + 1)
+    })
+    return () => {
+      cancelled = true
+    }
   }, [])
 
   if (!bookInfo) return null
@@ -60,7 +72,17 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
   const bookTitle = getBookTitle(book, version.lang)
   const chapterRef = isEn ? `${bookTitle} ${chapter}` : `${bookTitle} ${chapter}章`
 
-  const handlePlay = () => playChapter({ fromVerse: startVerse })
+  const handlePlay = () => {
+    setPlayError('')
+    const ok = playChapter({ fromVerse: startVerse })
+    if (!ok) {
+      setPlayError(
+        isEn
+          ? 'Unable to start playback. Install a system Text-to-speech engine and Chinese voice pack.'
+          : '无法开始朗读。请安装系统「文字转语音」引擎及中文语音包后再试。',
+      )
+    }
+  }
 
   useScrollLock(true)
 
@@ -145,6 +167,15 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
             </div>
           </div>
 
+          {showTtsHint && (
+            <p className="speech-panel-hint speech-panel-hint--warn">
+              {playError
+                || (isEn
+                  ? 'System TTS is not ready. Install Text-to-speech / a Chinese voice pack in system settings (common on emulators).'
+                  : '系统朗读引擎未就绪。请到手机设置 → 文字转语音 / 语音服务，安装引擎并下载中文语音包（模拟器上较常见）。')}
+            </p>
+          )}
+
           <p className="speech-panel-hint">
             {!isThisChapter && (
               startVerse > 1 ? (
@@ -156,6 +187,7 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
                     className="speech-panel-link"
                     onClick={() => {
                       setStartVerse(1)
+                      setPlayError('')
                       playChapter({ fromVerse: 1 })
                     }}
                   >

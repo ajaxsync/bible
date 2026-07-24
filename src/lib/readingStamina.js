@@ -1,6 +1,6 @@
 const STORAGE_KEY = 'bible-reading-stamina-v1'
+/** 当日有效阅读满此时长即打卡（续航完成） */
 export const CHECKIN_THRESHOLD_SECONDS = 60
-const MAX_DAILY_SECONDS = 30 * 60
 
 export function getTodayKey(date = new Date()) {
   return new Intl.DateTimeFormat('en-CA', {
@@ -75,8 +75,8 @@ export function getIntensityLevel(seconds, completed) {
   }
   const minutes = Math.floor(seconds / 60)
   if (minutes < 3) return 1
-  if (minutes < 6) return 2
-  if (minutes < 16) return 3
+  if (minutes < 10) return 2
+  if (minutes < 30) return 3
   return 4
 }
 
@@ -99,12 +99,9 @@ export function addReadingSeconds(seconds) {
 
   const data = loadStaminaData()
   const record = getOrCreateTodayRecord(data)
-  if (record.completed && record.seconds >= MAX_DAILY_SECONDS) {
-    return { justCompleted: false }
-  }
 
   const prevCompleted = record.completed
-  record.seconds = Math.min(record.seconds + seconds, MAX_DAILY_SECONDS)
+  record.seconds += seconds
 
   if (!prevCompleted && record.seconds >= CHECKIN_THRESHOLD_SECONDS) {
     record.completed = true

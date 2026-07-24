@@ -7,6 +7,7 @@ import {
   loadReadingSettings,
   storeReadingSettings,
 } from '../data/readingThemes.js'
+import { syncNativeStatusBar } from '../lib/nativeShell.js'
 
 const ReadingSettingsContext = createContext(null)
 
@@ -69,6 +70,7 @@ export function ReadingSettingsProvider({ children }) {
 
   useEffect(() => {
     applyReadingTheme(settings)
+    void syncNativeStatusBar()
   }, [settings])
 
   const value = useMemo(

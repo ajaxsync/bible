@@ -1,3 +1,6 @@
+import { SpeechSynthesis } from '@capgo/capacitor-speech-synthesis'
+import { isNativeApp } from './platform.js'
+
 const LANG_BCP47 = {
   chs: 'zh-CN',
   cht: 'zh-TW',
@@ -9,6 +12,17 @@ export const SPEECH_LANGS = Object.keys(LANG_BCP47)
 export const SPEECH_RATES = [0.5, 0.8, 1, 1.5, 2]
 
 const SPEECH_RATE_STORAGE_KEY = 'bible-speech-rate'
+
+/** @type {{ ready: boolean, supported: boolean, engine: 'native' | 'web' | null, ttsReady: boolean }} */
+const supportState = {
+  ready: false,
+  supported: typeof window !== 'undefined' && (isNativeApp() || 'speechSynthesis' in window),
+  engine: null,
+  ttsReady: false,
+}
+
+/** @type {Array<{ name: string, lang: string, voiceURI: string, localService: boolean }> | null} */
+let cachedVoices = null
 
 function speechVoiceStorageKey(lang) {
   return `bible-speech-voice-${lang}`
@@ -44,7 +58,150 @@ export function storeSpeechRate(rate) {
 }
 
 export function isSpeechSupported() {
-  return typeof window !== 'undefined' && 'speechSynthesis' in window
+  return supportState.supported
+}
+
+export function isSpeechSupportReady() {
+  return supportState.ready
+}
+
+export function isNativeSpeechEngine() {
+  return supportState.engine === 'native'
+}
+
+/** 原生 TTS 引擎是否已完成初始化（模拟器/缺语音包时可能为 false） */
+export function isNativeTtsReady() {
+  return supportState.ttsReady
+}
+
+export function normalizeLang(lang) {
+  return LANG_BCP47[lang] || 'zh-CN'
+}
+
+function normalizeVoiceLang(voiceLang = '') {
+  return String(voiceLang).replace('_', '-').toLowerCase()
+}
+
+function filterVoicesForLang(voices, lang) {
+  const bcp47 = normalizeLang(lang).toLowerCase()
+  const primary = bcp47.split('-')[0]
+  const seen = new Set()
+
+  return voices
+    .filter((voice) => {
+      const voiceLang = normalizeVoiceLang(voice.lang)
+      return voiceLang === bcp47
+        || voiceLang.startsWith(`${primary}-`)
+        || voiceLang === primary
+    })
+    .filter((voice) => {
+      if (seen.has(voice.voiceURI)) return false
+      seen.add(voice.voiceURI)
+      return true
+    })
+    .sort((a, b) => {
+      if (a.localService !== b.localService) return a.localService ? -1 : 1
+      return a.name.localeCompare(b.name)
+    })
+}
+
+function mapNativeVoices(voices) {
+  return voices.map((voice) => ({
+    name: voice.name,
+    lang: voice.language,
+    voiceURI: voice.id,
+    localService: !voice.isNetworkConnectionRequired,
+  }))
+}
+
+function mapWebVoices(voices) {
+  return voices.map((voice) => ({
+    name: voice.name,
+    lang: voice.lang,
+    voiceURI: voice.voiceURI,
+    localService: Boolean(voice.localService),
+  }))
+}
+
+export function getVoicesForLang(lang) {
+  if (!cachedVoices) return []
+  return filterVoicesForLang(cachedVoices, lang)
+}
+
+export async function refreshSpeechVoices() {
+  if (supportState.engine === 'native') {
+    try {
+      const { voices } = await SpeechSynthesis.getVoices()
+      cachedVoices = mapNativeVoices(voices || [])
+    } catch {
+      cachedVoices = []
+    }
+    return cachedVoices
+  }
+
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    cachedVoices = mapWebVoices(window.speechSynthesis.getVoices())
+    return cachedVoices
+  }
+
+  cachedVoices = []
+  return cachedVoices
+}
+
+/**
+ * 等待 Android TTS 引擎初始化完成（插件 initialize 不会等回调）。
+ * @returns {Promise<boolean>}
+ */
+async function waitForNativeTtsReady(timeoutMs = 4000) {
+  const started = Date.now()
+  while (Date.now() - started < timeoutMs) {
+    try {
+      const { isAvailable } = await SpeechSynthesis.isAvailable()
+      if (isAvailable) return true
+    } catch {
+      // 继续重试
+    }
+    await new Promise((resolve) => window.setTimeout(resolve, 120))
+  }
+  return false
+}
+
+/**
+ * 探测朗读能力：原生 App 用系统 TTS，浏览器用 Web Speech。
+ * 原生壳始终展示入口（避免 TTS 异步初始化竞态把按钮藏掉）；引擎未就绪时播放再提示。
+ * @returns {Promise<boolean>}
+ */
+export async function probeSpeechSupport() {
+  if (typeof window === 'undefined') {
+    supportState.ready = true
+    supportState.supported = false
+    supportState.engine = null
+    return false
+  }
+
+  if (isNativeApp()) {
+    // App 内优先原生引擎；不因 isAvailable 瞬时 false 隐藏入口
+    supportState.engine = 'native'
+    supportState.supported = true
+    supportState.ttsReady = false
+    try {
+      await SpeechSynthesis.initialize().catch(() => {})
+      supportState.ttsReady = await waitForNativeTtsReady()
+      await refreshSpeechVoices()
+    } catch {
+      supportState.ttsReady = false
+    }
+    supportState.ready = true
+    return true
+  }
+
+  const webOk = 'speechSynthesis' in window
+  supportState.engine = webOk ? 'web' : null
+  supportState.supported = webOk
+  supportState.ttsReady = webOk
+  if (webOk) await refreshSpeechVoices()
+  supportState.ready = true
+  return supportState.supported
 }
 
 export function getChapterVerseTotal(chapterData) {
@@ -92,50 +249,162 @@ export function buildVerseQueue(chapterData, fromVerse = 1) {
     .map(([verseNum, text]) => ({ verseNum, text }))
 }
 
-function normalizeLang(lang) {
-  return LANG_BCP47[lang] || 'zh-CN'
+function findDefaultVoiceURI(lang) {
+  const voices = getVoicesForLang(lang)
+  return voices[0]?.voiceURI || ''
 }
 
-function normalizeVoiceLang(voiceLang) {
-  return voiceLang.replace('_', '-').toLowerCase()
+/** Web Speech 引擎 */
+class WebSpeechEngine {
+  constructor({ onEnd, onError, onStart, onVoicesChanged }) {
+    this.onEnd = onEnd
+    this.onError = onError
+    this.onStart = onStart
+    this.onVoicesChanged = onVoicesChanged
+    this._utter = null
+    this._boundVoicesChanged = () => {
+      refreshSpeechVoices()
+      this.onVoicesChanged?.()
+    }
+    window.speechSynthesis.addEventListener('voiceschanged', this._boundVoicesChanged)
+    window.speechSynthesis.getVoices()
+    refreshSpeechVoices()
+  }
+
+  destroy() {
+    window.speechSynthesis.removeEventListener('voiceschanged', this._boundVoicesChanged)
+    this.cancel()
+  }
+
+  speak(text, { lang, rate, voiceURI }) {
+    const utter = new SpeechSynthesisUtterance(text)
+    const bcp47 = normalizeLang(lang)
+    utter.lang = bcp47
+    utter.rate = rate
+
+    if (voiceURI) {
+      const match = window.speechSynthesis.getVoices().find((v) => v.voiceURI === voiceURI)
+      if (match) utter.voice = match
+    } else {
+      const fallbackURI = findDefaultVoiceURI(lang)
+      const match = fallbackURI
+        ? window.speechSynthesis.getVoices().find((v) => v.voiceURI === fallbackURI)
+        : null
+      if (match) utter.voice = match
+    }
+
+    utter.onstart = () => this.onStart?.()
+    utter.onend = () => this.onEnd?.()
+    utter.onerror = (event) => this.onError?.(event)
+
+    this._utter = utter
+    window.speechSynthesis.speak(utter)
+  }
+
+  cancel() {
+    window.speechSynthesis.cancel()
+    this._utter = null
+  }
+
+  pause() {
+    window.speechSynthesis.pause()
+  }
+
+  resume() {
+    window.speechSynthesis.resume()
+  }
 }
 
-export function getVoicesForLang(lang) {
-  if (!isSpeechSupported()) return []
+/** Capacitor 原生 TTS 引擎（Android TextToSpeech / iOS AVSpeech） */
+class NativeSpeechEngine {
+  constructor({ onEnd, onError, onStart, onVoicesChanged }) {
+    this.onEnd = onEnd
+    this.onError = onError
+    this.onStart = onStart
+    this.onVoicesChanged = onVoicesChanged
+    this._utteranceId = null
+    this._listeners = []
+    this._ignoreEnd = false
+    this._ready = this._setup()
+  }
 
-  const bcp47 = normalizeLang(lang).toLowerCase()
-  const primary = bcp47.split('-')[0]
-  const seen = new Set()
+  async _setup() {
+    try {
+      await SpeechSynthesis.initialize().catch(() => {})
+      const startHandle = await SpeechSynthesis.addListener('start', (event) => {
+        if (event.utteranceId !== this._utteranceId) return
+        this.onStart?.()
+      })
+      const endHandle = await SpeechSynthesis.addListener('end', (event) => {
+        if (event.utteranceId !== this._utteranceId) return
+        if (this._ignoreEnd) {
+          this._ignoreEnd = false
+          return
+        }
+        this.onEnd?.()
+      })
+      const errorHandle = await SpeechSynthesis.addListener('error', (event) => {
+        if (event.utteranceId && this._utteranceId && event.utteranceId !== this._utteranceId) return
+        this.onError?.({ error: event.error || 'error' })
+      })
+      this._listeners = [startHandle, endHandle, errorHandle]
+      await refreshSpeechVoices()
+      this.onVoicesChanged?.()
+    } catch {
+      // 忽略初始化失败，后续 speak 会再报错
+    }
+  }
 
-  return window.speechSynthesis.getVoices()
-    .filter((voice) => {
-      const voiceLang = normalizeVoiceLang(voice.lang)
-      return voiceLang === bcp47
-        || voiceLang.startsWith(`${primary}-`)
-        || voiceLang === primary
+  async destroy() {
+    this._ignoreEnd = true
+    try {
+      await SpeechSynthesis.cancel()
+    } catch {
+      // ignore
+    }
+    await Promise.all(this._listeners.map((handle) => handle?.remove?.().catch(() => {})))
+    this._listeners = []
+    try {
+      await SpeechSynthesis.removeAllListeners()
+    } catch {
+      // ignore
+    }
+  }
+
+  async speak(text, { lang, rate, voiceURI }) {
+    await this._ready
+    if (!supportState.ttsReady) {
+      supportState.ttsReady = await waitForNativeTtsReady(2500)
+    }
+    this._ignoreEnd = false
+    const result = await SpeechSynthesis.speak({
+      text,
+      language: normalizeLang(lang),
+      voiceId: voiceURI || undefined,
+      rate,
+      queueStrategy: 'Flush',
     })
-    .filter((voice) => {
-      if (seen.has(voice.voiceURI)) return false
-      seen.add(voice.voiceURI)
-      return true
-    })
-    .sort((a, b) => {
-      if (a.localService !== b.localService) return a.localService ? -1 : 1
-      if (a.default !== b.default) return a.default ? -1 : 1
-      return a.name.localeCompare(b.name)
-    })
-}
+    this._utteranceId = result.utteranceId
+    supportState.ttsReady = true
+  }
 
-function findDefaultVoice(bcp47) {
-  const voices = window.speechSynthesis.getVoices()
-  const target = bcp47.toLowerCase()
-  const primary = target.split('-')[0]
+  async cancel() {
+    this._ignoreEnd = true
+    this._utteranceId = null
+    try {
+      await SpeechSynthesis.cancel()
+    } catch {
+      // ignore
+    }
+  }
 
-  return (
-    voices.find((v) => normalizeVoiceLang(v.lang) === target)
-    || voices.find((v) => normalizeVoiceLang(v.lang).startsWith(primary))
-    || null
-  )
+  async pause() {
+    await SpeechSynthesis.pause()
+  }
+
+  async resume() {
+    await SpeechSynthesis.resume()
+  }
 }
 
 export class SpeechReader {
@@ -150,20 +419,51 @@ export class SpeechReader {
     this.rate = loadSpeechRate()
     this.voiceURIs = loadAllSpeechVoices()
     this.status = 'idle'
-    this._boundVoicesChanged = () => {
-      window.speechSynthesis.getVoices()
-      this.onVoicesChanged?.()
+    this.engine = null
+    this._pauseAfterStart = false
+    this._speakingGeneration = 0
+    this._ready = this._init()
+  }
+
+  async _init() {
+    await probeSpeechSupport()
+    if (!supportState.supported) return
+
+    const handlers = {
+      onStart: () => {
+        if (this._pauseAfterStart) {
+          this._pauseAfterStart = false
+          void this._pauseEngine()
+          this._setStatus('paused')
+        }
+      },
+      onEnd: () => {
+        if (this.status !== 'playing') return
+        this.index += 1
+        void this._speakCurrent()
+      },
+      onError: (event) => {
+        if (event?.error === 'interrupted' || event?.error === 'canceled') return
+        this.stop(true)
+      },
+      onVoicesChanged: () => this.onVoicesChanged?.(),
     }
 
-    if (isSpeechSupported()) {
-      window.speechSynthesis.addEventListener('voiceschanged', this._boundVoicesChanged)
-      window.speechSynthesis.getVoices()
+    if (supportState.engine === 'native') {
+      this.engine = new NativeSpeechEngine(handlers)
+    } else {
+      this.engine = new WebSpeechEngine(handlers)
     }
   }
 
+  async whenReady() {
+    await this._ready
+    return supportState.supported
+  }
+
   destroy() {
-    if (!isSpeechSupported()) return
-    window.speechSynthesis.removeEventListener('voiceschanged', this._boundVoicesChanged)
+    void this.engine?.destroy?.()
+    this.engine = null
     this.stop()
   }
 
@@ -173,27 +473,51 @@ export class SpeechReader {
   }
 
   play(queue, lang) {
-    if (!isSpeechSupported() || !queue.length) return false
+    if (!supportState.supported || !this.engine || !queue.length) return false
 
     this.stop(false)
     this.queue = queue
     this.index = 0
     this.lang = lang
     this._setStatus('playing')
-    this._speakCurrent()
+    void this._speakCurrent()
     return true
   }
 
   pause() {
-    if (this.status !== 'playing' || !isSpeechSupported()) return
-    window.speechSynthesis.pause()
-    this._setStatus('paused')
+    if (this.status !== 'playing' || !this.engine) return
+    void this._pauseEngine()
+  }
+
+  async _pauseEngine() {
+    try {
+      await this.engine.pause()
+      this._setStatus('paused')
+    } catch {
+      // 部分机型 pause 不可用：停在当前节，resume 时重播该节
+      this._speakingGeneration += 1
+      try {
+        await this.engine.cancel()
+      } catch {
+        // ignore
+      }
+      this._setStatus('paused')
+    }
   }
 
   resume() {
-    if (this.status !== 'paused' || !isSpeechSupported()) return
-    window.speechSynthesis.resume()
-    this._setStatus('playing')
+    if (this.status !== 'paused' || !this.engine) return
+    void this._resumeEngine()
+  }
+
+  async _resumeEngine() {
+    try {
+      await this.engine.resume()
+      this._setStatus('playing')
+    } catch {
+      this._setStatus('playing')
+      void this._speakCurrent()
+    }
   }
 
   togglePause() {
@@ -230,26 +554,20 @@ export class SpeechReader {
 
   _restartIfActive() {
     if (this.status !== 'playing' && this.status !== 'paused') return
-    if (!isSpeechSupported()) return
+    if (!this.engine) return
 
     const pauseAfter = this.status === 'paused'
-    window.speechSynthesis.cancel()
+    this._speakingGeneration += 1
+    void this.engine.cancel()
     this._pauseAfterStart = pauseAfter
     this._setStatus('playing')
-    this._speakCurrent()
-  }
-
-  _resolveVoice(lang) {
-    const uri = this.voiceURIs[lang]
-    if (uri && isSpeechSupported()) {
-      const match = window.speechSynthesis.getVoices().find((v) => v.voiceURI === uri)
-      if (match) return match
-    }
-    return findDefaultVoice(normalizeLang(lang))
+    void this._speakCurrent()
   }
 
   stop(clearVerse = true) {
-    if (isSpeechSupported()) window.speechSynthesis.cancel()
+    this._speakingGeneration += 1
+    this._pauseAfterStart = false
+    void this.engine?.cancel?.()
     this.queue = []
     this.index = 0
     this._setStatus('idle')
@@ -261,8 +579,10 @@ export class SpeechReader {
     return { index: this.index, total: this.queue.length }
   }
 
-  _speakCurrent() {
-    if (!isSpeechSupported()) return
+  async _speakCurrent() {
+    if (!this.engine || !supportState.supported) return
+
+    const generation = this._speakingGeneration
 
     if (this.index >= this.queue.length) {
       this.onComplete?.()
@@ -273,31 +593,17 @@ export class SpeechReader {
     const { verseNum, text } = this.queue[this.index]
     this.onVerseChange?.(verseNum)
 
-    const utter = new SpeechSynthesisUtterance(text)
-    const bcp47 = normalizeLang(this.lang)
-    const voice = this._resolveVoice(this.lang)
-    if (voice) utter.voice = voice
-    utter.lang = bcp47
-    utter.rate = this.rate
-
-    if (this._pauseAfterStart) {
-      utter.onstart = () => {
-        this._pauseAfterStart = false
-        window.speechSynthesis.pause()
-        this._setStatus('paused')
+    try {
+      await this.engine.speak(text, {
+        lang: this.lang,
+        rate: this.rate,
+        voiceURI: this.voiceURIs[this.lang] || '',
+      })
+      if (generation !== this._speakingGeneration) {
+        void this.engine.cancel()
       }
+    } catch {
+      if (generation === this._speakingGeneration) this.stop(true)
     }
-
-    utter.onend = () => {
-      this.index += 1
-      this._speakCurrent()
-    }
-
-    utter.onerror = (event) => {
-      if (event.error === 'interrupted' || event.error === 'canceled') return
-      this.stop(true)
-    }
-
-    window.speechSynthesis.speak(utter)
   }
 }

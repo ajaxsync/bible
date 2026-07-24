@@ -1,28 +1,32 @@
 {
   "name": "bible",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "predev": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs",
     "build": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "preview": "vite preview",
     "build:icons": "node scripts/generate-pwa-icons.mjs",
     "build:manifest": "node scripts/generate-cache-manifest.mjs",
     "build:versions": "python scripts/build-version-chapters.py",
     "build:cunps": "python scripts/build-cunps.py",
-    "preview": "vite preview",
-    "build:android": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && node scripts/generate-android-assets.mjs && node scripts/clean-dist.mjs && vite build --mode capacitor --base / && node scripts/prepare-android-dist.mjs && npx cap sync android",
+    "version": "node scripts/bump-version.mjs",
+    "add:android": "npx cap add android",
     "build:android:assets": "node scripts/generate-android-assets.mjs",
+    "sync:android:version": "node scripts/sync-android-version.mjs",
+    "sync:android": "npx cap sync android && npm run sync:android:version",
+    "build:android": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && node scripts/generate-android-assets.mjs && node scripts/clean-dist.mjs && vite build --mode capacitor --base / && node scripts/prepare-android-dist.mjs && npm run sync:android",
     "open:android": "npx cap open android",
-    "sync:android": "npx cap sync android",
-    "add:android": "npx cap add android"
+    "preview:android": "npm run build:android && npm run open:android"
   },
   "dependencies": {
     "@capacitor/app": "^8.1.1",
     "@capacitor/core": "^8.4.2",
     "@capacitor/splash-screen": "^8.0.2",
     "@capacitor/status-bar": "^8.0.3",
+    "@capgo/capacitor-speech-synthesis": "^8.0.20",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.2"

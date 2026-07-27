@@ -1,15 +1,13 @@
 import { useRef, useState } from 'react'
+import { formatBytes } from '../lib/bibleCache.js'
 
 const SWIPE_REVEAL = 72
 const SWIPE_THRESHOLD = 36
-
-function formatCacheSize(bytes) {
-  return `${(Math.max(0, bytes) / 1024 / 1024).toFixed(2)} MB`
-}
+const DOWNLOAD_BTN_SIZE = 24
 
 function CacheDownloadButton({ state, progress, onClick, ariaLabel }) {
-  const size = 32
-  const stroke = 2.5
+  const size = DOWNLOAD_BTN_SIZE
+  const stroke = 2
   const radius = (size - stroke) / 2
   const circumference = 2 * Math.PI * radius
   const offset = circumference - (Math.min(100, Math.max(0, progress)) / 100) * circumference
@@ -76,25 +74,31 @@ function CacheDownloadButton({ state, progress, onClick, ariaLabel }) {
   )
 }
 
+/**
+ * 缓存行
+ * - 经文（showDownload）：左标题，右为数量+大小上下排列 + 下载按钮
+ * - 其它：左标题，右大小；标题下一行副信息；可滑动删除
+ */
 export default function CacheVersionRow({
   label,
-  chapterCount,
-  chapterTotal,
-  storageBytes,
-  downloadState,
-  progressPct,
-  onDownloadAction,
+  subtitle = null,
+  storageBytes = 0,
+  loading = false,
+  canDelete = false,
   onDelete,
-  deleteLabel,
-  actionLabels,
-  canDelete = true,
+  deleteLabel = '删除',
+  showDownload = false,
+  downloadState = 'idle',
+  progressPct = 0,
+  onDownloadAction,
+  actionLabels = {},
 }) {
   const [offsetX, setOffsetX] = useState(0)
   const [dragging, setDragging] = useState(false)
   const touchStartX = useRef(0)
   const touchStartY = useRef(0)
   const startOffset = useRef(0)
-  const canSwipe = canDelete && chapterCount > 0
+  const canSwipe = canDelete
 
   const closeSwipe = () => setOffsetX(0)
 
@@ -123,8 +127,22 @@ export default function CacheVersionRow({
 
   const handleDelete = () => {
     closeSwipe()
-    onDelete()
+    onDelete?.()
   }
+
+  const statsBlock = loading ? (
+    <div className="cache-version-stats" aria-hidden>
+      <span className="cache-size-loading" />
+      <span className="cache-size-loading" />
+    </div>
+  ) : (
+    <div className="cache-version-stats">
+      {subtitle != null && subtitle !== '' && (
+        <span className="cache-version-count">{subtitle}</span>
+      )}
+      <span className="cache-version-size">{formatBytes(storageBytes)}</span>
+    </div>
+  )
 
   return (
     <div className={`cache-version-row-wrap${canSwipe ? ' is-swipeable' : ''}`}>
@@ -134,7 +152,11 @@ export default function CacheVersionRow({
         </button>
       )}
       <div
-        className={`cache-version-row${dragging ? ' is-dragging' : ''}`}
+        className={[
+          'cache-version-row',
+          dragging ? 'is-dragging' : '',
+          showDownload ? 'has-download' : '',
+        ].filter(Boolean).join(' ')}
         style={canSwipe ? { transform: `translateX(${offsetX}px)` } : undefined}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
@@ -142,27 +164,51 @@ export default function CacheVersionRow({
         onTouchCancel={handleTouchEnd}
       >
         <span className="cache-version-label">{label}</span>
-        <div className="cache-version-end">
-          <div className="cache-version-meta">
+
+        {showDownload ? (
+          <>
+            {statsBlock}
+            <div className="cache-version-end">
+              {canSwipe && (
+                <button type="button" className="cache-btn cache-version-delete--inline" onClick={handleDelete}>
+                  {deleteLabel}
+                </button>
+              )}
+              <CacheDownloadButton
+                state={downloadState}
+                progress={progressPct}
+                onClick={onDownloadAction}
+                ariaLabel={actionLabels[downloadState]}
+              />
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="cache-version-size-slot">
+              {loading ? (
+                <span className="cache-size-loading" aria-hidden />
+              ) : (
+                <span className="cache-version-size">{formatBytes(storageBytes)}</span>
+              )}
+            </div>
+            <div className="cache-version-meta">
+              {loading ? (
+                <span className="cache-size-loading is-wide" aria-hidden />
+              ) : (
+                subtitle != null && subtitle !== '' && (
+                  <span className="cache-version-count">{subtitle}</span>
+                )
+              )}
+            </div>
             {canSwipe && (
-              <button type="button" className="cache-version-delete cache-version-delete--inline" onClick={handleDelete}>
-                {deleteLabel}
-              </button>
+              <div className="cache-version-end">
+                <button type="button" className="cache-btn cache-version-delete--inline" onClick={handleDelete}>
+                  {deleteLabel}
+                </button>
+              </div>
             )}
-            <span className="cache-version-progress">
-              <span className="cache-version-count">
-                {chapterCount}/{chapterTotal}
-              </span>
-              <span className="cache-version-size">{formatCacheSize(storageBytes)}</span>
-            </span>
-          </div>
-          <CacheDownloadButton
-            state={downloadState}
-            progress={progressPct}
-            onClick={onDownloadAction}
-            ariaLabel={actionLabels[downloadState]}
-          />
-        </div>
+          </>
+        )}
       </div>
     </div>
   )

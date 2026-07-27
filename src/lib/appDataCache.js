@@ -53,43 +53,49 @@ function pickerKeys() {
   return [PICKER_VIEW_KEY, PICKER_VERSE_KEY]
 }
 
-/** 手动清理 / 只读展示的数据项定义 */
+/** 本地用户数据项；clearable=false 的仅展示、不可滑动删除 */
 export const DATA_CACHE_ITEMS = [
   {
     id: 'readingSettings',
     clearable: true,
     keys: () => readingSettingsKeys(),
     label: { chs: '阅读设置', cht: '閱讀設定', en: 'Reading settings' },
+    hint: { chs: '字号、主题与界面', cht: '字號、主題與介面', en: 'Font, theme, UI' },
   },
   {
     id: 'lastReading',
     clearable: true,
     keys: () => [LAST_READING_KEY],
     label: { chs: '上次阅读位置', cht: '上次閱讀位置', en: 'Last reading position' },
+    hint: { chs: '打开应用时回到此处', cht: '開啟應用時回到此處', en: 'Restored on launch' },
   },
   {
     id: 'speech',
     clearable: true,
     keys: () => speechKeys(),
     label: { chs: '朗读设置', cht: '朗讀設定', en: 'Speech settings' },
+    hint: { chs: '语速与音色', cht: '語速與音色', en: 'Rate and voice' },
   },
   {
     id: 'pickerPrefs',
     clearable: true,
     keys: () => pickerKeys(),
     label: { chs: '选择器偏好', cht: '選擇器偏好', en: 'Picker preferences' },
+    hint: { chs: '章节列表视图', cht: '章節列表視圖', en: 'Chapter list view' },
   },
   {
     id: 'highlights',
     clearable: false,
     keys: () => [HIGHLIGHTS_KEY],
     label: { chs: '收藏与高亮', cht: '收藏與螢光', en: 'Saved highlights' },
+    hint: { chs: '仅展示，不可删除', cht: '僅展示，不可刪除', en: 'View only' },
   },
   {
     id: 'stamina',
     clearable: false,
     keys: () => [STAMINA_KEY],
     label: { chs: '续航记录', cht: '續航記錄', en: 'Stamina records' },
+    hint: { chs: '仅展示，不可删除', cht: '僅展示，不可刪除', en: 'View only' },
   },
 ]
 
@@ -98,8 +104,9 @@ export function getLocalDataItemStats() {
     const keys = item.keys().filter(Boolean)
     return {
       id: item.id,
-      clearable: item.clearable,
+      clearable: Boolean(item.clearable),
       label: item.label,
+      hint: item.hint,
       bytes: sumKeys(keys),
       keys,
     }
@@ -118,6 +125,17 @@ export function clearLocalDataItems(itemIds) {
       }
     }
   }
+}
+
+/** 用户数据备份涉及的全部 localStorage key（不含经文 IndexedDB） */
+export function collectUserDataKeys() {
+  const keys = new Set()
+  for (const item of DATA_CACHE_ITEMS) {
+    for (const key of item.keys()) {
+      if (key) keys.add(key)
+    }
+  }
+  return [...keys]
 }
 
 export async function getPageCacheStats() {

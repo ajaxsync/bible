@@ -14,6 +14,10 @@ import {
   getPageCacheStats,
 } from '../lib/appDataCache.js'
 import { formatAppVersionLabel, getAppVersionInfo } from '../lib/appVersion.js'
+import {
+  exportUserDataBackup,
+  importUserDataBackupFromFile,
+} from '../lib/userDataBackup.js'
 import { isNativeApp } from '../lib/platform.js'
 import { PRIMARY_VERSION_IDS, VERSIONS } from '../data/versions.js'
 import { useVersion } from '../context/VersionContext.jsx'
@@ -47,7 +51,33 @@ function getProgressPct(versionId, stats, downloads) {
   return Math.round((stats.chapterCount / stats.chapterTotal) * 100)
 }
 
-function UsageBar({ scriptureBytes, clearableBytes, otherBytes, isZh, showClearable }) {
+function CacheSizeLoading({ wide = false }) {
+  return (
+    <span
+      className={`cache-size-loading${wide ? ' is-wide' : ''}`}
+      aria-hidden
+    />
+  )
+}
+
+function formatSizeOrLoading(bytes, loading) {
+  if (loading) return <CacheSizeLoading />
+  return formatBytes(bytes)
+}
+
+function CacheCardDesc({ loading, children }) {
+  if (loading) {
+    return (
+      <div className="cache-card-desc-skeleton" aria-hidden>
+        <span className="cache-card-desc-skeleton-line" />
+        <span className="cache-card-desc-skeleton-line is-short" />
+      </div>
+    )
+  }
+  return <p className="cache-card-desc">{children}</p>
+}
+
+function UsageBar({ scriptureBytes, clearableBytes, otherBytes, isZh, showClearable, loading }) {
   const total = Math.max(scriptureBytes + clearableBytes + otherBytes, 1)
   const segments = [
     { key: 'scripture', bytes: scriptureBytes, className: 'is-scripture', label: isZh ? '经文' : 'Scripture' },
@@ -58,30 +88,36 @@ function UsageBar({ scriptureBytes, clearableBytes, otherBytes, isZh, showCleara
   ].filter(Boolean)
 
   return (
-    <div className="cache-usage">
+    <div className={`cache-usage${loading ? ' is-loading' : ''}`}>
       <div className="cache-usage-total">
         <span>{isZh ? '已用空间' : 'Used storage'}</span>
-        <strong>{formatBytes(scriptureBytes + clearableBytes + otherBytes)}</strong>
+        <strong>{formatSizeOrLoading(scriptureBytes + clearableBytes + otherBytes, loading)}</strong>
       </div>
       <div className="cache-usage-bar" role="img" aria-label={isZh ? '存储占用分布' : 'Storage breakdown'}>
-        {segments.map((seg) => {
-          const pct = Math.max((seg.bytes / total) * 100, seg.bytes > 0 ? 2 : 0)
-          return (
-            <span
-              key={seg.key}
-              className={`cache-usage-seg ${seg.className}`}
-              style={{ width: `${pct}%` }}
-              title={`${seg.label}: ${formatBytes(seg.bytes)}`}
-            />
-          )
-        })}
+        {loading ? (
+          <span className="cache-usage-seg is-loading-bar" style={{ width: '40%' }} />
+        ) : (
+          segments.map((seg) => {
+            const pct = Math.max((seg.bytes / total) * 100, seg.bytes > 0 ? 2 : 0)
+            return (
+              <span
+                key={seg.key}
+                className={`cache-usage-seg ${seg.className}`}
+                style={{ width: `${pct}%` }}
+                title={`${seg.label}: ${formatBytes(seg.bytes)}`}
+              />
+            )
+          })
+        )}
       </div>
       <ul className="cache-usage-legend">
         {segments.map((seg) => (
           <li key={seg.key}>
             <span className={`cache-usage-dot ${seg.className}`} />
             <span>{seg.label}</span>
-            <span className="cache-usage-legend-size">{formatBytes(seg.bytes)}</span>
+            <span className="cache-usage-legend-size">
+              {formatSizeOrLoading(seg.bytes, loading)}
+            </span>
           </li>
         ))}
       </ul>
@@ -103,10 +139,13 @@ export default function CachePanel({ onClose }) {
   const [showIosGuide, setShowIosGuide] = useState(false)
   const [showAndroidGuide, setShowAndroidGuide] = useState(false)
   const [pageCache, setPageCache] = useState({ available: false, bytes: 0 })
-  const [localItems, setLocalItems] = useState([])
-  const [selectedManual, setSelectedManual] = useState(() => new Set())
+  const [localItems, setLocalItems] = useState(() => getLocalDataItemStats())
   const [busy, setBusy] = useState(false)
+  const [statsReady, setStatsReady] = useState(false)
+  const [dataReady, setDataReady] = useState(false)
   const [appVersionLabel, setAppVersionLabel] = useState('')
+  const [backupHint, setBackupHint] = useState(null)
+  const importInputRef = useRef(null)
 
   useScrollLock(true)
 
@@ -126,33 +165,37 @@ export default function CachePanel({ onClose }) {
 
   const statsMap = Object.fromEntries(versionStats.map((item) => [item.versionId, item]))
   const anyDownloading = Object.values(downloads).some((item) => item.status === 'downloading')
-  const showPageCacheCard = !nativeApp && pageCache.available
+  const showPageCacheCard = !nativeApp && (!dataReady || pageCache.available)
+  const sizesLoading = !statsReady || !dataReady
 
   const scriptureBytes = useMemo(
     () => versionStats.reduce((sum, item) => sum + (item.storageBytes || 0), 0),
     [versionStats],
   )
-  const clearableBytes = showPageCacheCard ? pageCache.bytes : 0
+  const clearableBytes = showPageCacheCard && dataReady ? pageCache.bytes : 0
   const otherBytes = useMemo(
     () => localItems.reduce((sum, item) => sum + (item.bytes || 0), 0),
     [localItems],
   )
 
   const refreshStats = useCallback(() => {
-    getAllVersionsCacheStats()
+    return getAllVersionsCacheStats()
       .then(setVersionStats)
       .catch(() => {})
+      .finally(() => setStatsReady(true))
   }, [])
 
   const refreshDataCache = useCallback(() => {
     setLocalItems(getLocalDataItemStats())
     if (nativeApp) {
       setPageCache({ available: false, bytes: 0 })
-      return
+      setDataReady(true)
+      return Promise.resolve()
     }
-    getPageCacheStats()
+    return getPageCacheStats()
       .then(setPageCache)
       .catch(() => setPageCache({ available: false, bytes: 0 }))
+      .finally(() => setDataReady(true))
   }, [nativeApp])
 
   useEffect(() => {
@@ -300,28 +343,69 @@ export default function CachePanel({ onClose }) {
     }
   }
 
-  const toggleManualItem = (id) => {
-    setSelectedManual((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
-  }
-
-  const handleClearManual = () => {
-    if (selectedManual.size === 0) return
+  const handleDeleteDataItem = (item) => {
+    const label = item.label[lang] ?? item.label.chs
     const msg = isZh
-      ? `确定清理所选 ${selectedManual.size} 项数据？清理后将刷新页面。`
-      : `Clear ${selectedManual.size} selected item(s)? The page will reload afterward.`
+      ? `确定删除「${label}」？删除后将刷新页面。`
+      : `Delete “${label}”? The page will reload afterward.`
     if (!window.confirm(msg)) return
     setBusy(true)
     setError(null)
     try {
-      clearLocalDataItems([...selectedManual])
+      clearLocalDataItems([item.id])
       closeThenReload()
     } catch (err) {
       setError(err.message)
+      setBusy(false)
+    }
+  }
+
+  const handleExportBackup = async () => {
+    setBusy(true)
+    setError(null)
+    setBackupHint(null)
+    try {
+      const result = await exportUserDataBackup()
+      if (result === 'cancelled') {
+        setBackupHint(isZh ? '已取消分享' : 'Share cancelled')
+      } else if (result === 'shared') {
+        setBackupHint(isZh ? '备份已分享，请存到网盘或文件管理器' : 'Backup shared — save it somewhere safe')
+      } else {
+        setBackupHint(isZh ? '备份已下载，请妥善保存' : 'Backup downloaded — keep it safe')
+      }
+    } catch (err) {
+      setError(err?.message || (isZh ? '导出失败' : 'Export failed'))
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  const handleImportBackupClick = () => {
+    setError(null)
+    setBackupHint(null)
+    importInputRef.current?.click()
+  }
+
+  const handleImportBackupFile = async (event) => {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+    if (!file) return
+
+    const msg = isZh
+      ? '导入将覆盖本机对应的阅读数据（收藏、续航、设置等），确定继续？导入后将刷新页面。'
+      : 'Import will overwrite matching local data (highlights, stamina, settings). Continue? The page will reload.'
+    if (!window.confirm(msg)) return
+
+    setBusy(true)
+    setError(null)
+    try {
+      await importUserDataBackupFromFile(file)
+      closeThenReload()
+    } catch (err) {
+      const code = err?.message
+      let text = isZh ? '导入失败，请确认文件是本应用导出的备份' : 'Import failed. Use a backup from this app.'
+      if (code === 'quota') text = isZh ? '存储空间不足，无法导入' : 'Not enough storage to import'
+      setError(text)
       setBusy(false)
     }
   }
@@ -348,10 +432,6 @@ export default function CachePanel({ onClose }) {
     complete: isBundledApp ? (isZh ? '已内置' : 'Built-in') : (isZh ? '已完成' : 'Downloaded'),
   }
 
-  const clearableManualItems = localItems.filter((item) => item.clearable)
-  const readonlyManualItems = localItems.filter((item) => !item.clearable)
-  const hasManualSelection = selectedManual.size > 0
-
   return (
     <>
       <div className={`cache-backdrop panel-backdrop ${motionClass}`} onClick={requestClose} aria-hidden />
@@ -375,42 +455,43 @@ export default function CachePanel({ onClose }) {
             otherBytes={otherBytes}
             isZh={isZh}
             showClearable={showPageCacheCard}
+            loading={sizesLoading}
           />
 
           <section className="cache-card">
             <div className="cache-card-head">
-              <div>
-                <h3 className="cache-card-title">{isZh ? '经文缓存' : 'Scripture cache'}</h3>
-                <p className="cache-card-desc">
-                  {isBundledApp
-                    ? (isZh
-                      ? '应用已内置全部译本经文，安装后即可离线阅读。'
-                      : 'All translations are bundled for offline reading.')
-                    : (isZh
-                      ? '按版本下载经文；阅读过的章节也会自动缓存。'
-                      : 'Download by version; read chapters are also cached.')}
-                </p>
-              </div>
-              <span className="cache-card-size">{formatBytes(scriptureBytes)}</span>
+              <h3 className="cache-card-title">{isZh ? '经文缓存' : 'Scripture cache'}</h3>
+              <p className="cache-card-size">{formatSizeOrLoading(scriptureBytes, !statsReady)}</p>
+              <CacheCardDesc loading={!statsReady}>
+                {isBundledApp
+                  ? (isZh
+                    ? '应用已内置全部译本经文，安装后即可离线阅读。'
+                    : 'All translations are bundled for offline reading.')
+                  : (isZh
+                    ? '按版本下载经文；阅读过的章节也会自动缓存。左滑可删除。'
+                    : 'Download by version; read chapters are also cached. Swipe left to delete.')}
+              </CacheCardDesc>
             </div>
             <div className="cache-version-list">
               {PRIMARY_VERSION_IDS.map((versionId) => {
                 const stats = statsMap[versionId]
                 const downloadState = getDownloadState(versionId, stats, downloads)
+                const storageBytes = downloads[versionId]?.progress?.bytesDownloaded ?? stats?.storageBytes ?? 0
                 return (
                   <CacheVersionRow
                     key={versionId}
                     label={VERSION_LABELS[versionId]?.[lang] ?? VERSIONS[versionId]?.shortLabel ?? versionId}
-                    chapterCount={stats?.chapterCount ?? 0}
-                    chapterTotal={stats?.chapterTotal ?? 0}
-                    storageBytes={downloads[versionId]?.progress?.bytesDownloaded ?? stats?.storageBytes ?? 0}
+                    subtitle={`${stats?.chapterCount ?? 0}/${stats?.chapterTotal ?? 0}`}
+                    storageBytes={storageBytes}
                     downloadState={downloadState}
                     progressPct={getProgressPct(versionId, stats, downloads)}
                     onDownloadAction={() => handleDownloadAction(versionId)}
                     onDelete={() => handleDelete(versionId)}
                     deleteLabel={isZh ? '删除' : 'Delete'}
                     actionLabels={actionLabels}
-                    canDelete={!isBundledApp}
+                    showDownload
+                    canDelete={!isBundledApp && (stats?.chapterCount ?? 0) > 0}
+                    loading={!statsReady}
                   />
                 )
               })}
@@ -420,88 +501,90 @@ export default function CachePanel({ onClose }) {
           {showPageCacheCard && (
             <section className="cache-card">
               <div className="cache-card-head">
-                <div>
-                  <h3 className="cache-card-title">{isZh ? '可清理缓存' : 'Clearable cache'}</h3>
-                  <p className="cache-card-desc">
-                    {isZh
-                      ? '页面缓存（应用壳资源）。清理后将自动刷新。'
-                      : 'Page cache (app shell assets). Clearing will reload the page.'}
-                  </p>
-                </div>
-                <span className="cache-card-size">{formatBytes(pageCache.bytes)}</span>
+                <h3 className="cache-card-title">{isZh ? '可清理缓存' : 'Clearable cache'}</h3>
+                <p className="cache-card-size">{formatSizeOrLoading(pageCache.bytes, !dataReady)}</p>
+                <CacheCardDesc loading={!dataReady}>
+                  {isZh
+                    ? '页面缓存（应用壳资源）。清理后将自动刷新。'
+                    : 'Page cache (app shell assets). Clearing will reload the page.'}
+                </CacheCardDesc>
               </div>
-              <div className="cache-card-row">
-                <div className="cache-card-row-main">
-                  <span className="cache-card-row-label">{isZh ? '页面缓存' : 'Page cache'}</span>
-                  <span className="cache-card-row-meta">{formatBytes(pageCache.bytes)}</span>
-                </div>
-                <button
-                  type="button"
-                  className="cache-card-action"
-                  onClick={handleClearPageCache}
-                  disabled={busy || pageCache.bytes <= 0}
-                >
-                  {isZh ? '清理' : 'Clear'}
-                </button>
+              <div className="cache-version-list">
+                <CacheVersionRow
+                  label={isZh ? '页面缓存' : 'Page cache'}
+                  subtitle={isZh ? '应用壳资源' : 'App shell assets'}
+                  storageBytes={pageCache.bytes}
+                  loading={!dataReady}
+                  canDelete={dataReady && pageCache.bytes > 0}
+                  onDelete={handleClearPageCache}
+                  deleteLabel={isZh ? '清理' : 'Clear'}
+                />
               </div>
             </section>
           )}
 
           <section className="cache-card">
             <div className="cache-card-head">
-              <div>
-                <h3 className="cache-card-title">{isZh ? '手动清理' : 'Manual cleanup'}</h3>
-                <p className="cache-card-desc">
-                  {isZh
-                    ? '勾选后清理；收藏与续航仅展示占用，不可清理。'
-                    : 'Select items to clear. Highlights and stamina are view-only.'}
-                </p>
-              </div>
-              <span className="cache-card-size">{formatBytes(otherBytes)}</span>
+              <h3 className="cache-card-title">{isZh ? '数据备份' : 'Data backup'}</h3>
+              <p className="cache-card-desc">
+                {isZh
+                  ? '导出收藏、续航、阅读位置与设置。卸载或清数据前请先备份；不含经文缓存。'
+                  : 'Export highlights, stamina, reading position, and settings. Backup before uninstall. Scripture cache is not included.'}
+              </p>
             </div>
+            <div className="cache-backup-actions">
+              <button
+                type="button"
+                className="cache-card-action"
+                onClick={handleExportBackup}
+                disabled={busy}
+              >
+                {isZh ? '导出备份' : 'Export'}
+              </button>
+              <button
+                type="button"
+                className="cache-card-action"
+                onClick={handleImportBackupClick}
+                disabled={busy}
+              >
+                {isZh ? '导入备份' : 'Import'}
+              </button>
+              <input
+                ref={importInputRef}
+                type="file"
+                accept="application/json,.json"
+                className="cache-backup-file-input"
+                onChange={handleImportBackupFile}
+                tabIndex={-1}
+              />
+            </div>
+            {backupHint && <p className="cache-backup-hint">{backupHint}</p>}
+          </section>
 
-            <ul className="cache-manual-list">
-              {clearableManualItems.map((item) => {
-                const checked = selectedManual.has(item.id)
-                return (
-                  <li key={item.id}>
-                    <label className="cache-manual-item">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        onChange={() => toggleManualItem(item.id)}
-                        disabled={busy}
-                      />
-                      <span className="cache-manual-label">{item.label[lang] ?? item.label.chs}</span>
-                      <span className="cache-manual-size">{formatBytes(item.bytes)}</span>
-                    </label>
-                  </li>
-                )
-              })}
-            </ul>
-
-            {readonlyManualItems.length > 0 && (
-              <>
-                <p className="cache-manual-readonly-title">{isZh ? '仅展示' : 'View only'}</p>
-                <ul className="cache-manual-list cache-manual-list--readonly">
-                  {readonlyManualItems.map((item) => (
-                    <li key={item.id} className="cache-manual-item is-readonly">
-                      <span className="cache-manual-label">{item.label[lang] ?? item.label.chs}</span>
-                      <span className="cache-manual-size">{formatBytes(item.bytes)}</span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-
-            <button
-              type="button"
-              className="cache-card-action cache-card-action--block"
-              onClick={handleClearManual}
-              disabled={busy || !hasManualSelection}
-            >
-              {isZh ? '清理所选' : 'Clear selected'}
-            </button>
+          <section className="cache-card">
+            <div className="cache-card-head">
+              <h3 className="cache-card-title">{isZh ? '手动清理' : 'Manual cleanup'}</h3>
+              <p className="cache-card-size">{formatSizeOrLoading(otherBytes, !dataReady)}</p>
+              <CacheCardDesc loading={!dataReady}>
+                {isZh
+                  ? '左滑删除单项数据；收藏与续航仅展示占用，不可删除。'
+                  : 'Swipe left to delete an item. Highlights and stamina are view-only.'}
+              </CacheCardDesc>
+            </div>
+            <div className="cache-version-list">
+              {localItems.map((item) => (
+                <CacheVersionRow
+                  key={item.id}
+                  label={item.label[lang] ?? item.label.chs}
+                  subtitle={item.hint?.[lang] ?? item.hint?.chs ?? ''}
+                  storageBytes={item.bytes}
+                  loading={!dataReady}
+                  canDelete={Boolean(item.clearable) && dataReady}
+                  onDelete={() => handleDeleteDataItem(item)}
+                  deleteLabel={isZh ? '删除' : 'Delete'}
+                />
+              ))}
+            </div>
           </section>
 
           {error && <p className="cache-error">{error}</p>}

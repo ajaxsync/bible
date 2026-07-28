@@ -30,6 +30,8 @@
 
 ## 快速开始
 
+环境要求：Node.js 22+。
+
 ```bash
 npm install
 npm run dev
@@ -43,11 +45,37 @@ npm run dev
 ## 构建与部署
 
 ```bash
-npm run build    # 输出到 dist/
-npm run preview  # 本地预览构建结果
+npm run build               # 输出到 dist/
+npm run preview             # 使用 Vite 预览构建结果
+npm run preview:cloudflare  # 构建并使用 Wrangler 本地预览
 ```
 
-`dist/` 可部署到任意静态托管。已配置 SPA 回退：`public/_redirects`（Netlify）及构建时复制的 `404.html`（GitHub Pages）。
+Web 构建会生成 `404.html` 供 GitHub Pages 回退使用，并从 `dist/` 移除仅供数据维护的 `json/verses` 和 Workers 不接受的 `_redirects`。
+
+### Cloudflare Workers
+
+Cloudflare 配置位于 `wrangler.jsonc`，使用 Workers Static Assets 部署。SPA 路由回退由以下配置处理：
+
+```json
+"assets": {
+  "not_found_handling": "single-page-application"
+}
+```
+
+本地模拟 Cloudflare Workers：
+
+```bash
+npm run preview:cloudflare
+```
+
+首次手动部署前登录 Cloudflare，然后执行部署：
+
+```bash
+npx wrangler login
+npm run deploy
+```
+
+若 GitHub 仓库已连接 Cloudflare，合并或推送到 `main` 后也可由 Cloudflare 自动构建部署。`/1/1`、`/43/3/16` 等前端路由会通过 Workers 的 SPA fallback 返回应用入口。
 
 ### GitHub Pages
 
@@ -96,6 +124,8 @@ npm run preview
 | `public/json/niv/`   | 新国际版本（NIV）                          |
 
 `public/json/verses/` 为逐节源数据（维护脚本用），运行时主阅读不依赖该目录。
+
+执行 `npm run build` 时，`public/json/verses/` 仍保留在源码中，但构建后的 `dist/json/verses/` 会被删除。线上阅读只需要 `cunp`、`cunps`、`niv` 三个整章目录；排除逐节源数据可以避免 Cloudflare Workers 静态资源超过 20,000 个文件的限制，不影响阅读、译本切换或离线缓存。
 
 ### 维护脚本（可选）
 
@@ -202,5 +232,6 @@ npm run version -- patch     # 非交互（可选）
 - Vite 8 + React 18
 - React Router 6
 - vite-plugin-pwa（可安装、离线壳）
+- Cloudflare Workers + `@cloudflare/vite-plugin` + Wrangler
 - Capacitor 8（Android APK）
-- 静态 JSON，无后端；阅读偏好与高亮存 localStorage
+- 静态资源为主，无业务后端；阅读偏好与高亮存 localStorage

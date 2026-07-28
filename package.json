@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "predev": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs",
     "build": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && vite build && node scripts/prune-web-dist.mjs && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "build:icons": "node scripts/generate-pwa-icons.mjs",
     "build:manifest": "node scripts/generate-cache-manifest.mjs",
     "build:versions": "python scripts/build-version-chapters.py",
@@ -19,7 +19,8 @@
     "sync:android": "npx cap sync android && npm run sync:android:version && node scripts/patch-android-tts-manifest.mjs",
     "build:android": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && node scripts/generate-android-assets.mjs && node scripts/clean-dist.mjs && vite build --mode capacitor --base / && node scripts/prepare-android-dist.mjs && npm run sync:android",
     "open:android": "npx cap open android",
-    "preview:android": "npm run build:android && npm run open:android"
+    "preview:android": "npm run build:android && npm run open:android",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@capacitor/app": "^8.1.1",
@@ -34,11 +35,13 @@
   "devDependencies": {
     "@capacitor/android": "^8.4.2",
     "@capacitor/cli": "^8.4.2",
+    "@cloudflare/vite-plugin": "^1.47.0",
     "@vitejs/plugin-legacy": "^8.2.1",
     "@vitejs/plugin-react": "^5.1.4",
     "sharp": "^0.35.3",
     "terser": "^5.49.0",
     "vite": "^8.1.5",
-    "vite-plugin-pwa": "^1.0.3"
+    "vite-plugin-pwa": "^1.0.3",
+    "wrangler": "^4.114.0"
   }
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "predev": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs",
-    "build": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "build": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && vite build && node scripts/prune-web-dist.mjs && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
     "preview": "vite preview",
     "build:icons": "node scripts/generate-pwa-icons.mjs",
     "build:manifest": "node scripts/generate-cache-manifest.mjs",

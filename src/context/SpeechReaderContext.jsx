@@ -30,6 +30,7 @@ export function SpeechReaderProvider({ children }) {
     Object.fromEntries(SPEECH_LANGS.map((lang) => [lang, loadSpeechVoice(lang)]))
   ))
   const [voicesRevision, setVoicesRevision] = useState(0)
+  const [engineError, setEngineError] = useState('')
   const chapterRef = useRef(null)
   const readerRef = useRef(null)
 
@@ -44,6 +45,10 @@ export function SpeechReaderProvider({ children }) {
         setVerseTotal(0)
       },
       onVoicesChanged: () => setVoicesRevision((n) => n + 1),
+      onPlayError: (code) => {
+        if (cancelled) return
+        setEngineError(code || 'error')
+      },
     })
     readerRef.current = reader
 
@@ -84,6 +89,7 @@ export function SpeechReaderProvider({ children }) {
     if (!queue.length) return false
 
     const total = getChapterVerseTotal(chapter.chapterData)
+    setEngineError('')
     setVerseTotal(total)
     setLocation({
       book: chapter.book,
@@ -125,6 +131,7 @@ export function SpeechReaderProvider({ children }) {
       supportReady,
       nativeEngine,
       ttsReady,
+      engineError,
       status,
       currentVerse,
       verseTotal,
@@ -145,6 +152,7 @@ export function SpeechReaderProvider({ children }) {
       supportReady,
       nativeEngine,
       ttsReady,
+      engineError,
       status,
       currentVerse,
       verseTotal,

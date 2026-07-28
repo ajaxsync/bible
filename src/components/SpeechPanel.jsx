@@ -33,6 +33,7 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
     setVoice,
     nativeEngine,
     ttsReady,
+    engineError,
   } = useSpeechReader()
 
   const [startVerse, setStartVerse] = useState(() => (activeVerse > 0 ? activeVerse : 1))
@@ -46,7 +47,25 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
   const selectedVoiceURI = voiceURIs[readingLang] || ''
   const missingLangVoice = voices.length === 0
     && (readingLang === 'chs' || readingLang === 'cht')
-  const showTtsHint = nativeEngine && (!ttsReady || missingLangVoice || playError)
+  const ttsHintText = (() => {
+    if (playError || engineError) {
+      return isEn
+        ? 'Playback failed. Open system settings → Accessibility / Language → Text-to-speech output, install an engine and Chinese voice data. (Speech-to-text is different and will not help.)'
+        : '朗读失败。请到系统设置 → 无障碍 / 更多设置 →「文字转语音」输出，安装引擎并下载中文语音数据。（「语音转文字」是另一项功能，无法用于朗读。）'
+    }
+    if (!ttsReady) {
+      return isEn
+        ? 'System TTS is not ready. Install Text-to-speech output and a Chinese voice pack.'
+        : '系统朗读引擎未就绪。请安装「文字转语音」引擎及中文语音包。'
+    }
+    if (missingLangVoice) {
+      return isEn
+        ? 'No Chinese voice found. Download a Chinese voice pack in Text-to-speech settings.'
+        : '未检测到中文音色。请在「文字转语音」设置中下载中文语音包。'
+    }
+    return ''
+  })()
+  const showTtsHint = nativeEngine && Boolean(ttsHintText)
 
   useEffect(() => {
     setStartVerse(activeVerse > 0 ? activeVerse : 1)
@@ -76,11 +95,7 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
     setPlayError('')
     const ok = playChapter({ fromVerse: startVerse })
     if (!ok) {
-      setPlayError(
-        isEn
-          ? 'Unable to start playback. Install a system Text-to-speech engine and Chinese voice pack.'
-          : '无法开始朗读。请安装系统「文字转语音」引擎及中文语音包后再试。',
-      )
+      setPlayError('start-failed')
     }
   }
 
@@ -169,10 +184,7 @@ export default function SpeechPanel({ onClose, activeVerse = 0 }) {
 
           {showTtsHint && (
             <p className="speech-panel-hint speech-panel-hint--warn">
-              {playError
-                || (isEn
-                  ? 'System TTS is not ready. Install Text-to-speech / a Chinese voice pack in system settings (common on emulators).'
-                  : '系统朗读引擎未就绪。请到手机设置 → 文字转语音 / 语音服务，安装引擎并下载中文语音包（模拟器上较常见）。')}
+              {ttsHintText}
             </p>
           )}
 

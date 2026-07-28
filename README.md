@@ -190,11 +190,12 @@ npm run version -- patch     # 非交互（可选）
 | ------------- | ------------------------------------------------------------------------------------------------------------- |
 | 包名          | `app.bible.reader`（见 `capacitor.config.json`）                                                              |
 | 经文数据      | APK 内含 `cunp` / `cunps` / `niv`；**不含** `verses`（维护用，约省 18MB）                                     |
-| 朗读          | App 内调用系统 TTS（`@capgo/capacitor-speech-synthesis`）；若无声，请在系统设置中安装中文「文字转语音」语音包 |
+| 朗读          | App 内调用系统 TTS；Android 11+ 需 Manifest 声明 `TTS_SERVICE`（`sync:android` 会自动写入）。若无声：设置 →「文字转语音」安装引擎与中文语音包（不是「语音转文字」） |
 | 图标 / 启动页 | 由 `public/favicon.svg` 生成；改图标后执行 `npm run build:android:assets`                                     |
 | Web 更新      | 改功能后执行 `npm run preview:android`（或 `build:android`）再打 APK                                         |
 | 仅同步        | 已有最新 `dist/` 时可用 `npm run sync:android`                                                                |
 | 白屏排查      | 务必用 `npm run build:android`（`--mode capacitor`）；勿用普通 `npm run build` 后 sync                        |
+| 状态栏遮挡    | Android 15+ / 小米等强制沉浸；App 用状态栏高度写入 `--safe-area-inset-top` 垫开 Header。改后需重新 `preview:android` |
 
 ## 技术栈
 

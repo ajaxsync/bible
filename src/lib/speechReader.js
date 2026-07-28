@@ -85,14 +85,23 @@ function normalizeVoiceLang(voiceLang = '') {
 function filterVoicesForLang(voices, lang) {
   const bcp47 = normalizeLang(lang).toLowerCase()
   const primary = bcp47.split('-')[0]
+  const wantChinese = primary === 'zh'
+  const wantTraditional = bcp47.includes('tw') || bcp47.includes('hk') || bcp47.includes('hant')
   const seen = new Set()
 
   return voices
     .filter((voice) => {
       const voiceLang = normalizeVoiceLang(voice.lang)
-      return voiceLang === bcp47
-        || voiceLang.startsWith(`${primary}-`)
-        || voiceLang === primary
+      const name = String(voice.name || '').toLowerCase()
+      if (voiceLang === bcp47 || voiceLang.startsWith(`${primary}-`) || voiceLang === primary) return true
+      // 小米 / 部分引擎用 cmn-Hans-CN、zh_CN、Chinese 等
+      if (wantChinese) {
+        if (voiceLang.startsWith('zh') || voiceLang.startsWith('cmn')) return true
+        if (name.includes('chinese') || name.includes('中文') || name.includes('普通话') || name.includes('國語')) {
+          return true
+        }
+      }
+      return false
     })
     .filter((voice) => {
       if (seen.has(voice.voiceURI)) return false
@@ -100,9 +109,34 @@ function filterVoicesForLang(voices, lang) {
       return true
     })
     .sort((a, b) => {
+      if (wantChinese && wantTraditional) {
+        const score = (v) => {
+          const l = normalizeVoiceLang(v.lang)
+          if (l.includes('tw') || l.includes('hk') || l.includes('hant')) return 0
+          return 1
+        }
+        const diff = score(a) - score(b)
+        if (diff !== 0) return diff
+      } else if (wantChinese) {
+        const score = (v) => {
+          const l = normalizeVoiceLang(v.lang)
+          if (l.includes('cn') || l.includes('hans') || l === 'zh') return 0
+          return 1
+        }
+        const diff = score(a) - score(b)
+        if (diff !== 0) return diff
+      }
       if (a.localService !== b.localService) return a.localService ? -1 : 1
       return a.name.localeCompare(b.name)
     })
+}
+
+function resolveNativeVoiceId(lang, preferredURI) {
+  const voices = getVoicesForLang(lang)
+  if (preferredURI && voices.some((v) => v.voiceURI === preferredURI)) {
+    return preferredURI
+  }
+  return voices[0]?.voiceURI || undefined
 }
 
 function mapNativeVoices(voices) {
@@ -152,7 +186,7 @@ export async function refreshSpeechVoices() {
  * 等待 Android TTS 引擎初始化完成（插件 initialize 不会等回调）。
  * @returns {Promise<boolean>}
  */
-async function waitForNativeTtsReady(timeoutMs = 4000) {
+async function waitForNativeTtsReady(timeoutMs = 8000) {
   const started = Date.now()
   while (Date.now() - started < timeoutMs) {
     try {
@@ -161,7 +195,7 @@ async function waitForNativeTtsReady(timeoutMs = 4000) {
     } catch {
       // 继续重试
     }
-    await new Promise((resolve) => window.setTimeout(resolve, 120))
+    await new Promise((resolve) => window.setTimeout(resolve, 150))
   }
   return false
 }
@@ -374,18 +408,43 @@ class NativeSpeechEngine {
   async speak(text, { lang, rate, voiceURI }) {
     await this._ready
     if (!supportState.ttsReady) {
-      supportState.ttsReady = await waitForNativeTtsReady(2500)
+      supportState.ttsReady = await waitForNativeTtsReady(4000)
     }
+    if (!supportState.ttsReady) {
+      throw new Error('tts-unavailable')
+    }
+
+    await refreshSpeechVoices()
+    const voiceId = resolveNativeVoiceId(lang, voiceURI)
+
     this._ignoreEnd = false
-    const result = await SpeechSynthesis.speak({
+    const payload = {
       text,
       language: normalizeLang(lang),
-      voiceId: voiceURI || undefined,
       rate,
       queueStrategy: 'Flush',
-    })
-    this._utteranceId = result.utteranceId
-    supportState.ttsReady = true
+    }
+    if (voiceId) payload.voiceId = voiceId
+
+    try {
+      const result = await SpeechSynthesis.speak(payload)
+      this._utteranceId = result.utteranceId
+      supportState.ttsReady = true
+    } catch (err) {
+      // 指定音色失败时回退为仅语言
+      if (voiceId) {
+        const result = await SpeechSynthesis.speak({
+          text,
+          language: normalizeLang(lang),
+          rate,
+          queueStrategy: 'Flush',
+        })
+        this._utteranceId = result.utteranceId
+        supportState.ttsReady = true
+        return
+      }
+      throw err
+    }
   }
 
   async cancel() {
@@ -408,11 +467,12 @@ class NativeSpeechEngine {
 }
 
 export class SpeechReader {
-  constructor({ onVerseChange, onStatusChange, onComplete, onVoicesChanged }) {
+  constructor({ onVerseChange, onStatusChange, onComplete, onVoicesChanged, onPlayError }) {
     this.onVerseChange = onVerseChange
     this.onStatusChange = onStatusChange
     this.onComplete = onComplete
     this.onVoicesChanged = onVoicesChanged
+    this.onPlayError = onPlayError
     this.queue = []
     this.index = 0
     this.lang = 'chs'
@@ -444,6 +504,7 @@ export class SpeechReader {
       },
       onError: (event) => {
         if (event?.error === 'interrupted' || event?.error === 'canceled') return
+        this.onPlayError?.(event?.error || 'error')
         this.stop(true)
       },
       onVoicesChanged: () => this.onVoicesChanged?.(),
@@ -602,8 +663,12 @@ export class SpeechReader {
       if (generation !== this._speakingGeneration) {
         void this.engine.cancel()
       }
-    } catch {
-      if (generation === this._speakingGeneration) this.stop(true)
+    } catch (err) {
+      if (generation === this._speakingGeneration) {
+        const code = err?.message || 'error'
+        this.onPlayError?.(code)
+        this.stop(true)
+      }
     }
   }
 }

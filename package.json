@@ -16,7 +16,7 @@
     "add:android": "npx cap add android",
     "build:android:assets": "node scripts/generate-android-assets.mjs",
     "sync:android:version": "node scripts/sync-android-version.mjs",
-    "sync:android": "npx cap sync android && npm run sync:android:version",
+    "sync:android": "npx cap sync android && npm run sync:android:version && node scripts/patch-android-tts-manifest.mjs",
     "build:android": "node scripts/generate-cache-manifest.mjs && node scripts/generate-pwa-icons.mjs && node scripts/generate-android-assets.mjs && node scripts/clean-dist.mjs && vite build --mode capacitor --base / && node scripts/prepare-android-dist.mjs && npm run sync:android",
     "open:android": "npx cap open android",
     "preview:android": "npm run build:android && npm run open:android"

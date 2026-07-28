@@ -79,7 +79,9 @@ export default defineConfig(({ mode }) => {
           navigateFallback: "index.html",
           navigateFallbackDenylist: [/^\/json\//],
         },
-      }), cloudflare()],
+       }),
+      !isCapacitor && cloudflare(),
+    ],
     resolve: {
       dedupe: ["react", "react-dom"],
     },

@@ -1,60 +1,176 @@
-# Bible · 和合本阅读器
+# Bible · 圣经阅读器
 
-精简版圣经阅读应用，Notion / Kindle 风格 UI，支持和合本（简繁）与 NIV 三译本。经文数据与 PWA 能力均包含在仓库内，克隆后即可本地开发与部署。
+一个以静态经文数据为核心的圣经阅读应用。项目使用 Vite + React 构建，支持 Web / PWA / Cloudflare Workers 静态部署，也可以通过 Capacitor 打包为 Android APK。
 
-## 功能
+应用目标偏向日常读经：启动快、阅读界面干净、可离线、可收藏经节，并保留阅读设置、朗读和阅读续航等本地数据。
 
-| 能力     | 说明                                                                         |
-| -------- | ---------------------------------------------------------------------------- |
-| 主阅读   | 设置中切换：和合本（简体）、和合本（繁体）、NIV                              |
-| 经节操作 | 点击多选经节，工具栏支持复制、高亮                                           |
-| 高亮标记 | 本地保存高亮，可在标记面板中查看与跳转                                       |
-| 阅读设置 | 字号、行距、阅读字体（系统黑体 / 宋体）、背景主题、Notion / Kindle UI        |
-| 朗读     | 浏览器用 Web Speech；Android App 用系统 TTS 离线朗读（需安装系统中文语音包） |
-| 阅读续航 | 停留计时打卡、连续天数与周统计                                               |
-| 阅读进度 | 顶栏显示本章滚动进度与预估阅读量                                             |
-| 离线缓存 | 按译本下载章节；读过的章节也会自动缓存                                       |
-| 数据备份 | 缓存面板可导出/导入本地数据（收藏、续航、设置等）；卸载前请先备份             |
-| PWA      | 可安装到主屏幕，支持更新提示                                                 |
-| 路由     | `/{书卷ID}/{章}` 或 `/{书卷ID}/{章}/{节}`；`/` 回到上次阅读位置              |
+## 主要功能
 
-## 译本
+| 模块     | 功能                                                                       |
+| -------- | -------------------------------------------------------------------------- |
+| 经文阅读 | 按书卷、章节阅读；支持上一章 / 下一章导航；根路径 `/` 自动回到上次阅读位置 |
+| 译本切换 | 内置和合本简体、和合本繁体、NIV；可通过环境变量限制可选译本                |
+| 经节操作 | 点击选择经节，Shift 连选；移动端 App 支持长按进入选择；支持复制和收藏      |
+| 经文收藏 | 收藏按译本、书卷、章节、经节保存，可在“经文收藏”面板中跳转                 |
+| 阅读设置 | 字号、行距、阅读字体、背景颜色、Notion / Kindle 两种界面风格               |
+| 朗读     | Web 使用 Web Speech API；Android 使用系统 TTS，支持音色和倍速              |
+| 阅读续航 | 记录有效停留阅读时间，展示连续天数、最佳连续天数和月历热力图               |
+| 阅读进度 | 顶部进度条展示当前章节滚动进度，章节标题旁显示预计阅读量                   |
+| 离线缓存 | Web 可按译本下载整本经文，读过章节也会自动缓存；Android APK 内置整章经文   |
+| 数据备份 | 导出 / 导入收藏、续航、阅读位置、阅读设置、朗读设置等本地数据              |
+| PWA      | Web 端可添加到主屏幕，并提供 Service Worker 更新提示                       |
 
-| ID      | 名称              | 语言 |
-| ------- | ----------------- | ---- |
-| `cunps` | 和合本（简体）    | 中文 |
-| `cunp`  | 和合本（繁体）    | 中文 |
-| `niv`   | 新国际版本（NIV） | 英文 |
+## 技术栈
 
-译本列表可通过 `.env` 中的 `VITE_PRIMARY_VERSIONS` 配置，ID 须与 `src/data/versions.js` 一致。
+- Vite 8 + React 18
+- React Router 6
+- vite-plugin-pwa + Workbox
+- Cloudflare Workers Static Assets + Wrangler
+- Capacitor 8 Android
+- 静态 JSON 经文数据，本地偏好数据主要存放在 `localStorage` 和 IndexedDB
 
 ## 快速开始
 
-环境要求：Node.js 22+。
+环境要求：
+
+- Node.js 22+
+- npm
 
 ```bash
 npm install
 npm run dev
 ```
 
-默认访问 http://localhost:3650 。路由示例：
+开发服务器默认端口为 `3650`：
 
-- `/1/1` — 创世记第一章
-- `/43/3/16` — 约翰福音 3:16
-
-## 构建与部署
-
-```bash
-npm run build               # 输出到 dist/
-npm run preview             # 使用 Vite 预览构建结果
-npm run preview:cloudflare  # 构建并使用 Wrangler 本地预览
+```text
+http://localhost:3650
 ```
 
-Web 构建会生成 `404.html` 供 GitHub Pages 回退使用，并从 `dist/` 移除仅供数据维护的 `json/verses` 和 Workers 不接受的 `_redirects`。
+常用路由：
+
+| 路由       | 说明                                                    |
+| ---------- | ------------------------------------------------------- |
+| `/`        | 跳转到上次阅读位置；没有记录时使用 `VITE_DEFAULT_ROUTE` |
+| `/1/1`     | 创世记第 1 章                                           |
+| `/43/3/16` | 约翰福音 3:16，并选中该节                               |
+
+## 常用命令
+
+| 命令                         | 用途                                          |
+| ---------------------------- | --------------------------------------------- |
+| `npm run dev`                | 本地开发，启动 Vite                           |
+| `npm run build`              | Web 生产构建，输出到 `dist/`                  |
+| `npm run preview`            | 预览 `dist/` 构建结果                         |
+| `npm run preview:cloudflare` | 构建后用 Wrangler 本地预览 Cloudflare Workers |
+| `npm run deploy`             | 构建并部署到 Cloudflare Workers               |
+| `npm run build:manifest`     | 重新生成离线缓存清单                          |
+| `npm run build:icons`        | 从 `public/favicon.svg` 生成 PWA 图标         |
+| `npm run build:versions`     | 从逐节源数据生成整章译本 JSON                 |
+| `npm run build:cunps`        | 从繁体和合本生成简体和合本                    |
+| `npm run version`            | 交互式提升 `package.json` 版本号              |
+
+`dev` 和 `build` 会自动生成缓存清单与 PWA 图标。`build` 还会复制 `dist/index.html` 为 `dist/404.html`，用于 GitHub Pages 的 SPA fallback。
+
+## 项目结构
+
+```text
+.
+├─ src/
+│  ├─ components/          # 阅读器、顶部栏、设置、缓存、收藏、朗读、续航面板
+│  ├─ context/             # 译本、阅读设置、朗读、PWA 更新、续航状态
+│  ├─ data/                # 书卷索引、译本定义、阅读主题
+│  ├─ hooks/               # 滚动进度、停留计时、弹层动画、长按选择等
+│  └─ lib/                 # 经文加载、缓存、收藏、备份、朗读、路由辅助
+├─ public/
+│  ├─ json/                # 运行时经文数据与缓存清单
+│  └─ icon-*.png           # PWA 图标
+├─ scripts/                # 数据生成、图标生成、Android 构建辅助脚本
+├─ config/defaults.mjs     # 环境变量默认值
+├─ capacitor.config.json   # Capacitor Android 配置
+├─ vite.config.js          # Vite / PWA / Cloudflare 配置
+└─ wrangler.jsonc          # Cloudflare Workers 配置
+```
+
+## 译本与数据
+
+内置译本定义在 `src/data/versions.js`：
+
+| ID      | 名称        | 语言     |
+| ------- | ----------- | -------- |
+| `cunps` | 和合本 简体 | 中文简体 |
+| `cunp`  | 和合本 繁体 | 中文繁体 |
+| `niv`   | NIV         | 英文     |
+
+运行时读取整章 JSON：
+
+| 目录                              | 说明                                         |
+| --------------------------------- | -------------------------------------------- |
+| `public/json/cunps/`              | 和合本简体整章数据                           |
+| `public/json/cunp/`               | 和合本繁体整章数据，也保留章节结构和段落标题 |
+| `public/json/niv/`                | NIV 整章数据                                 |
+| `public/json/cache-manifest.json` | 离线缓存面板使用的章节清单                   |
+
+`public/json/verses/` 是逐节源数据，主要给维护脚本使用。Web 和 Android 生产构建都会从 `dist/` 移除该目录，以减少包体和静态文件数量；线上阅读只依赖整章目录。
+
+## 配置
+
+复制 `.env.example` 为 `.env` 后按需修改。未配置时会读取 `config/defaults.mjs` 的默认值。
+
+| 变量                       | 说明                                | 默认值             |
+| -------------------------- | ----------------------------------- | ------------------ |
+| `VITE_APP_TITLE`           | 页面标题 / PWA 名称                 | `Bible · Reader`   |
+| `VITE_APP_NAME`            | 顶栏短名称                          | `Bible`            |
+| `VITE_APP_ICON`            | 顶栏图标，支持 emoji 或路径         | `/favicon.svg`     |
+| `VITE_APP_FAVICON`         | Favicon 路径                        | `/favicon.svg`     |
+| `VITE_APP_LANG`            | `html lang`                         | `zh-Hant`          |
+| `VITE_DEFAULT_ROUTE`       | 无上次阅读位置时的默认路由          | `/1/1`             |
+| `VITE_JSON_BASE`           | 经文 JSON 根路径                    | `/json`            |
+| `VITE_DEFAULT_VERSION`     | 默认译本 ID                         | `cunps`            |
+| `VITE_PRIMARY_VERSIONS`    | 可选译本 ID，逗号分隔               | `cunps,cunp,niv`   |
+| `VITE_STORAGE_KEY_VERSION` | 译本偏好的 localStorage key         | `bible-version-v2` |
+| `VITE_CONTENT_MAX`         | 正文最大宽度                        | `720px`            |
+| `VITE_HEADER_HEIGHT`       | 顶栏高度                            | `56px`             |
+| `VITE_ACCENT_COLOR`        | 主题强调色                          | `#2383e2`          |
+| `VITE_FONT_FAMILY`         | 全局字体覆盖，留空则使用默认字体栈  | 空                 |
+| `VITE_BASE`                | 部署子路径，GitHub Pages 项目站常用 | `/`                |
+| `DEV_PORT`                 | Vite 开发端口                       | `3650`             |
+
+注意：`VITE_PRIMARY_VERSIONS` 中的 ID 必须存在于 `src/data/versions.js`，否则界面无法正确读取译本元信息。
+
+## 本地存储
+
+应用没有业务后端，用户数据都保存在本机：
+
+| 数据                             | 存储位置       | 说明                           |
+| -------------------------------- | -------------- | ------------------------------ |
+| 阅读设置、译本偏好、上次阅读位置 | `localStorage` | 可通过缓存面板导出 / 导入      |
+| 经文收藏、续航、朗读设置         | `localStorage` | 可通过缓存面板导出 / 导入      |
+| 经文离线缓存                     | IndexedDB      | 不包含在备份文件中，可重新下载 |
+| PWA 页面缓存                     | Cache Storage  | 可在缓存面板清理               |
+
+卸载 Android App、清浏览器站点数据或更换设备前，请先在“缓存管理 → 数据备份”里导出备份文件。
+
+## Web 构建与部署
+
+### 普通构建
+
+```bash
+npm run build
+npm run preview
+```
+
+Web 构建流程：
+
+1. 生成 `public/json/cache-manifest.json`
+2. 生成 PWA 图标
+3. 执行 Vite 生产构建
+4. 从 `dist/` 移除 `json/verses/` 和 `_redirects`
+5. 复制 `dist/index.html` 为 `dist/404.html`
 
 ### Cloudflare Workers
 
-Cloudflare 配置位于 `wrangler.jsonc`，使用 Workers Static Assets 部署。SPA 路由回退由以下配置处理：
+Cloudflare 配置在 `wrangler.jsonc`。项目使用 Workers Static Assets，SPA fallback 由下面配置处理：
 
 ```json
 "assets": {
@@ -62,176 +178,201 @@ Cloudflare 配置位于 `wrangler.jsonc`，使用 Workers Static Assets 部署�
 }
 ```
 
-本地模拟 Cloudflare Workers：
+本地预览：
 
 ```bash
 npm run preview:cloudflare
 ```
 
-首次手动部署前登录 Cloudflare，然后执行部署：
+首次部署前先登录：
 
 ```bash
 npx wrangler login
 npm run deploy
 ```
 
-若 GitHub 仓库已连接 Cloudflare，合并或推送到 `main` 后也可由 Cloudflare 自动构建部署。`/1/1`、`/43/3/16` 等前端路由会通过 Workers 的 SPA fallback 返回应用入口。
+`npm run deploy` 会先构建，再执行 `wrangler deploy`。
 
 ### GitHub Pages
 
-1. 仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**
-2. push 到 `main` 后，`.github/workflows/static.yml` 自动构建并部署
-3. 访问 `https://<username>.github.io/bible/`（项目站自动设置 `VITE_BASE=/bible/`）
+仓库已包含 `.github/workflows/static.yml`：
 
-本地模拟 GitHub Pages：
+1. 在仓库 Settings → Pages 中将 Source 设置为 GitHub Actions
+2. push 到 `main`，或手动触发 workflow
+3. workflow 会根据仓库类型设置 `VITE_BASE`
+
+如果是项目站，例如仓库名为 `bible`，访问路径通常是：
+
+```text
+https://<username>.github.io/bible/
+```
+
+本地模拟项目站子路径：
+
+```powershell
+$env:VITE_BASE="/bible/"
+npm run build
+npm run preview
+```
+
+macOS / Linux 可写为：
 
 ```bash
 VITE_BASE=/bible/ npm run build
 npm run preview
 ```
 
-## 配置
+## Android APK
 
-复制 `.env.example` 为 `.env` 后按需修改。常用项：
+项目通过 Capacitor 打包 Android。Web 代码仍是同一套 React 应用，但 Android 使用 `--mode capacitor` 构建，并内置经文数据到 APK。
 
-| 变量                       | 说明                      | 默认值                      |
-| -------------------------- | ------------------------- | --------------------------- |
-| `VITE_APP_TITLE`           | 页面标题                  | `Bible · Reader`            |
-| `VITE_APP_NAME`            | 短名称（PWA）             | `Bible`                     |
-| `VITE_APP_ICON`            | 顶栏图标（emoji 或路径）  | `/favicon.svg`              |
-| `VITE_APP_FAVICON`         | Favicon                   | `/favicon.svg`              |
-| `VITE_APP_LANG`            | `html lang`               | `zh-Hant`                   |
-| `VITE_DEFAULT_ROUTE`       | 无上次位置时的默认路由    | `/1/1`                      |
-| `VITE_JSON_BASE`           | 经文 JSON 根路径          | `/json`                     |
-| `VITE_DEFAULT_VERSION`     | 默认译本                  | `cunps`                     |
-| `VITE_PRIMARY_VERSIONS`    | 可选译本（逗号分隔）      | `cunps,cunp,niv`            |
-| `VITE_STORAGE_KEY_VERSION` | 译本偏好 localStorage 键  | `bible-version-v2`          |
-| `VITE_CONTENT_MAX`         | 正文最大宽度              | `720px`                     |
-| `VITE_HEADER_HEIGHT`       | 顶栏高度                  | `56px`                      |
-| `VITE_ACCENT_COLOR`        | 主题色                    | `#2383e2`                   |
-| `VITE_FONT_FAMILY`         | 覆盖界面字体（可选）      | 空（中文黑体 + 英文 Inter） |
-| `VITE_BASE`                | 部署子路径（CI 自动设置） | `/`                         |
-| `DEV_PORT`                 | 开发服务器端口            | `3650`                      |
+### 环境要求
 
-## 数据说明
+- Node.js 22+
+- JDK 17
+- Android Studio
+- Android SDK
+- `ANDROID_HOME` 已正确配置
 
-经文以静态 JSON 存放在 `public/json/`，主阅读译本各一个目录，按 `/{书卷ID}/{章}.json` 组织：
+Windows 常见 SDK 路径：
 
-| 目录                 | 说明                                       |
-| -------------------- | ------------------------------------------ |
-| `public/json/cunp/`  | 和合本繁体，章节结构模板（标题、段落划分） |
-| `public/json/cunps/` | 和合本简体，由 cunp 经 OpenCC 转换         |
-| `public/json/niv/`   | 新国际版本（NIV）                          |
-
-`public/json/verses/` 为逐节源数据（维护脚本用），运行时主阅读不依赖该目录。
-
-执行 `npm run build` 时，`public/json/verses/` 仍保留在源码中，但构建后的 `dist/json/verses/` 会被删除。线上阅读只需要 `cunp`、`cunps`、`niv` 三个整章目录；排除逐节源数据可以避免 Cloudflare Workers 静态资源超过 20,000 个文件的限制，不影响阅读、译本切换或离线缓存。
-
-### 维护脚本（可选）
-
-```bash
-npm run build:cunps      # 繁体 cunp → 简体 cunps（OpenCC）
-npm run build:versions   # 从 public/json/verses 生成各译本整章 JSON
-npm run build:manifest   # 生成离线缓存清单
-npm run build:icons      # 生成 PWA 图标
-python scripts/copy-verses.py --source-dir /path/to/full/verses  # 精简 verses 源数据
+```text
+%LOCALAPPDATA%\Android\Sdk
 ```
 
-`build:versions` 保留 `cunp` 的章节结构，从逐节数据的 `versions` 字段填入对应译本正文。`dev` / `build` 会自动跑 manifest 与图标生成。
-
-## Android（Capacitor）
-
-用 Capacitor 将 Web 应用打包为 Android APK。
-
-### 环境
-
-- Node.js、JDK 17、Android Studio（含 Android SDK）
-- 本机已配置 `ANDROID_HOME`（Windows 常见：`%LOCALAPPDATA%\\Android\\Sdk`）
-
-### 构建与打开 Android Studio
-
-推荐日常流程：
+### 推荐流程
 
 ```bash
-npm run version           # 终端选择升版本（可选）
-npm run preview:android   # 全量构建 + 同步（含版本）+ 打开 Android Studio
+npm run version
+npm run preview:android
 ```
 
-`preview:android` = `build:android` → `open:android`，保证 App 内是当前最新代码与 `package.json` 版本。
+`preview:android` 会执行：
 
-分步命令（按执行顺序排列，一般不必单独跑）：
+1. 生成缓存清单、PWA 图标、Android 图标和 Splash
+2. 清理 `dist/`
+3. 使用 `vite build --mode capacitor --base /` 构建
+4. 精简 Android 用 `dist/`
+5. `cap sync android`
+6. 同步 Android 版本号
+7. 写入 Android TTS Manifest 声明
+8. 打开 Android Studio
 
-```bash
-npm run add:android              # 仅首次：创建 android/ 工程
-npm run build:android:assets     # 生成图标 / Splash
-npm run sync:android:version     # package.json → Gradle 版本
-npm run sync:android             # cap sync + 写版本
-npm run build:android            # 全量 Web 构建并 sync
-npm run open:android             # 只打开 Android Studio
-npm run preview:android          # 全量构建并打开（推荐）
-```
+### Android 相关命令
+
+| 命令                           | 用途                                            |
+| ------------------------------ | ----------------------------------------------- |
+| `npm run add:android`          | 首次创建 `android/` 工程                        |
+| `npm run build:android:assets` | 生成 Android 图标和启动图                       |
+| `npm run sync:android:version` | 将 `package.json` 版本写入 Gradle               |
+| `npm run sync:android`         | `cap sync android` + 同步版本 + 补 TTS Manifest |
+| `npm run build:android`        | 完整构建并同步 Android                          |
+| `npm run open:android`         | 打开 Android Studio                             |
+| `npm run preview:android`      | 完整构建并打开 Android Studio，日常推荐         |
 
 在 Android Studio 中：
 
 1. 等待 Gradle 同步完成
 2. 连接真机或启动模拟器
-3. 测试包：**Run** / **Generate APKs** → `bible_reader_x.x.x-debug.apk`
-4. 正式包：**Build → Generate Signed Bundle / APK → APK** → `bible_reader_x.x.x.apk`
+3. 调试包可直接 Run，或使用 Generate APKs
+4. 正式包使用 Build → Generate Signed Bundle / APK → APK
 
-输出目录一般在 `android/app/release/` 或 `android/app/build/outputs/apk/`（以 Android Studio 提示为准）。
+APK 输出通常位于：
 
-### 版本号（跟 package.json）
-
-只维护根目录 `package.json` 的 `version`（`x.y.z`）。  
-`build:android` / `sync:android` / `preview:android` 结束时会写入 `android/app/build.gradle`：
-
-| 字段 | 来源 |
-|------|------|
-| `versionName` | 与 `package.json` 的 `version` 相同 |
-| `versionCode` | `major×10000 + minor×100 + patch`（例：`1.0.1` → `10001`） |
-| APK 文件名 | release：`bible_reader_{version}.apk`；debug：`bible_reader_{version}-debug.apk` |
-
-```bash
-npm run version              # 交互选择 patch / minor / major / 自定义
-npm run version -- patch     # 非交互（可选）
+```text
+android/app/release/
+android/app/build/outputs/apk/
 ```
 
-升完版本后执行 `npm run preview:android` 即可，无需再担心代码或版本未同步。
+具体以 Android Studio 的构建提示为准。
 
-注意：`minor` / `patch` 勿超过 99；新 `versionCode` 须大于已安装版本。
+### 版本号规则
 
-| 规则 | 说明 |
-|------|------|
-| 覆盖安装 | 同包名 + **同一签名** + 新 `versionCode` 更大 |
-| 文件名 | APK 叫什么无关（如 `bible-1.0.2.apk`） |
-| debug ↔ release | 签名不同，**不能**互相覆盖，需先卸载 |
-| App / 网页显示 | 缓存管理底部显示当前版本；App 读安装包，网页读 `package.json` |
+只维护根目录 `package.json` 的 `version`。
 
-`android/` 已 gitignore；重建后只要再跑 `build:android` / `sync:android:version`，版本会从 `package.json` 写回去。
+| Android 字段       | 来源                                  |
+| ------------------ | ------------------------------------- |
+| `versionName`      | 与 `package.json` 的 `version` 相同   |
+| `versionCode`      | `major * 10000 + minor * 100 + patch` |
+| release APK 文件名 | `bible_reader_<version>.apk`          |
+| debug APK 文件名   | `bible_reader_<version>-debug.apk`    |
 
-### 签名与密钥
+示例：`1.0.1` 会生成 `versionCode 10001`。
 
-- 首次正式包在 Android Studio 创建 keystore（如 `bible-release.jks`），**勿提交到仓库**，自行备份
-- 密码与 `.jks` 丢失则无法用同一签名覆盖更新
+注意事项：
 
-### 说明
+- `minor` 和 `patch` 不要超过 `99`
+- 覆盖安装需要同包名、同签名，并且新 `versionCode` 更大
+- debug 和 release 签名不同，不能互相覆盖，必要时先卸载
+- keystore 和密码不要提交到仓库，丢失后无法用同一签名继续更新
 
-| 项            | 说明                                                                                                          |
-| ------------- | ------------------------------------------------------------------------------------------------------------- |
-| 包名          | `app.bible.reader`（见 `capacitor.config.json`）                                                              |
-| 经文数据      | APK 内含 `cunp` / `cunps` / `niv`；**不含** `verses`（维护用，约省 18MB）                                     |
-| 朗读          | App 内调用系统 TTS；Android 11+ 需 Manifest 声明 `TTS_SERVICE`（`sync:android` 会自动写入）。若无声：设置 →「文字转语音」安装引擎与中文语音包（不是「语音转文字」） |
-| 图标 / 启动页 | 由 `public/favicon.svg` 生成；改图标后执行 `npm run build:android:assets`                                     |
-| Web 更新      | 改功能后执行 `npm run preview:android`（或 `build:android`）再打 APK                                         |
-| 仅同步        | 已有最新 `dist/` 时可用 `npm run sync:android`                                                                |
-| 白屏排查      | 务必用 `npm run build:android`（`--mode capacitor`）；勿用普通 `npm run build` 后 sync                        |
-| 状态栏遮挡    | Android 15+ / 小米等强制沉浸；App 用状态栏高度写入 `--safe-area-inset-top` 垫开 Header。改后需重新 `preview:android` |
+### Android 朗读
 
-## 技术栈
+Android App 使用系统文字转语音。若无声或无法启动朗读：
 
-- Vite 8 + React 18
-- React Router 6
-- vite-plugin-pwa（可安装、离线壳）
-- Cloudflare Workers + `@cloudflare/vite-plugin` + Wrangler
-- Capacitor 8（Android APK）
-- 静态资源为主，无业务后端；阅读偏好与高亮存 localStorage
+1. 到系统设置中打开“文字转语音”输出
+2. 安装或启用 TTS 引擎
+3. 下载中文语音包
+
+注意“语音转文字”和“文字转语音”不是同一项功能。
+
+## 数据维护
+
+常见数据脚本：
+
+```bash
+npm run build:versions
+npm run build:cunps
+npm run build:manifest
+python scripts/copy-verses.py --source-dir /path/to/full/verses
+```
+
+维护逻辑：
+
+- `build:versions` 从 `public/json/verses/` 逐节源数据生成 `cunp` / `cunps` / `niv` 整章 JSON
+- `build:cunps` 基于繁体和合本生成简体和合本
+- `build:manifest` 扫描整章 JSON，生成离线下载清单
+- `copy-verses.py` 用于从完整逐节源数据中精简复制项目需要的内容
+
+生成或替换经文数据后，建议执行：
+
+```bash
+npm run build
+```
+
+这样可以同时验证数据、缓存清单和最终构建。
+
+## 常见问题
+
+### 为什么构建后没有 `dist/json/verses/`？
+
+`public/json/verses/` 是维护脚本使用的逐节源数据，运行时不依赖。构建时移除它可以减少包体，也可以避免 Cloudflare Workers 静态资源文件数量过多。
+
+### Android 白屏怎么办？
+
+确认使用的是 Android 专用构建：
+
+```bash
+npm run build:android
+```
+
+不要用普通 `npm run build` 后直接 `cap sync`。Android 构建会额外处理 `crossorigin`、PWA 残留文件和内置数据。
+
+### 改了图标为什么 App 没变？
+
+修改 `public/favicon.svg` 后执行：
+
+```bash
+npm run build:icons
+npm run build:android:assets
+```
+
+然后重新构建或同步 Android。
+
+## 开发约定
+
+- 新增译本时先更新 `src/data/versions.js`，再补齐 `public/json/<versionId>/`
+- 会出现在译本切换中的 ID 需要加入 `VITE_PRIMARY_VERSIONS`
+- 用户数据 key 以 `bible-` 开头，备份导入只接受应用允许的 key
+- Web 端经文缓存保存在 IndexedDB，页面壳缓存由 Service Worker 管理
+- Android 包名为 `app.bible.reader`，见 `capacitor.config.json`
